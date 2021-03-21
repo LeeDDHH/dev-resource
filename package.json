@@ -4,11 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@apollo/client": "^3.3.11",
+    "apollo-server-micro": "^2.21.0",
     "axios": "^0.21.1",
     "graphql": "^15.5.0",
     "next": "^10.0.8",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0"
   },
   "scripts": {
     "dev": "next dev",

@@ -1,0 +1,13 @@
+.tagBox {
+  display: inline-block;
+  border: 2px solid #ed6d3d;/*柿色*/
+  border-radius: 5px;
+  background-color: #fff1cf;/*杏色*/
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 0px 10px;
+}
+
+.tagBox:last-child {
+  margin-right: 0px;
+}

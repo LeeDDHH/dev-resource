@@ -1,0 +1,16 @@
+.headerContainer {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 20px;
+}

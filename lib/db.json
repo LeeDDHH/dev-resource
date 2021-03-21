@@ -1,0 +1,368 @@
+{
+  "resource": [
+    {
+      "id": 0,
+      "name": "carbon",
+      "url": "https://carbon.now.sh",
+      "description": "ソースコード画像の作成と共有",
+      "tag": ["ソースコード", "画像化", "共有"]
+    },
+    {
+      "id": 1,
+      "name": "原色大辞典",
+      "url": "https://www.colordic.org",
+      "description": "色とカラーコードが閲覧できるWEB色見本",
+      "tag": ["カラーコード", "色", "HEX値"]
+    },
+    {
+      "id": 2,
+      "name": "json-generator",
+      "url": "https://next.json-generator.com/",
+      "description": "テンプレートを使ってJSONデータを生成する",
+      "tag": ["JSON", "ジェネレーター", "データ生成"]
+    },
+    {
+      "id": 3,
+      "name": "json-schema-validator",
+      "url": "https://www.jsonschemavalidator.net/",
+      "description": "JSONスキーマバリデーター",
+      "tag": ["JSON", "スキーマー", "バリデーター"]
+    },
+    {
+      "id": 4,
+      "name": "regular-expressions-101",
+      "url": "https://regex101.com/",
+      "description": "各種プログラミング言語の正規表現テスター",
+      "tag": ["正規表現", "javascript", "php", "golang"]
+    },
+    {
+      "id": 5,
+      "name": "dehash",
+      "url": "https://dehash.me/",
+      "description": "テキストのハッシュ化/復号化",
+      "tag": ["ハッシュ化", "復号化", "hash", "decrypt"]
+    },
+    {
+      "id": 6,
+      "name": "statcounter",
+      "url": "https://gs.statcounter.com/",
+      "description": "PVから、ブラウザ・OSのシェアを確認する",
+      "tag": ["シェア", "OS", "ブラウザ", "モバイル", "検索エンジン"]
+    },
+    {
+      "id": 7,
+      "name": "w3c-link-checker",
+      "url": "https://validator.w3.org/checklink",
+      "description": "ページのリンク切れをチェックする",
+      "tag": ["w3c", "バリデーター", "リンク", "チェッカー"]
+    },
+    {
+      "id": 8,
+      "name": "w3c-markup-validator",
+      "url": "https://validator.w3.org/",
+      "description": "HTMLの文法をチェックする",
+      "tag": ["w3c", "バリデーター", "html", "マークアップ", "チェッカー"]
+    },
+    {
+      "id": 9,
+      "name": "w3c-css-validator",
+      "url": "https://jigsaw.w3.org/css-validator/",
+      "description": "CSSの文法をチェックする",
+      "tag": ["w3c", "バリデーター", "CSS", "チェッカー"]
+    },
+    {
+      "id": 10,
+      "name": "twitter-card-validator",
+      "url": "https://cards-dev.twitter.com/validator",
+      "description": "twitterカード表示をチェックする",
+      "tag": ["twitter", "カード", "OGP", "チェッカー"]
+    },
+    {
+      "id": 11,
+      "name": "free-code-camp",
+      "url": "https://www.freecodecamp.org/",
+      "description": "無料でコーディングの勉強ができる",
+      "tag": ["コーディング", "プログラミング", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 12,
+      "name": "free-code-camp-Youtube",
+      "url": "https://www.youtube.com/c/Freecodecamp/videos",
+      "description": "動画でプログラミング学習ができるチャンネル",
+      "tag": ["コーディング", "プログラミング", "エンジニアリング", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 13,
+      "name": "Traversy-Media-Youtube",
+      "url": "https://www.youtube.com/c/TraversyMedia/videos",
+      "description": "動画でプログラミング学習ができるチャンネル",
+      "tag": ["コーディング", "プログラミング", "エンジニアリング", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 14,
+      "name": "Web-Dev-Simplified",
+      "url": "https://www.youtube.com/c/WebDevSimplified/videos",
+      "description": "Web開発者のためになることを紹介するチャンネル",
+      "tag": ["コーディング", "プログラミング", "エンジニアリング", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 15,
+      "name": "Adrian-Twarog-Youtube",
+      "url": "https://www.youtube.com/c/AdrianTwarog/videos",
+      "description": "プログラミング、UIに関する情報を発信するチャンネル",
+      "tag": ["コーディング", "プログラミング", "UI", "デザイン", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 16,
+      "name": "Kevin-Powell-Youtube",
+      "url": "https://www.youtube.com/kepowob/videos",
+      "description": "UI、デザイン、Webに関する情報を発信するチャンネル",
+      "tag": ["コーディング", "プログラミング", "UI", "デザイン", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 17,
+      "name": "Developer-Habits-Youtube",
+      "url": "https://www.youtube.com/channel/UCJLZwePkNHps5Bv7VwISyTA/videos",
+      "description": "開発者のマインドセット、学習に関する情報を発信するチャンネル",
+      "tag": ["プログラミング", "マインドセット", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 18,
+      "name": "Flavio-Copes-Blog",
+      "url": "https://flaviocopes.com/",
+      "description": "Web開発や趣味のエンジニアリングに関する情報を発信するブログ",
+      "tag": ["プログラミング", "エンジニアリング", "Web", "趣味", "勉強", "学習", "ブログ", "英語"]
+    },
+    {
+      "id": 19,
+      "name": "Ben-Awad-Youtube",
+      "url": "https://www.youtube.com/c/BenAwad97/videos",
+      "description": "Reactを中心に情報を発信するチャンネル",
+      "tag": ["プログラミング", "エンジニアリング", "React", "GraphQL", "Typescript", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 20,
+      "name": "FireShip-Youtube",
+      "url": "https://www.youtube.com/c/AngularFirebase/videos",
+      "description": "中級以上の最新のアプリ開発に関する情報を発信するチャンネル",
+      "tag": ["エンジニアリング", "モダンな開発", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 21,
+      "name": "web-creater-box",
+      "url": "https://www.webcreatorbox.com/",
+      "description": "Web、デザイン、サイト制作関する情報を発信するブログ",
+      "tag": ["web", "デザイン", "勉強", "学習", "ブログ"]
+    },
+    {
+      "id": 22,
+      "name": "Online-Tutorials-Youtube",
+      "url": "https://www.youtube.com/c/OnlineTutorials4Designers/videos",
+      "description": "CSS、アニメーションに関する情報を発信するチャンネル",
+      "tag": ["CSS", "アニメーション", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 23,
+      "name": "Sorted-CSS-Colors",
+      "url": "https://enes.in/sorted-colors/",
+      "description": "CSSで扱える色をHueに基準に、Lightness/Saturationで整列して見れるサイト",
+      "tag": ["CSS", "色", "Hue", "Lightness", "Saturation", "英語"]
+    },
+    {
+      "id": 24,
+      "name": "o'reilly-katacoda",
+      "url": "https://enes.in/sorted-colors/",
+      "description": "環境構築で使える技術が学べるサイト",
+      "tag": ["O'Reilly", "環境構築", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 25,
+      "name": "zenn",
+      "url": "https://zenn.dev/",
+      "description": "エンジニアのための情報共有コミュニティ",
+      "tag": ["O'Reilly", "環境構築", "勉強", "学習"]
+    },
+    {
+      "id": 26,
+      "name": "RealWorld-example-apps",
+      "url": "https://codebase.show/projects/realworld",
+      "description": "ライブラリやフレームワークを組み合わせてどのように構築すればいいのかが学べるサイト",
+      "tag": ["エンジニアリング", "モダンな開発", "環境構築", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 27,
+      "name": "Innovation-Academy-tech-hr",
+      "url": "https://github.com/innovationacademy-kr/tech-hr/",
+      "description": "HR側がソフトウェアエンジニアを採用する上で考えることをまとめたガイドブック",
+      "tag": ["エンジニア", "採用", "HR", "韓国語"]
+    },
+    {
+      "id": 28,
+      "name": "You-Dont-Need-jQuery",
+      "url": "https://github.com/nefe/You-Dont-Need-jQuery/blob/master/README-ja.md",
+      "description": "jQueryメソッドの代わりにJavaScriptネイティブでの書き方をまとめたガイド",
+      "tag": ["エンジニア", "採用", "HR", "韓国語"]
+    },
+    {
+      "id": 29,
+      "name": "internet-archive-scholar",
+      "url": "https://scholar.archive.org/",
+      "description": "アーカイブされた論文を検索できるサイト",
+      "tag": ["アーカイブ", "論文", "検索", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 30,
+      "name": "Awesome-CTO",
+      "url": "https://github.com/kuchin/awesome-cto",
+      "description": "スタートアップのCTOのための資料をまとめたリポジトリ",
+      "tag": ["CTO", "スタートアップ", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 31,
+      "name": "Data-Transfer-Project",
+      "url": "https://datatransferproject.dev/",
+      "description": "GAFM発足のサービス間データ転送プラットフォーム",
+      "tag": ["Google", "Appple", "Facebook", "Microsoft", "英語", "データ", "転送"]
+    },
+    {
+      "id": 32,
+      "name": "flowchart.fun",
+      "url": "https://flowchart.fun/",
+      "description": "文字列でフローチャート図を作成するサイト",
+      "tag": ["フローチャート", "文字列", "英語"]
+    },
+    {
+      "id": 33,
+      "name": "Mermaid-Live-Editor",
+      "url": "https://mermaid-js.github.io/mermaid-live-editor",
+      "description": "mermaidJSを使って、Web上でフローチャートを作成するサイト",
+      "tag": ["mermaidJS", "フローチャート", "文字列", "英語"]
+    },
+    {
+      "id": 34,
+      "name": "UX-UI-Trends-for-2021",
+      "url": "https://userguiding.com/blog/ux-ui-trends/",
+      "description": "2021年のUI/UXトレンドをまとめたサイト",
+      "tag": ["トレンド", "UI", "UX", "デザイン", "英語"]
+    },
+    {
+      "id": 35,
+      "name": "Time-for-Next-Gen-Codecs-to-Dethrone-JPEG",
+      "url": "https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg",
+      "description": "JPEGを代替する次世代コーデックについてまとめたブログ",
+      "tag": ["コーデック", "JPEG", "次世代", "ブログ", "英語"]
+    },
+    {
+      "id": 36,
+      "name": "10-Years-of-Open-Source-Visualization",
+      "url": "https://observablehq.com/@mbostock/10-years-of-open-source-visualization",
+      "description": "10年間データの可視化ライブラリを開発して学んだことがまとまったブログ",
+      "tag": ["可視化", "開発", "データ", "ライブラリ", "ブログ", "英語"]
+    },
+    {
+      "id": 37,
+      "name": "css-reset-for-modern-browser",
+      "url": "https://coliss.com/articles/build-websites/operation/css/css-reset-for-modern-browser.html",
+      "description": "モダンブラウザに適したCSSリセットのまとめ",
+      "tag": ["CSS", "CSSリセット", "ブラウザ"]
+    },
+    {
+      "id": 38,
+      "name": "metascraper",
+      "url": "https://metascraper.js.org/",
+      "description": "メタデータを抽出するためのJavaScriptライブラリ",
+      "tag": ["JavaScript", "ライブラリ", "メタデータ", "英語"]
+    },
+    {
+      "id": 39,
+      "name": "Doodad-Pattern-Generator",
+      "url": "https://doodad.dev/pattern-generator/",
+      "description": "ドット系のパターンを生成できるサイト",
+      "tag": ["ブラウザ", "パターン", "生成", "英語"]
+    },
+    {
+      "id": 40,
+      "name": "roam-research",
+      "url": "https://tkim.co/2021/02/18/roam-research/",
+      "description": "文書作成と再活用のパラダイムシフトと呼ばれる「ロームリサーチ」についてまとまったブログ",
+      "tag": ["ロームリサーチ", "RoamResearch", "ブログ", "韓国語"]
+    },
+    {
+      "id": 41,
+      "name": "cube-composer",
+      "url": "https://david-peter.de/cube-composer/",
+      "description": "関数型プログラミングの使い方をパズルゲームをしながら学べるサイト",
+      "tag": ["関数型", "プログラミング", "パズル", "英語"]
+    },
+    {
+      "id": 42,
+      "name": "nofreeplan",
+      "url": "https://nofreeplan.com/",
+      "description": "SaaSの常時無料プランには見えない費用が隠れているため、提供しないほうがいいという意見のページ",
+      "tag": ["プラン", "SaaS", "コスパ", "英語"]
+    },
+    {
+      "id": 43,
+      "name": "CSS-clip-path-maker",
+      "url": "https://bennettfeely.com/clippy/",
+      "description": "CSSのclip-pathプロパティを生成するサイト",
+      "tag": ["CSS", "clip-path", "生成", "英語"]
+    },
+    {
+      "id": 44,
+      "name": "ThoughtWorks-Decoder",
+      "url": "https://www.thoughtworks.com/decoder",
+      "description": "新しい技術的な用語を経営陣に理解しやすく、ビジネス的な側面で説明をするサイト",
+      "tag": ["用語", "説明", "英語"]
+    },
+    {
+      "id": 45,
+      "name": "anima",
+      "url": "https://www.animaapp.com/",
+      "description": "Reactのコードが取れるデザインツール",
+      "tag": ["React", "コード", "抽出", "英語"]
+    },
+    {
+      "id": 46,
+      "name": "react-typescript-cheatsheet",
+      "url": "https://react-typescript-cheatsheet.netlify.app/",
+      "description": "React、TypeScriptの組み合わせでコーディングするときの参考になるサイト",
+      "tag": ["React", "TypeScript", "コーディング", "英語"]
+    },
+    {
+      "id": 47,
+      "name": "observable",
+      "url": "https://observablehq.com/",
+      "description": "様々なデータをもとに可視化されたコードが見れるサイト",
+      "tag": ["可視化", "データ", "アナライズ", "分析", "英語"]
+    },
+    {
+      "id": 48,
+      "name": "ics.media",
+      "url": "https://ics.media/",
+      "description": "ウェブデザイナーとフロントエンジニアのための情報メディア",
+      "tag": ["webデザイン", "フロントエンド", "クリエイティブ"]
+    },
+    {
+      "id": 49,
+      "name": "nextjs-tutorial",
+      "url": "https://nextjs.org/learn/basics/create-nextjs-app",
+      "description": "はじめてNext.jsを触る人のためのチュートリアル",
+      "tag": ["Next.js", "Vercel", "React", "チュートリアル"]
+    },
+    {
+      "id": 50,
+      "name": "GraphQL.js-tutorial",
+      "url": "https://graphql.org/graphql-js/",
+      "description": "GraphQLのチュートリアル",
+      "tag": ["GraphQL", "Express", "チュートリアル"]
+    },
+    {
+      "id": 51,
+      "name": "How-to-GraphQL",
+      "url": "https://www.howtographql.com/",
+      "description": "GraphQLと他の技術と組み合わせたチュートリアル",
+      "tag": ["GraphQL", "React", "node.js", "elixir", "golang", "python", "チュートリアル"]
+    }
+  ]
+}
