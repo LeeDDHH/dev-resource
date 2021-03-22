@@ -23,9 +23,9 @@ const App = ({ itemsAmount }) => {
       <header>
         <div className={styles.headerContainer}>
           <div className={styles.amount}>
-            開発やプログラミング勉強で使えるリソースを
+            開発やプログラミング勉強に役立つ
             <strong>{itemsAmount}</strong>
-            個の中から探す
+            個のリソース
           </div>
         </div>
       </header>

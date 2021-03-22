@@ -15,6 +15,13 @@
   font-size: 22px;
   font-weight: bold;
   margin: 10px 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.item a p {
+  margin: 10px 0px;
 }
 
 .centerImage {

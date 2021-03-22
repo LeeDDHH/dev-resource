@@ -1,5 +1,6 @@
 .searchBox {
   width: 90%;
+  height: 50px;
   margin: 0 auto;
   display: flex;
 }
@@ -8,6 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.searchBox input {
+  font-size: 40px;
+  font-weight: bold;
+  text-indent: 0.5rem;
+  border-radius: 10px;
 }
 
 .searchInput {

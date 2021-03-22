@@ -6,7 +6,7 @@ const SearchBox = ({ value, changeSearchText }) => {
   return (
     <div className={styles.searchBox}>
       <label htmlFor="searchText">
-        <BiSearchAlt2 size="2rem" />
+        <BiSearchAlt2 size="3rem" />
       </label>
       <input
         id="searchText"
