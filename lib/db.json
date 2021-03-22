@@ -33,42 +33,42 @@
       "name": "regular-expressions-101",
       "url": "https://regex101.com/",
       "description": "各種プログラミング言語の正規表現テスター",
-      "tag": ["正規表現", "javascript", "php", "golang"]
+      "tag": ["正規表現", "javascript", "php"]
     },
     {
       "id": 5,
       "name": "dehash",
       "url": "https://dehash.me/",
       "description": "テキストのハッシュ化/復号化",
-      "tag": ["ハッシュ化", "復号化", "hash", "decrypt"]
+      "tag": ["ハッシュ化", "復号化", "hash"]
     },
     {
       "id": 6,
       "name": "statcounter",
       "url": "https://gs.statcounter.com/",
       "description": "PVから、ブラウザ・OSのシェアを確認する",
-      "tag": ["シェア", "OS", "ブラウザ", "モバイル", "検索エンジン"]
+      "tag": ["シェア", "OS", "ブラウザ", "モバイル"]
     },
     {
       "id": 7,
       "name": "w3c-link-checker",
       "url": "https://validator.w3.org/checklink",
       "description": "ページのリンク切れをチェックする",
-      "tag": ["w3c", "バリデーター", "リンク", "チェッカー"]
+      "tag": ["w3c", "リンク", "チェッカー"]
     },
     {
       "id": 8,
       "name": "w3c-markup-validator",
       "url": "https://validator.w3.org/",
       "description": "HTMLの文法をチェックする",
-      "tag": ["w3c", "バリデーター", "html", "マークアップ", "チェッカー"]
+      "tag": ["w3c", "バリデーター", "html"]
     },
     {
       "id": 9,
       "name": "w3c-css-validator",
       "url": "https://jigsaw.w3.org/css-validator/",
       "description": "CSSの文法をチェックする",
-      "tag": ["w3c", "バリデーター", "CSS", "チェッカー"]
+      "tag": ["w3c", "バリデーター", "CSS"]
     },
     {
       "id": 10,
@@ -699,6 +699,83 @@
       "url": "https://soapboxhq.com/goal-examples",
       "description": "各ポジションを9つのカテゴリーに分けて、OKRとゴールの例をまとめたサイト",
       "tag": ["OKR", "ゴール", "英語"]
+    },
+    {
+      "id": 100,
+      "name": "Colour-Contrast-Checker",
+      "url": "https://colourcontrast.cc/",
+      "description": "2色のコントラスト比を確認できるサイト",
+      "tag": ["CSS", "配色", "コントラスト比", "英語"]
+    },
+    {
+      "id": 101,
+      "name": "Color-Designer",
+      "url": "https://colordesigner.io/",
+      "description": "選んだ色からティントとシェードを段階的に生成できるサイト",
+      "tag": ["CSS", "配色", "明暗", "英語"]
+    },
+    {
+      "id": 102,
+      "name": "Image-Hues",
+      "url": "https://imagehues.com/",
+      "description": "Unsplashから選ばれた写真をもとに、配色カラーパレットの抽出ができるサイト",
+      "tag": ["CSS", "配色", "抽出", "英語"]
+    },
+    {
+      "id": 103,
+      "name": "Brand-Colors",
+      "url": "https://brandcolors.net/",
+      "description": "海外企業のブランディングカラーがまとまったサイト",
+      "tag": ["CSS", "配色", "英語"]
+    },
+    {
+      "id": 104,
+      "name": "Colorwise",
+      "url": "https://colorwise.io/",
+      "description": "Product Huntに登場されたアイテムの配色カラーパレットを集めたサイト",
+      "tag": ["CSS", "配色", "英語"]
+    },
+    {
+      "id": 105,
+      "name": "配色パターン見本40選",
+      "url": "https://saruwakakun.com/design/gallery/palette",
+      "description": "カテゴリー別に、アプリデザイン制作に役立つ素敵な配色カラーパレットがまとまったサイト",
+      "tag": ["CSS", "配色", "デザイン"]
+    },
+    {
+      "id": 106,
+      "name": "Picular",
+      "url": "https://picular.co/",
+      "description": "入力したキーワードにあった複数の色合いを表示してくれるサイト",
+      "tag": ["CSS", "配色", "キーワード"]
+    },
+    {
+      "id": 107,
+      "name": "WebGradients",
+      "url": "https://webgradients.com/",
+      "description": "各種ブラウザに対応されたグラデーションのCSSコードがまとまったサイト",
+      "tag": ["CSS", "配色", "グラデーション"]
+    },
+    {
+      "id": 108,
+      "name": "Glitch-Art-Generator",
+      "url": "https://glitchart.io/",
+      "description": "グラデーションをつかったグリッチエフェクトが作成できるサイト",
+      "tag": ["CSS", "配色", "グラデーション", "グリッチ", "生成"]
+    },
+    {
+      "id": 109,
+      "name": "ColorSpace",
+      "url": "https://mycolor.space/gradient3",
+      "description": "3色と表示方向を選ぶことで、グラデーションのCSSコードが生成できるサイト",
+      "tag": ["CSS", "配色", "グラデーション", "生成"]
+    },
+    {
+      "id": 110,
+      "name": "Hypercolor",
+      "url": "https://hypercolor.dev/",
+      "description": "Tainwind CSSのカラーパレットで作成されたグラデーションカラーコレクション",
+      "tag": ["CSS", "配色", "グラデーション"]
     }
   ]
 }
