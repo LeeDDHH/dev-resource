@@ -305,7 +305,7 @@
       "id": 43,
       "name": "CSS-clip-path-maker",
       "url": "https://bennettfeely.com/clippy/",
-      "description": "CSSのclip-pathプロパティを生成するサイト",
+      "description": "CSSのclip-pathプロパティを生成できるサイト",
       "tag": ["CSS", "clip-path", "生成", "英語"]
     },
     {
@@ -363,6 +363,342 @@
       "url": "https://www.howtographql.com/",
       "description": "GraphQLと他の技術と組み合わせたチュートリアル",
       "tag": ["GraphQL", "React", "node.js", "elixir", "golang", "python", "チュートリアル"]
+    },
+    {
+      "id": 52,
+      "name": "vis.js",
+      "url": "https://visjs.org/",
+      "description": "JavaScriptの可視化ライブラリ",
+      "tag": ["可視化", "データ", "JavaScript", "ライブラリ", "英語"]
+    },
+    {
+      "id": 53,
+      "name": "D3.js",
+      "url": "https://d3js.org/",
+      "description": "JavaScriptの可視化ライブラリ",
+      "tag": ["可視化", "データ", "JavaScript", "ライブラリ", "英語"]
+    },
+    {
+      "id": 54,
+      "name": "cytoscape.js",
+      "url": "https://js.cytoscape.org/",
+      "description": "JavaScriptの可視化ライブラリ",
+      "tag": ["可視化", "データ", "JavaScript", "ライブラリ", "英語"]
+    },
+    {
+      "id": 55,
+      "name": "The-Big-List-of-ideas",
+      "url": "https://www.ideasgrab.com/",
+      "description": "普通の人が出し続けているアイデア集",
+      "tag": ["アイデア", "リスト", "英語"]
+    },
+    {
+      "id": 56,
+      "name": "three.js",
+      "url": "https://threejs.org/",
+      "description": "JavaScriptの3Dライブラリ",
+      "tag": ["3D", "JavaScript", "ライブラリ", "英語"]
+    },
+    {
+      "id": 57,
+      "name": "Web-Vitals",
+      "url": "https://web.dev/vitals/",
+      "description": "Googleが発表したウェブページUXの重要指標についてまとまった記事",
+      "tag": ["Web", "UX", "英語"]
+    },
+    {
+      "id": 58,
+      "name": "gradient-generator",
+      "url": "https://learnui.design/tools/gradient-generator.html",
+      "description": "グラデーション効果のCSSプロパティを生成できるサイト",
+      "tag": ["CSS", "グラデーション", "英語"]
+    },
+    {
+      "id": 59,
+      "name": "Glyphs",
+      "url": "https://glyphs.fyi/",
+      "description": "Webのデザインに適したSVGアイコンが無料で利用できるサイト",
+      "tag": ["デザイン", "UI", "アイコン", "SVG", "英語"]
+    },
+    {
+      "id": 60,
+      "name": "JavaScript-Primer",
+      "url": "https://jsprimer.net/",
+      "description": "ECMAScript 2015以降をベースにして一からJavaScriptが学べるサイト",
+      "tag": ["ECMAScript", "JavaScript", "勉強", "学習"]
+    },
+    {
+      "id": 61,
+      "name": "javascript.info",
+      "url": "https://ja.javascript.info/",
+      "description": "JavaScriptをゼロから始め、高度なコンセプトまで学べるサイト",
+      "tag": ["JavaScript", "勉強", "学習"]
+    },
+    {
+      "id": 62,
+      "name": "CSS-Grid-Generator",
+      "url": "https://cssgrid-generator.netlify.app/",
+      "description": "CSSのGridを見ながら生成できるサイト",
+      "tag": ["CSS", "Grid", "生成", "英語"]
+    },
+    {
+      "id": 63,
+      "name": "Jamstack",
+      "url": "https://jamstack.org/",
+      "description": "JAMStackの概要とリソースの一覧が見れるサイト",
+      "tag": ["JavaScript", "Jamstack", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 64,
+      "name": "Learn-JAMstack-3.5-hour-video",
+      "url": "https://www.netlify.com/blog/2020/03/12/learn-jamstack-with-a-free-3.5-hour-video-of-demos-and-examples/",
+      "description": "Netlifyが発信しているJAMStackのチュートリアル",
+      "tag": ["JavaScript", "Jamstack", "勉強", "学習", "チュートリアル", "英語"]
+    },
+    {
+      "id": 65,
+      "name": "css-media-queries-cheat-sheet",
+      "url": "https://gist.github.com/bartholomej/8415655",
+      "description": "CSSのメディアクエリのチートシート",
+      "tag": ["CSS", "メディアクエリ", "英語"]
+    },
+    {
+      "id": 66,
+      "name": "Web標準仕様-日本語訳一覧",
+      "url": "https://standards.mitsue.co.jp/resources/w3c/",
+      "description": "Web標準仕様の日本語訳一覧",
+      "tag": ["Web", "CSS", "HTML"]
+    },
+    {
+      "id": 67,
+      "name": "BeautifyTools",
+      "url": "https://beautifytools.com/",
+      "description": "各種データ形式を変換してくれるサイト",
+      "tag": ["データ", "変換"]
+    },
+    {
+      "id": 68,
+      "name": "みんなの公共サイト運用ガイドライン",
+      "url": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/b_free/guideline.html",
+      "description": "公的機関のサイトのウェブアクセシビリティ支援を目的として作成された手順書",
+      "tag": ["アクセスビリティ", "web"]
+    },
+    {
+      "id": 69,
+      "name": "Button-Generator",
+      "url": "https://www.bestcssbuttongenerator.com/",
+      "description": "テンプレートからボタンの色、サイズなどを設定し、生成できるサイト",
+      "tag": ["CSS", "生成", "英語"]
+    },
+    {
+      "id": 70,
+      "name": "CSS-Arrow-Please",
+      "url": "https://cssarrowplease.com/",
+      "description": "吹き出しを生成できるサイト",
+      "tag": ["CSS", "生成", "英語"]
+    },
+    {
+      "id": 71,
+      "name": "Happy-Hues",
+      "url": "https://www.happyhues.co/",
+      "description": "配色パレットの適用後のイメージをいくつかのテンプレートで見れるサイト",
+      "tag": ["CSS", "配色", "英語"]
+    },
+    {
+      "id": 72,
+      "name": "Scheme-Color",
+      "url": "https://www.schemecolor.com/",
+      "description": "1万種類以上のカラースキームから色の配色パターンの情報が見れるサイト",
+      "tag": ["CSS", "配色", "英語"]
+    },
+    {
+      "id": 73,
+      "name": "Color-Names",
+      "url": "https://htmlcolorcodes.com/color-names/",
+      "description": "モダンブラウザ対応の140色をまとめた配色リスト",
+      "tag": ["CSS", "配色", "英語"]
+    },
+    {
+      "id": 74,
+      "name": "Color-Kitty",
+      "url": "https://colorkitty.com/",
+      "description": "画像をアップロードすると自動で色を抽出してカラーパレットを作成してくれるサイト",
+      "tag": ["CSS", "配色", "抽出", "英語"]
+    },
+    {
+      "id": 75,
+      "name": "ColorDrop",
+      "url": "https://colordrop.io/",
+      "description": "背景色を変えながら4色のカラーパレットが選べるサイト",
+      "tag": ["CSS", "配色", "英語"]
+    },
+    {
+      "id": 76,
+      "name": "Color-Supply",
+      "url": "https://colorsupplyyy.com/app/",
+      "description": "補色、類似色、３色配色などウェブやグラフィックに活用できる配色を生成できるサイト",
+      "tag": ["CSS", "配色", "英語"]
+    },
+    {
+      "id": 77,
+      "name": "Nippon-Colors",
+      "url": "https://nipponcolors.com/",
+      "description": "伝統色を見やすいカラーチャートにしたサイト",
+      "tag": ["CSS", "配色", "伝統色"]
+    },
+    {
+      "id": 78,
+      "name": "Palette-List",
+      "url": "https://www.palettelist.com/",
+      "description": "2色選ぶと関連するカラーパレットを提案してくれて、CSS、SVGとしてダウンロードできるサイト",
+      "tag": ["CSS", "配色", "抽出"]
+    },
+    {
+      "id": 79,
+      "name": "css-grid-with-5-layouts",
+      "url": "https://coliss.com/articles/build-websites/operation/css/css-grid-with-5-layouts.html",
+      "description": "Gridでレスポンシブ対応した代表的な5つのレイアウトを実装する方法がまとまった記事",
+      "tag": ["CSS", "Grid", "レイアウト", "レスポンシブ"]
+    },
+    {
+      "id": 80,
+      "name": "thinking-like-a-front-end-developer",
+      "url": "https://coliss.com/articles/build-websites/operation/work/thinking-like-a-front-end-developer.html",
+      "description": "フロントエンド開発者がCSSで実装する時に何を考えるかがまとまった記事",
+      "tag": ["フロントエンド", "CSS", "レイアウト", "レスポンシブ"]
+    },
+    {
+      "id": 81,
+      "name": "responsive-grid-design-ultimate-guide",
+      "url": "https://coliss.com/articles/build-websites/operation/work/responsive-grid-design-ultimate-guide.html",
+      "description": "レスポンシブ対応のレイアウト・グリッドデザインについて解説がまとまった記事",
+      "tag": ["CSS", "Grid", "レイアウト", "レスポンシブ"]
+    },
+    {
+      "id": 82,
+      "name": "Map-of-Computer-Science",
+      "url": "https://www.youtube.com/watch?v=SzJ46YA_RaA",
+      "description": "CSに関する全体図を簡単に紹介した動画",
+      "tag": ["CS", "エンジニアリング", "勉強", "動画", "英語"]
+    },
+    {
+      "id": 83,
+      "name": "Khan-Academy",
+      "url": "https://www.khanacademy.org/",
+      "description": "CSだけでなく、他の分野の学習に関しても無料で受けられるサイト",
+      "tag": ["CS", "エンジニアリング", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 84,
+      "name": "tutorialspoint",
+      "url": "https://www.tutorialspoint.com/tutorialslibrary.htm",
+      "description": "ほぼすべてのチュートリアルが載っているサイト",
+      "tag": ["CS", "エンジニアリング", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 85,
+      "name": "The-Front-End-Checklist",
+      "url": "https://frontendchecklist.io/",
+      "description": "Web開発者がサービスを公開する前にチェックしておくリスト",
+      "tag": ["web", "SEO", "JavaScript", "CSS", "HTML", "英語", "セキュリティ"]
+    },
+    {
+      "id": 86,
+      "name": "data-science-learning-roadmap",
+      "url": "https://ebadak.news/2021/03/20/data-science-learning-roadmap/",
+      "description": "データサイエンスの学習ロードマップについてまとまった記事",
+      "tag": ["データサイエンス", "エンジニアリング", "勉強", "学習", "韓国語"]
+    },
+    {
+      "id": 87,
+      "name": "Mockuuups-Studio",
+      "url": "https://mockuuups.studio/",
+      "description": "スクリーンショットから各デバイスに適用した画像が作成できるプロダクト",
+      "tag": ["モックアップ", "プロダクト", "英語"]
+    },
+    {
+      "id": 88,
+      "name": "Dither-Me-This",
+      "url": "https://doodad.dev/dither-me-this/",
+      "description": "画像をドット柄に変換できるサイト",
+      "tag": ["ブラウザ", "画像", "ドット", "変換", "英語"]
+    },
+    {
+      "id": 89,
+      "name": "Google-Fonts",
+      "url": "https://fonts.google.com/?subset=japanese",
+      "description": "Googleが提供しているwebフォント",
+      "tag": ["フォント", "web", "Google"]
+    },
+    {
+      "id": 90,
+      "name": "Faviconジェネレーター",
+      "url": "https://favicon-generator.mintsu-dev.com/",
+      "description": "画像からマルチアイコンに対応したFaviconを作成してくれるサイト",
+      "tag": ["Favicon", "ブラウザ", "アイコン", "生成"]
+    },
+    {
+      "id": 91,
+      "name": "Favicon-Generator-for-perfect-icons-on-all-browsers",
+      "url": "https://realfavicongenerator.net/",
+      "description": "画像から様々なデバイスに対応したFaviconを作成してくれるサイト",
+      "tag": ["Favicon", "ブラウザ", "アイコン", "生成"]
+    },
+    {
+      "id": 92,
+      "name": "Web-App-Manifest-Generator",
+      "url": "https://tomitm.github.io/appmanifest/",
+      "description": "manifest.jsonの生成サイト",
+      "tag": ["manifest", "ブラウザ", "生成"]
+    },
+    {
+      "id": 93,
+      "name": "アスペクト比計算ツール",
+      "url": "https://aspect.arc-one.jp/",
+      "description": "レスポンシブ対応時のコンテンツのアスペクト比を計算するサイト",
+      "tag": ["レスポンシブ", "アスペクト比", "生成"]
+    },
+    {
+      "id": 94,
+      "name": "ベーシック認証用-.htacess-作成ツール",
+      "url": "https://www.softel.co.jp/labs/tools/basic-auth/",
+      "description": "ベーシック認証に必要な.htaccessと.htpasswdの記述内容を作成してくれるサイト",
+      "tag": ["認証", "ベーシック認証", "生成"]
+    },
+    {
+      "id": 95,
+      "name": "front-end-developer-handbook",
+      "url": "https://frontendmasters.com/books/front-end-handbook/2016/",
+      "description": "フロントエンド開発者のためのハンドブック",
+      "tag": ["フロントエンド", "勉強", "学習", "英語"]
+    },
+    {
+      "id": 96,
+      "name": "Computer-Science-Curriculum-in-1000-YouTube",
+      "url": "https://laconicml.com/computer-science-curriculum-youtube-videos/?fbclid=IwAR0VNXsNdzy_BbOeNfmBL11FBfpz2W_1feO80UM0GdTOthCZCDb5BgPeWCs",
+      "description": "Youtubeで学べるCS講座をまとめた記事",
+      "tag": ["CS", "勉強", "学習", "動画", "英語"]
+    },
+    {
+      "id": 97,
+      "name": "How-to-pick-more-beautiful-colors-for-your-data-visualizations",
+      "url": "https://blog.datawrapper.de/beautifulcolors/",
+      "description": "データ視覚化のための色を選ぶ方法についてまとまった記事",
+      "tag": ["データ", "視覚化", "ブログ", "英語"]
+    },
+    {
+      "id": 98,
+      "name": "Openbase",
+      "url": "https://openbase.com/",
+      "description": "JavaScriptのパッケージを比較、分析するサービス",
+      "tag": ["JavaScript", "分析", "比較", "ライブラリ", "パッケージ", "英語"]
+    },
+    {
+      "id": 99,
+      "name": "180+-Free-OKR-and-Goal-Examples",
+      "url": "https://soapboxhq.com/goal-examples",
+      "description": "各ポジションを9つのカテゴリーに分けて、OKRとゴールの例をまとめたサイト",
+      "tag": ["OKR", "ゴール", "英語"]
     }
   ]
 }
