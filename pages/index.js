@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import HeadComponent from '../components/HeadComponent'
+
 import SearchBox from '../components/SearchBox'
 import DefaultResult from '../components/DefaultResult'
 import SearchedResult from '../components/SearchedResult'
@@ -21,6 +23,7 @@ const App = ({ itemsAmount }) => {
   return (
     <div>
       <header>
+        <HeadComponent />
         <div className={styles.headerContainer}>
           <div className={styles.amount}>
             開発やプログラミング勉強に役立つ
