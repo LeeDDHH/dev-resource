@@ -635,14 +635,14 @@
       "name": "Faviconジェネレーター",
       "url": "https://favicon-generator.mintsu-dev.com/",
       "description": "画像からマルチアイコンに対応したFaviconを作成してくれるサイト",
-      "tag": ["Favicon", "ブラウザ", "アイコン", "生成"]
+      "tag": ["favicon", "ブラウザ", "アイコン", "生成"]
     },
     {
       "id": 91,
       "name": "Favicon-Generator-for-perfect-icons-on-all-browsers",
       "url": "https://realfavicongenerator.net/",
       "description": "画像から様々なデバイスに対応したFaviconを作成してくれるサイト",
-      "tag": ["Favicon", "ブラウザ", "アイコン", "生成"]
+      "tag": ["favicon", "ブラウザ", "アイコン", "生成"]
     },
     {
       "id": 92,
@@ -776,6 +776,13 @@
       "url": "https://hypercolor.dev/",
       "description": "Tainwind CSSのカラーパレットで作成されたグラデーションカラーコレクション",
       "tag": ["CSS", "配色", "グラデーション"]
+    },
+    {
+      "id": 111,
+      "name": "favicon.io",
+      "url": "https://favicon.io/",
+      "description": "画像、テキスト、絵文字からfaviconが生成できるサイト",
+      "tag": ["Favicon", "ブラウザ", "アイコン", "絵文字", "生成"]
     }
   ]
 }
