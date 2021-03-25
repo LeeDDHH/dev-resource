@@ -11,7 +11,7 @@ const HeadComponent = () => {
         title: 'Resource of Develop',
         description: '開発やプログラミング勉強に役立つリソースが見つかるサービス',
         images: [
-          { url: '/images/og/ogp_image.png' }
+          { url: 'https://rod.expfrom.me/images/og/ogp_image.png' }
         ],
         site_name: 'Resource of Develop'
       }}
@@ -20,6 +20,28 @@ const HeadComponent = () => {
         site: '@camomile_cafe',
         cardType: 'summary_large_image'
       }}
+      additionalMetaTags={[
+        {
+          name: 'mobile-web-app-capable',
+          content: 'yes'
+        },
+        {
+          name: 'apple-mobile-web-app-capable',
+          content: 'yes'
+        },
+        {
+          name: 'application-name',
+          content: 'RoD'
+        },
+        {
+          name: 'apple-mobile-web-app-title',
+          content: 'RoD'
+        },
+        {
+          name: 'msapplication-starturl',
+          content: '/'
+        }
+      ]}
       additionalLinkTags={[
         {
           rel: 'icon',
@@ -27,7 +49,7 @@ const HeadComponent = () => {
         },
         {
           rel: 'apple-touch-icon',
-          href: '/apple-touch-icon.jpg',
+          href: '/apple-touch-icon.png',
           sizes: '180x180'
         },
         {
