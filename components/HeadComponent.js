@@ -7,13 +7,20 @@ const HeadComponent = () => {
       description="開発やプログラミング勉強に役立つリソースが見つかるサービス"
       canonical="https://rod.expfrom.me/"
       openGraph={{
-        url: 'https://rod.expfrom.me/',
+        locale: 'ja_JP',
+        type: 'website',
         title: 'Resource of Develop',
         description: '開発やプログラミング勉強に役立つリソースが見つかるサービス',
+        url: 'https://rod.expfrom.me/',
+        site_name: 'Resource of Develop',
         images: [
-          { url: 'https://rod.expfrom.me/images/og/ogp_image.png' }
-        ],
-        site_name: 'Resource of Develop'
+          {
+            url: 'https://rod.expfrom.me/images/og/ogp_image.png',
+            width: 1300,
+            height: 620,
+            alt: 'Og Image Alt RoD'
+          }
+        ]
       }}
       twitter={{
         handle: '@camomile_cafe',
