@@ -783,6 +783,13 @@
       "url": "https://favicon.io/",
       "description": "画像、テキスト、絵文字からfaviconが生成できるサイト",
       "tag": ["Favicon", "ブラウザ", "アイコン", "絵文字", "生成"]
+    },
+    {
+      "id": 112,
+      "name": "YearCompass",
+      "url": "https://yearcompass.com/",
+      "description": "一年の計画を立てるときに使えるプランナー",
+      "tag": ["計画", "プランナー"]
     }
   ]
 }
