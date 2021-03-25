@@ -804,6 +804,27 @@
       "url": "https://chakra-ui.com/",
       "description": "UIコンポーネントライブラリ",
       "tag": ["CSS", "CSS In JS", "UI", "コンポーネント", "デザイン"]
+    },
+    {
+      "id": 115,
+      "name": "Electron-Apps",
+      "url": "https://www.electronjs.org/apps",
+      "description": "Electronで作られたアプリがまとまった公式ページ",
+      "tag": ["Electron", "アプリ"]
+    },
+    {
+      "id": 116,
+      "name": "Wappalyzer",
+      "url": "https://www.wappalyzer.com/",
+      "description": "サイトでどんな技術が使われているのかを調べるときに使うサービス",
+      "tag": ["分析", "サービス"]
+    },
+    {
+      "id": 117,
+      "name": "BuiltWith",
+      "url": "https://builtwith.com/",
+      "description": "サイトでどんな技術が使われているのかを調べるときに使うサービス",
+      "tag": ["分析", "サービス"]
     }
   ]
 }
