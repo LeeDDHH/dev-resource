@@ -825,6 +825,27 @@
       "url": "https://builtwith.com/",
       "description": "サイトでどんな技術が使われているのかを調べるときに使うサービス",
       "tag": ["分析", "サービス"]
+    },
+    {
+      "id": 118,
+      "name": "10-React-Challenges-(Beginner)-Courses",
+      "url": "https://scotch.io/courses/10-react-challenges-beginner",
+      "description": "10日間でReactの基礎が学べるサイト",
+      "tag": ["React", "勉強", "学習"]
+    },
+    {
+      "id": 119,
+      "name": "30-Days-Of-React",
+      "url": "https://github.com/Asabeneh/30-Days-Of-React",
+      "description": "30日間、いろんなプロジェクトをつくりながらReactが学べるプロジェクト",
+      "tag": ["React", "勉強", "学習"]
+    },
+    {
+      "id": 120,
+      "name": "30-Days-Of-Python",
+      "url": "https://github.com/Asabeneh/30-Days-Of-React",
+      "description": "30日間、Pythonの基礎が学べるプロジェクト",
+      "tag": ["Python", "勉強", "学習"]
     }
   ]
 }
