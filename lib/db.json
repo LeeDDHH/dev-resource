@@ -790,6 +790,13 @@
       "url": "https://yearcompass.com/",
       "description": "一年の計画を立てるときに使えるプランナー",
       "tag": ["計画", "プランナー"]
+    },
+    {
+      "id": 113,
+      "name": "The-Component-Gallery",
+      "url": "https://component.gallery/",
+      "description": "サイトを構成するコンポーネントを集めたサイト",
+      "tag": ["コンポーネント", "デザイン"]
     }
   ]
 }
