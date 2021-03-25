@@ -797,6 +797,13 @@
       "url": "https://component.gallery/",
       "description": "サイトを構成するコンポーネントを集めたサイト",
       "tag": ["コンポーネント", "デザイン"]
+    },
+    {
+      "id": 114,
+      "name": "Chakra-UI",
+      "url": "https://chakra-ui.com/",
+      "description": "UIコンポーネントライブラリ",
+      "tag": ["CSS", "CSS In JS", "UI", "コンポーネント", "デザイン"]
     }
   ]
 }
