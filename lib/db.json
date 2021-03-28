@@ -846,6 +846,13 @@
       "url": "https://github.com/Asabeneh/30-Days-Of-React",
       "description": "30日間、Pythonの基礎が学べるプロジェクト",
       "tag": ["Python", "勉強", "学習"]
+    },
+    {
+      "id": 121,
+      "name": "ux-10-laws",
+      "url": "https://blog.btrax.com/jp/ux-10-laws/",
+      "description": "デザインに関する10の法則",
+      "tag": ["デザイン", "勉強", "学習"]
     }
   ]
 }
