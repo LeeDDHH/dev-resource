@@ -853,6 +853,27 @@
       "url": "https://blog.btrax.com/jp/ux-10-laws/",
       "description": "デザインに関する10の法則",
       "tag": ["デザイン", "勉強", "学習"]
+    },
+    {
+      "id": 122,
+      "name": "public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "Web開発で使える公開API集",
+      "tag": ["API", "web", "公開"]
+    },
+    {
+      "id": 123,
+      "name": "Project-PLATEAU",
+      "url": "https://www.mlit.go.jp/plateau/",
+      "description": "国土交通省が公開した東京23区の3Dモデル",
+      "tag": ["3D", "地図", "三次元", "モデリング"]
+    },
+    {
+      "id": 124,
+      "name": "css-flex-layouts",
+      "url": "https://coliss.com/articles/build-websites/operation/css/evergreen-css-flex-layouts.html",
+      "description": "Flexboxで実装する定番レイアウトのコードのまとめ",
+      "tag": ["CSS", "Flexbox", "レイアウト"]
     }
   ]
 }
