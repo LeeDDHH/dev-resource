@@ -874,6 +874,13 @@
       "url": "https://coliss.com/articles/build-websites/operation/css/evergreen-css-flex-layouts.html",
       "description": "Flexboxで実装する定番レイアウトのコードのまとめ",
       "tag": ["CSS", "Flexbox", "レイアウト"]
+    },
+    {
+      "id": 125,
+      "name": "startup-landing",
+      "url": "https://startuplanding.redq.io/",
+      "description": "Next.js、GatsbyJSなどのLPテンプレート集",
+      "tag": ["Next.js", "GatsbyJS", "テンプレート"]
     }
   ]
 }
