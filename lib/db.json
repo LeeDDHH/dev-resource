@@ -171,7 +171,7 @@
     {
       "id": 24,
       "name": "o'reilly-katacoda",
-      "url": "https://enes.in/sorted-colors/",
+      "url": "https://www.katacoda.com/",
       "description": "環境構築で使える技術が学べるサイト",
       "tag": ["O'Reilly", "環境構築", "勉強", "学習", "英語"]
     },
@@ -843,7 +843,7 @@
     {
       "id": 120,
       "name": "30-Days-Of-Python",
-      "url": "https://github.com/Asabeneh/30-Days-Of-React",
+      "url": "https://github.com/Asabeneh/30-Days-Of-Python",
       "description": "30日間、Pythonの基礎が学べるプロジェクト",
       "tag": ["Python", "勉強", "学習"]
     },
