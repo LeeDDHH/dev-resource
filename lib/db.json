@@ -881,6 +881,41 @@
       "url": "https://startuplanding.redq.io/",
       "description": "Next.js、GatsbyJSなどのLPテンプレート集",
       "tag": ["Next.js", "GatsbyJS", "テンプレート"]
+    },
+    {
+      "id": 126,
+      "name": "csshell",
+      "url": "https://csshell.dev/",
+      "description": "推奨されないCSSの書き方と、その問題点、解決策をまとめたサイト",
+      "tag": ["CSS"]
+    },
+    {
+      "id": 127,
+      "name": "database-pay-attention-tabechoku",
+      "url": "https://tech.tabechoku.com/entry/2020/06/15/132518",
+      "description": "食べチョク社がデータベース設計の際に気をつけていること",
+      "tag": ["DB", "database"]
+    },
+    {
+      "id": 128,
+      "name": "interface-in-game",
+      "url": "https://interfaceingame.com/games/",
+      "description": "ゲーム上のインタフェース一覧が見れるサイト",
+      "tag": ["UI", "インターフェース"]
+    },
+    {
+      "id": 129,
+      "name": "linux-server-plan-operation",
+      "url": "https://thelarklife1021.hatenablog.com/entry/2021/04/30/114122",
+      "description": "知っておきたかったLinuxサーバ設計、構築、運用知識まとめ",
+      "tag": ["Linux", "設計", "構築", "運用"]
+    },
+    {
+      "id": 130,
+      "name": "fullstack-open",
+      "url": "https://fullstackopen.com/en/",
+      "description": "Javascriptベースの最新のWeb開発に関するオンラインコース",
+      "tag": ["JavaScript", "Web", "開発", "チュートリアル"]
     }
   ]
 }
