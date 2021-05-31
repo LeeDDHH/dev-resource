@@ -930,6 +930,20 @@
       "url": "https://cs50.jp/",
       "description": "ハーバード大のコンピュータサイエンス入門講座「CS50」の日本語化されたサイト",
       "tag": ["CS", "勉強"]
+    },
+    {
+      "id": 133,
+      "name": "microsoft-javascript",
+      "url": "https://docs.microsoft.com/ja-JP/javascript/",
+      "description": "MicrosoftがJavaScript開発者のために提供することがまとまったサイト",
+      "tag": ["JavaScript", "勉強", "開発"]
+    },
+    {
+      "id": 134,
+      "name": "comlink",
+      "url": "https://github.com/GoogleChromeLabs/comlink",
+      "description": "WebWorkerを使いやすくしたライブラリ",
+      "tag": ["ServiceWorker", "WebWorker", "開発"]
     }
   ]
 }
