@@ -916,6 +916,20 @@
       "url": "https://fullstackopen.com/en/",
       "description": "Javascriptベースの最新のWeb開発に関するオンラインコース",
       "tag": ["JavaScript", "Web", "開発", "チュートリアル"]
+    },
+    {
+      "id": 131,
+      "name": "awesome-privacy",
+      "url": "https://github.com/pluja/awesome-privacy",
+      "description": "プライバシーを考慮したオープンソースリスト",
+      "tag": ["プライバシー", "OSS"]
+    },
+    {
+      "id": 132,
+      "name": "cs50",
+      "url": "https://cs50.jp/",
+      "description": "ハーバード大のコンピュータサイエンス入門講座「CS50」の日本語化されたサイト",
+      "tag": ["CS", "勉強"]
     }
   ]
 }
