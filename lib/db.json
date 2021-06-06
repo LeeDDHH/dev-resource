@@ -1035,6 +1035,97 @@
       "url": "https://app.haikei.app/",
       "description": "背景画像を作成できるサイト",
       "tag": ["背景", "画像"]
+    },
+    {
+      "id": 148,
+      "name": "css-layout-generator",
+      "url": "https://layout.bradwoods.io/",
+      "description": "Gridレイアウトのコードを生成できるサイト",
+      "tag": ["CSS", "Grid"]
+    },
+    {
+      "id": 149,
+      "name": "css-morphing-string",
+      "url": "https://codepen.io/amit_sheen/pen/xxqYzvm",
+      "description": "Gridレイアウトのコードを生成できるサイト",
+      "tag": ["CSS", "Grid"]
+    },
+    {
+      "id": 150,
+      "name": "euismod",
+      "url": "https://www.euismod.dev/",
+      "description": "Gridレイアウトの練習問題やクイズがまとまったサイト",
+      "tag": ["CSS", "Grid"]
+    },
+    {
+      "id": 151,
+      "name": "6-inspiring-frontend-challenges",
+      "url": "https://betterprogramming.pub/6-inspiring-frontend-challenges-87c18813723a",
+      "description": "フロントエンドで挑戦して見ると面白い課題を集めたブログ記事",
+      "tag": ["フロントエンド", "チャレンジ"]
+    },
+    {
+      "id": 152,
+      "name": "readability-guideline",
+      "url": "https://zenn.dev/n_harada/articles/readability-guideline",
+      "description": "可読性を高める2つの大きな方向性 - 脳内メモリに優しいコードを書く -",
+      "tag": ["コーディング", "可読性"]
+    },
+    {
+      "id": 153,
+      "name": "10-insights-adopting-typescript-at-scale",
+      "url": "https://www.techatbloomberg.com/blog/10-insights-adopting-typescript-at-scale/",
+      "description": "TypeScriptを大規模に導入して学んだ10のこと",
+      "tag": ["TypeScript", "リファクタリング"]
+    },
+    {
+      "id": 154,
+      "name": "anime2sketch",
+      "url": "https://github.com/Mukosame/Anime2Sketch",
+      "description": "アニメ/マンガからスケッチを抽出するPythonライブラリ",
+      "tag": ["Python", "ライブラリ", "抽出"]
+    },
+    {
+      "id": 155,
+      "name": "one-man-saas-architecture",
+      "url": "https://anthonynsimon.com/blog/one-man-saas-architecture/",
+      "description": "一人スタートアップのアーキテクチャースタックについて解説したブログ記事",
+      "tag": ["開発", "アーキテクチャー"]
+    },
+    {
+      "id": 156,
+      "name": "one-woman-hardware-company",
+      "url": "https://blog.thea.codes/winterblooms-tech-stack/",
+      "description": "女性一人でハードウェア会社を立ち上げたときのアーキテクチャースタックについて解説したブログ記事",
+      "tag": ["開発", "アーキテクチャー"]
+    },
+    {
+      "id": 157,
+      "name": "atlassian-design",
+      "url": "https://atlassian.design/",
+      "description": "Atlassianで作ったデザインシステムについてのAtoZをまとめたサイト",
+      "tag": ["Atlassian", "デザイン", "デザインシステム"]
+    },
+    {
+      "id": 158,
+      "name": "developer-advocacy",
+      "url": "https://developer-advocacy.com/",
+      "description": "Developer Advocateという職種の人のためのハンドブック",
+      "tag": ["Developer Advocate", "エバンジェリスト"]
+    },
+    {
+      "id": 159,
+      "name": "atlassian-agile",
+      "url": "https://www.atlassian.com/agile",
+      "description": "Atlassianが解説するアジャイルに関してのAtoZをまとめたサイト",
+      "tag": ["Atlassian", "アジャイル"]
+    },
+    {
+      "id": 160,
+      "name": "crxcavator",
+      "url": "https://crxcavator.io/",
+      "description": "ブラウザの拡張機能について分析してくれるサイト",
+      "tag": ["ブラウザ", "拡張機能", "分析"]
     }
   ]
 }
