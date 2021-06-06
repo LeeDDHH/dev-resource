@@ -944,6 +944,97 @@
       "url": "https://github.com/GoogleChromeLabs/comlink",
       "description": "WebWorkerを使いやすくしたライブラリ",
       "tag": ["ServiceWorker", "WebWorker", "開発"]
+    },
+    {
+      "id": 135,
+      "name": "html5-qrcode",
+      "url": "https://github.com/mebjas/html5-qrcode",
+      "description": "HTML5基盤のQR/バーコードリーダー",
+      "tag": ["HTML5", "QR", "バーコード"]
+    },
+    {
+      "id": 136,
+      "name": "web-vitals-cls",
+      "url": "https://web.dev/cls/",
+      "description": "Web VitalsのCLS(Cumulative Layout Shift)に関する説明",
+      "tag": ["WebVitals", "CLS", "開発"]
+    },
+    {
+      "id": 137,
+      "name": "web-vitals-fid",
+      "url": "https://web.dev/fid/",
+      "description": "Web VitalsのFID(First Input Delay)に関する説明",
+      "tag": ["WebVitals", "FID", "開発"]
+    },
+    {
+      "id": 138,
+      "name": "web-vitals-lcp",
+      "url": "https://web.dev/lcp/",
+      "description": "Web VitalsのLCP(Largest Contentful Paint)に関する説明",
+      "tag": ["WebVitals", "LCP", "開発"]
+    },
+    {
+      "id": 139,
+      "name": "web-vitals-fcp",
+      "url": "https://web.dev/fcp/",
+      "description": "Web VitalsのFCP(First Contentful Paint)に関する説明",
+      "tag": ["WebVitals", "FCP", "開発"]
+    },
+    {
+      "id": 140,
+      "name": "css-3d-transform-examples",
+      "url": "https://polypane.app/css-3d-transform-examples/",
+      "description": "CSSのみで3Dデザインを表現するコードをまとめたサイト",
+      "tag": ["CSS", "3D", "デザイン"]
+    },
+    {
+      "id": 141,
+      "name": "draggable-blend-generator",
+      "url": "https://codepen.io/petegarvin1/full/rNLZjjQ",
+      "description": "CSSのmix-blend-modeの表示確認ができるサイト",
+      "tag": ["CSS", "mix-blend-mode", "デザイン"]
+    },
+    {
+      "id": 142,
+      "name": "blobs",
+      "url": "https://blobs.app/?e=6&gw=6&se=94642&c=d1d8e0&o=0",
+      "description": "丸みのあるblobsの画像とHTMLタグで取得できるサイト",
+      "tag": ["blobs", "html", "デザイン"]
+    },
+    {
+      "id": 143,
+      "name": "wordmark",
+      "url": "https://wordmark.it/",
+      "description": "PCにインストールしているフォントを一覧で確認できるサイト",
+      "tag": ["フォント", "デザイン"]
+    },
+    {
+      "id": 144,
+      "name": "front-end-toolkit",
+      "url": "https://www.fetoolkit.io/",
+      "description": "フロントエンド開発をサポートするサイト",
+      "tag": ["フロントエンド", "開発"]
+    },
+    {
+      "id": 145,
+      "name": "griddy",
+      "url": "https://griddy.io/",
+      "description": "CSSのgridレイアウトを視覚的に設定できるサイト",
+      "tag": ["CSS", "grid"]
+    },
+    {
+      "id": 146,
+      "name": "dashed-border-generator",
+      "url": "https://codepen.io/amit_sheen/pen/xxZeyjO",
+      "description": "破線をCSSで表現するためのサイト",
+      "tag": ["CSS", "破線", "点線"]
+    },
+    {
+      "id": 147,
+      "name": "haikei",
+      "url": "https://app.haikei.app/",
+      "description": "背景画像を作成できるサイト",
+      "tag": ["背景", "画像"]
     }
   ]
 }
