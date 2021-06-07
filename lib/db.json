@@ -1168,6 +1168,27 @@
       "url": "https://flexboxfroggy.com/#ja",
       "description": "Flexboxをゲーム感覚で学べるサイト",
       "tag": ["CSS", "Flexbox", "学習"]
+    },
+    {
+      "id": 167,
+      "name": "a-healthy-on-call-culture",
+      "url": "https://developers.soundcloud.com/blog/building-a-healthy-on-call-culture",
+      "description": "SoundCloud社がまとめた健康的なOn Call文化づくりの例",
+      "tag": ["組織", "OnCall"]
+    },
+    {
+      "id": 168,
+      "name": "on-call-culture-at-github",
+      "url": "https://github.blog/2021-01-06-building-on-call-culture-at-github/",
+      "description": "GitHub社がまとめたOn Call文化づくりの例",
+      "tag": ["組織", "OnCall"]
+    },
+    {
+      "id": 169,
+      "name": "gitlab-on-call",
+      "url": "https://gitlab.com/gitlab-com/runbooks",
+      "description": "GitLab社がまとめたOn Call文化づくりの例",
+      "tag": ["組織", "OnCall"]
     }
   ]
 }
