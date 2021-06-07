@@ -1126,6 +1126,41 @@
       "url": "https://crxcavator.io/",
       "description": "ブラウザの拡張機能について分析してくれるサイト",
       "tag": ["ブラウザ", "拡張機能", "分析"]
+    },
+    {
+      "id": 161,
+      "name": "electron-embedded",
+      "url": "https://zenn.dev/aktriver/articles/2021-06-electron-embedded",
+      "description": "Electronで組み込み端末向けアプリケーションを開発/運用して得られたことがまとまった記事",
+      "tag": ["Electron", "開発", "運用"]
+    },
+    {
+      "id": 162,
+      "name": "2021-cnbc-disruptor-50-companies",
+      "url": "https://www.cnbc.com/2021/05/25/these-are-the-2021-cnbc-disruptor-50-companies.html",
+      "description": "CNBCが選定した革新的な企業50選",
+      "tag": ["企業", "技術"]
+    },
+    {
+      "id": 163,
+      "name": "pycon-us-2021",
+      "url": "https://www.youtube.com/playlist?list=PL2Uw4_HvXqvYk1Y5P8kryoyd83L_0Uk5K",
+      "description": "PyCon US 2021の全体動画がまとまったYoutubeプレイリスト",
+      "tag": ["Python", "カンファレンス", "動画"]
+    },
+    {
+      "id": 164,
+      "name": "responsive-to-user",
+      "url": "https://ics.media/entry/210604/",
+      "description": "ユーザー設定にレスポンシブ対応できる新しいCSSの記述がまとまったブログ記事",
+      "tag": ["CSS", "UX", "レスポンシブ"]
+    },
+    {
+      "id": 165,
+      "name": "grid-garden",
+      "url": "https://cssgridgarden.com/",
+      "description": "Gridレイアウトをゲーム感覚で学べるサイト",
+      "tag": ["CSS", "grid", "学習"]
     }
   ]
 }
