@@ -1161,6 +1161,13 @@
       "url": "https://cssgridgarden.com/",
       "description": "Gridレイアウトをゲーム感覚で学べるサイト",
       "tag": ["CSS", "grid", "学習"]
+    },
+    {
+      "id": 166,
+      "name": "flexbox-froggy",
+      "url": "https://flexboxfroggy.com/#ja",
+      "description": "Flexboxをゲーム感覚で学べるサイト",
+      "tag": ["CSS", "Flexbox", "学習"]
     }
   ]
 }
