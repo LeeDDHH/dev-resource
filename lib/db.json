@@ -1238,6 +1238,13 @@
       "url": "https://wesbos.com/tips",
       "description": "JavaScriptで開発する際に使えるTipsがまとめられているサイト",
       "tag": ["JavaScript", "学習", "勉強"]
+    },
+    {
+      "id": 177,
+      "name": "typescript-cheat-sheets-react",
+      "url": "https://github.com/typescript-cheatsheets/react",
+      "description": "ReactとTypeScriptを合わせて使うときに役立つ情報がまとめられているリポジトリ",
+      "tag": ["React", "TypeScript", "チートシート"]
     }
   ]
 }
