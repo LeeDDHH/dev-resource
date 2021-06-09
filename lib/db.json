@@ -1217,6 +1217,27 @@
       "url": "https://github.com/midiblocks/handsfree",
       "description": "ウェブで顔、手のモーションを取りやすくしたライブラリ",
       "tag": ["ライブラリ", "モーション", "トラッキング"]
+    },
+    {
+      "id": 174,
+      "name": "open-source-insights",
+      "url": "https://deps.dev/",
+      "description": "オープンソースプロジェクトの依存関係を視覚化できるサイト",
+      "tag": ["OSS", "依存関係", "可視化"]
+    },
+    {
+      "id": 175,
+      "name": "beginner-javaScript-notes",
+      "url": "https://wesbos.com/javascript",
+      "description": "JavaScript初心者向けに、どの順に何を学べばいいかがまとめられているサイト",
+      "tag": ["JavaScript", "学習", "勉強"]
+    },
+    {
+      "id": 176,
+      "name": "javaScript-dev-tips",
+      "url": "https://wesbos.com/tips",
+      "description": "JavaScriptで開発する際に使えるTipsがまとめられているサイト",
+      "tag": ["JavaScript", "学習", "勉強"]
     }
   ]
 }
