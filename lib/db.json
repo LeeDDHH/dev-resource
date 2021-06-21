@@ -1441,6 +1441,41 @@
       "url": "https://getloaf.io/",
       "description": "色やサイズをカスタマイズして動きのあるSVGイラストがダウンロードできるサービス",
       "tag": ["SVG", "テンプレート", "サービス"]
+    },
+    {
+      "id": 206,
+      "name": "disquiet",
+      "url": "https://disquiet.io/",
+      "description": "ITサービスメーカーがサービスを作る過程で必要なフィードバックを送り合う韓国のSNS",
+      "tag": ["SNS", "フォードバック", "サービス"]
+    },
+    {
+      "id": 207,
+      "name": "the-document-culture-of-amazon",
+      "url": "https://www.justingarrison.com/blog/2021-03-15-the-document-culture-of-amazon/",
+      "description": "Amazonがドキュメント文化を続けて得られたメリットと制限についてまとまったブログ記事",
+      "tag": ["ドキュメント", "文化", "ブログ"]
+    },
+    {
+      "id": 208,
+      "name": "graphcdn",
+      "url": "https://graphcdn.io/blog/announcing-graphcdn",
+      "description": "GraphQL APIのための専用CDN",
+      "tag": ["GraphQL", "CDN", "サービス"]
+    },
+    {
+      "id": 209,
+      "name": "5-model-of-after-covid",
+      "url": "https://c-rocket.net/korona-ihuyi-jigjang-5gaji-model-hbr/",
+      "description": "コロナ以降の職場モデルについて5つに分けて分類した韓国のブログ記事",
+      "tag": ["職場", "モデル", "ブログ"]
+    },
+    {
+      "id": 210,
+      "name": "front-end-coding-review",
+      "url": "https://qiita.com/syo19961113/items/afd5080e56604b2c9aa3",
+      "description": "JavaScript初学者がフロントエンドエンジニアにレビューしてもらった内容についてまとまった記事",
+      "tag": ["コードレビュー", "コーディング", "ブログ"]
     }
   ]
 }
