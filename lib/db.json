@@ -1476,6 +1476,48 @@
       "url": "https://qiita.com/syo19961113/items/afd5080e56604b2c9aa3",
       "description": "JavaScript初学者がフロントエンドエンジニアにレビューしてもらった内容についてまとまった記事",
       "tag": ["コードレビュー", "コーディング", "ブログ"]
+    },
+    {
+      "id": 211,
+      "name": "css-glass",
+      "url": "https://css.glass/",
+      "description": "ガラス風の半透明ボックスのCSSコードを生成する",
+      "tag": ["CSS", "ジェネレーター"]
+    },
+    {
+      "id": 212,
+      "name": "how-to-input-number-use",
+      "url": "https://note.com/takamoso/n/n79df2d8f16bf",
+      "description": "inputで数値を扱うときの注意点についてまとまったブログ記事",
+      "tag": ["HTML", "ブログ"]
+    },
+    {
+      "id": 213,
+      "name": "why-abolished-html5",
+      "url": "https://future-architect.github.io/articles/20210621a/",
+      "description": "HTML5が廃止される経緯について説明が載っているブログ記事",
+      "tag": ["HTML", "ブログ"]
+    },
+    {
+      "id": 214,
+      "name": "leading-designers",
+      "url": "https://yasuhisa.com/could/article/leading-designers/",
+      "description": "デザイナーの思考プロセスの解像度を上げるための手伝いについての見解が載っているブログ記事",
+      "tag": ["デザイナー", "思考プロセス", "ブログ"]
+    },
+    {
+      "id": 215,
+      "name": "rfm-technique",
+      "url": "https://meetup.toast.com/posts/279",
+      "description": "購買データを使った顧客細分化技法(RFM)の簡単なモデルを作る方法が載っているブログ記事",
+      "tag": ["マーケティング", "RFM", "ブログ"]
+    },
+    {
+      "id": 216,
+      "name": "webhint",
+      "url": "https://webhint.io/",
+      "description": "ウェブサイト改善のための問題点、直し方、直す理由についてヒントを提供するサービス",
+      "tag": ["UX", "改善", "拡張機能"]
     }
   ]
 }
