@@ -1518,6 +1518,20 @@
       "url": "https://webhint.io/",
       "description": "ウェブサイト改善のための問題点、直し方、直す理由についてヒントを提供するサービス",
       "tag": ["UX", "改善", "拡張機能"]
-    }
+    },
+    {
+      "id": 217,
+      "name": "html-living-standard-jp",
+      "url": "https://momdo.github.io/html/",
+      "description": "WHATWG Living Standardの日本語訳がされたページ",
+      "tag": ["HTML", "WHATWG", "翻訳", "Living Standard"]
+    },
+    {
+      "id": 218,
+      "name": "mierune-log",
+      "url": "https://mierune.github.io/mierune-log/",
+      "description": "MIERUNE社の社内勉強会の発表内容が外部向けに公開されたページ",
+      "tag": ["社内勉強会", "資料"]
+    }2
   ]
 }
