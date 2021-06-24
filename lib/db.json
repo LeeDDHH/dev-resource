@@ -1532,6 +1532,27 @@
       "url": "https://mierune.github.io/mierune-log/",
       "description": "MIERUNE社の社内勉強会の発表内容が外部向けに公開されたページ",
       "tag": ["社内勉強会", "資料"]
+    },
+    {
+      "id": 219,
+      "name": "mckinsey-the-top-trends-in-tech-2021",
+      "url": "https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-top-trends-in-tech",
+      "description": "マッキンゼーが発表した2021年の技術トレンド10選をまとめたサイト",
+      "tag": ["トレンド", "資料"]
+    },
+    {
+      "id": 220,
+      "name": "e-motion-youtube",
+      "url": "https://www.youtube.com/channel/UCorxkNMD9V7PvgRtgaNApnw",
+      "description": "動きのよいWebサイトを流し見れるYoutubeチャンネル",
+      "tag": ["デザイン", "動画"]
+    },
+    {
+      "id": 221,
+      "name": "less-features",
+      "url": "https://blog.btrax.com/jp/less-features/",
+      "description": "これからのプロダクトは足すことよりも削ることが価値になる意見が見られるブログ記事",
+      "tag": ["プロダクト", "デザイン", "ブログ"]
     }
   ]
 }
