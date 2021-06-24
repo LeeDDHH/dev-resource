@@ -1553,6 +1553,20 @@
       "url": "https://blog.btrax.com/jp/less-features/",
       "description": "これからのプロダクトは足すことよりも削ることが価値になる意見が見られるブログ記事",
       "tag": ["プロダクト", "デザイン", "ブログ"]
+    },
+    {
+      "id": 222,
+      "name": "list-of-handpicked-resources-for-frontend-devs",
+      "url": "https://www.akshay.rocks/resources",
+      "description": "フロントエンド開発者向けに厳選されたリソースを集めたサイト",
+      "tag": ["開発", "フロントエンド", "ツール"]
+    },
+    {
+      "id": 223,
+      "name": "readme-so",
+      "url": "https://readme.so/",
+      "description": "プロジェクトのREADMEに必要な項目を簡単に追加してマークダウンとしてダウンロードできるオンラインエディター",
+      "tag": ["開発", "README", "ツール", "エディター"]
     }
   ]
 }
