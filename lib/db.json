@@ -1567,6 +1567,97 @@
       "url": "https://readme.so/",
       "description": "プロジェクトのREADMEに必要な項目を簡単に追加してマークダウンとしてダウンロードできるオンラインエディター",
       "tag": ["開発", "README", "ツール", "エディター"]
+    },
+    {
+      "id": 224,
+      "name": "objectrocket-mongo-db",
+      "url": "https://kb.objectrocket.com/category/mongo-db",
+      "description": "MongoDBのちょっとしたテクニックがまとまったサイト",
+      "tag": ["開発", "MongoDB", "DB", "database"]
+    },
+    {
+      "id": 225,
+      "name": "tips-signup-login-ux",
+      "url": "https://learnui.design/blog/tips-signup-login-ux.html",
+      "description": "より良い会員登録/ログインのUXのためのTips",
+      "tag": ["UX", "会員登録", "ログイン"]
+    },
+    {
+      "id": 226,
+      "name": "mumble",
+      "url": "https://www.mumble.info/",
+      "description": "低遅延、高品質のボイスチャットOSS",
+      "tag": ["OSS", "音声", "チャット"]
+    },
+    {
+      "id": 227,
+      "name": "salesforce-for-engineers",
+      "url": "https://retool.com/blog/salesforce-for-engineers/",
+      "description": "エンジニアのためのSalesforceの説明がまとまったブログ記事",
+      "tag": ["Salesforce", "ブログ"]
+    },
+    {
+      "id": 228,
+      "name": "ms-beginners-series-to-rust",
+      "url": "https://www.youtube.com/playlist?list=PLlrxD0HtieHjbTjrchBwOVks_sr8EVW1x",
+      "description": "マイクロソフト社が作った初心者のためのRustの説明を集めたプレイリスト",
+      "tag": ["動画", "学習", "Rust"]
+    },
+    {
+      "id": 229,
+      "name": "product-adoption-dictionary",
+      "url": "https://userpilot.com/blog/product-adoption-dictionary/",
+      "description": "プロダクト採用及びオンボーディング関連のUX用語について説明をまとめたブログ記事",
+      "tag": ["プロダクト採用", "UX", "オンボーディング", "ブログ"]
+    },
+    {
+      "id": 230,
+      "name": "ice-rpc",
+      "url": "https://zeroc.com/products/ice",
+      "description": "最小限のコーディングでソフトウェア間のネットワーキングをサポートするRPC",
+      "tag": ["RPC", "ネットワーク"]
+    },
+    {
+      "id": 231,
+      "name": "disquiet-seed-round-retrospective-1",
+      "url": "https://www.disquiet.tech/post/disquiet-seed-round-retrospective-1",
+      "description": "サイドプロジェクトからスタートしてシード投資を受けるまでの半年間開発をしながら得られたことがまとまった韓国のブログ記事",
+      "tag": ["サイドプロジェクト", "ブログ"]
+    },
+    {
+      "id": 232,
+      "name": "mozilla-rally",
+      "url": "https://rally.mozilla.org/",
+      "description": "共益のために大衆参加基盤の研究を可能にするための個人情報共有プラットフォーム",
+      "tag": ["個人情報", "研究"]
+    },
+    {
+      "id": 233,
+      "name": "nvidia-canvas",
+      "url": "https://www.nvidia.com/en-gb/studio/canvas/",
+      "description": "簡単に図形を描くだけでリアルな風景イメージが生成できるNVidia社のサービス",
+      "tag": ["AI", "風景"]
+    },
+    {
+      "id": 234,
+      "name": "bashrcgenerator",
+      "url": "http://bashrcgenerator.com/",
+      "description": ".bashrc/PS1のターミナルプロンプトをドラッグアンドドロップで作れるサイト",
+      "tag": ["bash", "プロンプト"]
+    },
+    {
+      "id": 235,
+      "name": "bash-ps1-analyse",
+      "url": "https://dom111.github.io/bash-ps1/",
+      "description": "PS1を貼り付けると詳細の分析ができて、細部の調整もできるツール",
+      "tag": ["bash", "プロンプト", "分析"]
+    },
+    {
+      "id": 236,
+      "name": "treesheets",
+      "url": "https://strlen.com/treesheets/",
+      "description": "階層型スプレッドシートの形でデータの保存ができるツール",
+      "tag": ["階層型", "データ管理", "ツール"]
     }
   ]
 }
