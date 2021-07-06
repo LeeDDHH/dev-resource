@@ -1658,6 +1658,41 @@
       "url": "https://strlen.com/treesheets/",
       "description": "階層型スプレッドシートの形でデータの保存ができるツール",
       "tag": ["階層型", "データ管理", "ツール"]
+    },
+    {
+      "id": 237,
+      "name": "ml-for-beginners",
+      "url": "https://github.com/microsoft/ML-For-Beginners",
+      "description": "Azure Cloud Advocates チームが作った12週、24講義分の機械学習カリキュラム",
+      "tag": ["機械学習", "Azure", "勉強"]
+    },
+    {
+      "id": 238,
+      "name": "css-ie-not-supported",
+      "url": "https://naradesign.github.io/css-ie-not-supported.html",
+      "description": "IEをサポート対象から外すことで使えるCSS属性についてまとまった韓国の記事",
+      "tag": ["CSS", "IE", "韓国語", "ブログ"]
+    },
+    {
+      "id": 239,
+      "name": "urlfetch",
+      "url": "https://www.labnol.org/apps/urlfetch.html",
+      "description": "HTTPの各メソッドをもとにリクエストを生成できるサイト",
+      "tag": ["HTTP", "リクエスト"]
+    },
+    {
+      "id": 240,
+      "name": "musicforprogramming",
+      "url": "https://www.musicforprogramming.net/",
+      "description": "開発時に集中度を高めてくれそうな音楽を集めたサイト",
+      "tag": ["音楽", "集中"]
+    },
+    {
+      "id": 241,
+      "name": "function-develop-user-increase-fallacy",
+      "url": "https://startuptimez.com/andrewchen/fallacy",
+      "description": "機能を追加することでユーザーが増加するという誤謬（ごびゅう）についてまとまった記事",
+      "tag": ["UX", "ユーザー", "ブログ"]
     }
   ]
 }
