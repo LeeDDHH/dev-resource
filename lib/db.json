@@ -1693,6 +1693,13 @@
       "url": "https://startuptimez.com/andrewchen/fallacy",
       "description": "機能を追加することでユーザーが増加するという誤謬（ごびゅう）についてまとまった記事",
       "tag": ["UX", "ユーザー", "ブログ"]
+    },
+    {
+      "id": 242,
+      "name": "microsoft-learn",
+      "url": "https://docs.microsoft.com/en-us/learn/",
+      "description": "Microsoft社の製品の使い方や詳細について学べるサイト",
+      "tag": ["Azure", "Microsoft", "学習"]
     }
   ]
 }
