@@ -1770,6 +1770,181 @@
       "url": "https://kean.blog/pulse/home",
       "description": "アップル製品のOSのためのネットワークインスペクター兼ロガー",
       "tag": ["Apple", "ロガー", "インスペクター"]
+    },
+    {
+      "id": 253,
+      "name": "you-may-write-crappy-code",
+      "url": "https://satoru-takeuchi.hatenablog.com/entry/2021/07/11/230232",
+      "description": "ヘタクソなコードを書いてもいい",
+      "tag": ["コーディング", "ブログ"]
+    },
+    {
+      "id": 254,
+      "name": "css-glow-effects",
+      "url": "https://csshint.com/css-glow-effects/",
+      "description": "ネオンのような輝きを表現するCSS 35選",
+      "tag": ["CSS", "ネオン", "コード"]
+    },
+    {
+      "id": 255,
+      "name": "photoshop-clipping",
+      "url": "https://liginc.co.jp/555403",
+      "description": "Photoshopで髪の毛を簡単に切り抜く方法について紹介した記事",
+      "tag": ["Photoshop", "ブログ"]
+    },
+    {
+      "id": 256,
+      "name": "css-button-30",
+      "url": "https://pulpxstyle.com/css-button/",
+      "description": "CSSのみのボタンデザインアイデアの30選",
+      "tag": ["CSS", "ボタン", "ブログ"]
+    },
+    {
+      "id": 257,
+      "name": "tech-blog-review",
+      "url": "https://note.com/shinyorke/n/nb2e9d13b8840",
+      "description": "エンジニアの文章をレビューする技術について紹介した記事",
+      "tag": ["文章", "ブログ"]
+    },
+    {
+      "id": 258,
+      "name": "ui-ux-designer-portfolio",
+      "url": "https://note.com/tobik_jp/n/na906d62b2693",
+      "description": "UI/UXデザイナーのポートフォリオの作り方について紹介した記事",
+      "tag": ["デザイナー", "ポートフォリオ", "ブログ"]
+    },
+    {
+      "id": 259,
+      "name": "vite-environment",
+      "url": "https://ics.media/entry/210708/",
+      "description": "Viteで構築するモダンで高速な開発環境について紹介した記事",
+      "tag": ["vite", "ブログ"]
+    },
+    {
+      "id": 260,
+      "name": "remove-bg",
+      "url": "https://www.remove.bg/",
+      "description": "画像の背景を切り抜きたいときに使えるオンラインツール",
+      "tag": ["切り抜き", "画像"]
+    },
+    {
+      "id": 261,
+      "name": "unscreen",
+      "url": "https://www.unscreen.com/",
+      "description": "動画の背景を切り抜きたいときに使えるオンラインツール",
+      "tag": ["切り抜き", "動画"]
+    },
+    {
+      "id": 262,
+      "name": "not-user-friendly-form",
+      "url": "https://liginc.co.jp/555599",
+      "description": "使いにくい入力フォームについて考察した記事",
+      "tag": ["UX", "ブログ"]
+    },
+    {
+      "id": 263,
+      "name": "web-site-product-task",
+      "url": "https://note.com/sgmtyu/n/n60ae42a413b0",
+      "description": "Webサイト制作をどれくらいの粒度で分解してタスク化すればいいかについて書かれた記事",
+      "tag": ["制作", "タスク", "ブログ"]
+    },
+    {
+      "id": 264,
+      "name": "gas-scrapping",
+      "url": "https://liginc.co.jp/551446",
+      "description": "GASを使ったスクレイピング方法について紹介した記事",
+      "tag": ["GAS", "スクレイピング", "ブログ"]
+    },
+    {
+      "id": 265,
+      "name": "css-transform",
+      "url": "https://liginc.co.jp/552706",
+      "description": "CSSのtransformの使いまわしについて紹介した記事",
+      "tag": ["CSS", "transform", "ブログ"]
+    },
+    {
+      "id": 266,
+      "name": "10-glassmorphism-examples",
+      "url": "https://1stwebdesigner.com/10-beautiful-glassmorphism-examples/",
+      "description": "すりガラス風のスタイルを使ったコード10選",
+      "tag": ["CSS", "Glassmorphism"]
+    },
+    {
+      "id": 267,
+      "name": "css-svg-canvas-mask",
+      "url": "https://ics.media/entry/210701/",
+      "description": "CSS, SVG, Canvasでマスク表現をするための例を紹介した記事",
+      "tag": ["CSS", "SVG", "Canvas", "マスク",  "ブログ"]
+    },
+    {
+      "id": 268,
+      "name": "css-diagonal-sprite",
+      "url": "https://codepen.io/TajShireen/pen/YzZmbep",
+      "description": "CSSのみでテキストを斜めに区切った複数の配色で色付けするコード",
+      "tag": ["CSS", "斜め"]
+    },
+    {
+      "id": 269,
+      "name": "logo-design",
+      "url": "https://liginc.co.jp/549653",
+      "description": "ロゴデザインをするときの進め方について紹介した記事",
+      "tag": ["ロゴ", "デザイン", "制作", "提案", "ブログ"]
+    },
+    {
+      "id": 270,
+      "name": "same-article-update-4-months",
+      "url": "https://note.com/kazzikill/n/ne51ab8eb6c26",
+      "description": "一つの記事を4ヶ月間、平日毎日更新して気づいたことについて紹介した記事",
+      "tag": ["更新", "継続", "ブログ"]
+    },
+    {
+      "id": 271,
+      "name": "front-end-usability",
+      "url": "https://zenn.dev/seya/articles/6e41e4d8c7aa5d",
+      "description": "フロントエンドでユーザビリティを上げるためのちょっとした方法についてまとまった記事",
+      "tag": ["UX", "ユーザビリティ", "ブログ"]
+    },
+    {
+      "id": 272,
+      "name": "software-engineer-coping-solve",
+      "url": "https://jp.quora.com/%E5%87%BA%E6%9D%A5%E3%82%8B%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9E%E3%83%BC%E3%82%84%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%AE%E6%96%B9%E3%81%A7%E3%82%82-%E4%BD%95%E3%82%92%E3%82%84%E3%81%A3",
+      "description": "出来るプログラマーやエンジニアが「何をやっているか分からない」「何が分からないか分からない」状態、どのようにして対処・解決するのかについてまとまったQuora",
+      "tag": ["エンジニア", "対処", "Quora"]
+    },
+    {
+      "id": 273,
+      "name": "adobe-product-make-vtuber-avator",
+      "url": "https://liginc.co.jp/551976",
+      "description": "Adobe製品を使ってVtuberのアバターを作る方法についてまとまった記事",
+      "tag": ["VTuber", "アバター", "ブログ"]
+    },
+    {
+      "id": 274,
+      "name": "button-design-77",
+      "url": "https://photoshopvip.net/129699",
+      "description": "CSSのボタンデザイン77選",
+      "tag": ["CSS", "ボタン", "デザイン"]
+    },
+    {
+      "id": 275,
+      "name": "gap-whitespace-grid-flex",
+      "url": "https://ics.media/entry/210628/",
+      "description": "gapの余白指定でできるgridとflexのCSSレイアウト手法について紹介した記事",
+      "tag": ["CSS", "gap", "grid", "flex", "レイアウト", "ブログ"]
+    },
+    {
+      "id": 276,
+      "name": "3d-hover-effect-using-css-transforms",
+      "url": "https://letsbuildui.dev/articles/a-3d-hover-effect-using-css-transforms",
+      "description": "CSS transformでカーソルを合わせた時に要素を3D風に動かす方法について紹介した記事",
+      "tag": ["CSS", "transform", "3D", "ブログ"]
+    },
+    {
+      "id": 277,
+      "name": "gather-town",
+      "url": "https://gather.town/for-offices",
+      "description": "昔ながらのゲームのUIを用いたビデオチャットツール",
+      "tag": ["UI", "ドット", "チャットツール"]
     }
   ]
 }
