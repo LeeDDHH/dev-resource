@@ -1700,6 +1700,76 @@
       "url": "https://docs.microsoft.com/en-us/learn/",
       "description": "Microsoft社の製品の使い方や詳細について学べるサイト",
       "tag": ["Azure", "Microsoft", "学習"]
+    },
+    {
+      "id": 243,
+      "name": "the-data-team-a-short-story",
+      "url": "https://erikbern.com/2021/07/07/the-data-team-a-short-story.html",
+      "description": "スタートアップでデータチームを作るために合流した人たちの話をまとめた記事",
+      "tag": ["スタートアップ", "組織", "ブログ"]
+    },
+    {
+      "id": 244,
+      "name": "miniflare",
+      "url": "https://github.com/mrbbot/miniflare",
+      "description": "CloudFlare Workersのローカルシミュレーター",
+      "tag": ["CloudFlare", "ライブラリ", "OSS"]
+    },
+    {
+      "id": 245,
+      "name": "cofounder-matching",
+      "url": "https://www.startupschool.org/cofounder-matching",
+      "description": "共同創業者をマッチングさせるプラットフォーム",
+      "tag": ["マッチング", "プラットフォーム", "共同創業者"]
+    },
+    {
+      "id": 246,
+      "name": "enterprise-front-end-app-architecture",
+      "url": "https://medium.com/class101/%EC%97%94%ED%84%B0%ED%94%84%EB%9D%BC%EC%9D%B4%EC%A6%88-%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90-79eef2e30c77",
+      "description": "エンタプライズのフロントエンドアプリケーションアーキテクチャに関して運用時の悩みを解決するためのヒントを集めた韓国の記事",
+      "tag": ["エンタプライズ", "フロントエンド", "アーキテクチャ", "ブログ"]
+    },
+    {
+      "id": 247,
+      "name": "korean-developer-book-2021-1",
+      "url": "http://www.kyobobook.co.kr/eventRenewal/eventViewByPid.laf?eventPid=42675",
+      "description": "2021年上半期に韓国の開発者が読んだ技術書に関してまとめたページ",
+      "tag": ["開発", "技術書", "韓国"]
+    },
+    {
+      "id": 248,
+      "name": "goomics",
+      "url": "https://goomics.net/",
+      "description": "14年間Googleでエンジニアとして働いた方が描いたコミック",
+      "tag": ["Google", "コミック"]
+    },
+    {
+      "id": 249,
+      "name": "workhard",
+      "url": "https://newspeppermint.com/2021/07/08/workhard1/",
+      "description": "ポール・グラハムさんの一生懸命に働くことについての記事を翻訳した韓国の記事",
+      "tag": ["働き方", "韓国語", "ブログ"]
+    },
+    {
+      "id": 250,
+      "name": "moderncloud",
+      "url": "https://www.moderncloud.io/",
+      "description": "ブラウザ基盤のサーバーレスプラットフォーム",
+      "tag": ["Lamda", "開発", "サーバーレス"]
+    },
+    {
+      "id": 251,
+      "name": "css-percents",
+      "url": "https://wattenberger.com/blog/css-percents",
+      "description": "CSSで100%はどんな意味を持つのかについてまとめた記事",
+      "tag": ["CSS", "ブログ"]
+    },
+    {
+      "id": 252,
+      "name": "pulse",
+      "url": "https://kean.blog/pulse/home",
+      "description": "アップル製品のOSのためのネットワークインスペクター兼ロガー",
+      "tag": ["Apple", "ロガー", "インスペクター"]
     }
   ]
 }
