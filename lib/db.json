@@ -1945,6 +1945,13 @@
       "url": "https://gather.town/for-offices",
       "description": "昔ながらのゲームのUIを用いたビデオチャットツール",
       "tag": ["UI", "ドット", "チャットツール"]
+    },
+    {
+      "id": 278,
+      "name": "refactoring",
+      "url": "https://refactoring.com/catalog/",
+      "description": "リファクタリング （第2版）で説明されたリファクタリングの手法を図式として簡単にまとめたサイト",
+      "tag": ["リファクタリング", "図式"]
     }
   ]
 }
