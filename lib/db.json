@@ -1952,6 +1952,377 @@
       "url": "https://refactoring.com/catalog/",
       "description": "リファクタリング （第2版）で説明されたリファクタリングの手法を図式として簡単にまとめたサイト",
       "tag": ["リファクタリング", "図式"]
+    },
+    {
+      "id": 279,
+      "name": "funda",
+      "url": "https://www.funda.jp/",
+      "description": "会計クイズで会計やファイナンスが学習できるサービス",
+      "tag": ["会計", "ファイナンス", "学習"]
+    },
+    {
+      "id": 280,
+      "name": "tstream",
+      "url": "https://www.tstream.club/",
+      "description": "自分のターミナルをライブストリーミングで配信できるサービス",
+      "tag": ["ターミナル", "配信"]
+    },
+    {
+      "id": 281,
+      "name": "open-source-alternatives",
+      "url": "https://www.btw.so/open-source-alternatives",
+      "description": "B2Bのサービスに近いオープンソースのサービスが探せるサイト",
+      "tag": ["OSS", "B2B", "代替サービス"]
+    },
+    {
+      "id": 282,
+      "name": "clockwise",
+      "url": "https://github.com/syncfast/clockwise",
+      "description": "会議に参加した人たちの年収をもとに会議にかかる費用を計算するツール",
+      "tag": ["会議", "会計"]
+    },
+    {
+      "id": 283,
+      "name": "better-command-line-tools",
+      "url": "https://earthly.dev/blog/command-line-tools/",
+      "description": "コマンドラインをより良い感じに使えるようにしてくれるツール",
+      "tag": ["コマンドライン", "ツール"]
+    },
+    {
+      "id": 284,
+      "name": "senior-to-junior",
+      "url": "https://news.hada.io/topic?id=4710",
+      "description": "シニアエンジニアがジュニアエンジニアに伝えておきたいことをまとめたスレッド",
+      "tag": ["シニアエンジニア", "ジュニアエンジニア"]
+    },
+    {
+      "id": 285,
+      "name": "postgres-fulltext-search",
+      "url": "https://daesuni.github.io/postgres-fulltext-search/",
+      "description": "PostgreSQLでfull-text検索をするときに使える方法についてまとまった韓国語の記事",
+      "tag": ["PostgreSQL", "full-text", "韓国語", "ブログ"]
+    },
+    {
+      "id": 286,
+      "name": "management-personal-to-do",
+      "url": "https://news.hada.io/topic?id=4711",
+      "description": "個人のやることリストを管理するときに使っているサービスについてまとまったスレッド",
+      "tag": ["todo", "マネージメント"]
+    },
+    {
+      "id": 287,
+      "name": "infracost",
+      "url": "https://github.com/infracost/infracost",
+      "description": "IaaCコードで作成したインフラの費用を推算してくれるツール",
+      "tag": ["IaaC", "インフラ", "費用推算"]
+    },
+    {
+      "id": 288,
+      "name": "utility-use",
+      "url": "https://news.hada.io/topic?id=4701",
+      "description": "個人でよく使っているユーティリティがまとまったスレッド",
+      "tag": ["ユーティリティ"]
+    },
+    {
+      "id": 289,
+      "name": "typescript-fullstack-boilerplate",
+      "url": "https://github.com/NoQuarterTeam/boilerplate",
+      "description": "TypeScript基盤のフルスタックなシステムが作れるボイラープレート",
+      "tag": ["TypeScript", "フルスタック"]
+    },
+    {
+      "id": 290,
+      "name": "cudatext",
+      "url": "https://cudatext.github.io/",
+      "description": "クロスプラットフォームのコードエディタ",
+      "tag": ["コードエディタ"]
+    },
+    {
+      "id": 291,
+      "name": "play-elevatorsaga",
+      "url": "https://play.elevatorsaga.com/",
+      "description": "エレベータを動かすコードを書くことで、アルゴリズムに触れられるサイト",
+      "tag": ["JavaScript", "アルゴリズム"]
+    },
+    {
+      "id": 292,
+      "name": "why-the-next-wave-of-startups-will-be-community-led",
+      "url": "https://medium.com/swlh/why-the-next-wave-of-startups-will-be-community-led-e4ed219e6637",
+      "description": "次世代のスタートアップはコミュニティ主導になるという内容の記事",
+      "tag": ["コミュニティ", "スタートアップ", "ブログ"]
+    },
+    {
+      "id": 293,
+      "name": "fzf-for-js",
+      "url": "https://github.com/ajitid/fzf-for-js",
+      "description": "JavaScriptでfuzzy検索ができるようにするライブラリ",
+      "tag": ["ライブラリ", "FZF", "fuzzy"]
+    },
+    {
+      "id": 294,
+      "name": "angle-grinder",
+      "url": "https://github.com/rcoh/angle-grinder",
+      "description": "リアルタイムでログを集計して表示するライブラリ",
+      "tag": ["ライブラリ", "ログ"]
+    },
+    {
+      "id": 295,
+      "name": "typed",
+      "url": "https://www.typed.biz/",
+      "description": "文章作成と連携できるナレッジ収集、管理用のツール",
+      "tag": ["文章", "ナレッジ", "管理"]
+    },
+    {
+      "id": 296,
+      "name": "riju",
+      "url": "https://riju.codes/",
+      "description": "224の言語に対応するプレイグラウンド",
+      "tag": ["Playground"]
+    },
+    {
+      "id": 297,
+      "name": "what-doing-weekend",
+      "url": "https://news.hada.io/topic?id=4679",
+      "description": "開発者が週末に何をやるのかについてまとまったスレッド",
+      "tag": ["スレッド", "やること"]
+    },
+    {
+      "id": 298,
+      "name": "fnm",
+      "url": "https://github.com/Schniz/fnm",
+      "description": "Rust基盤のNode.js バージョンマネージャ",
+      "tag": ["Rust", "バージョンマネージャ"]
+    },
+    {
+      "id": 299,
+      "name": "gaze",
+      "url": "https://github.com/wtetsu/gaze",
+      "description": "ファイルを保存するたび、コードの実行をしてくれるツール",
+      "tag": ["ツール", "コード実行"]
+    },
+    {
+      "id": 300,
+      "name": "tinycon",
+      "url": "https://github.com/tommoor/tinycon",
+      "description": "faviconに通知バッジを追加するライブラリ",
+      "tag": ["通知バッジ", "favicon"]
+    },
+    {
+      "id": 301,
+      "name": "ultimate-backend",
+      "url": "https://github.com/juicycleff/ultimate-backend",
+      "description": "大容量拡張が可能なマイクロサービス基盤のバックエンド",
+      "tag": ["バックエンド", "SaaS"]
+    },
+    {
+      "id": 302,
+      "name": "startup-concepts",
+      "url": "https://ajuniorvc.com/startup-concepts/",
+      "description": "コミックキャラクターの対話型でスタートアップの用語について説明をするサイト",
+      "tag": ["スタートアップ", "用語説明"]
+    },
+    {
+      "id": 303,
+      "name": "avpress",
+      "url": "https://avpress.zaps.dev/",
+      "description": "FFMPEG.wasmで作られたビデオ圧縮ツール",
+      "tag": ["圧縮", "ffmpeg", "wasm"]
+    },
+    {
+      "id": 304,
+      "name": "rawgraphs",
+      "url": "https://rawgraphs.io/",
+      "description": "Spreadsheetのデータを視覚化してくれるサイト",
+      "tag": ["spreadsheet", "視覚化"]
+    },
+    {
+      "id": 305,
+      "name": "daptin",
+      "url": "https://github.com/daptin/daptin",
+      "description": "サービスを作るのに必要なバックエンド機能を提供するOSS",
+      "tag": ["バックエンド", "OSS"]
+    },
+    {
+      "id": 306,
+      "name": "what-do-you-like-programming-language",
+      "url": "https://news.hada.io/topic?id=4660",
+      "description": "どんなプログラミング言語が好きなのかについてまとまったスレッド",
+      "tag": ["プログラミング言語"]
+    },
+    {
+      "id": 307,
+      "name": "brython",
+      "url": "https://github.com/brython-dev/brython",
+      "description": "PythonでDOMツリーやイベントにアクセスできるライブラリ",
+      "tag": ["DOM", "イベント"]
+    },
+    {
+      "id": 308,
+      "name": "sioyek",
+      "url": "https://sioyek.info/",
+      "description": "論文、技術書籍のためのPDFビュアー",
+      "tag": ["ビュアー", "技術書籍"]
+    },
+    {
+      "id": 309,
+      "name": "quickwit",
+      "url": "https://github.com/quickwit-inc/quickwit/",
+      "description": "Rust基盤の分散検索エンジンOSS",
+      "tag": ["Rust", "検索エンジン"]
+    },
+    {
+      "id": 310,
+      "name": "developer-book",
+      "url": "https://news.hada.io/topic?id=4656",
+      "description": "開発する上で読んでみるといい本についてまとまったスレッド",
+      "tag": ["開発者", "本"]
+    },
+    {
+      "id": 311,
+      "name": "developer-hobbit",
+      "url": "https://news.hada.io/topic?id=4654",
+      "description": "開発以外の趣味についてまとまったスレッド",
+      "tag": ["開発者", "趣味"]
+    },
+    {
+      "id": 312,
+      "name": "how-javascript-works-summary",
+      "url": "https://rinae.dev/posts/how-javascript-works-summary",
+      "description": "JSON形式を作ったダグラス・クロックフォードさんが書いた本をまとめた韓国のブログ記事",
+      "tag": ["開発者", "JavaScript"]
+    },
+    {
+      "id": 313,
+      "name": "thisbeachdoesnotexist",
+      "url": "https://thisbeachdoesnotexist.com/",
+      "description": "StyleGAN2-ADAネットワークでAIが生成した浜辺のイメージを集めたサイト",
+      "tag": ["AI", "イメージ"]
+    },
+    {
+      "id": 314,
+      "name": "make-code-what-you-necessary-in-your-life",
+      "url": "https://news.hada.io/topic?id=4634",
+      "description": "業務でなく、生活で必要になって開発をしたコードについてまとまったスレッド",
+      "tag": ["スレッド", "生活", "コード"]
+    },
+    {
+      "id": 315,
+      "name": "developer-chair",
+      "url": "https://news.hada.io/topic?id=4633",
+      "description": "業務用のイスでどんなものがいいのかについてまとまったスレッド",
+      "tag": ["スレッド", "イス"]
+    },
+    {
+      "id": 316,
+      "name": "guide-to-onboarding-developers",
+      "url": "https://codesubmit.io/blog/guide-to-onboarding-developers/",
+      "description": "開発者が入社してから90日間のオンボーディングする方法についてまとまった記事",
+      "tag": ["オンボーディング", "ブログ"]
+    },
+    {
+      "id": 317,
+      "name": "livekit",
+      "url": "https://livekit.io/",
+      "description": "リアルタイムコミュニケーションプラットフォームのOSS",
+      "tag": ["OSS", "リアルタイム", "コミュニケーション"]
+    },
+    {
+      "id": 318,
+      "name": "useful-shortcut",
+      "url": "https://news.hada.io/topic?id=4636",
+      "description": "開発者が使っている有用なショートカットについてまとまったスレッド",
+      "tag": ["スレッド", "ショートカット"]
+    },
+    {
+      "id": 319,
+      "name": "web-dev-for-beginners",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "description": "Web開発者のためにMicrosoft社が出した12週24講義のWeb開発基礎講義",
+      "tag": ["web", "開発", "microsoft"]
+    },
+    {
+      "id": 320,
+      "name": "sqlite-inserting-one-billion-rows-a-minute",
+      "url": "https://avi.im/blag/2021/fast-sqlite-inserts/",
+      "description": "SQLiteで1分以内に10億のrowを追加するために試したことがまとまった記事",
+      "tag": ["sqlite", "最適化"]
+    },
+    {
+      "id": 321,
+      "name": "developer-access-site",
+      "url": "https://news.hada.io/topic?id=4635",
+      "description": "開発者が習慣的にアクセスするサイトについてまとまったスレッド",
+      "tag": ["スレッド", "サイト"]
+    },
+    {
+      "id": 322,
+      "name": "iot-for-beginners",
+      "url": "https://github.com/microsoft/IoT-For-Beginners",
+      "description": "Microsoft社が出した12週24講義のIoT学習の基礎講義",
+      "tag": ["web", "開発", "microsoft"]
+    },
+    {
+      "id": 323,
+      "name": "chromium-renderingng",
+      "url": "https://meetup.toast.com/posts/293",
+      "description": "Chromiumが発表したRenderingNGについてまとまった韓国語の記事",
+      "tag": ["Chromium", "RenderingNG", "ブログ"]
+    },
+    {
+      "id": 324,
+      "name": "sqlbolt",
+      "url": "https://sqlbolt.com/",
+      "description": "インタラクティブにSQLが学べるサイト",
+      "tag": ["SQL", "学習"]
+    },
+    {
+      "id": 325,
+      "name": "kool",
+      "url": "https://kool.dev/",
+      "description": "Dockerを使ってローカル開発環境をよりわかりやすく早く作ってくれるCLIのOSS",
+      "tag": ["OSS", "CLI", "ツール", "ローカル環境"]
+    },
+    {
+      "id": 326,
+      "name": "earthly",
+      "url": "https://earthly.dev/",
+      "description": "コンテナー基盤のビルド自動化のためのツール",
+      "tag": ["コンテナー", "ビルド", "自動化", "ツール"]
+    },
+    {
+      "id": 327,
+      "name": "the-logfile-navigator",
+      "url": "https://lnav.org/",
+      "description": "ターミナルからログファイルを見やすくするツール",
+      "tag": ["ログ", "ターミナル"]
+    },
+    {
+      "id": 328,
+      "name": "dropbox-engineer-career",
+      "url": "https://dropbox.github.io/dbx-career-framework/",
+      "description": "ドロップボックスのエンジニアのキャリアを成長させるための方法について整理したフレームワーク",
+      "tag": ["エンジニア", "キャリア", "フレームワーク"]
+    },
+    {
+      "id": 329,
+      "name": "wayback-machine-downloader",
+      "url": "https://github.com/hartator/wayback-machine-downloader/",
+      "description": "Internet Archive Wayback Machineがアーカイブした資料からウェブサイトをダウンロードしてくれるOSS",
+      "tag": ["アーカイブ", "OSS"]
+    },
+    {
+      "id": 330,
+      "name": "edgedb",
+      "url": "https://www.edgedb.com/",
+      "description": "PostgreSQL上に作ったOOPDBのOSS",
+      "tag": ["PostgreSQL", "OOP", "DB", "OSS"]
+    },
+    {
+      "id": 331,
+      "name": "tech-giant",
+      "url": "https://miguelrochefort.com/blog/tech-giant/",
+      "description": "Tech Giantになるためには何が必要なのかについてまとまった記事",
+      "tag": ["IT企業", "ブログ"]
     }
   ]
 }
