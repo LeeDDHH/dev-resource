@@ -1993,7 +1993,7 @@
       "name": "senior-to-junior",
       "url": "https://news.hada.io/topic?id=4710",
       "description": "シニアエンジニアがジュニアエンジニアに伝えておきたいことをまとめたスレッド",
-      "tag": ["シニアエンジニア", "ジュニアエンジニア"]
+      "tag": ["シニアエンジニア", "ジュニアエンジニア", "スレッド"]
     },
     {
       "id": 285,
@@ -2007,7 +2007,7 @@
       "name": "management-personal-to-do",
       "url": "https://news.hada.io/topic?id=4711",
       "description": "個人のやることリストを管理するときに使っているサービスについてまとまったスレッド",
-      "tag": ["todo", "マネージメント"]
+      "tag": ["todo", "マネージメント", "スレッド"]
     },
     {
       "id": 287,
@@ -2021,7 +2021,7 @@
       "name": "utility-use",
       "url": "https://news.hada.io/topic?id=4701",
       "description": "個人でよく使っているユーティリティがまとまったスレッド",
-      "tag": ["ユーティリティ"]
+      "tag": ["ユーティリティ", "スレッド"]
     },
     {
       "id": 289,
@@ -2147,7 +2147,7 @@
       "name": "what-do-you-like-programming-language",
       "url": "https://news.hada.io/topic?id=4660",
       "description": "どんなプログラミング言語が好きなのかについてまとまったスレッド",
-      "tag": ["プログラミング言語"]
+      "tag": ["プログラミング言語", "スレッド"]
     },
     {
       "id": 307,
@@ -2175,14 +2175,14 @@
       "name": "developer-book",
       "url": "https://news.hada.io/topic?id=4656",
       "description": "開発する上で読んでみるといい本についてまとまったスレッド",
-      "tag": ["開発者", "本"]
+      "tag": ["開発者", "本", "スレッド"]
     },
     {
       "id": 311,
       "name": "developer-hobbit",
       "url": "https://news.hada.io/topic?id=4654",
       "description": "開発以外の趣味についてまとまったスレッド",
-      "tag": ["開発者", "趣味"]
+      "tag": ["開発者", "趣味", "スレッド"]
     },
     {
       "id": 312,
@@ -2323,6 +2323,41 @@
       "url": "https://miguelrochefort.com/blog/tech-giant/",
       "description": "Tech Giantになるためには何が必要なのかについてまとまった記事",
       "tag": ["IT企業", "ブログ"]
+    },
+    {
+      "id": 332,
+      "name": "fe-siken",
+      "url": "https://www.fe-siken.com/",
+      "description": "基本情報技術者試験の過去問や勉強の参考となる資料が見れるサイト",
+      "tag": ["基本情報技術者試験", "過去問"]
+    },
+    {
+      "id": 333,
+      "name": "itpassportsiken",
+      "url": "https://www.itpassportsiken.com/",
+      "description": "ITパスポートの過去問や勉強の参考となる資料が見れるサイト",
+      "tag": ["ITパスポート", "過去問"]
+    },
+    {
+      "id": 334,
+      "name": "fb-campaign-ideas-generator",
+      "url": "https://www.facebook.com/business/m/campaign-ideas-generator",
+      "description": "自分のビジネスに合ったfacebookの広告をもとにアイデアがもらえるサービス",
+      "tag": ["ビジネス", "広告", "アイデア"]
+    },
+    {
+      "id": 335,
+      "name": "personal-use-note-app",
+      "url": "https://news.hada.io/topic?id=4730",
+      "description": "個人でよく使っているノートアプリがまとまったスレッド",
+      "tag": ["ノートアプリ", "スレッド"]
+    },
+    {
+      "id": 336,
+      "name": "after-dark-css",
+      "url": "https://www.bryanbraun.com/after-dark-css/",
+      "description": "1989年のMac用で作られたスクリーンセーバーシリーズをCSSだけで再現したサイト",
+      "tag": ["CSS", "Mac"]
     }
   ]
 }
