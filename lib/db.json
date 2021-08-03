@@ -2547,6 +2547,27 @@
       "url": "https://coliss.com/articles/build-websites/operation/css/css-grid-debugging-tools-in-chrome-92.html",
       "description": "Chrome Devtoolsに実装されたCSS Grid editorとオーバーレイについてまとまった記事",
       "tag": ["CSS", "grid", "devtools",  "ブログ"]
+    },
+    {
+      "id": 364,
+      "name": "the-sample",
+      "url": "https://sample.findka.com/",
+      "description": "興味分野を選択してメール登録すると、ニュースレターをおすすめしてくれるサービス",
+      "tag": ["ニュースレター"]
+    },
+    {
+      "id": 365,
+      "name": "hacking-command-recommendation",
+      "url": "https://xo.dev/hacking-command-recommendation/",
+      "description": "似たようなコマンドの候補を表示してくれる仕組みについて解説している韓国の記事",
+      "tag": ["レーベンシュタイン距離", "ブログ"]
+    },
+    {
+      "id": 366,
+      "name": "avoid-mistakes-to-make-your-ui-ux-design-better",
+      "url": "https://note.com/mikiok/n/n34cedf895e6b",
+      "description": "UIデザイン時にやってしまいがちな誤ちについて解説している記事",
+      "tag": ["UI", "UX", "ブログ"]
     }
   ]
 }
