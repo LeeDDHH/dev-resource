@@ -2568,6 +2568,34 @@
       "url": "https://note.com/mikiok/n/n34cedf895e6b",
       "description": "UIデザイン時にやってしまいがちな誤ちについて解説している記事",
       "tag": ["UI", "UX", "ブログ"]
+    },
+    {
+      "id": 367,
+      "name": "insights-stackoverflow-survey-2021",
+      "url": "https://insights.stackoverflow.com/survey/2021",
+      "description": "Stack Overflowが行った2021年の開発者への調査結果が見れるサイト",
+      "tag": ["開発者", "調査"]
+    },
+    {
+      "id": 368,
+      "name": "size-of-space",
+      "url": "https://neal.fun/size-of-space/",
+      "description": "宇宙にあるものの大きさをスクロールしながら比較して見れるサイト",
+      "tag": ["宇宙", "スクロール"]
+    },
+    {
+      "id": 369,
+      "name": "mdns-autocomplete-search",
+      "url": "https://hacks.mozilla.org/2021/08/mdns-autocomplete-search/",
+      "description": "MDNの検索自動完成を具現する方法について説明が載っている記事",
+      "tag": ["MDN", "自動完成", "ブログ"]
+    },
+    {
+      "id": 370,
+      "name": "3-type-technical-articles",
+      "url": "https://zenn.dev/uhyo/articles/technical-articles",
+      "description": "3種類の技術記事執筆についての記事",
+      "tag": ["技術記事", "書き方", "ブログ"]
     }
   ]
 }
