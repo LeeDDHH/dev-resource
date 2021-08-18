@@ -2596,6 +2596,230 @@
       "url": "https://zenn.dev/uhyo/articles/technical-articles",
       "description": "3種類の技術記事執筆についての記事",
       "tag": ["技術記事", "書き方", "ブログ"]
+    },
+    {
+      "id": 371,
+      "name": "the-rise-of-the-one-person-unicorn",
+      "url": "https://www.nothingventured.com/the-rise-of-the-one-person-unicorn/",
+      "description": "スタートアップの新しい形として1人ユニッコーン企業が現れたことについてまとめている記事",
+      "tag": ["ユニコーン企業", "1人企業", "ブログ"]
+    },
+    {
+      "id": 372,
+      "name": "aws-ip-ranges",
+      "url": "https://github.com/seligman/aws-ip-ranges",
+      "description": "AWSが公開するIP-ranges.jsonデータをトラッキングするrepo",
+      "tag": ["AWS", "IP", "github"]
+    },
+    {
+      "id": 373,
+      "name": "php-crud-api",
+      "url": "https://github.com/mevdschee/php-crud-api",
+      "description": "さまざまな機能を持つREST APIを各種DBへ手軽に追加する機能があるPHPのCRUD API",
+      "tag": ["PHP", "REST", "API", "CRUD", "パッケージ"]
+    },
+    {
+      "id": 374,
+      "name": "edison-musk",
+      "url": "https://otterletter.com/edison-musk/",
+      "description": "イーロン・マスクとエジソンに見られるひょう痛の考え方についてまとまった韓国の記事",
+      "tag": ["考え方", "事業", "韓国語", "ブログ"]
+    },
+    {
+      "id": 375,
+      "name": "kundera",
+      "url": "https://kundera.so/",
+      "description": "自分が好きな文章を共有できる韓国のサービス",
+      "tag": ["文章", "サービス", "韓国語"]
+    },
+    {
+      "id": 376,
+      "name": "personal-gol-of-geek-news-service",
+      "url": "https://news.hada.io/topic?id=4828",
+      "description": "IT関連のニュースサービスを作る際に考えてた目標についてまとまった韓国の記事",
+      "tag": ["ニュースサービス", "目標", "韓国語"]
+    },
+    {
+      "id": 377,
+      "name": "giscus",
+      "url": "https://github.com/laymonage/giscus",
+      "description": "Github Discussionsを使ったコメントシステムのOSS",
+      "tag": ["OSS", "github", "コメントシステム"]
+    },
+    {
+      "id": 378,
+      "name": "soundstream-end-to-end-neural-audio",
+      "url": "https://ai.googleblog.com/2021/08/soundstream-end-to-end-neural-audio.html",
+      "description": "Googleが公開したEnd to Endのニューラルオーディオコーデックについて説明がされている記事",
+      "tag": ["Google", "コーデック", "ニューラル", "ブログ"]
+    },
+    {
+      "id": 379,
+      "name": "workadventu",
+      "url": "https://workadventu.re/",
+      "description": "メタバースプラットフォームのOSS版プロダクト",
+      "tag": ["OSS", "メタバース"]
+    },
+    {
+      "id": 380,
+      "name": "personal-work-enviroment",
+      "url": "https://news.hada.io/topic?id=4817",
+      "description": "作業するときにどのように環境を揃えるのかについてまとめたスレッド",
+      "tag": ["作業", "環境", "スレッド"]
+    },
+    {
+      "id": 381,
+      "name": "svelte-mac-os",
+      "url": "https://macos.vercel.app/",
+      "description": "Svelteで作られたMacOSが見れるサイト",
+      "tag": ["Svelte", "UI", "Mac"]
+    },
+    {
+      "id": 382,
+      "name": "react-win-xp",
+      "url": "https://winxp.vercel.app/",
+      "description": "Reactで作られたWinXPが見れるサイト",
+      "tag": ["React", "UI", "Windows"]
+    },
+    {
+      "id": 383,
+      "name": "jszip",
+      "url": "https://github.com/Stuk/jszip",
+      "description": "JavaScriptスタイルの簡単なAPIで圧縮ファイルの制御が可能なパッケージ",
+      "tag": ["JavaScript", "zip", "パッケージ"]
+    },
+    {
+      "id": 384,
+      "name": "keyv",
+      "url": "https://keyv.js.org/",
+      "description": "さまざまなDBのバックエンドをサポートするNode.js用のキーバリューストレージパッケージ",
+      "tag": ["Node.js", "キーバリュー", "ストレージ", "パッケージ"]
+    },
+    {
+      "id": 385,
+      "name": "mosh",
+      "url": "https://mosh.org/",
+      "description": "IP変更や再コネクト時にもコネクションを保ってくれるSSH代替のOSS",
+      "tag": ["SSH", "アプリ", "OSS"]
+    },
+    {
+      "id": 386,
+      "name": "future-sql-web",
+      "url": "https://jlongster.com/future-sql-web",
+      "description": "Web用のSQLのこれからについてIndexedDBとSQLiteを中心に考察をした記事",
+      "tag": ["web", "SQL", "ブログ"]
+    },
+    {
+      "id": 387,
+      "name": "slip",
+      "url": "https://www.slip.so/",
+      "description": "誰でもインタラクティブなプログラミングの講義を作って販売できるSaaS",
+      "tag": ["SaaS", "講義", "インタラクティブ"]
+    },
+    {
+      "id": 388,
+      "name": "ots",
+      "url": "https://github.com/sniptt-official/ots",
+      "description": "使い捨てのURLを暗号化してe2eで共有するツール",
+      "tag": ["e2e", "暗号化", "OSS"]
+    },
+    {
+      "id": 389,
+      "name": "healthicons",
+      "url": "https://healthicons.org/",
+      "description": "健康に関するアイコンが含まれたパッケージ",
+      "tag": ["健康", "アイコン", "パッケージ"]
+    },
+    {
+      "id": 390,
+      "name": "bytebase",
+      "url": "https://github.com/bytebase/bytebase",
+      "description": "web基盤のDBスキーマ変更およびバージョン管理ツールのOSS",
+      "tag": ["OSS", "DB", "バージョン管理"]
+    },
+    {
+      "id": 391,
+      "name": "personal-subscription",
+      "url": "https://news.hada.io/topic?id=4792",
+      "description": "開発者が利用しているサブスクについてまとめたスレッド",
+      "tag": ["サブスク", "スレッド"]
+    },
+    {
+      "id": 392,
+      "name": "jsii",
+      "url": "https://github.com/aws/jsii",
+      "description": "どんな言語でもJavaScriptクラスをインタラクトに使えるようにしてくれるコンパイラー",
+      "tag": ["JavaScript", "コンパイラー", "OSS"]
+    },
+    {
+      "id": 393,
+      "name": "agile-at-20-the-failed-rebellion",
+      "url": "https://www.simplethread.com/agile-at-20-the-failed-rebellion/",
+      "description": "アジャイルソフトウェア開発宣言がされて20年が経ってアジャイルな環境をめぐるふりかえりをしている記事",
+      "tag": ["アジャイルソフトウェア開発宣言", "アジャイル", "ブログ"]
+    },
+    {
+      "id": 394,
+      "name": "unpaywall",
+      "url": "https://unpaywall.org/",
+      "description": "オープンアクセス可能な論文の検索ができるサイト",
+      "tag": ["論文", "オープンアクセス"]
+    },
+    {
+      "id": 395,
+      "name": "systemizer",
+      "url": "https://honzaap.github.io/Systemizer/",
+      "description": "システムデザインを視覚化して表現しやすくしてくれるツール",
+      "tag": ["システム", "デザイン", "視覚化", "ツール"]
+    },
+    {
+      "id": 396,
+      "name": "modern-unix",
+      "url": "https://github.com/ibraheemdev/modern-unix",
+      "description": "モダンなUNIXコマンドを集めたrepo",
+      "tag": ["UNIX", "コマンド", "github"]
+    },
+    {
+      "id": 397,
+      "name": "repo-visualization",
+      "url": "https://next.github.com/projects/repo-visualization",
+      "description": "コードベースを視覚化してくれるOSS",
+      "tag": ["コードベース", "視覚化", "OSS"]
+    },
+    {
+      "id": 398,
+      "name": "calyxos",
+      "url": "https://calyxos.org/",
+      "description": "Google関連のサービスを消して代替のアプリに入れ替えたアンドロイドOS",
+      "tag": ["Google", "代替", "アンドロイド", "OS"]
+    },
+    {
+      "id": 399,
+      "name": "personal-keyboard",
+      "url": "https://news.hada.io/topic?id=4773",
+      "description": "作業用に使っているキーボードについてまとめたスレッド",
+      "tag": ["キーボード", "スレッド"]
+    },
+    {
+      "id": 400,
+      "name": "wails",
+      "url": "https://github.com/wailsapp/wails",
+      "description": "Goを使ったデスクトップアプリの開発フレームワーク",
+      "tag": ["Go", "デスクトップアプリ", "フレームワーク"]
+    },
+    {
+      "id": 401,
+      "name": "adonisjs",
+      "url": "https://adonisjs.com/",
+      "description": "Node.js用のwebフレームワーク",
+      "tag": ["Node.js", "フレームワーク"]
+    },
+    {
+      "id": 402,
+      "name": "agilemanifesto",
+      "url": "https://agilemanifesto.org/iso/ja/manifesto.html",
+      "description": "アジャイルソフトウェア開発宣言が見れるサイト",
+      "tag": ["アジャイルソフトウェア開発宣言"]
     }
   ]
 }
