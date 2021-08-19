@@ -2820,6 +2820,181 @@
       "url": "https://agilemanifesto.org/iso/ja/manifesto.html",
       "description": "アジャイルソフトウェア開発宣言が見れるサイト",
       "tag": ["アジャイルソフトウェア開発宣言"]
+    },
+    {
+      "id": 403,
+      "name": "mapus",
+      "url": "https://github.com/alyssaxuu/mapus",
+      "description": "リアルタイム地図共同編集OSS",
+      "tag": ["地図", "共同編集", "OSS"]
+    },
+    {
+      "id": 404,
+      "name": "hyperformula",
+      "url": "https://github.com/handsontable/hyperformula",
+      "description": "Excelに近い表計算エンジンOSS",
+      "tag": ["表計算", "GPLv3", "OSS"]
+    },
+    {
+      "id": 405,
+      "name": "automation-i18n-guide",
+      "url": "https://meetup.toast.com/posts/295",
+      "description": "i18nの更新を自動化するための見解がまとまった韓国語の記事",
+      "tag": ["i18n", "韓国語", "ブログ"]
+    },
+    {
+      "id": 406,
+      "name": "imba",
+      "url": "https://imba.io/",
+      "description": "JavaScriptにコンパイルされるWebプログラミング言語",
+      "tag": ["JavaScript", "memoized DOM", "プログラミング言語"]
+    },
+    {
+      "id": 407,
+      "name": "flagpack",
+      "url": "https://flagpack.xyz/",
+      "description": "国旗アイコンのOSS",
+      "tag": ["国旗", "アイコン", "OSS"]
+    },
+    {
+      "id": 408,
+      "name": "modern-browser-defect-approach",
+      "url": "https://irokoto.co.jp/blog/20201228/post-17",
+      "description": "Safari･Chrome･Firefoxでありがちなバグの対処法についてまとまった記事",
+      "tag": ["ブラウザ", "ブログ"]
+    },
+    {
+      "id": 409,
+      "name": "before-starting-the-blog",
+      "url": "https://umuco.jp/before-starting-the-blog/",
+      "description": "ブログを始める前に失敗しないための3つのブログタイプ別メディア設計についてまとまった記事",
+      "tag": ["メディア設計", "ブログ"]
+    },
+    {
+      "id": 410,
+      "name": "web-ogp-setting",
+      "url": "https://webdesign-trends.net/entry/12993",
+      "description": "WebサイトのOGPの正しい設定方法についてまとまった記事",
+      "tag": ["OGP", "サイト", "記事"]
+    },
+    {
+      "id": 411,
+      "name": "wickedbackgrounds",
+      "url": "https://wickedbackgrounds.com/backgrounds.html",
+      "description": "一色選ぶだけできれいな波型のグラデーション画像が生成できるサイト",
+      "tag": ["グラデーション", "SVG", "ツール"]
+    },
+    {
+      "id": 412,
+      "name": "site-make-schedure-point",
+      "url": "https://liginc.co.jp/558187",
+      "description": "Webサイト制作のスケジュールを引くときに知っておきたいポイントについて説明された記事",
+      "tag": ["サイト", "スケジュール", "ブログ"]
+    },
+    {
+      "id": 413,
+      "name": "neatnik",
+      "url": "https://neatnik.net/view-source/",
+      "description": "入力欄にURLを書くと、サイトのHTMLソースを確認できるツール",
+      "tag": ["HTMLソース", "ツール"]
+    },
+    {
+      "id": 414,
+      "name": "web-develop-tool-48",
+      "url": "https://photoshopvip.net/130442",
+      "description": "Web制作時に使えるオンラインツールまとめサイト",
+      "tag": ["ツール", "まとめ"]
+    },
+    {
+      "id": 415,
+      "name": "css-filter-examples",
+      "url": "https://freefrontend.com/css-filter-examples/",
+      "description": "CSSフィルターを使った作例が見れるサイト",
+      "tag": ["CSS", "コードサンプル"]
+    },
+    {
+      "id": 416,
+      "name": "react-code-examples",
+      "url": "https://freefrontend.com/react-code-examples/",
+      "description": "Reactで表現するコードのサンプルが見れるサイト",
+      "tag": ["React", "CSS", "コードサンプル"]
+    },
+    {
+      "id": 417,
+      "name": "freefrontend",
+      "url": "https://www.youtube.com/channel/UCGr_1whd05px8Jiksu_XVzQ",
+      "description": "コードサンプルが動画で見れるチャンネル",
+      "tag": ["Youtube", "動画", "コードサンプル"]
+    },
+    {
+      "id": 418,
+      "name": "mobile-app-japanese-ui-kit",
+      "url": "https://note.com/japan_d2/n/n9a1324d0c05a",
+      "description": "モバイルアプリ日本語UIキットの配布に至る経緯が見れる記事",
+      "tag": ["アプリ", "UI", "日本語", "ブログ"]
+    },
+    {
+      "id": 419,
+      "name": "performance-effects-of-too-much-lazy-loading",
+      "url": "https://coliss.com/articles/build-websites/operation/work/performance-effects-of-too-much-lazy-loading.html",
+      "description": "Webページに画像の遅延読み込みを使いすぎるとパフォーマンスに悪影響を与えることについて翻訳された記事",
+      "tag": ["遅延読み込み", "ブログ"]
+    },
+    {
+      "id": 420,
+      "name": "fit-content-instead-of-the-inline-block-value",
+      "url": "https://coliss.com/articles/build-websites/operation/css/fit-content-instead-of-the-inline-block-value.html",
+      "description": "CSSでブロック要素の幅をコンテンツのサイズに合わせたい時の記述方法について説明された記事",
+      "tag": ["CSS", "ブロック", "ブログ"]
+    },
+    {
+      "id": 421,
+      "name": "custom-scrollbars-in-css",
+      "url": "https://coliss.com/articles/build-websites/operation/css/custom-scrollbars-in-css.html",
+      "description": "CSSでスクロールバーをカスタマイズする方法について解説された記事",
+      "tag": ["CSS", "スクロールバー", "ブログ"]
+    },
+    {
+      "id": 422,
+      "name": "brand-copies",
+      "url": "https://blog.btrax.com/jp/brand-copies/",
+      "description": "消費者の目線で表現したブランドコピーについて有名ブランドをもとに解説された記事",
+      "tag": ["ブランド", "キャッチコピー", "ブログ"]
+    },
+    {
+      "id": 423,
+      "name": "cut-out-effect-css-or-svg",
+      "url": "https://coliss.com/articles/build-websites/operation/css/cut-out-effect-css-or-svg.html",
+      "description": "画像の一部を切り取るカットアウトを実装するCSSとSVGのテクニックについて解説された記事",
+      "tag": ["CSS", "SVG", "切り取り", "ブログ"]
+    },
+    {
+      "id": 424,
+      "name": "pixelhunter",
+      "url": "https://pixelhunter.io/",
+      "description": "各ソーシャルメディアに適した画像サイズを1クリックでトリミングしてくれる無料ツール",
+      "tag": ["画像", "トリミング", "ツール"]
+    },
+    {
+      "id": 425,
+      "name": "buy-less",
+      "url": "https://blog.btrax.com/jp/buy-less/",
+      "description": "海外ブランドで「できるだけ買わないでください」とを広げる理由について解説された記事",
+      "tag": ["ブランド", "ブログ"]
+    },
+    {
+      "id": 426,
+      "name": "honda-super-cub-concorde",
+      "url": "https://blog.btrax.com/jp/honda-super-cub-concorde/",
+      "description": "スーパーカブとコンコルドから学ぶイノベーションについて解説された記事",
+      "tag": ["イノベーション", "知名度", "ブログ"]
+    },
+    {
+      "id": 427,
+      "name": "tob-toc-diff",
+      "url": "https://zenn.dev/seya/articles/fbb0202e63336f",
+      "description": "toBとtoCのエンジニアの違いについて解説された記事",
+      "tag": ["toB", "toC", "ブログ"]
     }
   ]
 }
