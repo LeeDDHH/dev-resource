@@ -2995,6 +2995,13 @@
       "url": "https://zenn.dev/seya/articles/fbb0202e63336f",
       "description": "toBとtoCのエンジニアの違いについて解説された記事",
       "tag": ["toB", "toC", "ブログ"]
+    },
+    {
+      "id": 428,
+      "name": "saas-tool-list",
+      "url": "https://saas.relate.kr/",
+      "description": "カテゴリーごとに分類されて、簡単に説明も付けられているSaaS一覧表",
+      "tag": ["SaaS", "韓国語", "まとめ"]
     }
   ]
 }
