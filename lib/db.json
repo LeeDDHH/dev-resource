@@ -3002,6 +3002,48 @@
       "url": "https://saas.relate.kr/",
       "description": "カテゴリーごとに分類されて、簡単に説明も付けられているSaaS一覧表",
       "tag": ["SaaS", "韓国語", "まとめ"]
+    },
+    {
+      "id": 429,
+      "name": "gilbut-it-book-old-youtube",
+      "url": "https://www.youtube.com/channel/UCx-s23lR2aYRK-pVTWioiag/playlists",
+      "description": "プログラミング専門書の付録動画が見れるYoutTubeチャンネル（旧）",
+      "tag": ["C", "Python", "Arduino", "Android", "動画", "学習", "韓国語"]
+    },
+    {
+      "id": 430,
+      "name": "gilbut-it-book-new-youtube",
+      "url": "https://www.youtube.com/channel/UCDCmKkGNaC4zj33nGXoBN9w/playlists",
+      "description": "プログラミング専門書の付録動画が見れるYoutTubeチャンネル（新）",
+      "tag": ["C", "Python", "JavaScript", "Android", "動画", "学習", "韓国語"]
+    },
+    {
+      "id": 431,
+      "name": "gilbut-it-book-github",
+      "url": "https://github.com/gilbutITbook",
+      "description": "プログラミング専門書のソースコードが読めるリポジトリ",
+      "tag": ["韓国語", "学習", "github"]
+    },
+    {
+      "id": 432,
+      "name": "advanced-computer-vision-python",
+      "url": "https://www.youtube.com/watch?v=01sAkU_NvOY",
+      "description": "Pythonを使った5つのプロジェクトを作りながら、人の動きをトラッキングするコードを書いてみる講座",
+      "tag": ["Python", "トラッキング", "動画"]
+    },
+    {
+      "id": 433,
+      "name": "user-authentication-in-nodejs-express-passportjs",
+      "url": "https://www.youtube.com/watch?v=F-sFp_AvHc8",
+      "description": "Passport.js, Node, Expressの構成でユーザー認証を実装してみる講座",
+      "tag": ["JavaScript", "node.js", "passport.js", "express", "動画"]
+    },
+    {
+      "id": 434,
+      "name": "dojang-io",
+      "url": "https://dojang.io/",
+      "description": "C言語、Pythonの勉強リソースがあるサイト",
+      "tag": ["C", "Python", "韓国語"]
     }
   ]
 }
