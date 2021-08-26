@@ -3044,6 +3044,13 @@
       "url": "https://dojang.io/",
       "description": "C言語、Pythonの勉強リソースがあるサイト",
       "tag": ["C", "Python", "韓国語"]
+    },
+    {
+      "id": 434,
+      "name": "git-flight-rules",
+      "url": "https://github.com/k88hudson/git-flight-rules/blob/master/README_ja.md",
+      "description": "Git操作で困ったときに参考するサイト",
+      "tag": ["Git"]
     }
   ]
 }
