@@ -3065,6 +3065,13 @@
       "url": "https://shotcut.org/",
       "description": "無料で使える動画編集アプリケーション",
       "tag": ["動画編集"]
+    },
+    {
+      "id": 438,
+      "name": "react-testing-crash-course",
+      "url": "https://www.youtube.com/watch?v=OVNjsIto9xM",
+      "description": "React Testingライブラリ、Jest、CypressでReactのユニット・E2E・統合テストをする方法について学べる動画",
+      "tag": ["React", "Jest", "Cypress", "テスト", "動画"]
     }
   ]
 }
