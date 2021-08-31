@@ -3051,6 +3051,20 @@
       "url": "https://github.com/k88hudson/git-flight-rules/blob/master/README_ja.md",
       "description": "Git操作で困ったときに参考するサイト",
       "tag": ["Git"]
+    },
+    {
+      "id": 436,
+      "name": "standardjs",
+      "url": "https://standardjs.com/readme-ja.html",
+      "description": "JavaScriptのコーディングスタイルを決めるときに参考するサイト",
+      "tag": ["JavaScript", "コーディングスタイル"]
+    },
+    {
+      "id": 437,
+      "name": "shotcut",
+      "url": "https://shotcut.org/",
+      "description": "無料で使える動画編集アプリケーション",
+      "tag": ["動画編集"]
     }
   ]
 }
