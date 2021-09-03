@@ -3303,6 +3303,13 @@
       "url": "https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue/",
       "description": "ハイパーリンクはなぜ青なのかについて考察をした記事",
       "tag": ["ハイパーリンク", "ブログ"]
+    },
+    {
+      "id": 472,
+      "name": "blender-tutorial-japanese",
+      "url": "http://web.wakayama-u.ac.jp/~tokoi/cgpe2020.html",
+      "description": "Blenderの操作を0から学べる1,400ページの解説書が見れるサイト",
+      "tag": ["Blender", "学習"]
     }
   ]
 }
