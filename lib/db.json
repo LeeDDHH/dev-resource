@@ -3072,6 +3072,237 @@
       "url": "https://www.youtube.com/watch?v=OVNjsIto9xM",
       "description": "React Testingライブラリ、Jest、CypressでReactのユニット・E2E・統合テストをする方法について学べる動画",
       "tag": ["React", "Jest", "Cypress", "テスト", "動画"]
+    },
+    {
+      "id": 439,
+      "name": "fintechrevolution",
+      "url": "https://www.fintechrevolution.tech/",
+      "description": "Squareに所属されてたJackie Resesさんが作成したフィンテックの未来についての報告書",
+      "tag": ["FinTech"]
+    },
+    {
+      "id": 440,
+      "name": "evidence",
+      "url": "https://www.evidence.dev/",
+      "description": "SQLとマークダウンで作成されたドキュメントを静的サイト形式のレポートとして作ってくれるBIツールのOSS",
+      "tag": ["SQL", "マークダウン", "BIツール", "OSS"]
+    },
+    {
+      "id": 441,
+      "name": "allstar",
+      "url": "https://github.com/ossf/allstar",
+      "description": "GitHubのorganizationまたはRepoにインストールしてセキュリティのチェックをするOSS",
+      "tag": ["セキュリティ", "GitHub", "OSS"]
+    },
+    {
+      "id": 442,
+      "name": "miller",
+      "url": "https://github.com/johnkerl/miller",
+      "description": "CSV、JSONなどのデータを処理するためのCLIツール",
+      "tag": ["CSV", "JSON", "CLI"]
+    },
+    {
+      "id": 443,
+      "name": "prettymaps",
+      "url": "https://github.com/marceloprates/prettymaps",
+      "description": "OSMデータでカスタム地図が描けるPythonのライブラリ",
+      "tag": ["OSM", "Python", "地図"]
+    },
+    {
+      "id": 444,
+      "name": "dependency-inversion-principle",
+      "url": "https://blog.gangnamunni.com/post/dependency-inversion-principle/",
+      "description": "外部ツールの変更に振り回されないサーバーのコーディング方法について書かれた記事",
+      "tag": ["DIP", "コーディング", "ブログ"]
+    },
+    {
+      "id": 445,
+      "name": "3-themes-surface-in-the-2021-hype-cycle-for-emerging-technologies",
+      "url": "https://www.gartner.com/smarterwithgartner/3-themes-surface-in-the-2021-hype-cycle-for-emerging-technologies/",
+      "description": "GartnerのHype Cycle 2021の発表",
+      "tag": ["Gartner", "トレンド"]
+    },
+    {
+      "id": 446,
+      "name": "ui-glass",
+      "url": "https://ui.glass/generator/",
+      "description": "上位エレメントの背景をその下にあるイメージ/色/パターンがBlurした形で表示してくれるGlassmorphismジェネレータ",
+      "tag": ["Glassmorphism", "CSS", "生成"]
+    },
+    {
+      "id": 447,
+      "name": "ackee",
+      "url": "https://github.com/electerious/Ackee",
+      "description": "Node.js基盤のAnalyticsツール",
+      "tag": ["Node.js", "分析", "ツール"]
+    },
+    {
+      "id": 448,
+      "name": "who-holds-the-seven-keys-to-the-intetnet",
+      "url": "https://www.youtube.com/watch?v=r6frtpERqMQ",
+      "description": "The Guardian社の「インターネットを支配する7人のひとたち」というコンテンツの一部を韓国語に翻訳した動画",
+      "tag": ["セキュリティ", "ICANN"]
+    },
+    {
+      "id": 449,
+      "name": "five-ansible-techniques-i-wish-id-known-earlier",
+      "url": "https://zwischenzugs.com/2021/08/27/five-ansible-techniques-i-wish-id-known-earlier/",
+      "description": "Ansibleを書く際に便利になるテクニックが5つ集まった記事",
+      "tag": ["Ansible", "ブログ"]
+    },
+    {
+      "id": 450,
+      "name": "sqlmodel",
+      "url": "https://github.com/tiangolo/sqlmodel",
+      "description": "Python用のSQL、DBライブラリ",
+      "tag": ["SQL", "database", "DB"]
+    },
+    {
+      "id": 451,
+      "name": "fastapi",
+      "url": "https://github.com/tiangolo/fastapi",
+      "description": "Python基盤のAPI開発用の高性能ウェブフレームワーク",
+      "tag": ["API", "フレームワーク", "Python"]
+    },
+    {
+      "id": 452,
+      "name": "which-company-do-you-like-the-most",
+      "url": "https://news.hada.io/topic?id=4902",
+      "description": "最近どんな会社が働きやすそうなのか/気に入るのかを共有している韓国のスレッド",
+      "tag": ["スレッド"]
+    },
+    {
+      "id": 453,
+      "name": "connector-x",
+      "url": "https://github.com/sfu-db/connector-x",
+      "description": "PythonでDBを速くロードするライブラリ",
+      "tag": ["Python", "DB", "database", "ライブラリ"]
+    },
+    {
+      "id": 454,
+      "name": "glean",
+      "url": "https://glean.software/",
+      "description": "Facebookが開発したソースコード情報収集、検索システム",
+      "tag": ["収集", "ソースコード"]
+    },
+    {
+      "id": 455,
+      "name": "remember-on-boarding",
+      "url": "https://blog.dramancompany.com/2021/08/%EB%A6%AC%EB%A9%A4%EB%B2%84%EC%9D%98-%EC%98%A8%EB%B3%B4%EB%94%A9-%EA%B3%BC%EC%A0%95%EC%9D%84-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4/",
+      "description": "韓国のリメンバー社が行うオンボーディング過程について紹介する記事",
+      "tag": ["オンボーディング", "ブログ", "韓国語"]
+    },
+    {
+      "id": 456,
+      "name": "ie-retirement",
+      "url": "https://teamdable.github.io/techblog/IE-Retirement",
+      "description": "デスクトップ版IEが2022/6/15に終了することで変わることについてまとまった記事",
+      "tag": ["IE", "ブログ", "韓国語"]
+    },
+    {
+      "id": 457,
+      "name": "probot",
+      "url": "https://github.com/probot/probot",
+      "description": "GitHubのワークフロー自動化や改善のためのフレームワーク",
+      "tag": ["github", "ワークフロー", "フレームワーク"]
+    },
+    {
+      "id": 458,
+      "name": "startup-marketsizing",
+      "url": "https://blog.pear.vc/2021/08/03/marketsizing/",
+      "description": "スタートアップのマーケティングの大きさの推定ガイド",
+      "tag": ["マーケティング", "スタートアップ"]
+    },
+    {
+      "id": 459,
+      "name": "uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "description": "セルフホスティングのモニタリングOSS",
+      "tag": ["モニタリング", "OSS"]
+    },
+    {
+      "id": 460,
+      "name": "guide-to-seo-for-cmo",
+      "url": "https://resources.bruceclay.com/hubfs/PDFs/Guide-to-SEO-for-CMOs.pdf",
+      "description": "CMOのためのSEOガイド",
+      "tag": ["CMO", "SEO"]
+    },
+    {
+      "id": 461,
+      "name": "act",
+      "url": "https://github.com/nektos/act",
+      "description": "GitHub Actionsをローカルで実行するツール",
+      "tag": ["GitHub"]
+    },
+    {
+      "id": 462,
+      "name": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "youtube-dlに新しい機能を追加したフォークバージョン",
+      "tag": ["youtube-dl", "OSS"]
+    },
+    {
+      "id": 463,
+      "name": "how-to-conduct-user-interview",
+      "url": "https://www.disquiet.tech/post/how-to-conduct-user-interview",
+      "description": "製品の方向性を示すユーザーインタビューの仕方についてまとまった記事",
+      "tag": ["ユーザーインタビュー", "韓国語", "ブログ"]
+    },
+    {
+      "id": 464,
+      "name": "electron-glossary",
+      "url": "https://www.electronjs.org/docs/glossary",
+      "description": "Electron開発で一般的に使用される用語が載っているペーし",
+      "tag": ["Electron", "用語集"]
+    },
+    {
+      "id": 465,
+      "name": "electron-mac-app-store-submission-guide",
+      "url": "https://www.electronjs.org/docs/tutorial/mac-app-store-submission-guide",
+      "description": "Electronで作ったアプリをApp Storeに公開するためのガイドが載っているページ",
+      "tag": ["Electron", "Mac"]
+    },
+    {
+      "id": 466,
+      "name": "buttons-generator",
+      "url": "https://markodenic.com/tools/buttons-generator/",
+      "description": "ボタンをクリックするだけでそのボタンUIのCSSが取得できるサイト",
+      "tag": ["CSS", "ボタン"]
+    },
+    {
+      "id": 467,
+      "name": "w3c-css-nesting-draft",
+      "url": "https://www.w3.org/TR/2021/WD-css-nesting-1-20210831/",
+      "description": "W3Cが公開したCSSのネストモジュールに関する草案",
+      "tag": ["W3C", "CSS"]
+    },
+    {
+      "id": 468,
+      "name": "stitches",
+      "url": "https://stitches.dev/",
+      "description": "ランタイム時に要らない部分を削除して実行できるCSS in JSライブラリ",
+      "tag": ["CSS", "JavaScript", "ライブラリ"]
+    },
+    {
+      "id": 469,
+      "name": "heybunny",
+      "url": "https://www.heybunny.io/",
+      "description": "購読したニュースレターの記事のみを集めて見るサービス",
+      "tag": ["ニュースレター", "記事"]
+    },
+    {
+      "id": 470,
+      "name": "solidjs",
+      "url": "https://www.solidjs.com/",
+      "description": "Virtual DOMを使わないで実装されたJSX基盤のUIフレームワーク",
+      "tag": ["JSX", "UI", "フレームワーク"]
+    },
+    {
+      "id": 471,
+      "name": "why-are-hyperlinks-blue",
+      "url": "https://blog.mozilla.org/en/internet-culture/deep-dives/why-are-hyperlinks-blue/",
+      "description": "ハイパーリンクはなぜ青なのかについて考察をした記事",
+      "tag": ["ハイパーリンク", "ブログ"]
     }
   ]
 }
