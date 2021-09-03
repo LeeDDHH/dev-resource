@@ -3310,6 +3310,13 @@
       "url": "http://web.wakayama-u.ac.jp/~tokoi/cgpe2020.html",
       "description": "Blenderの操作を0から学べる1,400ページの解説書が見れるサイト",
       "tag": ["Blender", "学習"]
+    },
+    {
+      "id": 473,
+      "name": "media-programming",
+      "url": "http://web.wakayama-u.ac.jp/~tokoi/mpe2020.pdf",
+      "description": "openFrameworksを使う演習の資料",
+      "tag": ["openFrameworks", "学習"]
     }
   ]
 }
