@@ -3,16 +3,16 @@ import { NextSeo } from 'next-seo'
 const HeadComponent = () => {
   return (
     <NextSeo
-      title="Resource of Develop"
-      description="開発やプログラミング勉強に役立つリソースが見つかるサービス"
+      title="Resource of Design Gorilla"
+      description="デザインゴリラたちのためのリソース検索サービス"
       canonical="https://rod.expfrom.me/"
       openGraph={{
         locale: 'ja_JP',
         type: 'website',
-        title: 'Resource of Develop',
-        description: '開発やプログラミング勉強に役立つリソースが見つかるサービス',
+        title: 'Resource of Design Gorilla',
+        description: 'デザインゴリラたちのためのリソース検索サービス',
         url: 'https://rod.expfrom.me/',
-        site_name: 'Resource of Develop',
+        site_name: 'Resource of Design Gorilla',
         images: [
           {
             url: 'https://rod.expfrom.me/images/og/ogp_image.png',

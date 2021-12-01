@@ -1,5 +1,8 @@
 import { useEffect } from 'react'
+import App from 'next/app'
 import { useRouter } from 'next/router'
+
+import basicAuthCheck from '../src/utils/basicAuthCheck'
 
 import { ApolloProvider } from "@apollo/client";
 import client from "../lib/apollo-client";
@@ -27,4 +30,16 @@ const Provider = ({ Component, pageProps }) => {
     </ApolloProvider>
   );
 }
+
+Provider.getInitialProps = async (appContext) => {
+  const { req, res } = appContext.ctx
+  if (req && res) {
+  // if (req && res && process.env.ENABLE_BASIC_AUTH === 'true') {
+    await basicAuthCheck(req, res)
+  }
+
+  const appProps = await App.getInitialProps(appContext)
+  return { ...appProps }
+}
+
 export default Provider

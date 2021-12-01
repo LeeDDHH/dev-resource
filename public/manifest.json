@@ -1,7 +1,7 @@
 {
-  "name": "Resource of Develop",
+  "name": "Resource of Design Gorilla",
   "short_name": "RoD",
-  "description": "開発やプログラミング勉強に役立つリソースが見つかるサービス",
+  "description": "デザインゴリラたちのためのリソース検索サービス",
   "lang": "ja-JP",
   "start_url": "/",
   "display": "standalone",
