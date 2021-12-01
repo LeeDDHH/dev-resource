@@ -26,7 +26,7 @@ const App = ({ itemsAmount }) => {
         <HeadComponent />
         <div className={styles.headerContainer}>
           <div className={styles.amount}>
-            デザインゴリラたちのための
+            開発やプログラミング勉強に役立つ
             <strong>{itemsAmount}</strong>
             個のリソース
           </div>
