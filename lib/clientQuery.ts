@@ -1,4 +1,6 @@
-import { gql } from '@apollo/client'
+"use strict";
+
+import { gql } from "@apollo/client";
 
 export const GET_ALL_DATA = gql`
   query {
@@ -10,7 +12,7 @@ export const GET_ALL_DATA = gql`
       tag
     }
   }
-`
+`;
 
 export const GET_DATA_WITH_SEARCH_TEXT = gql`
   query GetDataWithSearchText($text: String!) {
@@ -22,4 +24,4 @@ export const GET_DATA_WITH_SEARCH_TEXT = gql`
       tag
     }
   }
-`
+`;

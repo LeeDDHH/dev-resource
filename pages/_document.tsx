@@ -1,5 +1,7 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
-import { GA_TRACKING_ID } from '../lib/Const'
+"use strict";
+
+import Document, { Html, Head, Main, NextScript } from "next/document";
+import { GA_TRACKING_ID } from "../lib/Const";
 
 class _Document extends Document {
   render() {
@@ -7,10 +9,7 @@ class _Document extends Document {
       <Html>
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script
             dangerouslySetInnerHTML={{
               __html: `
@@ -29,8 +28,8 @@ class _Document extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default _Document
+export default _Document;

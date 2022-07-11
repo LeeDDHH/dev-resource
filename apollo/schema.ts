@@ -1,4 +1,4 @@
-import { gql } from 'apollo-server-micro';
+import { gql } from "apollo-server-micro";
 
 export const typeDefs = gql`
   type Item {
@@ -10,10 +10,8 @@ export const typeDefs = gql`
   }
 
   type Query {
-    items: [Item],
-    search(
-      text: String
-    ): [Item]
+    items: [Item]
+    search(text: String): [Item]
   }
 
   input SortOrderByInput {
@@ -25,4 +23,4 @@ export const typeDefs = gql`
     asc
     desc
   }
-`
+`;
