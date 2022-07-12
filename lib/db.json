@@ -3422,6 +3422,20 @@
       "url": "https://historia.co.jp/archives/28846/",
       "description": "UE5の基礎知識から活用事例、習得に向けたオススメの学習方法などをまとめたスライド",
       "tag": ["Unreal Engine", "勉強"]
+    },
+    {
+      "id": 486,
+      "name": "zero-trust-mgn-ipa",
+      "url": "https://www.ipa.go.jp/icscoe/program/core_human_resource/final_project/zero-trust-mgn.html",
+      "description": "ゼロトラストセキュリティ入門に関する基礎知識や心構え、検討の流れなど解説した資料をIPAが公開",
+      "tag": ["IPA", "ゼロトラスト", "セキュリティ"]
+    },
+    {
+      "id": 487,
+      "name": "noguchi-design-matome",
+      "url": "https://noguchi-design.com/archives/698",
+      "description": "Web・グラフィックデザイン講座、YouTubeデザイン講座まとめ",
+      "tag": ["デザイン", "Youtube", "勉強"]
     }
   ]
 }
