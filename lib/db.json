@@ -138,7 +138,17 @@
       "name": "Ben-Awad-Youtube",
       "url": "https://www.youtube.com/c/BenAwad97/videos",
       "description": "Reactを中心に情報を発信するチャンネル",
-      "tag": ["プログラミング", "エンジニアリング", "React", "GraphQL", "Typescript", "勉強", "学習", "動画", "英語"]
+      "tag": [
+        "プログラミング",
+        "エンジニアリング",
+        "React",
+        "GraphQL",
+        "Typescript",
+        "勉強",
+        "学習",
+        "動画",
+        "英語"
+      ]
     },
     {
       "id": 20,
@@ -1874,7 +1884,7 @@
       "name": "css-svg-canvas-mask",
       "url": "https://ics.media/entry/210701/",
       "description": "CSS, SVG, Canvasでマスク表現をするための例を紹介した記事",
-      "tag": ["CSS", "SVG", "Canvas", "マスク",  "ブログ"]
+      "tag": ["CSS", "SVG", "Canvas", "マスク", "ブログ"]
     },
     {
       "id": 268,
@@ -2364,7 +2374,18 @@
       "name": "ping-t",
       "url": "https://ping-t.com/",
       "description": "CCNA/CCNP、LinuC、LPIC、HTML5プロフェッショナル認定資格、OSS-DB、オラクルマスター、ITパスポート、 ITILファンデーション試験の合格を目指す人のための学習サイト",
-      "tag": ["CCNA/CCNP", "LinuC", "LPIC", "HTML5", "OSS-DB", "Oracle", "ITパスポート", "ITILファンデーション", "資格", "学習"]
+      "tag": [
+        "CCNA/CCNP",
+        "LinuC",
+        "LPIC",
+        "HTML5",
+        "OSS-DB",
+        "Oracle",
+        "ITパスポート",
+        "ITILファンデーション",
+        "資格",
+        "学習"
+      ]
     },
     {
       "id": 338,
@@ -2546,7 +2567,7 @@
       "name": "css-grid-debugging-tools-in-chrome-92",
       "url": "https://coliss.com/articles/build-websites/operation/css/css-grid-debugging-tools-in-chrome-92.html",
       "description": "Chrome Devtoolsに実装されたCSS Grid editorとオーバーレイについてまとまった記事",
-      "tag": ["CSS", "grid", "devtools",  "ブログ"]
+      "tag": ["CSS", "grid", "devtools", "ブログ"]
     },
     {
       "id": 364,
@@ -3317,6 +3338,90 @@
       "url": "http://web.wakayama-u.ac.jp/~tokoi/mpe2020.pdf",
       "description": "openFrameworksを使う演習の資料",
       "tag": ["openFrameworks", "学習"]
+    },
+    {
+      "id": 474,
+      "name": "algorithmsbook",
+      "url": "https://algorithmsbook.com/",
+      "description": "スタンフォード大の教授らが書いた意思決定アルゴリズムに関する700ページの書籍",
+      "tag": ["意思決定", "アルゴリズム"]
+    },
+    {
+      "id": 475,
+      "name": "pocketbase",
+      "url": "https://github.com/pocketbase/pocketbase",
+      "description": "API構築できるGo製のフレームワーク",
+      "tag": ["API", "Go", "フレームワーク"]
+    },
+    {
+      "id": 476,
+      "name": "technical-conditions-for-telecommunications-equipment-to-meet-the-complex-diversification-of-networks",
+      "url": "https://www.soumu.go.jp/menu_news/s-news/01kiban05_02000244.html",
+      "description": "総務省の「仮想化技術等の進展に伴うネットワークの多様化・複雑化に対応した電気通信設備に係る技術的条件」資料",
+      "tag": ["ネットワーク", "通信", "MNO", "MVNO"]
+    },
+    {
+      "id": 477,
+      "name": "icons8-icons",
+      "url": "https://icons8.com/icons",
+      "description": "無料アニメーション素材が使えるサイト",
+      "tag": ["アニメーション", "素材"]
+    },
+    {
+      "id": 478,
+      "name": "ics-tween24",
+      "url": "https://ics.media/entry/220518/",
+      "description": "CSSフィルターやクリッピング、タイムスケールなど！表現の幅を広げる「Tween24」",
+      "tag": ["CSS", "フィルター", "クリッピング", "タイムスケール"]
+    },
+    {
+      "id": 479,
+      "name": "cook-pad-data-plan-before-after",
+      "url": "https://speakerdeck.com/mokuzon/after-da-fang-chu",
+      "description": "クックパッドマートの失敗したデータ設計 Before / After 大放出",
+      "tag": ["データ設計"]
+    },
+    {
+      "id": 480,
+      "name": "coheision-coupling",
+      "url": "https://speakerdeck.com/sonatard/coheision-coupling",
+      "description": "オブジェクト指向のその前に-凝集度と結合度/Coheision-Coupling",
+      "tag": ["オブジェクト指向", "凝集度", "結合度"]
+    },
+    {
+      "id": 481,
+      "name": "software-design-learned-from-google-design-docs",
+      "url": "https://qiita.com/yoshii0110/items/32f93e0c8d24cb3207f7",
+      "description": "GoogleのDesign Docsから学ぶソフトウェア設計",
+      "tag": ["design docs", "設計"]
+    },
+    {
+      "id": 482,
+      "name": "notification-function-implemented-in-google-drive-and-spreadsheet",
+      "url": "https://qiita.com/vestman/items/7ef86a853fe76f369193",
+      "description": "【Unity】Googleドライブとスプレッドシートでお知らせ機能実装（専用サーバー不要）",
+      "tag": ["スプレッドシート", "Googleドライブ", "お知らせ機能"]
+    },
+    {
+      "id": 483,
+      "name": "colorization-python",
+      "url": "https://github.com/richzhang/colorization",
+      "description": "白黒画像やモノクロ画像をカラーに変換できるPythonライブラリ",
+      "tag": ["カラーライズ", "ライブラリ", "Python"]
+    },
+    {
+      "id": 484,
+      "name": "autoregex",
+      "url": "https://www.autoregex.xyz/",
+      "description": "GPT-3を利用して正規表現を書いてくれるサービス",
+      "tag": ["GPT-3", "正規表現"]
+    },
+    {
+      "id": 485,
+      "name": "unreal-engine-5-tutorial-slide",
+      "url": "https://historia.co.jp/archives/28846/",
+      "description": "UE5の基礎知識から活用事例、習得に向けたオススメの学習方法などをまとめたスライド",
+      "tag": ["Unreal Engine", "勉強"]
     }
   ]
 }
