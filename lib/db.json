@@ -3436,6 +3436,146 @@
       "url": "https://noguchi-design.com/archives/698",
       "description": "Web・グラフィックデザイン講座、YouTubeデザイン講座まとめ",
       "tag": ["デザイン", "Youtube", "勉強"]
+    },
+    {
+      "id": 488,
+      "name": "utokyo-ipp-python",
+      "url": "https://github.com/utokyo-ipp/utokyo-ipp.github.io",
+      "description": "東京大学「Pythonプログラミング入門」の教材",
+      "tag": ["Python", "勉強"]
+    },
+    {
+      "id": 489,
+      "name": "photoshop-character-processing-material-16",
+      "url": "https://photoshopvip.net/135930",
+      "description": "一瞬でプロ級、フォトショップの美しい文字加工オススメ素材16選",
+      "tag": ["Photoshop", "文字加工", "素材"]
+    },
+    {
+      "id": 490,
+      "name": "siter-io",
+      "url": "https://siter.io/",
+      "description": "ノーコードWebサイトビルダー",
+      "tag": ["ノーコード", "サイトビルダー"]
+    },
+    {
+      "id": 491,
+      "name": "chokkan-python",
+      "url": "https://chokkan.github.io/python/index.html",
+      "description": "Python 早見帳",
+      "tag": ["Python", "勉強"]
+    },
+    {
+      "id": 492,
+      "name": "a-visual-roadmap-of-books-for-product-managers",
+      "url": "https://anthonytd.com/a-visual-roadmap-of-books-for-product-managers/",
+      "description": "US界隈の推しの書籍 for PM・洋書版",
+      "tag": ["PM", "本"]
+    },
+    {
+      "id": 493,
+      "name": "recommended-books-for-product-management",
+      "url": "https://speakerdeck.com/mizuman/recommended-books-for-product-management",
+      "description": "プロダクトマネジメントを学ぶための推しの書籍",
+      "tag": ["PM", "プロダクトマネジメント", "本", "スライド"]
+    },
+    {
+      "id": 494,
+      "name": "development-organization-sustainability",
+      "url": "https://speakerdeck.com/yosuke_furukawa/kai-fa-zu-zhi-falsechi-sok-ke-neng-xing-nituite",
+      "description": "開発組織の持続可能性について",
+      "tag": ["組織", "持続可能性"]
+    },
+    {
+      "id": 495,
+      "name": "consideration-of-increase-decrease-in-trust-savings-at-work",
+      "url": "https://tbpgr.hatenablog.com/entry/2022/07/13/102112",
+      "description": "仕事における信頼貯金の増減について考える",
+      "tag": ["信頼貯金", "信頼"]
+    },
+    {
+      "id": 496,
+      "name": "future-human-resources-vision",
+      "url": "https://www.meti.go.jp/press/2022/05/20220531001/20220531001-1.pdf",
+      "description": "経済産業省が発表した「未来人材ビジョン」に関する資料",
+      "tag": ["人材", "企業"]
+    },
+    {
+      "id": 497,
+      "name": "ms-api-guidelines",
+      "url": "https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md",
+      "description": "MicroSoft社のREST APIのガイドライン",
+      "tag": ["REST", "API", "ガイドライン"]
+    },
+    {
+      "id": 498,
+      "name": "ms-api-guidelines",
+      "url": "https://github.com/microsoft/api-guidelines/blob/vNext/Guidelines.md",
+      "description": "MicroSoft社のREST APIのガイドライン",
+      "tag": ["REST", "API", "ガイドライン"]
+    },
+    {
+      "id": 499,
+      "name": "markup-io",
+      "url": "https://www.markup.io/",
+      "description": "イメージ、PDF、ウェブサイトなどのための視覚的注釈が付けられるサービス",
+      "tag": ["注釈", "書き込み", "コメント"]
+    },
+    {
+      "id": 500,
+      "name": "what-happens-when-you-type-a-url-into-your-browser",
+      "url": "https://aws.amazon.com/ko/blogs/korea/what-happens-when-you-type-a-url-into-your-browser/",
+      "description": "ブラウザにURLを入力したら何が起きるのか",
+      "tag": ["ブラウザ", "URL", "勉強"]
+    },
+    {
+      "id": 501,
+      "name": "flukeout",
+      "url": "https://flukeout.github.io/",
+      "description": "CSSセレクターの学習と練習に役立つゲーム",
+      "tag": ["CSS", "勉強"]
+    },
+    {
+      "id": 502,
+      "name": "css-animations",
+      "url": "https://css-animations.io/",
+      "description": "CSSアニメーションの学習に役立つサイト",
+      "tag": ["CSS", "勉強"]
+    },
+    {
+      "id": 503,
+      "name": "cssbattle",
+      "url": "https://cssbattle.dev/",
+      "description": "お題の画像と全く同じになるようにCSS、HTMLを書いて世界中のユーザーと得点を競い合うゲーム",
+      "tag": ["CSS", "HTML", "勉強"]
+    },
+    {
+      "id": 504,
+      "name": "loosedrawing",
+      "url": "https://loosedrawing.com/",
+      "description": "シンプルなイラストが見つかるフリー素材サイト",
+      "tag": ["イラスト", "素材", "サイト"]
+    },
+    {
+      "id": 505,
+      "name": "vectorshelf",
+      "url": "https://vectorshelf.com/",
+      "description": "無料・商用利用OKのゆるいイラスト素材サイト",
+      "tag": ["イラスト", "素材", "サイト"]
+    },
+    {
+      "id": 506,
+      "name": "linustock",
+      "url": "https://www.linustock.com/vectors",
+      "description": "Web・DTPデザイナーたちの要望からできたシンプルで使いやすい「イラスト一覧 」の無料（フリー）線画イラスト素材一覧ページ",
+      "tag": ["Web", "DTP", "イラスト", "素材", "サイト"]
+    },
+    {
+      "id": 507,
+      "name": "illust-navi",
+      "url": "https://illust-navi.com/",
+      "description": "ほぼ無料で使えるイラスト",
+      "tag": ["イラスト", "素材", "サイト"]
     }
   ]
 }
