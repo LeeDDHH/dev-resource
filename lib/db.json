@@ -3576,6 +3576,27 @@
       "url": "https://illust-navi.com/",
       "description": "ほぼ無料で使えるイラスト",
       "tag": ["イラスト", "素材", "サイト"]
+    },
+    {
+      "id": 508,
+      "name": "brain-js",
+      "url": "https://brain.js.org/",
+      "description": "Javascriptで作成されたGPU加速ニューラルネットワーク",
+      "tag": ["JavaScript", "ライブラリ", "GPU"]
+    },
+    {
+      "id": 509,
+      "name": "programmingfonts",
+      "url": "https://www.programmingfonts.org/",
+      "description": "プログラミングフォントテストドライブ",
+      "tag": ["プログラミング", "フォント"]
+    },
+    {
+      "id": 510,
+      "name": "shottr-cc",
+      "url": "https://shottr.cc/",
+      "description": "Mac用スクリーンショットユーティリティ",
+      "tag": ["Mac", "スクリーンショット", "OCR"]
     }
   ]
 }
