@@ -28,5 +28,5 @@ const SearchBox = React.memo(({ value, changeSearchText }: Props) => {
   );
 });
 
-SearchBox.displayName = "SearchBox";
+if (process.env.NODE_ENV !== "production") SearchBox.displayName = "SearchBox";
 export default SearchBox;

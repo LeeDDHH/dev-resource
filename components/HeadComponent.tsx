@@ -71,5 +71,5 @@ const HeadComponent = React.memo(() => {
   );
 });
 
-HeadComponent.displayName = "HeadComponent";
+if (process.env.NODE_ENV !== "production") HeadComponent.displayName = "HeadComponent";
 export default HeadComponent;

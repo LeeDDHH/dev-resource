@@ -22,5 +22,5 @@ const TagView = React.memo(({ tag, itemId }: Props) => {
   );
 });
 
-TagView.displayName = "TagView";
+if (process.env.NODE_ENV !== "production") TagView.displayName = "TagView";
 export default TagView;

@@ -16,5 +16,5 @@ const ItemListsView = React.memo(({ items }: Props) => {
   return <ul className={styles.gridContainer}>{generateItems(items)}</ul>;
 });
 
-ItemListsView.displayName = "ItemListsView";
+if (process.env.NODE_ENV !== "production") ItemListsView.displayName = "ItemListsView";
 export default ItemListsView;

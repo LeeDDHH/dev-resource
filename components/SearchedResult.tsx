@@ -35,5 +35,5 @@ const SearchedResult = React.memo(({ searchText }: Props) => {
   return <ItemListsView items={items.search} />;
 });
 
-SearchedResult.displayName = "SearchedResult";
+if (process.env.NODE_ENV !== "production") SearchedResult.displayName = "SearchedResult";
 export default SearchedResult;

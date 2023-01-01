@@ -32,5 +32,5 @@ const DefaultResult = React.memo(() => {
   return <ItemListsView items={items} />;
 });
 
-DefaultResult.displayName = "DefaultResult";
+if (process.env.NODE_ENV !== "production") DefaultResult.displayName = "DefaultResult";
 export default DefaultResult;

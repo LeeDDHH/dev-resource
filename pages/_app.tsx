@@ -32,5 +32,5 @@ const Provider = React.memo(({ Component, pageProps }: AppProps) => {
     </ApolloProvider>
   );
 });
-Provider.displayName = "Provider";
+if (process.env.NODE_ENV !== "production") Provider.displayName = "Provider";
 export default Provider;
