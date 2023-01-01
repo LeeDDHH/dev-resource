@@ -42,7 +42,7 @@ const App = React.memo(({ itemsAmount }: AppProps) => {
   );
 });
 
-App.displayName = "App";
+if (process.env.NODE_ENV !== "production") App.displayName = "App";
 export default App;
 
 export const getStaticProps = async () => {
