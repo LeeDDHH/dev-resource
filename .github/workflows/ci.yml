@@ -1,0 +1,22 @@
+name: ci
+on:
+  pull_request:
+    types:
+      - ready_for_review # draftからPRレビューに変わったとき
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    if: github.event.pull_request.draft == false
+    name: ci build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: yarn install # プロジェクトに必要なパッケージをダウンロードする
+        run: yarn install
+      - name: lint # lintを回す
+        run: yarn lint
+      - name: next build # ビルド
+        run: yarn build
