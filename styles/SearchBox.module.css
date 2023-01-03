@@ -5,10 +5,19 @@
   display: flex;
 }
 
-.searchBox label {
+.searchBox button {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
+  background-color: #2b2b2b;
+  color: #fddea5;
+  border: 2px solid #7c7c7c;
+}
+
+.searchBox button:hover {
+  background-color: #fddea5;
+  color: #2b2b2b;
 }
 
 .searchBox input {

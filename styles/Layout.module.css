@@ -1,0 +1,30 @@
+.headerContainer {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer__items {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-left: 1rem;
+}
+
+.iconCenter {
+  display: flex;
+  color: gray;
+}
+
+.currentPathColor {
+  color: #fddea5;
+}
+
+.selectablePathColor {
+  color: gray;
+}
+
+.selectablePathColor:hover {
+  color: #fddea5;
+}

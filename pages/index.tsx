@@ -2,43 +2,39 @@
 
 import React, { useState, useMemo } from "react";
 
-import HeadComponent from "../components/HeadComponent";
+import Layout from "../components/layout/Layout";
 
 import SearchBox from "../components/SearchBox";
-import DefaultResult from "../components/DefaultResult";
 import SearchedResult from "../components/SearchedResult";
 
 import styles from "../styles/App.module.css";
 
 const App = React.memo(({ itemsAmount }: AppProps) => {
+  const [inputText, setInputText] = useState("");
   const [searchText, setSearchText] = useState("");
+
+  const handleOnclick = () => {
+    setSearchText(inputText);
+  };
 
   const renderView = useMemo(() => {
     if (searchText.length > 0) {
       return <SearchedResult searchText={searchText} />;
     }
-    if (searchText.length <= 0) {
-      return <DefaultResult />;
-    }
+    return null;
   }, [searchText]);
 
   return (
-    <div>
-      <header>
-        <HeadComponent />
-        <div className={styles.headerContainer}>
-          <div className={styles.amount}>
-            開発やプログラミング勉強に役立つ
-            <strong>{itemsAmount}</strong>
-            個のリソース
-          </div>
-        </div>
-      </header>
+    <Layout itemsAmount={itemsAmount}>
       <div className={styles.container}>
-        <SearchBox value={searchText} changeSearchText={setSearchText} />
+        <SearchBox
+          value={inputText}
+          changeSearchText={setInputText}
+          searchTextHandler={handleOnclick}
+        />
         {renderView}
       </div>
-    </div>
+    </Layout>
   );
 });
 

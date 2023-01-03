@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body,
@@ -14,63 +14,63 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0
+  margin: 0;
 }
 
 ul[role="list"],
 ol[role="list"] {
-  list-style: none
+  list-style: none;
 }
 
 html:focus-within {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 a:not([class]) {
-  text-decoration-skip-ink: auto
+  text-decoration-skip-ink: auto;
 }
 
 img,
 picture {
   max-width: 100%;
-  display: block
+  display: block;
 }
 
 input,
 button,
 textarea,
 select {
-  font: inherit
+  font: inherit;
 }
 
-@media(prefers-reduced-motion:reduce) {
+@media (prefers-reduced-motion: reduce) {
   html:focus-within {
-    scroll-behavior: auto
+    scroll-behavior: auto;
   }
 
   *,
   *::before,
   *::after {
-    animation-duration: .01ms !important;
+    animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: .01ms !important;
-    scroll-behavior: auto !important
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 
 body {
-  background-color: #2b2b2b;/*蝋色 ろういろ*/
-  color: #fddea5;/*はちみつ色*/
+  background-color: #2b2b2b; /*蝋色 ろういろ*/
+  color: #fddea5; /*はちみつ色*/
 }
 
 header {
-  background-color: #383c3c;/*羊羹色*/
+  background-color: #383c3c; /*羊羹色*/
   width: 100%;
   display: flex;
 }
