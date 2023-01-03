@@ -11,8 +11,8 @@ import HeadComponent from "../HeadComponent";
 import styles from "../../styles/Layout.module.css";
 
 const paths = [
-  { pathName: "/", component: <HiHome size="2rem" /> },
-  { pathName: "/list", component: <FaThList size="1.5rem" /> },
+  { pathName: "/", title: "検索ページ", component: <HiHome size="2rem" /> },
+  { pathName: "/list", title: "閲覧ページ", component: <FaThList size="1.5rem" /> },
 ];
 
 type Props = {
@@ -32,6 +32,7 @@ const Layout = React.memo(({ itemsAmount, children }: Props) => {
           className={`${styles.iconCenter} ${
             router.asPath === path.pathName ? styles.currentPathColor : styles.selectablePathColor
           }`}
+          title={path.title}
         >
           {path.component}
         </Link>
