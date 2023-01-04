@@ -1,0 +1,12 @@
+type Item {
+  id: Int
+  name: String
+  url: String
+  description: String
+  tag: [String]
+}
+
+type Query {
+  items: [Item]
+  search(text: String): [Item]
+}

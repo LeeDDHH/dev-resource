@@ -3,7 +3,15 @@
 import React from "react";
 
 import { useQuery } from "@apollo/client";
-import { GET_DATA_WITH_SEARCH_TEXT } from "../lib/clientQuery";
+
+import {
+  GetDataWithSearchTextQuery,
+  GetDataWithSearchTextDocument,
+  GetDataWithSearchTextQueryVariables,
+  Item,
+} from "../graphql/generated";
+
+import { filterItems } from "../lib/generic";
 
 import ItemListsView from "./ItemListsView";
 
@@ -12,7 +20,10 @@ type Props = {
 };
 
 const SearchedResult = React.memo(({ searchText }: Props) => {
-  const { data, loading, error } = useQuery(GET_DATA_WITH_SEARCH_TEXT, {
+  const { data, loading, error } = useQuery<
+    GetDataWithSearchTextQuery,
+    GetDataWithSearchTextQueryVariables
+  >(GetDataWithSearchTextDocument, {
     variables: { text: searchText },
   });
 
@@ -29,10 +40,10 @@ const SearchedResult = React.memo(({ searchText }: Props) => {
     return null;
   }
 
-  const items = data;
+  const items = data && !!data.search && filterItems<Item | null>(data.search);
 
-  if (!data || data.search.length < 1) return <p>表示する項目がありません</p>;
-  return <ItemListsView items={items.search} />;
+  if (!items) return <p>表示する項目がありません</p>;
+  return <ItemListsView items={items} />;
 });
 
 if (process.env.NODE_ENV !== "production") SearchedResult.displayName = "SearchedResult";

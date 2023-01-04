@@ -1,0 +1,9 @@
+query GetAllData {
+  items {
+    id
+    name
+    url
+    description
+    tag
+  }
+}

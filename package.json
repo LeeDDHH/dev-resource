@@ -18,12 +18,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "codegen": "graphql-codegen"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "2.16.2",
+    "@graphql-codegen/typed-document-node": "^2.3.11",
+    "@graphql-codegen/typescript": "^2.8.6",
+    "@graphql-codegen/typescript-operations": "^2.5.11",
     "@types/gtag.js": "^0.0.12",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "@graphql-codegen/introspection": "2.2.3",
+    "@graphql-codegen/client-preset": "1.2.4"
   }
 }

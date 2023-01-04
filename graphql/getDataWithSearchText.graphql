@@ -1,0 +1,9 @@
+query GetDataWithSearchText($text: String!) {
+  search(text: $text) {
+    id
+    name
+    url
+    description
+    tag
+  }
+}

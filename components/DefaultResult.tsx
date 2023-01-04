@@ -3,16 +3,15 @@
 import React from "react";
 
 import { useQuery } from "@apollo/client";
-import { GET_ALL_DATA } from "../lib/clientQuery";
+
+import { GetAllDataQuery, GetAllDataDocument, Item } from "../graphql/generated";
+
+import { filterItems } from "../lib/generic";
 
 import ItemListsView from "./ItemListsView";
 
-type GetAllDataItems = {
-  items: GetAllDataItem[];
-};
-
 const DefaultResult = React.memo(() => {
-  const { data, loading, error } = useQuery(GET_ALL_DATA);
+  const { data, loading, error } = useQuery<GetAllDataQuery>(GetAllDataDocument);
 
   if (loading) {
     return (
@@ -27,8 +26,9 @@ const DefaultResult = React.memo(() => {
     return null;
   }
 
-  const items = (data as GetAllDataItems).items;
+  const items = data && !!data.items && filterItems<Item | null>(data.items);
 
+  if (!items) return <p>表示する項目がありません</p>;
   return <ItemListsView items={items} />;
 });
 
