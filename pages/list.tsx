@@ -1,12 +1,11 @@
-"use strict";
+'use strict';
 
-import React, { useMemo } from "react";
+import React, { useMemo } from 'react';
 
-import Layout from "../components/layout/Layout";
+import DefaultResult from '@/components/DefaultResult';
+import Layout from '@/components/layout/Layout';
 
-import DefaultResult from "../components/DefaultResult";
-
-import styles from "../styles/App.module.css";
+import styles from '@/styles/App.module.css';
 
 const List = React.memo(({ itemsAmount }: AppProps) => {
   const renderView = useMemo(() => <DefaultResult />, []);
@@ -18,11 +17,11 @@ const List = React.memo(({ itemsAmount }: AppProps) => {
   );
 });
 
-if (process.env.NODE_ENV !== "production") List.displayName = "List";
+if (process.env.NODE_ENV !== 'production') List.displayName = 'List';
 export default List;
 
 export const getStaticProps = async () => {
-  const result = (require("../lib/db.json").resource as Resource).length;
+  const result = (require('@/lib/db.json').resource as Resource).length;
 
   return {
     props: {

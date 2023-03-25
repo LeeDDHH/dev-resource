@@ -1,14 +1,31 @@
-import db from "../lib/db.json";
+'use strict';
+
+import {
+  isSearchKeywordIncludedToName,
+  isSearchKeywordIncludedToDescription,
+  isSearchKeywordIncludedToTags,
+} from '@/lib/resolverUtils';
+import { splitStringFromSpace } from '@/lib/utils';
+
+import db from '../lib/db.json';
 
 export const resolvers = {
   Query: {
     items: () => db.resource,
-    search: (parents: any, { text }: { text: string }) =>
-      db.resource.filter(
+    search: (_: any, { text }: { text: string }) => {
+      // 検索する文字をスペース（半角、全角）ごとに区切る
+      const splitedString = splitStringFromSpace(text);
+      /**
+       * 検索する範囲を広げて検索
+       * 検索するキーワードがコンテンツの名前・説明・キーワードのどれかに当てはまるものを返す
+       */
+      return db.resource.filter(
         (source) =>
-          source.name.includes(text) ||
-          source.description.includes(text) ||
-          source.tag.includes(text)
-      ),
+          isSearchKeywordIncludedToName(splitedString, source.name) ||
+          isSearchKeywordIncludedToDescription(splitedString, source.description) ||
+          isSearchKeywordIncludedToTags(splitedString, source.tag)
+      );
+    },
+    // NOTE: 検索する範囲を絞って検索パターンも作る
   },
 };

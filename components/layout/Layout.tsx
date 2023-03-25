@@ -1,18 +1,19 @@
-"use strict";
+'use strict';
 
-import React, { useMemo } from "react";
-import { useRouter } from "next/router";
-import Link from "next/link";
+import React, { useMemo } from 'react';
 
-import { HiHome } from "react-icons/hi";
-import { FaThList } from "react-icons/fa";
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import { FaThList } from 'react-icons/fa';
+import { HiHome } from 'react-icons/hi';
 
-import HeadComponent from "../HeadComponent";
-import styles from "../../styles/Layout.module.css";
+import HeadComponent from '../HeadComponent';
+
+import styles from '@/styles/Layout.module.css';
 
 const paths = [
-  { pathName: "/", title: "検索ページ", component: <HiHome size="2rem" /> },
-  { pathName: "/list", title: "閲覧ページ", component: <FaThList size="1.5rem" /> },
+  { pathName: '/', title: '検索ページ', component: <HiHome size='2rem' /> },
+  { pathName: '/list', title: '閲覧ページ', component: <FaThList size='1.5rem' /> },
 ];
 
 type Props = {
@@ -39,7 +40,7 @@ const Layout = React.memo(({ itemsAmount, children }: Props) => {
       );
     });
     return <div className={styles.headerContainer__items}>{links}</div>;
-  }, []);
+  }, [router.asPath]);
 
   return (
     <div>
@@ -58,5 +59,7 @@ const Layout = React.memo(({ itemsAmount, children }: Props) => {
     </div>
   );
 });
+
+if (process.env.NODE_ENV !== 'production') Layout.displayName = 'Layout';
 
 export default Layout;

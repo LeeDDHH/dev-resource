@@ -1,15 +1,15 @@
-"use strict";
+'use strict';
 
-import React, { useEffect } from "react";
-import { AppProps } from "next/app";
-import { useRouter } from "next/router";
+import React, { useEffect } from 'react';
 
-import { ApolloProvider } from "@apollo/client";
-import client from "../lib/apollo-client";
+import { ApolloProvider } from '@apollo/client';
+import { AppProps } from 'next/app';
+import { useRouter } from 'next/router';
 
-import { pageview } from "../lib/gtag";
+import client from '@/lib/apollo-client';
+import { pageview } from '@/lib/gtag';
 
-import "../styles/app.css";
+import '@/styles/app.css';
 
 const Provider = React.memo(({ Component, pageProps }: AppProps) => {
   const router = useRouter();
@@ -20,9 +20,9 @@ const Provider = React.memo(({ Component, pageProps }: AppProps) => {
         pageview(url);
       }
     };
-    router.events.on("routeChangeComplete", handleRouteChange);
+    router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     };
   }, [router.events]);
 
@@ -32,5 +32,5 @@ const Provider = React.memo(({ Component, pageProps }: AppProps) => {
     </ApolloProvider>
   );
 });
-if (process.env.NODE_ENV !== "production") Provider.displayName = "Provider";
+if (process.env.NODE_ENV !== 'production') Provider.displayName = 'Provider';
 export default Provider;

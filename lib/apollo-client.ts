@@ -1,9 +1,9 @@
-"use strict";
+'use strict';
 
-import { ApolloClient, InMemoryCache } from "@apollo/client";
+import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: "api/graphql",
+  uri: 'api/graphql',
   cache: new InMemoryCache(),
 });
 

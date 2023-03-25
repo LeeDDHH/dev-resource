@@ -1,0 +1,71 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "unused-imports"],
+  "rules": {
+    "no-unexpected-multiline": "error",
+    "no-unreachable": "error",
+    "@next/next/no-img-element": "off",
+    "@next/next/no-html-link-for-pages": "off",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": [
+      "warn",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "all",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "parent", "sibling", "index", "object", "type"],
+        "newlines-between": "always",
+        "alphabetize": { "order": "asc", "caseInsensitive": true },
+        "pathGroups": [
+          {
+            "pattern": "react**",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "@/apollo/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/components/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/graphql/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/lib/**",
+            "group": "parent",
+            "position": "before"
+          },
+          {
+            "pattern": "@/styles/**",
+            "group": "parent",
+            "position": "after"
+          },
+          {
+            "pattern": "@/types/**",
+            "group": "type",
+            "position": "after"
+          }
+        ]
+      }
+    ]
+  }
+}

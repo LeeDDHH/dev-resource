@@ -1,6 +1,6 @@
 overwrite: true
-schema: "./graphql/schema.graphql"
-documents: "graphql/**/*.graphql"
+schema: './graphql/schema.graphql'
+documents: 'graphql/**/*.graphql'
 generates:
   ./graphql/generated.ts: # 型定義のファイル作成先
     plugins: # プラグインを指定

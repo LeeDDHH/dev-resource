@@ -1,31 +1,31 @@
-"use strict";
+'use strict';
 
-import React from "react";
+import React from 'react';
 
-import { useQuery } from "@apollo/client";
+import { useQuery } from '@apollo/client';
 
 import {
   GetDataWithSearchTextQuery,
   GetDataWithSearchTextDocument,
   GetDataWithSearchTextQueryVariables,
   Item,
-} from "../graphql/generated";
+} from '@/graphql/generated';
 
-import { filterItems } from "../lib/generic";
+import { filterItems } from '@/lib/generic';
 
-import ItemListsView from "./ItemListsView";
+import ItemListsView from './ItemListsView';
 
 type Props = {
   searchText: string;
 };
 
 const SearchedResult = React.memo(({ searchText }: Props) => {
-  const { data, loading, error } = useQuery<
-    GetDataWithSearchTextQuery,
-    GetDataWithSearchTextQueryVariables
-  >(GetDataWithSearchTextDocument, {
-    variables: { text: searchText },
-  });
+  const { data, loading, error } = useQuery<GetDataWithSearchTextQuery, GetDataWithSearchTextQueryVariables>(
+    GetDataWithSearchTextDocument,
+    {
+      variables: { text: searchText },
+    }
+  );
 
   if (loading) {
     return (
@@ -46,5 +46,5 @@ const SearchedResult = React.memo(({ searchText }: Props) => {
   return <ItemListsView items={items} />;
 });
 
-if (process.env.NODE_ENV !== "production") SearchedResult.displayName = "SearchedResult";
+if (process.env.NODE_ENV !== 'production') SearchedResult.displayName = 'SearchedResult';
 export default SearchedResult;

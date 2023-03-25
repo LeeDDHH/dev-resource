@@ -19,18 +19,31 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "codegen": "graphql-codegen"
+    "codegen": "graphql-codegen",
+    "lint": "next lint --fix",
+    "fmt": "prettier --write .",
+    "fix-all": "prettier --write . && next lint --fix",
+    "fmt-chk": "prettier --check ."
   },
   "devDependencies": {
     "@graphql-codegen/cli": "2.16.2",
+    "@graphql-codegen/client-preset": "1.2.4",
+    "@graphql-codegen/introspection": "2.2.3",
     "@graphql-codegen/typed-document-node": "^2.3.11",
     "@graphql-codegen/typescript": "^2.8.6",
     "@graphql-codegen/typescript-operations": "^2.5.11",
     "@types/gtag.js": "^0.0.12",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
-    "typescript": "^4.9.4",
-    "@graphql-codegen/introspection": "2.2.3",
-    "@graphql-codegen/client-preset": "1.2.4"
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-next": "^13.2.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.7",
+    "typescript": "^4.9.4"
   }
 }
