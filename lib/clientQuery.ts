@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-import { gql } from "@apollo/client";
+import { gql } from '@apollo/client';
 
 export const GET_ALL_DATA = gql`
   query GetAllData {

@@ -1,11 +1,12 @@
-"use strict";
+'use strict';
 
-import React from "react";
-import { BiSearchAlt2 } from "react-icons/bi";
+import React from 'react';
 
-import { handleEnterInputEvent } from "../lib/keyboardEvents";
+import { BiSearchAlt2 } from 'react-icons/bi';
 
-import styles from "../styles/SearchBox.module.css";
+import { handleEnterInputEvent } from '@/lib/keyboardEvents';
+
+import styles from '@/styles/SearchBox.module.css';
 
 type Props = {
   value: string;
@@ -15,22 +16,22 @@ type Props = {
 
 const SearchBox = React.memo(({ value, changeSearchText, searchTextHandler }: Props) => {
   return (
-    <div className={styles.searchBox} role="tablist">
+    <div className={styles.searchBox} role='tablist'>
       <input
-        id="searchText"
+        id='searchText'
         className={styles.searchInput}
-        type="text"
-        name="searchText"
+        type='text'
+        name='searchText'
         value={value}
         onChange={(e) => changeSearchText(e.target.value)}
         onKeyDown={(e) => handleEnterInputEvent(e, searchTextHandler)}
       />
       <button onClick={searchTextHandler}>
-        <BiSearchAlt2 size="3rem" />
+        <BiSearchAlt2 size='3rem' />
       </button>
     </div>
   );
 });
 
-if (process.env.NODE_ENV !== "production") SearchBox.displayName = "SearchBox";
+if (process.env.NODE_ENV !== 'production') SearchBox.displayName = 'SearchBox';
 export default SearchBox;

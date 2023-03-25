@@ -1,0 +1,6 @@
+# Ignore artifacts:
+.next
+next_build
+node_modules
+public
+graphql/generated.ts

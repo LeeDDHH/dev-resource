@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 export const filterItems = <T>(items: T[] | null): NonNullable<T>[] | undefined => {
   if (!items) return undefined;

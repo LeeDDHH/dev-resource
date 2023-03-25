@@ -15,6 +15,8 @@
 |    @apollo/client    |   3.7.3    |
 |    @apollo/server    |   4.3.0    |
 | @graphql-codegen/cli |   2.16.2   |
+|        eslint        |   8.36.0   |
+|       pretter        |   2.8.7    |
 
 ## コマンド
 

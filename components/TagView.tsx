@@ -1,8 +1,8 @@
-"use strict";
+'use strict';
 
-import React from "react";
+import React from 'react';
 
-import styles from "../styles/TagView.module.css";
+import styles from '@/styles/TagView.module.css';
 
 type Props = {
   tag: string[];
@@ -22,5 +22,5 @@ const TagView = React.memo(({ tag, itemId }: Props) => {
   );
 });
 
-if (process.env.NODE_ENV !== "production") TagView.displayName = "TagView";
+if (process.env.NODE_ENV !== 'production') TagView.displayName = 'TagView';
 export default TagView;

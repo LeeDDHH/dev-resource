@@ -1,7 +1,8 @@
-"use strict";
+'use strict';
 
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import { GA_TRACKING_ID } from "../lib/Const";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+
+import { GA_TRACKING_ID } from '@/lib/Const';
 
 class _Document extends Document {
   render() {

@@ -1,35 +1,35 @@
-"use strict";
+'use strict';
 
-import React from "react";
+import React from 'react';
 
-import Link from "next/link";
-import Image from "next/image";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import TagView from "./TagView";
+import { Item } from '@/graphql/generated';
 
-import styles from "../styles/SingleItemView.module.css";
+import styles from '@/styles/SingleItemView.module.css';
 
-import { Item } from "../graphql/generated";
+import TagView from './TagView';
 
 type Props = { item: Item };
 
 const SingleItemView = React.memo(({ item }: Props) => {
   return (
     <li className={styles.item}>
-      <Link href={item.url ?? ""} target="_blank" rel="noopener norefferer">
-        <span>{(item.name ?? "").replace(/-/g, " ")}</span>
+      <Link href={item.url ?? ''} target='_blank' rel='noopener norefferer'>
+        <span>{(item.name ?? '').replace(/-/g, ' ')}</span>
         <div className={styles.centerImage}>
           <Image
             src={`/images/${item.name}.png`}
-            alt={item.name ?? ""}
+            alt={item.name ?? ''}
             width={1130}
             height={600}
-            loading={"lazy"}
+            loading={'lazy'}
             quality={1}
             style={{
-              width: "100%",
-              maxWidth: "100%",
-              height: "auto",
+              width: '100%',
+              maxWidth: '100%',
+              height: 'auto',
             }}
           />
         </div>
@@ -40,5 +40,5 @@ const SingleItemView = React.memo(({ item }: Props) => {
   );
 });
 
-if (process.env.NODE_ENV !== "production") SingleItemView.displayName = "SingleItemView";
+if (process.env.NODE_ENV !== 'production') SingleItemView.displayName = 'SingleItemView';
 export default SingleItemView;

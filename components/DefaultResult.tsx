@@ -1,14 +1,14 @@
-"use strict";
+'use strict';
 
-import React from "react";
+import React from 'react';
 
-import { useQuery } from "@apollo/client";
+import { useQuery } from '@apollo/client';
 
-import { GetAllDataQuery, GetAllDataDocument, Item } from "../graphql/generated";
+import { GetAllDataQuery, GetAllDataDocument, Item } from '@/graphql/generated';
 
-import { filterItems } from "../lib/generic";
+import { filterItems } from '@/lib/generic';
 
-import ItemListsView from "./ItemListsView";
+import ItemListsView from './ItemListsView';
 
 const DefaultResult = React.memo(() => {
   const { data, loading, error } = useQuery<GetAllDataQuery>(GetAllDataDocument);
@@ -32,5 +32,5 @@ const DefaultResult = React.memo(() => {
   return <ItemListsView items={items} />;
 });
 
-if (process.env.NODE_ENV !== "production") DefaultResult.displayName = "DefaultResult";
+if (process.env.NODE_ENV !== 'production') DefaultResult.displayName = 'DefaultResult';
 export default DefaultResult;

@@ -138,17 +138,7 @@
       "name": "Ben-Awad-Youtube",
       "url": "https://www.youtube.com/c/BenAwad97/videos",
       "description": "Reactを中心に情報を発信するチャンネル",
-      "tag": [
-        "プログラミング",
-        "エンジニアリング",
-        "React",
-        "GraphQL",
-        "Typescript",
-        "勉強",
-        "学習",
-        "動画",
-        "英語"
-      ]
+      "tag": ["プログラミング", "エンジニアリング", "React", "GraphQL", "Typescript", "勉強", "学習", "動画", "英語"]
     },
     {
       "id": 20,
