@@ -30,7 +30,7 @@
     "@graphql-codegen/client-preset": "1.2.4",
     "@graphql-codegen/introspection": "2.2.3",
     "@graphql-codegen/typed-document-node": "^2.3.11",
-    "@graphql-codegen/typescript": "^2.8.6",
+    "@graphql-codegen/typescript": "^3.0.2",
     "@graphql-codegen/typescript-operations": "^2.5.11",
     "@types/gtag.js": "^0.0.12",
     "@types/node": "^18.15.8",
