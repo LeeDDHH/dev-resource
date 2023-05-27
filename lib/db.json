@@ -3699,6 +3699,132 @@
       "url": "https://www.m3tech.blog/entry/engineers-leadership",
       "description": "令和最新版エンジニアのリーダーシップ論",
       "tag": ["エンジニア", "リーダーシップ"]
+    },
+    {
+      "id": 527,
+      "name": "convert-gui-app-to-real-program-python-to-exe-to-setup-wizard",
+      "url": "https://www.youtube.com/watch?v=p3tSLatmGvU",
+      "description": "Pythonを使ってGUIアプリケーションを作るハンズオン",
+      "tag": ["Python", "GUI", "ハンズオン", "Youtube"]
+    },
+    {
+      "id": 528,
+      "name": "full-http-networking-course-fetch-and-rest-apis-in-javascript",
+      "url": "https://www.youtube.com/watch?v=2JYT5f2isg4",
+      "description": "JavaScriptを使ったFetch、RestAPIから見るHTTPネットワークについての説明",
+      "tag": ["HTTP", "ネットワーク", "JavaScript", "Youtube"]
+    },
+    {
+      "id": 529,
+      "name": "theresanaiforthat",
+      "url": "https://theresanaiforthat.com/",
+      "description": "ユースケースに合わせて適切なAIサービスが検索できるサイト",
+      "tag": ["AI", "ChatGPT", "ユースケース"]
+    },
+    {
+      "id": 530,
+      "name": "make-a-user-resizeable-element-super-easily",
+      "url": "https://www.youtube.com/shorts/Adqudv8o5PQ",
+      "description": "ユーザーがサイズ変更可能な要素を簡単に作る方法について説明する動画",
+      "tag": ["UX", "CSS", "Youtube"]
+    },
+    {
+      "id": 531,
+      "name": "palette-fm",
+      "url": "https://palette.fm/",
+      "description": "白黒画像をカラー化するツール",
+      "tag": ["AI", "カラー", "画像"]
+    },
+    {
+      "id": 532,
+      "name": "pngegg",
+      "url": "https://www.pngegg.com/",
+      "description": "透過処理されたPNG素材が見つかるサイト",
+      "tag": ["PNG", "素材", "透過"]
+    },
+    {
+      "id": 533,
+      "name": "treating-engineers-as-in-house-contractors",
+      "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00148/012500267/",
+      "description": "せっかく中途採用した技術者を「社内業者」扱い、日本企業のDXの愚かな現実",
+      "tag": ["エンジニア", "組織"]
+    },
+    {
+      "id": 534,
+      "name": "introduction-to-ia-for-design-for-understanding",
+      "url": "https://speakerdeck.com/securecat/introduction-to-ia-for-design-for-understanding",
+      "description": "「わかりやすさ」を デザインする情報アーキテクチャ必修入門",
+      "tag": ["UX", "アーキテクチャ", "デザイン"]
+    },
+    {
+      "id": 535,
+      "name": "tokyoto-user-test-guidelines",
+      "url": "https://shintosei.metro.tokyo.lg.jp/ut_g_v2/",
+      "description": "東京都が都庁職員向けに整備しているユーザーテストガイドライン",
+      "tag": ["テスト", "ガイドライン"]
+    },
+    {
+      "id": 536,
+      "name": "designthinking-designmanagement-report2023",
+      "url": "https://www.concentinc.jp/solution/designthinking-designmanagement-report2023/",
+      "description": "デザイン思考・デザイン経営レポート2023",
+      "tag": ["デザイン", "経営", "レポート"]
+    },
+    {
+      "id": 537,
+      "name": "examples-of-characteristics-of-hard-to-read-text",
+      "url": "https://twitter.com/haruyuki031/status/1620537422961594368?t=9BDdbGUouTu7ov-1uMM_ew&s=19",
+      "description": "読みづらい文章の特徴の一例",
+      "tag": ["文章", "日本語"]
+    },
+    {
+      "id": 538,
+      "name": "Is-trpc-the-end-of-rest-and-graphql",
+      "url": "https://www.youtube.com/watch?v=lxnPMB0Jc7E",
+      "description": "tRPCがRESTやGraphQLの代替えになれるかどうかについて解説する動画",
+      "tag": ["tRPC", "REST", "GraphQL", "Youtube"]
+    },
+    {
+      "id": 539,
+      "name": "the-weird-future-of-music",
+      "url": "https://www.youtube.com/watch?v=1LV1K69885E",
+      "description": "AIによって生成される音楽について解説をする動画",
+      "tag": ["AI", "音楽", "Youtube"]
+    },
+    {
+      "id": 540,
+      "name": "do-not-use-return-types-unless",
+      "url": "https://www.youtube.com/watch?v=nwSe95uFN8E",
+      "description": "一定の条件を満たさない限り、TypeScriptで戻り値の型の指定をしてはいけないことについて解説する動画",
+      "tag": ["型", "TypeScript", "Youtube"]
+    },
+    {
+      "id": 541,
+      "name": "how-to-use-google-fonts",
+      "url": "https://www.youtube.com/shorts/8ubmqUL3KR8",
+      "description": "Googleフォントを使うための手順について簡単にまとめた動画",
+      "tag": ["Google", "フォント", "Youtube"]
+    },
+    {
+      "id": 542,
+      "name": "css-has-selector-is-amazing",
+      "url": "https://www.youtube.com/watch?v=XdtZWVK3y_Q",
+      "description": "CSSに新しく追加されたhasセレクターの使い方について解説する動画",
+      "tag": ["CSS", "Youtube"]
+    },
+    {
+      "id": 543,
+      "name": "ux-design-trends-2023",
+      "url": "https://www.youtube.com/watch?v=LgOTZHtQWYs",
+      "description": "2023年のUXデザイントレンドについて",
+      "tag": ["UX", "トレンド", "Youtube"]
+    },
+    {
+      "id": 544,
+      "name": "misskey",
+      "url": "https://misskey-hub.net/",
+      "description": "オープンソースの分散型ソーシャルネットワーキングプラットフォーム",
+      "tag": ["OSS", "SNS"]
     }
   ]
 }
