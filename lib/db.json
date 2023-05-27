@@ -2175,21 +2175,21 @@
       "name": "developer-book",
       "url": "https://news.hada.io/topic?id=4656",
       "description": "開発する上で読んでみるといい本についてまとまったスレッド",
-      "tag": ["開発者", "本", "スレッド"]
+      "tag": ["エンジニア", "本", "スレッド"]
     },
     {
       "id": 311,
       "name": "developer-hobbit",
       "url": "https://news.hada.io/topic?id=4654",
       "description": "開発以外の趣味についてまとまったスレッド",
-      "tag": ["開発者", "趣味", "スレッド"]
+      "tag": ["エンジニア", "趣味", "スレッド"]
     },
     {
       "id": 312,
       "name": "how-javascript-works-summary",
       "url": "https://rinae.dev/posts/how-javascript-works-summary",
       "description": "JSON形式を作ったダグラス・クロックフォードさんが書いた本をまとめた韓国のブログ記事",
-      "tag": ["開発者", "JavaScript"]
+      "tag": ["エンジニア", "JavaScript"]
     },
     {
       "id": 313,
@@ -2585,7 +2585,7 @@
       "name": "insights-stackoverflow-survey-2021",
       "url": "https://insights.stackoverflow.com/survey/2021",
       "description": "Stack Overflowが行った2021年の開発者への調査結果が見れるサイト",
-      "tag": ["開発者", "調査"]
+      "tag": ["エンジニア", "調査"]
     },
     {
       "id": 368,
@@ -3587,6 +3587,118 @@
       "url": "https://shottr.cc/",
       "description": "Mac用スクリーンショットユーティリティ",
       "tag": ["Mac", "スクリーンショット", "OCR"]
+    },
+    {
+      "id": 511,
+      "name": "developer-2nd-job-youtbe",
+      "url": "https://www.youtube.com/watch?v=Z1sazSbqH7I",
+      "description": "開発者が次のキャリアとして考えられるジョブについて説明するYoutube",
+      "tag": ["開発者", "転職", "キャリア", "Youtube"]
+    },
+    {
+      "id": 512,
+      "name": "mangamura-hacker",
+      "url": "https://www.vice.com/ja/article/qvg7ev/mangamura-hacker",
+      "description": "漫画村を追い詰めたハッカーが語る〈ブラックハッカー〉から〈ホワイトハッカー〉への道",
+      "tag": ["ハッカー"]
+    },
+    {
+      "id": 513,
+      "name": "homerow",
+      "url": "https://www.homerow.app/",
+      "description": "macOSに表示されるすべてのボタンに対してキーボードショートカットを適用するアプリ",
+      "tag": ["Mac", "アプリ", "ショートカット"]
+    },
+    {
+      "id": 514,
+      "name": "reddit-clone-with-next-js-firebase-chakra-ui",
+      "url": "https://www.youtube.com/watch?v=rCm5RVYKWVg",
+      "description": "Next.js、Firebase、Chakra UIを使ったRedditクローン",
+      "tag": ["Next.js", "React", "Firebase", "CSS In JS", "ハンズオン"]
+    },
+    {
+      "id": 515,
+      "name": "findy-frontend-career",
+      "url": "https://findy-code.io/engineer-lab/frontend-koba04",
+      "description": "楽しさも怖さも成長の糧になる。独学からスタートしたフロントエンドエンジニアとしてのキャリア",
+      "tag": ["キャリア", "フロントエンド"]
+    },
+    {
+      "id": 516,
+      "name": "will-it-make-a-profit-is-a-killer-phrase-that-kills-innovation",
+      "url": "https://logmi.jp/business/articles/328039",
+      "description": "「確実に儲かるのか？」は、イノベーションの芽を摘む殺し文句 悪気なく社員のやる気を削ぐ「硬直しきった組織」を変えるには",
+      "tag": ["モチベーション", "エンジニア", "組織"]
+    },
+    {
+      "id": 517,
+      "name": "the-essence-of-front-end-testing-explained-by-test-driven-developers",
+      "url": "https://logmi.jp/tech/articles/328084",
+      "description": "「自分たちが考えたモックやスタブは妄想にすぎない」 テスト駆動開発の第一人者が説く、フロントエンドテストの本質",
+      "tag": ["テスト", "フロントエンド", "エンジニア"]
+    },
+    {
+      "id": 518,
+      "name": "introduce-of-in-depth-system-performance-2nd-edition",
+      "url": "https://made.livesense.co.jp/entry/2023/01/24/083000",
+      "description": "待望の日本語版発売！『詳解システムパフォーマンス 第2版』Linuxが深く学べる名著を全力で推したい",
+      "tag": ["Linux", "パフォーマンス", "本"]
+    },
+    {
+      "id": 519,
+      "name": "what-is-email-only-authentication-magic-link-auth",
+      "url": "https://www.youtube.com/watch?v=b6qHfPdv4Y8",
+      "description": "What Is Email Only Authentication - Magic Link Auth",
+      "tag": ["認証", "JavaScript", "メール"]
+    },
+    {
+      "id": 520,
+      "name": "what-is-a-polyfill",
+      "url": "https://remysharp.com/2010/10/08/what-is-a-polyfill",
+      "description": "Polyfillとはなにかについて説明する",
+      "tag": ["Polyfill", "概念"]
+    },
+    {
+      "id": 521,
+      "name": "node-green",
+      "url": "https://node.green/",
+      "description": "ECMAScript機能の互換性について各バージョンごとに表でまとめたサイト",
+      "tag": ["ECMAScript", "JavaScript", "Node.js", "仕様"]
+    },
+    {
+      "id": 522,
+      "name": "example-of-using-chat-gpt-to-improve-excel-work",
+      "url": "https://www.youtube.com/watch?v=lVI98Bf7wc8",
+      "description": "ChatGPTを使ってExcel作業を改善する例について紹介する",
+      "tag": ["ChatGPT", "Excel"]
+    },
+    {
+      "id": 523,
+      "name": "ipa-security-visualization-costs",
+      "url": "https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2022/visualization-costs.html",
+      "description": "セキュリティ関連費用の可視化 経営層説得ツール",
+      "tag": ["セキュリティ", "可視化", "IPA"]
+    },
+    {
+      "id": 524,
+      "name": "short-introduce-ipa-nanbok",
+      "url": "https://qiita.com/f_0000/items/5af9d8cb225a35eac995",
+      "description": "セキュリティ関連費用の可視化ツール「NANBOK」の概要について説明する記事",
+      "tag": ["Qiita", "セキュリティ", "可視化", "概要"]
+    },
+    {
+      "id": 525,
+      "name": "qiita-basics-of-security",
+      "url": "https://qiita.com/ariaki/items/286c9d524789fbd37605",
+      "description": "セキュリティの基礎について説明する記事",
+      "tag": ["Qiita", "セキュリティ"]
+    },
+    {
+      "id": 526,
+      "name": "m3-engineers-leadership",
+      "url": "https://www.m3tech.blog/entry/engineers-leadership",
+      "description": "令和最新版エンジニアのリーダーシップ論",
+      "tag": ["エンジニア", "リーダーシップ"]
     }
   ]
 }
