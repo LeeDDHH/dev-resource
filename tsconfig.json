@@ -21,6 +21,7 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
+  "ts-node": { "compilerOptions": { "module": "CommonJS" } },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/gtag.ts"],
   "exclude": ["node_modules"]
 }
