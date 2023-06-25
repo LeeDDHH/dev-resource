@@ -5600,6 +5600,1399 @@
       "description": "Pythons Best Tools -YouTubeを使用してモダンなHTMLスクレイピング",
       "tag": [],
       "id": 801
+    },
+    {
+      "name": "learn-nextjs-13-with-this-one-project-youtube",
+      "url": "https://www.youtube.com/watch?v=NgayZAuTgwM",
+      "description": "この1つのプロジェクト-YouTubeでnext.js 13を学びます",
+      "tag": [],
+      "id": 802
+    },
+    {
+      "name": "neovim-in-100-seconds-youtube",
+      "url": "https://www.youtube.com/watch?v=c4OyfL5o7DU",
+      "description": "Neovimは100秒で-YouTube",
+      "tag": [],
+      "id": 803
+    },
+    {
+      "name": "creating-a-zelda-style-game-in-python-with-some-dark-souls-elements-youtube",
+      "url": "https://www.youtube.com/watch?v=QU1pPzEGrqw",
+      "description": "Python [いくつかのDark Souls Elements]でZeldaスタイルのゲームを作成する-YouTube",
+      "tag": [],
+      "id": 804
+    },
+    {
+      "name": "laravels-single-action-controllers-the-lightweight-solution-for-small-tasks-laravel-shorts-youtube",
+      "url": "https://www.youtube.com/shorts/LKdPwPBdOxs",
+      "description": "Laravelの単一のアクションコントローラー：小さなタスク用の軽量ソリューション#Laravel #Shorts -YouTube",
+      "tag": [],
+      "id": 805
+    },
+    {
+      "name": "why-reacts-object-state-tracking-is-weird-youtube",
+      "url": "https://www.youtube.com/shorts/nR9K7JBXK20",
+      "description": "Reactのオブジェクト状態追跡が奇妙な理由-YouTube",
+      "tag": [],
+      "id": 806
+    },
+    {
+      "name": "create-realistic-mockup-in-photoshop-tutorial-shorts-photoshop-youtube",
+      "url": "https://www.youtube.com/shorts/jIDA07BIFmE",
+      "description": "Photoshopでリアルなモックアップを作成します - チュートリアル！ #Shorts #Photoshop -YouTube",
+      "tag": [],
+      "id": 807
+    },
+    {
+      "name": "convert-the-image-format-of-the-image-file-with-the-command-line-imagemagick-laboradian",
+      "url": "https://laboradian.com/converting-image-format/",
+      "description": "コマンドラインで画像ファイルの画像形式を変換する (ImageMagick) – ラボラジアン",
+      "tag": [],
+      "id": 808
+    },
+    {
+      "name": "youtube-thumbnail-image-youtube-thumbnail-image-download-only-youtube",
+      "url": "http://urbanqee.com/doga/youtube-thumbnail-dl.php",
+      "description": "YouTubeサムネール画像｜YouTubeサムネイル画像ダウンロード｜Only YouTube",
+      "tag": [],
+      "id": 809
+    },
+    {
+      "name": "i-installed-a-virus-generator-youtube",
+      "url": "https://www.youtube.com/shorts/lCnz0x7NbBY",
+      "description": "ウイルス発電機-YouTubeをインストールしました",
+      "tag": [],
+      "id": 810
+    },
+    {
+      "name": "net-7-minimal-api-route-groups-are-insane-youtube",
+      "url": "https://www.youtube.com/shorts/5tIM6tzUH3I",
+      "description": ".NET 7最小APIルートグループは非常識です！ -YouTube",
+      "tag": [],
+      "id": 811
+    },
+    {
+      "name": "how-to-make-a-check-box-with-excel-shorts-excel-youtube",
+      "url": "https://www.youtube.com/shorts/QkB8ITh3J_k",
+      "description": "Excelでチェックボックスを作る方法！#shorts #excel - YouTube",
+      "tag": [],
+      "id": 812
+    },
+    {
+      "name": "sync-lofi-hip-hop-chords-with-the-kick-of-a-drum-pattern-part-9-youtube",
+      "url": "https://www.youtube.com/shorts/Y4RXSY2HOCc",
+      "description": "ドラムパターンのキックとヒップホップコードを同期する（パート9）-YouTube",
+      "tag": [],
+      "id": 813
+    },
+    {
+      "name": "measures-against-impulse-peculiar-to-adhd-youtube",
+      "url": "https://www.youtube.com/shorts/UzAakvs-2a8",
+      "description": "ADHD特有の衝動への対策 - YouTube",
+      "tag": [],
+      "id": 814
+    },
+    {
+      "name": "everything-is-open-source-if-you-can-reverse-engineer-try-it-right-now-youtube",
+      "url": "https://www.youtube.com/watch?v=gh2RXE9BIN8",
+      "description": "あなたがリバースエンジニアリングできるならば、すべてがオープンソースです（今すぐ試してください！）-YouTube",
+      "tag": [],
+      "id": 815
+    },
+    {
+      "name": "the-story-of-nextjs-youtube",
+      "url": "https://www.youtube.com/watch?v=BILxV_vrZO0",
+      "description": "next.jsのストーリー-YouTube",
+      "tag": [],
+      "id": 816
+    },
+    {
+      "name": "how-nextjs-really-works-youtube",
+      "url": "https://www.youtube.com/watch?v=d2yNsZd5PMs",
+      "description": "NextJSが実際にどのように機能するか-YouTube",
+      "tag": [],
+      "id": 817
+    },
+    {
+      "name": "data-fetching-in-react-with-remix-nextjs-react-query-streaming-and-more-youtube",
+      "url": "https://www.youtube.com/watch?v=Ao8F3FypsbI",
+      "description": "リミックス、nextjs、race query、strimingなどとのReactでのデータフェッチ",
+      "tag": [],
+      "id": 818
+    },
+    {
+      "name": "do-you-really-need-a-backend-youtube",
+      "url": "https://www.youtube.com/watch?v=2cB5Fh46Vi4",
+      "description": "本当にバックエンドが必要ですか？ -YouTube",
+      "tag": [],
+      "id": 819
+    },
+    {
+      "name": "the-story-of-asynchronous-javascript-youtube",
+      "url": "https://www.youtube.com/watch?v=rivBfgaEyWQ",
+      "description": "非同期JavaScript -YouTubeの物語",
+      "tag": [],
+      "id": 820
+    },
+    {
+      "name": "why-flexbox-why-do-flex-items-stretch-youtube",
+      "url": "https://www.youtube.com/shorts/e9Fx2hRT-UQ",
+      "description": "なぜFlexBox？ flexアイテムが伸びるのはなぜですか？ -YouTube",
+      "tag": [],
+      "id": 821
+    },
+    {
+      "name": "how-to-make-barcodes-in-excel-excel-youtube",
+      "url": "https://www.youtube.com/shorts/8udjfYOZlGY",
+      "description": "Excelでバーコードを作る方法！ #excel -youtube",
+      "tag": [],
+      "id": 822
+    },
+    {
+      "name": "7-ways-to-deal-with-css-youtube",
+      "url": "https://www.youtube.com/watch?v=ouncVBiye_M",
+      "description": "CSSに対処する7つの方法-YouTube",
+      "tag": [],
+      "id": 823
+    },
+    {
+      "name": "optimistic-nihilism-youtube",
+      "url": "https://www.youtube.com/watch?v=oBIo2AyjNMo",
+      "description": "楽観的なニヒリズム-youtube",
+      "tag": [],
+      "id": 824
+    },
+    {
+      "name": "animated-gradient-loader-html-css-youtube",
+      "url": "https://www.youtube.com/shorts/s5dbT2fD678",
+      "description": "アニメーショングラデーションローダー| HTML CSS -YouTube",
+      "tag": [],
+      "id": 825
+    },
+    {
+      "name": "how-3d-animation-works-fk-vs-ik-shorts-3d-animation-tutorial-youtube",
+      "url": "https://www.youtube.com/shorts/wCPYtaVuW2w",
+      "description": "3Dアニメーションの仕組み：FK対IK #Shorts＃3D #Animation #Tutorial -YouTube",
+      "tag": [],
+      "id": 826
+    },
+    {
+      "name": "the-most-loved-programming-language-code-programming-technology-software-tech-developer-youtube",
+      "url": "https://www.youtube.com/shorts/uVbTHUs_Kcs",
+      "description": "最も愛されているプログラミング言語！？」",
+      "tag": [],
+      "id": 827
+    },
+    {
+      "name": "enhance-your-lofi-chord-progressions-with-counterpoint-contrary-motion-part-12-youtube",
+      "url": "https://www.youtube.com/shorts/N826oYDXl6o",
+      "description": "カウンターポイントでLofiコードの進行を強化 - 反対の動き（パート12）-YouTube",
+      "tag": [],
+      "id": 828
+    },
+    {
+      "name": "impressive-piano-contrary-motion-arpeggios-youtube",
+      "url": "https://www.youtube.com/shorts/1xD4Hz6jNA4",
+      "description": "印象的なピアノ - 反対の動きのアルペジオス-YouTube",
+      "tag": [],
+      "id": 829
+    },
+    {
+      "name": "house-drum-pattern-fred-again-delilah-part-2-youtube",
+      "url": "https://www.youtube.com/shorts/6aaKYm_F7mg",
+      "description": "ハウスドラムパターン - フレッド再び - デリラ - パート2- YouTube",
+      "tag": [],
+      "id": 830
+    },
+    {
+      "name": "a-youtuber-stole-my-project-and-im-hyped-youtube",
+      "url": "https://www.youtube.com/watch?v=CtIZiEzdZZc",
+      "description": "YouTuberが私のプロジェクトを盗んだ（そして私は誇大宣伝）-YouTube",
+      "tag": [],
+      "id": 831
+    },
+    {
+      "name": "the-best-way-to-learn-code-tier-list-code-programming-technology-software-tech-dev-youtube",
+      "url": "https://www.youtube.com/shorts/6NvVZLpa-CA",
+      "description": "コードを学ぶための最良の方法！？ （ティアリスト）👩‍💻＃CODE #Programming #Technology #SoftWare #Tech＃DEV -YouTube",
+      "tag": [],
+      "id": 832
+    },
+    {
+      "name": "why-did-my-sidehustle-fail-how-to-validate-business-ideas-youtube",
+      "url": "https://www.youtube.com/watch?v=4_MDP6TcHwU",
+      "description": "なぜ私の側の城は失敗したのですか？ ビジネスアイデアを検証する方法-YouTube",
+      "tag": [],
+      "id": 833
+    },
+    {
+      "name": "i-accidentally-made-the-best-way-to-choose-colors-for-ui-design-realtime-colors-youtube",
+      "url": "https://www.youtube.com/watch?v=HAlIWRcldoc",
+      "description": "私は誤ってUIデザインの色 - リアルタイムの色-YouTubeを選択する最良の方法を作成しました",
+      "tag": [],
+      "id": 834
+    },
+    {
+      "name": "best-practices-around-environment-variables-in-web-application-development",
+      "url": "https://zenn.dev/dove/articles/5fd7926e7da949",
+      "description": "webアプリ開発における環境変数まわりのベストプラクティス",
+      "tag": [],
+      "id": 835
+    },
+    {
+      "name": "how-to-set-environment-variables-with-nextjs-forest-book-blog",
+      "url": "https://forestbook-freelance.com/2021/06/09/next-js%E3%81%A7%E7%92%B0%E5%A2%83%E5%A4%89%E6%95%B0%E3%82%92%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/",
+      "description": "Next.jsで環境変数を設定する方法 - フォレストブックブログ",
+      "tag": [],
+      "id": 836
+    },
+    {
+      "name": "nextjs-environment-variables-memo-qiita",
+      "url": "https://qiita.com/kamenaris/items/8d32f60fb4acecd7fc4c",
+      "description": "Next.jsの環境変数について、便利と感じたことメモ - Qiita",
+      "tag": [],
+      "id": 837
+    },
+    {
+      "name": "the-only-reason-to-unit-test-youtube",
+      "url": "https://www.youtube.com/watch?v=FF50H2RWaEY",
+      "description": "ユニットテストの唯一の理由-YouTube",
+      "tag": [],
+      "id": 838
+    },
+    {
+      "name": "vscode-to-lunarvim-youtube",
+      "url": "https://www.youtube.com/watch?v=l-P6COY7GeQ&t=4s",
+      "description": "lunarvimへのvscode -youtube",
+      "tag": [],
+      "id": 839
+    },
+    {
+      "name": "master-the-backend-in-one-video-the-ultimate-resource-for-developers-youtube",
+      "url": "https://www.youtube.com/watch?v=cGAdC4A5fF4",
+      "description": "1つのビデオでバックエンドをマスターする：開発者向けの究極のリソース-YouTube",
+      "tag": [],
+      "id": 840
+    },
+    {
+      "name": "i-tried-8-different-postgres-orms-youtube",
+      "url": "https://www.youtube.com/watch?v=4QN1BzxF8wM",
+      "description": "私は8つの異なるPostgres orms -youtubeを試しました",
+      "tag": [],
+      "id": 841
+    },
+    {
+      "name": "this-tailwind-library-is-a-game-changer-youtube",
+      "url": "https://www.youtube.com/shorts/1Hgc6EU9PSg",
+      "description": "このTailwindライブラリは、ゲームチェンジャー-YouTubeです",
+      "tag": [],
+      "id": 842
+    },
+    {
+      "name": "artist-you-have-to-try-this-youtube",
+      "url": "https://www.youtube.com/shorts/svdQHfYdDvg",
+      "description": "アーティスト？ これを試してみる必要があります…-YouTube",
+      "tag": [],
+      "id": 843
+    },
+    {
+      "name": "never-install-locally-youtube",
+      "url": "https://www.youtube.com/watch?v=J0NuOlA2xDc",
+      "description": "ローカルにインストールしないでください-YouTube",
+      "tag": [],
+      "id": 844
+    },
+    {
+      "name": "what-a-10000-infrastructure-looks-like-code-programming-software-tech-technology-youtube",
+      "url": "https://www.youtube.com/shorts/tSiYkphlnrU",
+      "description": "$ 10,000のインフラストラクチャは👩‍💻 #code #programming #software #tech #technology -youtubeのように見えます",
+      "tag": [],
+      "id": 845
+    },
+    {
+      "name": "8-design-patterns-every-developer-should-know-youtube",
+      "url": "https://www.youtube.com/watch?v=tAuRQs_d9F8",
+      "description": "8デザインパターンすべての開発者が知っておくべき-YouTube",
+      "tag": [],
+      "id": 846
+    },
+    {
+      "name": "how-to-setup-nodejs-with-typescript-in-2023-youtube",
+      "url": "https://www.youtube.com/watch?v=H91aqUHn8sE",
+      "description": "2023年にタイプスクリプトでnode.jsをセットアップする方法-YouTube",
+      "tag": [],
+      "id": 847
+    },
+    {
+      "name": "i-want-to-convey-it-to-a-young-engineer-in-my-20s-the-secret-to-grow-overwhelmingly-qiita",
+      "url": "https://qiita.com/Terao-Takumi/items/ddf11b32676021fd2e83",
+      "description": "20代若手エンジニアに伝えたい「圧倒的に成長する秘訣」 - Qiita",
+      "tag": [],
+      "id": 848
+    },
+    {
+      "name": "javascript-if-you-register-for-atcoder-you-can-do-it-enough-if-you-solve-it-impressions-that-solved-10-questions-in-the-past-questions-qiita",
+      "url": "https://qiita.com/fghyuhi/items/382c29ec86ad68af37cd",
+      "description": "【JavaScript】AtCoder に登録したら次にやること ～これだけ解けば十分闘える！過去問精選 10 問～を解いた感想 - Qiita",
+      "tag": [],
+      "id": 849
+    },
+    {
+      "name": "is-chatgpt-a-silver-bullet-that-solves-engineer-shortage-problems-qiita",
+      "url": "https://qiita.com/kaku3/items/9763f547d497e6f02caf",
+      "description": "ChatGPTはエンジニア不足問題を解消する銀の弾丸か？ - Qiita",
+      "tag": [],
+      "id": 850
+    },
+    {
+      "name": "css-use-css-masking-to-realize-the-ui-to-fade-out-qiita",
+      "url": "https://qiita.com/degudegu2510/items/55b63df4f80e7b95ece6",
+      "description": "【CSS】CSS Maskingを使って、フェードアウトするUIを実現する。 - Qiita",
+      "tag": [],
+      "id": 851
+    },
+    {
+      "name": "the-story-of-a-small-fish-engineer-who-has-retired-from-the-company-development-mega-venture-in-just-six-months-joanofarc",
+      "url": "https://note.com/joan_of_arc/n/ned510ca913c7",
+      "description": "自社開発メガベンチャーをわずか半年で鬱退職した雑魚エンジニアの話｜JoanOfArc",
+      "tag": [],
+      "id": 852
+    },
+    {
+      "name": "if-you-use-react-set-the-highlights-of-the-react-developer-tools-for-re-rendering",
+      "url": "https://zenn.dev/bs_kansai/articles/415c7e7a81ac6a",
+      "description": "Reactを使うならReact Developer Toolsの再レンダリング時ハイライトくらい設定してくれ",
+      "tag": [],
+      "id": 853
+    },
+    {
+      "name": "what-i-think-is-the-most-important-when-creating-services-using-chatgpt",
+      "url": "https://kensuu.com/n/na40d9ce2eaa3",
+      "description": "ChatGPTを使ったサービスを作る時に一番大事かなーと思っていること｜けんすう",
+      "tag": [],
+      "id": 854
+    },
+    {
+      "name": "react-reasons-for-learning-now-and-learning-resources-qiita",
+      "url": "https://qiita.com/omo_taku/items/bfc1a48b4f4dc62be78c",
+      "description": "React：今すぐ学ぶべき理由と学習リソース - Qiita",
+      "tag": [],
+      "id": 855
+    },
+    {
+      "name": "javascript-map-method-and-react-rendering-qiita",
+      "url": "https://qiita.com/michaelcharles/items/fa9feab39c488342b458",
+      "description": "JavaScriptの.mapメソッドとReactでのレンダリング - Qiita",
+      "tag": [],
+      "id": 856
+    },
+    {
+      "name": "people-who-say-i-dont-know-because-i-have-never-touched-the-network-can-be-learned-about-the-basics-of-the-network-based-on-aws-it-ebook-105-it",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2305/23/news011.html",
+      "description": "「ネットワークなんて触ったことないから分からない」という人も必見　AWSを題材にネットワークの基礎が学べる無料の電子書籍：人気連載まとめ読み！ ＠IT eBook（105） - ＠IT",
+      "tag": [],
+      "id": 857
+    },
+    {
+      "name": "toro-dairo-moriyama-work-in-tech-voice-voice-platform",
+      "url": "https://voicy.jp/channel/1232",
+      "description": "たいろー(森山大朗)「Work in Tech!」/ Voicy - 音声プラットフォーム",
+      "tag": [],
+      "id": 858
+    },
+    {
+      "name": "musiclm",
+      "url": "https://google-research.github.io/seanet/musiclm/examples/",
+      "description": "Musiclm",
+      "tag": [],
+      "id": 859
+    },
+    {
+      "name": "ai-test-kitchen",
+      "url": "https://aitestkitchen.withgoogle.com/",
+      "description": "AIテストキッチン",
+      "tag": [],
+      "id": 860
+    },
+    {
+      "name": "100-javascript-concepts-you-need-to-know-youtube",
+      "url": "https://www.youtube.com/watch?v=lkIFF4maKMU",
+      "description": "知っておくべき100以上のJavaScriptの概念-YouTube",
+      "tag": [],
+      "id": 861
+    },
+    {
+      "name": "most-overpowered-way-to-build-mobile-apps-youtube",
+      "url": "https://www.youtube.com/watch?v=-uN1Q98UMO4",
+      "description": "モバイルアプリを構築するための最も圧倒的な方法は？ -YouTube",
+      "tag": [],
+      "id": 862
+    },
+    {
+      "name": "clut-cycle-last-used-tabs-chrome-web-store",
+      "url": "https://chrome.google.com/webstore/detail/clut-cycle-last-used-tabs/cobieddmkhhnbeldhncnfcgcaccmehgn",
+      "description": "CLUT: Cycle Last Used Tabs - Chrome ウェブストア",
+      "tag": [],
+      "id": 863
+    },
+    {
+      "name": "the-result-of-moving-the-program-written-on-the-t-shirt-youtube",
+      "url": "https://www.youtube.com/shorts/vfnzovi-HG8",
+      "description": "Tシャツに書かれたプログラムを動かしてみた結果 - YouTube",
+      "tag": [],
+      "id": 864
+    },
+    {
+      "name": "why-does-it-happen-when-it-is-garbled-youtube",
+      "url": "https://www.youtube.com/shorts/YG0qf8fhBSE",
+      "description": "文字化けってなんで起きるの？📰 - YouTube",
+      "tag": [],
+      "id": 865
+    },
+    {
+      "name": "the-better-way-to-write-regex-youtube",
+      "url": "https://www.youtube.com/watch?v=X_k198mrGL8",
+      "description": "Regex -YouTubeを書くより良い方法",
+      "tag": [],
+      "id": 866
+    },
+    {
+      "name": "these-ais-are-great-for-programmers-code-programming-technology-tech-software-developer-youtube",
+      "url": "https://www.youtube.com/shorts/BHDW_ZztKSI",
+      "description": "これらのAIはプログラマーに最適です👩‍💻 #code #programming #technology #tech #software #developer -youtube",
+      "tag": [],
+      "id": 867
+    },
+    {
+      "name": "talk-theme-gacha-to-the-distributor-we-will-provide-a-topic-in-seconds",
+      "url": "https://talkgacha.com/",
+      "description": "【トークテーマ ガチャ！】配信者さまへ秒で話題を提供するよ☆",
+      "tag": [],
+      "id": 868
+    },
+    {
+      "name": "what-is-the-front-end-test-method-explain-the-tests-you-want-to-know-and-their-strategies-in-general-codezine-code-jin",
+      "url": "https://codezine.jp/article/detail/17672",
+      "description": "フロントエンドのテスト手法、何がある？　知っておきたいテストとその戦略を網羅的に解説|CodeZine（コードジン）",
+      "tag": [],
+      "id": 869
+    },
+    {
+      "name": "what-is-the-use-of-static-class-youtube",
+      "url": "https://www.youtube.com/shorts/LfcS1ZjNq6s",
+      "description": "静的クラスの使用は何ですか？ -YouTube",
+      "tag": [],
+      "id": 870
+    },
+    {
+      "name": "i-built-a-fullstack-palm-ai-app-in-just-2-minutes-youtube",
+      "url": "https://www.youtube.com/watch?v=shWEfRlmb6g",
+      "description": "わずか2分でフルスタックパームAIアプリを構築しました-YouTube",
+      "tag": [],
+      "id": 871
+    },
+    {
+      "name": "awesome-apis-for-programmers-to-use-code-programming-technology-tech-software-developer-youtube",
+      "url": "https://www.youtube.com/shorts/JExJOPIBiHA",
+      "description": "プログラマーが使用するための素晴らしいAPIS👩‍💻＃code #programming #technology #tech #software #developer -youtube",
+      "tag": [],
+      "id": 872
+    },
+    {
+      "name": "any-vs-unknown-in-typescript-youtube",
+      "url": "https://www.youtube.com/shorts/5SjoMNVwd4s",
+      "description": "typeScript -YouTubeで不明なVS",
+      "tag": [],
+      "id": 873
+    },
+    {
+      "name": "how-to-make-sparklines-mini-line-charts-in-excel-excel-youtube",
+      "url": "https://www.youtube.com/shorts/wxpseYQSQI0",
+      "description": "ExcelでSparklines（ミニラインチャート）の作成方法！ #excel -youtube",
+      "tag": [],
+      "id": 874
+    },
+    {
+      "name": "end-of-engineers-complete-automatic-ai-autogpt-is-too-dangerous-to-build-a-program-completely-youtube",
+      "url": "https://www.youtube.com/watch?v=rbqm1ANfwVk",
+      "description": "【エンジニア終了？】全自動AI「AutoGPT」が完全自動でプログラムを組む過程がヤバすぎる - YouTube",
+      "tag": [],
+      "id": 875
+    },
+    {
+      "name": "i-drew-pikachu-in-a-mathematical-formula-drawing-pokmon-in-math-equation",
+      "url": "https://www.youtube.com/shorts/T7bGEvLF_Cs",
+      "description": "ピカチュウを数式で描いてみた！Drawing “Pokémon” in Math Equation!#数式の美術館 - YouTube",
+      "tag": [],
+      "id": 876
+    },
+    {
+      "name": "serverless-php-in-under-a-minute-youtube",
+      "url": "https://www.youtube.com/shorts/v2jKSYfK4-c",
+      "description": "サーバーレスPHPは1分未満-YouTube",
+      "tag": [],
+      "id": 877
+    },
+    {
+      "name": "how-to-easily-retrieve-the-maximum-value-of-a-related-record-in-laravel-laravel-shorts-youtube",
+      "url": "https://www.youtube.com/shorts/pk6HkcPVwlA",
+      "description": "Laravel #Laravel #Shorts -YouTubeで関連レコードの最大値を簡単に取得する方法",
+      "tag": [],
+      "id": 878
+    },
+    {
+      "name": "sql-or-nosql-code-programming-technology-tech-software-developer-programmer-coding-youtube",
+      "url": "https://www.youtube.com/shorts/2qRpfN6iBOU",
+      "description": "sqlまたはnosql！？ 👩‍💻 #code＃programming #technology＃tech＃software＃developer＃programmer＃coding -youtube",
+      "tag": [],
+      "id": 879
+    },
+    {
+      "name": "use-the-null-coalescing-operator-for-cleaner-code-shorts-youtube",
+      "url": "https://www.youtube.com/shorts/dgP3PLJT0SE",
+      "description": "クリーナーコード#shortsにnull coulescingオペレーターを使用します-YouTube",
+      "tag": [],
+      "id": 880
+    },
+    {
+      "name": "why-you-should-selfhost-your-software-code-programming-technology-tech-software-develop-youtube",
+      "url": "https://www.youtube.com/shorts/du7ix1oGHtA",
+      "description": "ソフトウェアを自己ホストする必要がある理由",
+      "tag": [],
+      "id": 881
+    },
+    {
+      "name": "there-seems-to-be-many-new-recruits-who-do-not-know-how-to-ask-questions-than-i-thought-humor-board-ruliweb",
+      "url": "https://m.ruliweb.com/best/board/300143/read/61534059?m=all&t=now&page=7",
+      "description": "私が思っていたよりも質問する方法を知らない多くの新しい新兵がいるようです。 ユーモアボード| ROLIWEB",
+      "tag": [],
+      "id": 882
+    },
+    {
+      "name": "labor-about-8-hours-a-dayjpg-humor-board-ruliweb",
+      "url": "https://m.ruliweb.com/best/board/300143/read/61533790?m=all&t=now&page=8",
+      "description": "1日あたり約8時間の労働jpg | ユーモアボード| ROLIWEB",
+      "tag": [],
+      "id": 883
+    },
+    {
+      "name": "ai-current-ai-pictures-new-technology-current-status-humor-board-ruliweb",
+      "url": "https://m.ruliweb.com/best/board/300143/read/61532306?m=all&t=now&page=15",
+      "description": "ai）現在のAI写真新しいテクノロジーの現在のステータス| ユーモアボード| ROLIWEB",
+      "tag": [],
+      "id": 884
+    },
+    {
+      "name": "mixis-training-materials-for-new-graduates-are-released-free-of-charge-git-and-test-design-in-the-future-tmedia-news",
+      "url": "https://www.itmedia.co.jp/news/articles/2305/08/news139.html",
+      "description": "ミクシィ、新卒向け研修資料を無償公開　「Git」と「テスト・設計」　今後も随時公開 - ITmedia NEWS",
+      "tag": [],
+      "id": 885
+    },
+    {
+      "name": "a-scary-statistic-about-the-web-code-programming-technology-tech-software-developer-youtube",
+      "url": "https://www.youtube.com/shorts/82Iax6iZglw",
+      "description": "Webについての恐ろしい統計👩‍💻 #code #programming #technology #tech #software #developer -youtube",
+      "tag": [],
+      "id": 886
+    },
+    {
+      "name": "create-diagrams-in-vscode-youtube",
+      "url": "https://www.youtube.com/shorts/0N-NFIfy5lI",
+      "description": "#VSCODE -YouTubeで図を作成します",
+      "tag": [],
+      "id": 887
+    },
+    {
+      "name": "is-php-a-bad-programming-language-technology-programming-software-career-youtube",
+      "url": "https://www.youtube.com/shorts/gsJqe_Ry2Ec",
+      "description": "PHPは悪いプログラミング言語ですか？ 🤔👩‍💻 #technology #programming #software #career -youtube",
+      "tag": [],
+      "id": 888
+    },
+    {
+      "name": "i-built-a-smarter-smart-home-youtube",
+      "url": "https://www.youtube.com/watch?v=0rIvB3LZiKA",
+      "description": "よりスマートなスマートホームを作りました -  YouTube",
+      "tag": [],
+      "id": 889
+    },
+    {
+      "name": "the-metamorphosis-keyboard-that-is-super-hot-on-sns-is-too-much-w-youtube",
+      "url": "https://www.youtube.com/shorts/1qTxOZhUt_A",
+      "description": "SNSで超話題の変態キーボードがやばすぎるｗ - YouTube",
+      "tag": [],
+      "id": 890
+    },
+    {
+      "name": "prettify-for-classes-youtube",
+      "url": "https://www.youtube.com/shorts/2lCCKiWGlC0",
+      "description": "クラスのpretify -youtube",
+      "tag": [],
+      "id": 891
+    },
+    {
+      "name": "ai-development-will-change-forever-with-this-code-programming-technology-tech-software-youtube",
+      "url": "https://www.youtube.com/shorts/RlBIkdLPVi8",
+      "description": "AI開発はこれにより永遠に変わります＃code #programming #technology #tech #software -youtube",
+      "tag": [],
+      "id": 892
+    },
+    {
+      "name": "react-without-javascript-youtube",
+      "url": "https://www.youtube.com/shorts/6kLh_XQLNa8",
+      "description": "JavaScriptなしで反応します！ -YouTube",
+      "tag": [],
+      "id": 893
+    },
+    {
+      "name": "this-prettier-plugin-makes-tailwind-so-much-better-youtube",
+      "url": "https://www.youtube.com/shorts/MD_-XzdX0oo",
+      "description": "このきれいなプラグインはTailwindをはるかに良くします-YouTube",
+      "tag": [],
+      "id": 894
+    },
+    {
+      "name": "ten-knowledge-required-to-understand-the-basics-of-back-end-development-2022",
+      "url": "https://zenn.dev/nameless_sn/articles/backend-masternote",
+      "description": "バックエンド開発の基本を理解するために必要な10の知識 2022年版",
+      "tag": [],
+      "id": 895
+    },
+    {
+      "name": "nextjs-and-openai-text-complete-simple-ai-based-q-a-daily",
+      "url": "https://oneoneone.kr/content/77b03b62",
+      "description": "next.jsおよびopenaiテキスト完全なシンプルなaiベースのQ＆A 毎日",
+      "tag": [],
+      "id": 896
+    },
+    {
+      "name": "is-php-the-future-code-programming-technology-tech-software-developer-programmer-youtube",
+      "url": "https://www.youtube.com/shorts/4O6yC65BgD8",
+      "description": "PHPは未来です！？ 👩‍💻＃code＃programming＃technology＃tech＃software＃developer #programmer -youtube",
+      "tag": [],
+      "id": 897
+    },
+    {
+      "name": "check-if-some-url-is-valid-and-if-it-is-shorted-github",
+      "url": "https://gist.github.com/erkobridee/3920081",
+      "description": "一部のURLが有効であるかどうか、およびそれが短縮されているかどうかを確認してくださいGithub",
+      "tag": [],
+      "id": 898
+    },
+    {
+      "name": "the-ultimate-guide-to-web-performance-youtube",
+      "url": "https://www.youtube.com/watch?v=0fONene3OIA",
+      "description": "Webパフォーマンスの究極のガイド-YouTube",
+      "tag": [],
+      "id": 899
+    },
+    {
+      "name": "javascript-promises-vs-async-await-explained-in-5-minutes-youtube",
+      "url": "https://www.youtube.com/watch?v=li7FzDHYZpc",
+      "description": "JavaScriptの約束vs Async async asyncが説明しました（5分で）-YouTube",
+      "tag": [],
+      "id": 900
+    },
+    {
+      "name": "things-that-can-be-bought-with-money-and-things-that-cannot-be-bought-comense-nocomo-youtube",
+      "url": "https://www.youtube.com/shorts/SzHYOJ3GolY",
+      "description": "【お金で買える物と買えない物】コメンス・ンコモ - YouTube",
+      "tag": [],
+      "id": 901
+    },
+    {
+      "name": "tips-for-continuing-to-succeed-youtube",
+      "url": "https://www.youtube.com/shorts/cHuBSZPq7pQ",
+      "description": "絶対成功する習慣を続けるコツ - YouTube",
+      "tag": [],
+      "id": 902
+    },
+    {
+      "name": "toshio-okada-people-who-can-see-the-traps-of-information-and-those-who-can-not-see-toshio-okada-cutcutuncle-psychopath-shorts-youtube",
+      "url": "https://www.youtube.com/shorts/9hjHtnwj_rM",
+      "description": "【岡田斗司夫】情報の罠を見抜ける人と見抜けない人【岡田斗司夫切り抜き/切り取り/サイコパスおじさん】#shorts - YouTube",
+      "tag": [],
+      "id": 903
+    },
+    {
+      "name": "design-a-basic-search-engine-google-or-bing-system-design-interview-prep-youtube",
+      "url": "https://www.youtube.com/watch?v=0LTXCcVRQi0",
+      "description": "基本的な検索エンジン（GoogleまたはBing）を設計| システム設計インタビュー準備-YouTube",
+      "tag": [],
+      "id": 904
+    },
+    {
+      "name": "10-crazy-announcements-from-google-io-youtube",
+      "url": "https://www.youtube.com/watch?v=nmfRDRNjCnM",
+      "description": "Google I/Oからの10のクレイジーアナウンス -  YouTube",
+      "tag": [],
+      "id": 905
+    },
+    {
+      "name": "this-roadmap-will-help-you-become-a-devops-engineer-in-2022-devops-software-programming-youtube",
+      "url": "https://www.youtube.com/shorts/O4WVZrRgsDc",
+      "description": "このロードマップは、2022年にDevOpsエンジニアになるのに役立ちます。",
+      "tag": [],
+      "id": 906
+    },
+    {
+      "name": "how-to-make-a-free-android-app-publish-on-play-store-in-2023-buildapp-createapp-playstore-youtube",
+      "url": "https://www.youtube.com/shorts/JxmmKCeKMzE",
+      "description": "2023年にプレイストアで無料のAndroidアプリを作成する方法#build_app #create_app #playstore -youtube",
+      "tag": [],
+      "id": 907
+    },
+    {
+      "name": "get-a-grip-on-grep-youtube",
+      "url": "https://www.youtube.com/shorts/5_t_I_4OuwQ",
+      "description": "Grep -YouTubeでグリップを取得します",
+      "tag": [],
+      "id": 908
+    },
+    {
+      "name": "the-path-var-of-righteousness-youtube",
+      "url": "https://www.youtube.com/shorts/-J7EWBYipqI",
+      "description": "正義のパスvar -YouTube",
+      "tag": [],
+      "id": 909
+    },
+    {
+      "name": "try-this-before-you-deal-with-authentication-ad-code-programming-technology-tech-software-youtube",
+      "url": "https://www.youtube.com/shorts/_bufsCtCgzk",
+      "description": "認証を処理する前にこれを試してください👩‍💻＃ad＃code＃programming #technology #tech #software -youtube",
+      "tag": [],
+      "id": 910
+    },
+    {
+      "name": "my-code-will-never-stop-never-stopping-youtube",
+      "url": "https://www.youtube.com/shorts/1CDfTpD8dxo",
+      "description": "私のコードは決して停止しないでください-YouTube",
+      "tag": [],
+      "id": 911
+    },
+    {
+      "name": "real-eyes-realize-ai-lies-youtube",
+      "url": "https://www.youtube.com/shorts/Z8omJ59hNfY",
+      "description": "本当の目はai lies -youtubeに気づきます",
+      "tag": [],
+      "id": 912
+    },
+    {
+      "name": "youre-missing-out-in-python-if-you-dont-know-this-youtube",
+      "url": "https://www.youtube.com/shorts/bPrYDTjXfVo",
+      "description": "あなたがこれを知らないなら、あなたはPythonで逃しています-Youtube",
+      "tag": [],
+      "id": 913
+    },
+    {
+      "name": "how-big-is-a-yottabyte-youtube",
+      "url": "https://www.youtube.com/shorts/6V-eRPPLSy0",
+      "description": "ヨタバイトの大きさはどれくらいですか？ -YouTube",
+      "tag": [],
+      "id": 914
+    },
+    {
+      "name": "i-fixed-file-uploading-youtube",
+      "url": "https://www.youtube.com/watch?v=mxT3j-5s1Zc",
+      "description": "ファイルのアップロードを修正しました。 -YouTube",
+      "tag": [],
+      "id": 915
+    },
+    {
+      "name": "css-positioning-in-60-seconds-youtube",
+      "url": "https://www.youtube.com/shorts/jFcWa9kiOHQ",
+      "description": "60秒でのCSSポジショニング-YouTube",
+      "tag": [],
+      "id": 916
+    },
+    {
+      "name": "executing-python-strings-python-programming-coding-youtube",
+      "url": "https://www.youtube.com/shorts/j9AQZeplMls",
+      "description": "Python文字列の実行?? #python #programming #coding -youtube",
+      "tag": [],
+      "id": 917
+    },
+    {
+      "name": "serverless-was-a-big-mistake-says-amazon-youtube",
+      "url": "https://www.youtube.com/watch?v=qQk94CjRvIs",
+      "description": "サーバーレスは大きな間違いでした... Amazon -YouTubeは言います",
+      "tag": [],
+      "id": 918
+    },
+    {
+      "name": "nextjs-app-router-learn-modern-web-development-in-1-hour-youtube",
+      "url": "https://www.youtube.com/watch?v=Sbl04kOL1dM",
+      "description": "NextJSアプリルーター：1時間で最新のWeb開発を学ぶ-YouTube",
+      "tag": [],
+      "id": 919
+    },
+    {
+      "name": "i-want-to-tell-you-before-you-die-native-english-youtube",
+      "url": "https://www.youtube.com/watch?v=bAx2JcAQBEU",
+      "description": "死ぬ前に伝えたい、人生のアドバイス。【ネイティブ英語】 - YouTube",
+      "tag": [],
+      "id": 920
+    },
+    {
+      "name": "a-day-in-the-life-of-a-prompt-engineer-youtube",
+      "url": "https://www.youtube.com/shorts/H1sXIUbpRCU",
+      "description": "プロンプトエンジニアの生活の1日-YouTube",
+      "tag": [],
+      "id": 921
+    },
+    {
+      "name": "the-hardest-part-about-programming-code-programming-technology-tech-software-developer-youtube",
+      "url": "https://www.youtube.com/shorts/6DYjWGfvM3s",
+      "description": "プログラミングの最も難しい部分🤦‍♂️ #code #programming #technology #tech #software #developer -youtube",
+      "tag": [],
+      "id": 922
+    },
+    {
+      "name": "this-css-trick-makes-impossible-animations-possible-youtube",
+      "url": "https://www.youtube.com/shorts/3gNOoYzarNo",
+      "description": "このCSSトリックは、不可能なアニメーションを可能にします-YouTube",
+      "tag": [],
+      "id": 923
+    },
+    {
+      "name": "when-a-programmer-uses-a-light-theme-code-programming-technology-tech-software-developer-youtube",
+      "url": "https://www.youtube.com/shorts/4cKbrs0GbS4",
+      "description": "プログラマが軽いテーマを使用するとき",
+      "tag": [],
+      "id": 924
+    },
+    {
+      "name": "hunting-for-anys-in-sentrys-codebase-youtube",
+      "url": "https://www.youtube.com/shorts/QL7PPuefqR8",
+      "description": "セントリーのコードベースで誰でも狩りを！ -YouTube",
+      "tag": [],
+      "id": 925
+    },
+    {
+      "name": "the-open-source-software-im-using-in-2023-part-1-youtube",
+      "url": "https://www.youtube.com/watch?v=oLrwk07zZ0Y",
+      "description": "2023年に使用しているオープンソースソフトウェア - パート1！ -YouTube",
+      "tag": [],
+      "id": 926
+    },
+    {
+      "name": "nodejs-nestjs-risk-of-selecting-javascript-for-the-back-end-youtube",
+      "url": "https://www.youtube.com/watch?v=0Ch49h2KerA",
+      "description": "【Node.js, NestJS】バックエンドにJavaScriptを選定する際のリスク - YouTube",
+      "tag": [],
+      "id": 927
+    },
+    {
+      "name": "nodejs-express-i-focused-on-the-port-specified-part-of-the-framework-qiita",
+      "url": "https://qiita.com/ryomaDsakamoto/items/6d1bf002513caf5c49de",
+      "description": "Node.js Expressフレームワークの「ポート指定部分」に注力してみた - Qiita",
+      "tag": [],
+      "id": 928
+    },
+    {
+      "name": "a-story-about-breaking-out-env-with-typescript",
+      "url": "https://zenn.dev/mutex_inc/articles/quit-dotenv-file?redirected=1",
+      "description": "TypeScriptで.envを脱却する話",
+      "tag": [],
+      "id": 929
+    },
+    {
+      "name": "this-extension-is-a-typescript-game-changer-youtube",
+      "url": "https://www.youtube.com/shorts/ccg-erZYO4k",
+      "description": "この拡張機能は、タイプスクリプトゲームチェンジャー-YouTubeです",
+      "tag": [],
+      "id": 930
+    },
+    {
+      "name": "programming-language-tier-list-youtube",
+      "url": "https://www.youtube.com/shorts/opRm3x9vHH0",
+      "description": "プログラミング言語層リスト-YouTube",
+      "tag": [],
+      "id": 931
+    },
+    {
+      "name": "weird-quirks-with-javascript-code-programming-technology-tech-software-developer-webdev-youtube",
+      "url": "https://www.youtube.com/shorts/4t_ukSUQdwo",
+      "description": "javascriptを使用した奇妙な癖",
+      "tag": [],
+      "id": 932
+    },
+    {
+      "name": "motivation-mechanism-youtube",
+      "url": "https://www.youtube.com/shorts/kEha0-9O-sw",
+      "description": "やる気のメカニズム - YouTube",
+      "tag": [],
+      "id": 933
+    },
+    {
+      "name": "impressions-using-cofo-chair-premium-for-a-year-gadget-around-the-desk-life-hack-youtube",
+      "url": "https://www.youtube.com/shorts/HABZD5kt3AA",
+      "description": "COFO Chair Premiumを1年使った感想#ガジェット #デスク周り #ライフハック - YouTube",
+      "tag": [],
+      "id": 934
+    },
+    {
+      "name": "if-you-dont-have-a-future-ahead-you-dont-have-to-do-your-best-youtube",
+      "url": "https://www.youtube.com/shorts/y55Q4F7-Aok",
+      "description": "その先に未来が無いなら頑張る必要が無い。 - YouTube",
+      "tag": [],
+      "id": 935
+    },
+    {
+      "name": "reactcomponentprops-is-such-a-lifesaver-youtube",
+      "url": "https://www.youtube.com/shorts/Rf_k8kSAFU0",
+      "description": "React.comPonentPropsは命を救う-YouTubeです",
+      "tag": [],
+      "id": 936
+    },
+    {
+      "name": "the-act-of-i-dont-think-about-anything-told-me-youtube",
+      "url": "https://www.youtube.com/shorts/p5CQthaQ5PI",
+      "description": "“何も考えない”という行為が教えてくれたこと - YouTube",
+      "tag": [],
+      "id": 937
+    },
+    {
+      "name": "neural-network-visualization-youtube",
+      "url": "https://www.youtube.com/watch?v=WQYCK1YpsjE",
+      "description": "ニューラルネットワークの視覚化-YouTube",
+      "tag": [],
+      "id": 938
+    },
+    {
+      "name": "the-new-dialog-html-element-changes-modals-forever-youtube",
+      "url": "https://www.youtube.com/watch?v=ywtkJkxJsdg",
+      "description": "新しいダイアログHTML要素はモーダルを永遠に変更します-YouTube",
+      "tag": [],
+      "id": 939
+    },
+    {
+      "name": "postgresql-features-you-didnt-know-about-programming-code-technology-tech-software-youtube",
+      "url": "https://www.youtube.com/shorts/RwlC_ucfVUo",
+      "description": "PostgreSQL機能については知らなかった＃Programming #Code #TechNology #Tech #SoftWare -YouTube",
+      "tag": [],
+      "id": 940
+    },
+    {
+      "name": "5-ai-tools-for-programmers-code-programming-technology-tech-software-developer-coding-youtube",
+      "url": "https://www.youtube.com/shorts/_heClRAiKAg",
+      "description": "プログラマー向けの5つのAIツール",
+      "tag": [],
+      "id": 941
+    },
+    {
+      "name": "when-you-are-full-of-anxiety-do-thishard-axons-youtube",
+      "url": "https://www.youtube.com/shorts/Oyb4KhJD3hk",
+      "description": "「不安な気持ちでいっぱいになったとき」これをして#つらい　#不安症 - YouTube",
+      "tag": [],
+      "id": 942
+    },
+    {
+      "name": "how-to-format-dates-in-javascript-2023-youtube",
+      "url": "https://www.youtube.com/shorts/NTuCphbIk2g",
+      "description": "javaScript2023で日付をフォーマットする方法-YouTube",
+      "tag": [],
+      "id": 943
+    },
+    {
+      "name": "how-to-make-your-subordinates-alone-youtube",
+      "url": "https://www.youtube.com/shorts/wWqfZs-sG7A",
+      "description": "部下を一人前にする方法 - YouTube",
+      "tag": [],
+      "id": 944
+    },
+    {
+      "name": "summary-for-those-who-want-to-look-back-on-chatgpt-to-gw-maname",
+      "url": "https://maname.hatenablog.com/entry/2023/04/28/062945",
+      "description": "GWにChatGPTについて振り返りたい人向けまとめ - まなめはうす",
+      "tag": [],
+      "id": 945
+    },
+    {
+      "name": "the-worst-algorithm-of-all-time-code-programming-technology-tech-software-developer-youtube",
+      "url": "https://www.youtube.com/shorts/_96TCf96FH4",
+      "description": "史上最悪のアルゴリズム#code #programming #technology #tech #software #developer -youtube",
+      "tag": [],
+      "id": 946
+    },
+    {
+      "name": "wiis-x-sanse-tricks-that-can-be-used-when-eliminating-the-sensor-bar-youtube",
+      "url": "https://www.youtube.com/shorts/fClhwlrU3pQ",
+      "description": "Wiiの(×サンセ)センサーバーを無くしたときに使える裏技 - YouTube",
+      "tag": [],
+      "id": 947
+    },
+    {
+      "name": "how-to-automate-your-web-browser-to-find-unicorns-youtube",
+      "url": "https://www.youtube.com/shorts/94PRKvcdw7Q",
+      "description": "ユニコーンを見つけるためにWebブラウザを自動化する方法！ -YouTube",
+      "tag": [],
+      "id": 948
+    },
+    {
+      "name": "string-is-immutable-in-java-youtube",
+      "url": "https://www.youtube.com/shorts/hfWmfw2FMZs",
+      "description": "文字列はJava -YouTubeで不変です",
+      "tag": [],
+      "id": 949
+    },
+    {
+      "name": "object-oriented-was-not-a-versatile-medicine-to-a-functional-trend-programming-paradigm-shift-568-youtube",
+      "url": "https://www.youtube.com/watch?v=67eYUUq8yXs",
+      "description": "オブジェクト指向は万能の薬ではなかった。関数型の流行へ。【プログラミングパラダイム・シフト5】#68 - YouTube",
+      "tag": [],
+      "id": 950
+    },
+    {
+      "name": "how-to-name-your-types-youtube",
+      "url": "https://www.youtube.com/watch?v=qA65QjWCl60",
+      "description": "タイプの名前を付ける方法-YouTube",
+      "tag": [],
+      "id": 951
+    },
+    {
+      "name": "great-impractical-ideas-in-computer-science-powerpoint-programming-youtube",
+      "url": "https://www.youtube.com/watch?v=_3loq22TxSc",
+      "description": "コンピューターサイエンスにおける素晴らしい非実用的なアイデア：PowerPointプログラミング-YouTube",
+      "tag": [],
+      "id": 952
+    },
+    {
+      "name": "ai-learns-to-walk-deep-reinforcement-learning-youtube",
+      "url": "https://www.youtube.com/watch?v=L_4BPjLBF4E",
+      "description": "AIは歩くことを学ぶ（深い補強学習）-YouTube",
+      "tag": [],
+      "id": 953
+    },
+    {
+      "name": "100-uniform-storage-goods-catalog-information-site-mono-size-mono-size",
+      "url": "https://monosizecatalog.com/",
+      "description": "100均収納グッズのカタログ情報サイト MONO SIZE（モノサイズ）",
+      "tag": [],
+      "id": 954
+    },
+    {
+      "name": "easy-home-cooking-recipe-chef-rice-that-learns-from-professionals",
+      "url": "https://chefgohan.gnavi.co.jp/",
+      "description": "プロから学ぶ簡単家庭料理レシピ　シェフごはん",
+      "tag": [],
+      "id": 955
+    },
+    {
+      "name": "malware-development-processes-threads-and-handles-youtube",
+      "url": "https://www.youtube.com/watch?v=aNEqC-U5tHM",
+      "description": "マルウェア開発：プロセス、スレッド、ハンドル-YouTube",
+      "tag": [],
+      "id": 956
+    },
+    {
+      "name": "how-to-create-random-website-background-generator-using-css-javascript-animejs-youtube",
+      "url": "https://www.youtube.com/watch?v=TR6TmT1A_uI",
+      "description": "CSSとJavaScriptを使用してランダムなWebサイトの背景ジェネレーターを作成する方法| Anime.js -YouTube",
+      "tag": [],
+      "id": 957
+    },
+    {
+      "name": "objects-in-js-youtube",
+      "url": "https://www.youtube.com/shorts/ho3g_HsRqDs",
+      "description": "JSのオブジェクト -  YouTube",
+      "tag": [],
+      "id": 958
+    },
+    {
+      "name": "unstyled-component-libraries-are-a-game-changer-youtube",
+      "url": "https://www.youtube.com/watch?v=yn6vFCRkC3c",
+      "description": "非スタイルのコンポーネントライブラリは、ゲームチェンジャー-YouTubeです",
+      "tag": [],
+      "id": 959
+    },
+    {
+      "name": "which-web-framework-is-better-react-vue-angular-youtube",
+      "url": "https://www.youtube.com/shorts/eP15uGbfDAk",
+      "description": "どのWebフレームワークが優れていますか？ 反応？ vue？ 角度？ -YouTube",
+      "tag": [],
+      "id": 960
+    },
+    {
+      "name": "this-law-could-change-the-internet-forever-code-technology-tech-software-developer-coding-youtube",
+      "url": "https://www.youtube.com/shorts/Gq1YXXBIj-M",
+      "description": "この法律はインターネットを永遠に変更する可能性があります＃code #technology #tech #software #developer #coding -youtube",
+      "tag": [],
+      "id": 961
+    },
+    {
+      "name": "how-vuejs-as-a-web-framework-optimises-rendering-speed-youtube",
+      "url": "https://www.youtube.com/shorts/dq30CFdutW8",
+      "description": "WebフレームワークとしてのVue.jsがレンダリング速度を最適化する方法-YouTube",
+      "tag": [],
+      "id": 962
+    },
+    {
+      "name": "use-nodejs-to-create-a-secret-web-token-youtube",
+      "url": "https://www.youtube.com/shorts/6v1SlCdwlBQ",
+      "description": "node.jsを使用して秘密のWebトークンを作成する-YouTube",
+      "tag": [],
+      "id": 963
+    },
+    {
+      "name": "javascripts-object-destructuring-is-bad-youtube",
+      "url": "https://www.youtube.com/shorts/gXbUeZZ2l78",
+      "description": "JavaScriptのオブジェクトの破壊は悪いですか？ -YouTube",
+      "tag": [],
+      "id": 964
+    },
+    {
+      "name": "live-ive-joined-the-ai-revolution-youtube",
+      "url": "https://www.youtube.com/watch?v=jWwsvoSf5UI",
+      "description": "ライブ：AI Revolution -YouTubeに参加しました",
+      "tag": [],
+      "id": 965
+    },
+    {
+      "name": "build-a-simple-website-with-html-css-javascript-course-for-beginners-youtube",
+      "url": "https://www.youtube.com/watch?v=krfUjg0S2uI",
+      "description": "HTML、CSS、JavaScriptを使用してシンプルなWebサイトを構築します - 初心者向けコース-YouTube",
+      "tag": [],
+      "id": 966
+    },
+    {
+      "name": "code-quality-still-affects-business-mtx2ss-blog",
+      "url": "https://mtx2s.hatenablog.com/entry/2023/04/26/230917",
+      "description": "コード品質はやはりビジネスに影響を与える - mtx2s’s blog",
+      "tag": [],
+      "id": 967
+    },
+    {
+      "name": "react-router-6-full-course-youtube",
+      "url": "https://www.youtube.com/watch?v=nDGA3km5He4",
+      "description": "React Router 6  - フルコース-YouTube",
+      "tag": [],
+      "id": 968
+    },
+    {
+      "name": "how-real-time-connections-work-code-programming-technology-tech-software-developer-youtube",
+      "url": "https://www.youtube.com/shorts/QykcMRdqWfo",
+      "description": "リアルタイム接続の動作",
+      "tag": [],
+      "id": 969
+    },
+    {
+      "name": "3-beginner-react-mistakes-that-can-ruin-your-app-youtube",
+      "url": "https://www.youtube.com/watch?v=oc_TNtCe2sY",
+      "description": "3あなたのアプリを台無しにする可能性のある初心者の反応の間違い-YouTube",
+      "tag": [],
+      "id": 970
+    },
+    {
+      "name": "watching-tailwind-tutorials-is-a-waste-of-time-youtube",
+      "url": "https://www.youtube.com/watch?v=Ksn1tThNTjI",
+      "description": "Tailwindチュートリアルを見るのは時間の無駄です-Youtube",
+      "tag": [],
+      "id": 971
+    },
+    {
+      "name": "3-easy-python-project-ideas-python-programming-coding-youtube",
+      "url": "https://www.youtube.com/shorts/ZqS_lnqSgeY",
+      "description": "3つの簡単なPythonプロジェクトのアイデア!! #python #programming #coding -youtube",
+      "tag": [],
+      "id": 972
+    },
+    {
+      "name": "dont-fear-the-spread-operator-or-abuse-it-youtube",
+      "url": "https://www.youtube.com/shorts/Q-jnCu85PEc",
+      "description": "スプレッドオペレーターを恐れない（またはそれを悪用する）-YouTube",
+      "tag": [],
+      "id": 973
+    },
+    {
+      "name": "why-email-only-auth-is-more-secure-youtube",
+      "url": "https://www.youtube.com/shorts/xXvImYER1G8",
+      "description": "Authのみがより安全である理由-YouTube",
+      "tag": [],
+      "id": 974
+    },
+    {
+      "name": "convenient-usage-of-fitcontent-mincontent-maxcontent-determine-the-size-by-relying-on-content-in-css-coris",
+      "url": "https://coliss.com/articles/build-websites/operation/css/intrinsic-sizing-in-css.html",
+      "description": "fit-content, min-content, max-contentの便利な使い方、CSSでコンテンツに依存してサイズを決める | コリス",
+      "tag": [],
+      "id": 975
+    },
+    {
+      "name": "correct-way-to-convert-character-strings-into-truth-values-with-javascript-pisukecode-summary-of-web-development",
+      "url": "https://pisuke-code.com/js-convert-string-to-boolean/",
+      "description": "JavaScriptで文字列を真偽値に変換する正しい方法 | PisukeCode - Web開発まとめ",
+      "tag": [],
+      "id": 976
+    },
+    {
+      "name": "introducing-how-to-use-flaticon-and-licensing-free-icon-material-site-that-can-be-used-for-free-pichi-university",
+      "url": "https://peraichi.com/univ/15",
+      "description": "FLATICONの使い方・ライセンスなどをご紹介!無料でも利用できるフリーアイコン素材サイト | ペライチ大学",
+      "tag": [],
+      "id": 977
+    },
+    {
+      "name": "lets-use-chatgpt-to-proceed-with-coding-efficiently-stockerjp-diary",
+      "url": "https://stocker.jp/diary/chatgpt-coding/",
+      "description": "効率よくコーディングを進めるためにChatGPTを使ってみよう | Stocker.jp / diary",
+      "tag": [],
+      "id": 978
+    },
+    {
+      "name": "pretty-prohibited-what-is-the-recent-topic-notion-ai-i-will-introduce-it-lightly-youtube",
+      "url": "https://www.youtube.com/watch?v=dqGNsd0gPVY",
+      "description": "【悪用厳禁】最近話題の「Notion AI」って一体なんですのん？軽く紹介すっぞ！ - YouTube",
+      "tag": [],
+      "id": 979
+    },
+    {
+      "name": "thats-it-im-done-with-serverless-youtube",
+      "url": "https://www.youtube.com/watch?v=UPo_Xahee1g",
+      "description": "それだけです、私はサーバーレス*で終わりました -  YouTube",
+      "tag": [],
+      "id": 980
+    },
+    {
+      "name": "javascript-interview-prep-functions-closures-currying-youtube",
+      "url": "https://www.youtube.com/watch?v=tbqVqP5ilzQ",
+      "description": "JavaScriptインタビュー準備：機能、閉鎖、カリー-YouTube",
+      "tag": [],
+      "id": 981
+    },
+    {
+      "name": "are-new-frameworks-replacing-react-youtube",
+      "url": "https://www.youtube.com/watch?v=_Wkg3s8_75w",
+      "description": "新しいフレームワークは反応していますか？ -YouTube",
+      "tag": [],
+      "id": 982
+    },
+    {
+      "name": "3-ways-to-scrape-infinite-scroll-sites-with-playwright-youtube",
+      "url": "https://www.youtube.com/watch?v=VDf7nfjLwRU",
+      "description": "Infinite ScrollサイトをPlaywrightで削る3つの方法-YouTube",
+      "tag": [],
+      "id": 983
+    },
+    {
+      "name": "infj-leadership-7-reasons-why-infrastructure-can-be-the-best-leader-mbti-mbti-test",
+      "url": "https://www.youtube.com/watch?v=qRA3zmmyLj0",
+      "description": "INFJリーダーシップ_ 7つの理由インフラストラクチャが最高のリーダーになることができる#MBTI #MBTIテスト",
+      "tag": [],
+      "id": 984
+    },
+    {
+      "name": "learn-python-in-59001-seconds-youtube",
+      "url": "https://www.youtube.com/watch?v=fabelAs_m08",
+      "description": "59.001秒でPythonを学びます-YouTube",
+      "tag": [],
+      "id": 985
+    },
+    {
+      "name": "react-and-typescript-stopped-fighting-youtube",
+      "url": "https://www.youtube.com/watch?v=sr8bwLXDm3U",
+      "description": "反応とタイプスクリプトは戦いをやめましたか？ -YouTube",
+      "tag": [],
+      "id": 986
+    },
+    {
+      "name": "react-js-full-course-for-beginners-complete-allinone-tutorial-9-hours-youtube",
+      "url": "https://www.youtube.com/watch?v=RVFAyFWO4go",
+      "description": "初心者向けのJSフルコースを反応| 完全なオールインワンチュートリアル| 9時間-YouTube",
+      "tag": [],
+      "id": 987
+    },
+    {
+      "name": "the-most-intense-learning-when-i-am-new-humor-board-ruliweb",
+      "url": "https://m.ruliweb.com/best/board/300143/read/61207184?m=all&t=now",
+      "description": "私が新しいときの最も激しい学習| ユーモアボード| ROLIWEB",
+      "tag": [],
+      "id": 988
+    },
+    {
+      "name": "what-is-the-notes-zettelkasten-zetter-casten-to-make-the-second-brain-jmatsuzaki",
+      "url": "https://jmatsuzaki.com/archives/26856",
+      "description": "第二の脳を作るノート術Zettelkasten（ツェッテルカステン）とは？ | jMatsuzaki",
+      "tag": [],
+      "id": 989
+    },
+    {
+      "name": "i-tried-to-stick-to-how-far-i-could-do-it-without-using-a-mouse-introductory-mac-qiita",
+      "url": "https://qiita.com/4439/items/0ae5d2db250808952f12",
+      "description": "マウスを使わないでどこまで出来るか粘ってみた[入門編 Mac] - Qiita",
+      "tag": [],
+      "id": 990
+    },
+    {
+      "name": "technology-to-work-with-one-display-on-macos-qiita",
+      "url": "https://qiita.com/saboyutaka/items/d6cfd2a2b60f1a374d60",
+      "description": "macOSでディスプレイ1枚で作業する技術 - Qiita",
+      "tag": [],
+      "id": 991
+    },
+    {
+      "name": "they-finally-fixed-prisma-by-deleting-graphql-youtube",
+      "url": "https://www.youtube.com/watch?v=jIpdkbOw6Cc",
+      "description": "彼らは最終的に（graphqlを削除することにより）prismaを修正しました-youtube",
+      "tag": [],
+      "id": 992
+    },
+    {
+      "name": "sql-tutorial-full-database-course-for-beginners-youtube",
+      "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "description": "SQLチュートリアル - 初心者向けの完全なデータベースコース-YouTube",
+      "tag": [],
+      "id": 993
+    },
+    {
+      "name": "build-and-deploy-4-modern-react-apps-and-get-hired-as-a-frontend-developer-full-10hour-course-youtube",
+      "url": "https://www.youtube.com/watch?v=F627pKNUCVQ",
+      "description": "4つのModern Reactアプリを構築および展開し、フロントエンド開発者として雇われます| フル10時間コース-YouTube",
+      "tag": [],
+      "id": 994
+    },
+    {
+      "name": "boost-your-skills-with-chatgpt-creating-a-transcription-and-translation-tool-using-openai-youtube",
+      "url": "https://www.youtube.com/watch?v=UNGi144eVbI",
+      "description": "chatgptでスキルを高める：openaiを使用して転写と翻訳ツールを作成する-youtube",
+      "tag": [],
+      "id": 995
+    },
+    {
+      "name": "10-math-concepts-for-programmers-youtube",
+      "url": "https://www.youtube.com/watch?v=bOCHTHkBoAs",
+      "description": "プログラマー向けの10の数学の概念-YouTube",
+      "tag": [],
+      "id": 996
+    },
+    {
+      "name": "ytmp3-youtube-to-mp3-converter",
+      "url": "https://ytmp3.nu/XIf/",
+      "description": "YTMP3 -YouTube to Mp3コンバーター",
+      "tag": [],
+      "id": 997
+    },
+    {
+      "name": "free-bgm-music-material-free-download-dovasyndrome",
+      "url": "https://dova-s.jp/",
+      "description": "フリーBGM（音楽素材）無料ダウンロード｜DOVA-SYNDROME",
+      "tag": [],
+      "id": 998
+    },
+    {
+      "name": "sound-effect-lab-free-commercial-free-non-reporting-sound-effects-are-downloaded",
+      "url": "https://soundeffect-lab.info/",
+      "description": "効果音ラボ - フリー、商用無料、報告不用の効果音素材をダウンロード",
+      "tag": [],
+      "id": 999
+    },
+    {
+      "name": "free-bgm-material-and-music-material-sweet-tea-music-studio",
+      "url": "https://amachamusic.chagasi.com/",
+      "description": "フリー無料のBGM素材・音楽素材「甘茶の音楽工房」",
+      "tag": [],
+      "id": 1000
     }
   ]
 }
