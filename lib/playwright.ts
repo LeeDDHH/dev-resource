@@ -28,6 +28,7 @@ export const getMetaDescription = async (page: Page) => {
 export const takeScreenshot = async (page: Page, data: ResourceData, x = 0, y = 0, width = 1124, height = 600) => {
   return await page.screenshot({
     path: `screenshots/${data.name}.png`,
+    fullPage: true,
     clip: {
       x,
       y,

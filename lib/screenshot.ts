@@ -9,6 +9,7 @@ import { readFileSync, splitUrlData } from './utils';
 const getData = async (context: BrowserContext, data: ResourceData) => {
   // urlをもとに取得するpageの初期化
   const page = await context.newPage();
+  await page.setViewportSize({ width: 1124, height: 600 });
   await page.goto(data.url);
   await page.waitForLoadState();
 
