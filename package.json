@@ -31,7 +31,7 @@
     "add-new-data": "ts-node ./lib/getArticleData.ts",
     "add-id-data": "ts-node ./lib/addSequenceId.ts",
     "screenshots": "ts-node ./lib/screenshot.ts",
-    "mv-screenshot": "mv screenshot/* public/images"
+    "mv-screenshots": "mv screenshots/*.png public/images"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "3.2.2",

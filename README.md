@@ -26,3 +26,22 @@ yarn dev
 yarn build
 yarn start
 ```
+
+## コンテンツ収集時
+
+- 収集するページの url を `lib/data.txt` に集約する
+- 以下の順でコマンドを実行する
+
+```shell
+// data.txtをもとに、新たなデータをdb_origin.jsonに保存する
+yarn add-new-data
+
+// db_origin.jsonをもとに、データにidを付与し、db.jsonに保存する
+yarn add-id-data
+
+// 新たに追加したデータのスクショを撮る
+yarn screenshots
+
+// スクショを public/image 配下に配置する
+yarn mv-screenshots
+```
