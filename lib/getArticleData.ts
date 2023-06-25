@@ -3,7 +3,7 @@ import { BrowserContext } from 'playwright';
 import { ResourceData } from '../types/data';
 
 import { originDataJsonPath, addedOriginDataJsonPath } from './Const';
-import { createChromiumBrowserAndContext, getMetaDescription } from './playwright';
+import { createChromiumBrowserAndContext } from './playwright';
 import { translateToEn, translateToJa } from './translateApi';
 import { connectLowercaseAlphabetDigitsHyphenatedString, jsonFileExchange, readFileSync, splitUrlData } from './utils';
 
@@ -25,11 +25,11 @@ const getData = async (context: BrowserContext, url: string) => {
 
   // page内のtitle、meta descriptionを取得
   const pageTitle = await page.title();
-  const metaDescription = await getMetaDescription(page);
+  // const metaDescription = await getMetaDescription(page);
 
   // データ格納用にtitle、meta descriptionを整形する
   const title = await generateTitle(pageTitle);
-  const description = await generateDescription(metaDescription);
+  const description = await generateDescription(pageTitle);
 
   const dbObject = {
     name: title,
