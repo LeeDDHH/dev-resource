@@ -3472,6 +3472,56 @@
       "url": "https://www.rgf-professional.jp/insights/2020-06-what-is-planned-happenstance-theory-how-to-create-a-career-contingency-career-plan",
       "description": "計画的偶発性理論とは？クランボルツ教授に学ぶキャリアデザイン | RGFプロフェッショナルリクルートメントジャパン",
       "tag": []
+    },
+    {
+      "name": "single-plus-javascript-mdn",
+      "url": "https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Unary_plus",
+      "description": "単項プラス (+) - JavaScript | MDN",
+      "tag": []
+    },
+    { "name": "jchet", "url": "https://jjirasi.vercel.app/", "description": "jchet", "tag": [] },
+    {
+      "name": "reacttoastify-reacttoastify",
+      "url": "https://fkhadra.github.io/react-toastify/introduction/",
+      "description": "反応するtoastify | 反応する",
+      "tag": []
+    },
+    {
+      "name": "lets-take-advantage-of-vscode-user-snippet-qiita",
+      "url": "https://qiita.com/282Haniwa/items/82828c6a566e3e7e047d",
+      "description": "VSCodeのUser Snippetを活用しよう！ - Qiita",
+      "tag": []
+    },
+    {
+      "name": "how-to-fly-from-html-elements-developed-in-react-to-vscode-generated-code",
+      "url": "https://zenn.dev/mizchi/articles/introduce-tsx-source-jump",
+      "description": "React で展開された HTML 要素から vscode の生成元コードに飛ぶ 方法",
+      "tag": []
+    },
+    {
+      "name": "convenient-sites-articles-when-naming-variables-and-function-names-in-programming-qiita",
+      "url": "https://qiita.com/developer-kikikaikai/items/421d4ab74e161d993074",
+      "description": "プログラミングの変数名、関数名を命名する際に便利なサイト・記事 - Qiita",
+      "tag": []
+    },
+    { "name": "codelf", "url": "https://unbug.github.io/codelf/", "description": "コードフ", "tag": [] },
+    {
+      "name": "developer-experience-day-2023",
+      "url": "https://dxd2023.cto-a.org/dxaward",
+      "description": "開発者エクスペリエンス2023日",
+      "tag": []
+    },
+    {
+      "name": "lets-automatically-deploy-to-rental-servers-such-as-xserver-using-github-actions-homepage-production-company-that-represents-sendai-andha",
+      "url": "https://and-ha.com/coding/github-action-deploy/",
+      "description": "GitHub Actionsを使ってXServerなどレンタルサーバーに自動デプロイしよう🙌 | 仙台を代表するホームページ制作会社｜AndHA（アンドエイチエー）",
+      "tag": []
+    },
+    {
+      "name": "github-actions-how-to-automatically-deploy-on-the-server-after-merging-hisemochu",
+      "url": "https://hsmtweb.com/tool-service/github-actions.html",
+      "description": "【GitHub Actions】マージされたら自動でサーバー上にデプロイする方法 – ひしもちうぇぶ",
+      "tag": []
     }
   ]
 }
