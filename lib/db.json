@@ -3965,6 +3965,55 @@
       "description": "ヘッドレスUI-非スタイル、完全にアクセス可能なUIコンポーネント",
       "tag": [],
       "id": 564
+    },
+    {
+      "name": "the-react-ecosystem-in-2023-youtube",
+      "url": "https://www.youtube.com/watch?v=6j9tnGMbm2c",
+      "description": "2023年のReact Ecosystem -YouTube",
+      "tag": [],
+      "id": 565
+    },
+    {
+      "name": "vscode-profiles-save-me-so-much-time-youtube",
+      "url": "https://www.youtube.com/shorts/Txxab4zVV-4",
+      "description": "vscodeプロファイルは私に時間を節約します-YouTube",
+      "tag": [],
+      "id": 566
+    },
+    {
+      "name": "i-found-a-keyboard-that-i-can-do-in-any-narrow-place-shorts-youtube",
+      "url": "https://www.youtube.com/shorts/6VqNnn6Hih4",
+      "description": "どんな狭いところでも仕事ができちゃうキーボード見つけました🫢#shorts - YouTube",
+      "tag": [],
+      "id": 567
+    },
+    {
+      "name": "minimap-makeover-coding-vscode-tips-youtube",
+      "url": "https://www.youtube.com/shorts/t5vXCNIBVYw",
+      "description": "Minimap Makeover＃CODING #VSCODE #TIPS -YouTube",
+      "tag": [],
+      "id": 568
+    },
+    {
+      "name": "magic-numbers-will-ruin-your-code-youtube",
+      "url": "https://www.youtube.com/shorts/qADaSdE3sqE",
+      "description": "マジックナンバーはあなたのコードを台無しにします-YouTube",
+      "tag": [],
+      "id": 569
+    },
+    {
+      "name": "figma-for-devs-new-vs-code-plugin-youtube",
+      "url": "https://www.youtube.com/watch?v=MiwSUfyHgRE",
+      "description": "開発者のためのFigma？ 新しいコードプラグイン？！？ -YouTube",
+      "tag": [],
+      "id": 570
+    },
+    {
+      "name": "follow-this-principle-for-better-code-code-coding-technology-programmer-programming-youtube",
+      "url": "https://www.youtube.com/shorts/YfDurr5PmIU",
+      "description": "より良いコードについては、この原則に従ってください。",
+      "tag": [],
+      "id": 571
     }
   ]
 }

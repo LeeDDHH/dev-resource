@@ -3290,19 +3290,19 @@
     {
       "name": "react-reasons-for-learning-now-and-learning-resources-qiita",
       "url": "https://qiita.com/omo_taku/items/bfc1a48b4f4dc62be78c",
-      "description": "",
+      "description": "React：今すぐ学ぶべき理由と学習リソース",
       "tag": []
     },
     {
       "name": "react-the-writing-style-like-setcount-count-1-is-not-good-qiita",
       "url": "https://qiita.com/kim_t0814/items/c5f99d2e5e84fb93a7cd",
-      "description": "",
+      "description": "【React】setCount(count + 1)みたいな書き方が良くないよーってお話",
       "tag": []
     },
     {
       "name": "stop-nesting-so-much-do-this-youtube",
       "url": "https://www.youtube.com/shorts/IqHqmCG54eA",
-      "description": "#shorts",
+      "description": "Stop Nesting So Much. Do This!",
       "tag": []
     },
     {
@@ -3314,7 +3314,7 @@
     {
       "name": "this-made-me-a-more-productive-programmer-coding-programmer-coding-software-technology-youtube",
       "url": "https://www.youtube.com/shorts/dVZoZdhmAyg",
-      "description": "",
+      "description": "This made me a more PRODUCTIVE programmer",
       "tag": []
     },
     {
@@ -3338,7 +3338,7 @@
     {
       "name": "home-cbc-basic-learning-of-web-design-and-programming",
       "url": "https://cbc-study.com/",
-      "description": "",
+      "description": "HOME | CBC　| Webデザインやプログラミングの基礎学習",
       "tag": []
     },
     {
@@ -3399,6 +3399,48 @@
       "name": "headless-ui-unstyled-fully-accessible-ui-components",
       "url": "https://headlessui.com/",
       "description": "ヘッドレスUI-非スタイル、完全にアクセス可能なUIコンポーネント",
+      "tag": []
+    },
+    {
+      "name": "the-react-ecosystem-in-2023-youtube",
+      "url": "https://www.youtube.com/watch?v=6j9tnGMbm2c",
+      "description": "2023年のReact Ecosystem -YouTube",
+      "tag": []
+    },
+    {
+      "name": "vscode-profiles-save-me-so-much-time-youtube",
+      "url": "https://www.youtube.com/shorts/Txxab4zVV-4",
+      "description": "vscodeプロファイルは私に時間を節約します-YouTube",
+      "tag": []
+    },
+    {
+      "name": "i-found-a-keyboard-that-i-can-do-in-any-narrow-place-shorts-youtube",
+      "url": "https://www.youtube.com/shorts/6VqNnn6Hih4",
+      "description": "どんな狭いところでも仕事ができちゃうキーボード見つけました🫢#shorts - YouTube",
+      "tag": []
+    },
+    {
+      "name": "minimap-makeover-coding-vscode-tips-youtube",
+      "url": "https://www.youtube.com/shorts/t5vXCNIBVYw",
+      "description": "Minimap Makeover＃CODING #VSCODE #TIPS -YouTube",
+      "tag": []
+    },
+    {
+      "name": "magic-numbers-will-ruin-your-code-youtube",
+      "url": "https://www.youtube.com/shorts/qADaSdE3sqE",
+      "description": "マジックナンバーはあなたのコードを台無しにします-YouTube",
+      "tag": []
+    },
+    {
+      "name": "figma-for-devs-new-vs-code-plugin-youtube",
+      "url": "https://www.youtube.com/watch?v=MiwSUfyHgRE",
+      "description": "開発者のためのFigma？ 新しいコードプラグイン？！？ -YouTube",
+      "tag": []
+    },
+    {
+      "name": "follow-this-principle-for-better-code-code-coding-technology-programmer-programming-youtube",
+      "url": "https://www.youtube.com/shorts/YfDurr5PmIU",
+      "description": "より良いコードについては、この原則に従ってください。",
       "tag": []
     }
   ]
