@@ -1,27 +1,11 @@
-import fs from 'fs';
-import path from 'path';
+import { ResourceData, SequenceResourceData } from '../types/data';
 
-const dirPath = path.dirname(__filename);
-const dataJsonPath = path.resolve(dirPath, 'db_origin.json');
-const exportDataJsonPath = path.resolve(dirPath, 'db.json');
+import { dbJsonPath, originDataJsonPath, dbTmpJsonPath } from './Const';
+import { jsonFileExchange, readFileSync } from './utils';
+
 let newDBObj: { resource: SequenceResourceData[] } = { resource: [] };
 
-type ResourceData = {
-  name: string;
-  url: string;
-  description: string;
-  tag: string[];
-};
-
-type SequenceResourceData = {
-  name: string;
-  url: string;
-  description: string;
-  tag: string[];
-  id: number;
-};
-
-const data = JSON.parse(fs.readFileSync(dataJsonPath, 'utf8'));
+const data = JSON.parse(readFileSync(originDataJsonPath));
 
 const sequenceIdData: SequenceResourceData[] = data.resource.map((v: ResourceData, i: number) => ({ ...v, id: i }));
 
@@ -29,10 +13,8 @@ newDBObj.resource = sequenceIdData;
 
 const newJsonData = JSON.stringify(newDBObj);
 
-fs.writeFile(exportDataJsonPath, newJsonData, (err) => {
-  if (err) {
-    console.error('書き込みエラー:', err);
-    return;
-  }
-  console.log('ファイルが正常に書き出されました。');
+jsonFileExchange({
+  exportDataJsonPath: dbTmpJsonPath,
+  originDataJsonPath: dbJsonPath,
+  jsonData: newJsonData,
 });
