@@ -3328,6 +3328,54 @@
       "url": "https://www.youtube.com/watch?v=XHMnmS-YIlI",
       "description": "動く3Dガラスポスターデザインのビデオ",
       "tag": []
+    },
+    {
+      "name": "in-just-5-minutes-an-ordinary-person-who-kills-a-genius-to-everyone-who-is-worried-about-human-relationships-in-the-workplace-shono-kun-blog",
+      "url": "https://shonokunblog.com/tensaiwokorosubonjin",
+      "description": "『天才を殺す凡人 -職場の人間関係に悩む、すべての人へ-』の内容と感想を、5分程度で読める",
+      "tag": []
+    },
+    {
+      "name": "home-cbc-basic-learning-of-web-design-and-programming",
+      "url": "https://cbc-study.com/",
+      "description": "",
+      "tag": []
+    },
+    {
+      "name": "how-to-organize-and-improve-business-flows-using-chat-gpt-including-examples-key-for-increasing-business-efficiency-autothink",
+      "url": "https://blog.front-mind.com/chat-gpt-improve-business-flow/",
+      "description": "Chat GPTを使った業務フロー最適化",
+      "tag": []
+    },
+    {
+      "name": "25-god-prompts-that-can-become-chatgpt-advanced-in-seconds-5-extensions-it-science-news-weekly-news",
+      "url": "https://wpb.shueisha.co.jp/news/technology/2023/06/22/119797/",
+      "description": "ChatGPTを仕事で使うデビュー方法と、すぐに使える超基本的な指示文を厳選して紹介する",
+      "tag": []
+    },
+    {
+      "name": "i-dont-feel-like-i-can-eat-as-a-programmer",
+      "url": "https://logmi.jp/tech/articles/327541",
+      "description": "「プログラマーとして食っていける気がしない」",
+      "tag": []
+    },
+    {
+      "name": "a-story-about-making-35-nuxt-services-in-two-and-a-half-months-medopia-developer-blog",
+      "url": "https://tech.medpeer.co.jp/entry/nuxt-monorepo",
+      "description": "2ヶ月半で Nuxt サービスを 3.5 個つくった話",
+      "tag": []
+    },
+    {
+      "name": "it-is-convenient-the-latest-tools-that-are-useful-for-the-development-of-the-front-end-can-be-used-in-a-lump-html-css-code-generator-coris",
+      "url": "https://coliss.com/articles/build-websites/operation/work/html-and-css-code-generator.html",
+      "description": "HTMLやCSSをはじめとする、フロントエンドの開発に役立つ最新ツールがひとまとめに利用できるHTML",
+      "tag": []
+    },
+    {
+      "name": "lets-make-a-shell-debut-with-sakura-cloud-shell-that-can-be-used-for-free-sakuras-knowledge",
+      "url": "https://knowledge.sakura.ad.jp/35375/",
+      "description": "無料で使えるさくらのクラウドシェルでシェルデビューしよう",
+      "tag": []
     }
   ]
 }
