@@ -3576,6 +3576,42 @@
       "url": "https://note.com/makaibito/n/n2d9e84a959c0",
       "description": "テックブログは続かない - 何サイトか潰した後にブログが有名な企業に転職しての気づきと反省｜久松剛／IT百物語の蒐集家",
       "tag": []
+    },
+    {
+      "name": "daisyui-tailwind-css-components",
+      "url": "https://daisyui.com/",
+      "description": "Daisyui  -  Tailwind CSSコンポーネント",
+      "tag": []
+    },
+    {
+      "name": "humble-object-pattern-testable-shtnkgmcom",
+      "url": "http://web.archive.org/web/20210412052234/https://shtnkgm.com/2020/05/17/humble-object-pattern.html",
+      "description": "Humble Objectパターンでテスタブルに | shtnkgm.com",
+      "tag": []
+    },
+    {
+      "name": "try-to-use-split-assignment-splet-syntax-and-rest-syntax-in-react-scrawled-tech-blog",
+      "url": "https://scrawledtechblog.com/DestructurinAssignment/",
+      "description": "Reactで分割代入とスプレット構文とレスト構文を使ってみる | SCRAWLED TECH BLOG",
+      "tag": []
+    },
+    {
+      "name": "top-10-css-features-you-should-know-and-use-in-2023-youtube",
+      "url": "https://www.youtube.com/watch?v=srzsj3xtHMM",
+      "description": "2023年に知っていて使用する必要があるトップ10のCSS機能-YouTube",
+      "tag": []
+    },
+    {
+      "name": "assembled-k8s-clusters-with-four-raspings-this-week-in-gorilla",
+      "url": "https://skanehira.github.io/this-week-in-gorilla/articles/raspberry-pi-cluster.html",
+      "description": "4台のラズパイでk8sクラスタを組んだ | This Week in Gorilla",
+      "tag": []
+    },
+    {
+      "name": "introduction-to-c-compiler-creation-for-those-who-want-to-know-low-layers",
+      "url": "https://www.sigbus.info/compilerbook",
+      "description": "低レイヤを知りたい人のためのCコンパイラ作成入門",
+      "tag": []
     }
   ]
 }
