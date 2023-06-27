@@ -28,7 +28,9 @@
     "fmt": "prettier --write .",
     "fix-all": "prettier --write . && next lint --fix",
     "fmt-chk": "prettier --check .",
+    "dump-unique-tags": "ts-node ./lib/getAllUniqueTagsFromDB.ts",
     "add-new-data": "ts-node ./lib/getArticleData.ts",
+    "add-tag-data": "ts-node ./lib/addTagsForDB.ts",
     "add-id-data": "ts-node ./lib/addSequenceId.ts",
     "screenshots": "ts-node ./lib/screenshot.ts",
     "mv-screenshots": "mv screenshots/*.png public/images"

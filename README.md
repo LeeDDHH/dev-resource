@@ -36,6 +36,9 @@ yarn start
 // data.txtをもとに、新たなデータをdb_origin.jsonに保存する
 yarn add-new-data
 
+// db_tags.jsonをもとに、データにタグを付与し、db_origin.jsonに保存する
+yarn add-tag-data
+
 // db_origin.jsonをもとに、データにidを付与し、db.jsonに保存する
 yarn add-id-data
 
@@ -44,4 +47,11 @@ yarn screenshots
 
 // スクショを public/image 配下に配置する
 yarn mv-screenshots
+```
+
+## タグ一覧の更新
+
+```
+// db_origin.jsonをもとに、ユニークなタグの配列ををdb_tags.jsonに保存する
+yarn add-new-data
 ```

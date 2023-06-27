@@ -11,3 +11,4 @@ export const originDataJsonPath = path.resolve(dirPath, 'db_origin.json');
 export const addedOriginDataJsonPath = path.resolve(dirPath, 'db_origin_added.json');
 export const dbJsonPath = path.resolve(dirPath, 'db.json');
 export const dbTmpJsonPath = path.resolve(dirPath, 'db_tmp.json');
+export const dbTagsJsonPath = path.resolve(dirPath, 'db_tags.json');
