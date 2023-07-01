@@ -37,7 +37,7 @@ if (process.env.NODE_ENV !== 'production') App.displayName = 'App';
 export default App;
 
 export const getStaticProps = async () => {
-  const result = (require('../lib/db.json').resource as Resource).length;
+  const result = (require('@/data/db.json').resource as Resource).length;
 
   return {
     props: {
