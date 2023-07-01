@@ -13,7 +13,6 @@ export const resolvers = {
   Query: {
     items: () => db.resource,
     search: (_: any, { text }: { text: string }) => {
-      // 検索する文字をスペース（半角、全角）ごとに区切る
       const splitedString = splitStringFromSpace(text);
       /**
        * 検索する範囲を広げて検索

@@ -4,7 +4,8 @@ import fs from 'fs';
 
 import { dataTxtPath } from './Const';
 
-export const splitStringFromSpace = (text: string): string[] => text.replaceAll('　', ' ').split(' ');
+// 検索する文字を英語は小文字にしてスペース（半角、全角）ごとに区切る
+export const splitStringFromSpace = (text: string): string[] => text.toLowerCase().replaceAll('　', ' ').split(' ');
 
 // 英語（小文字）・数字をハイフン（-）でつなげる
 export const connectLowercaseAlphabetDigitsHyphenatedString = (text: string) =>
