@@ -1,5 +1,5 @@
-query GetDataWithSearchText($text: String!) {
-  search(text: $text) {
+query GetDataWithSearchText($text: String!, $offset: Int, $limit: Int) {
+  search(text: $text, offset: $offset, limit: $limit) {
     id
     name
     url

@@ -11,8 +11,10 @@ import {
   Item,
 } from '@/graphql/generated';
 
+import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
 
+import { IntersectionObserverView } from './IntersectionObserver';
 import ItemListsView from './ItemListsView';
 
 type Props = {
@@ -20,11 +22,12 @@ type Props = {
 };
 
 const SearchedResult = React.memo(({ searchText }: Props) => {
-  const { data, loading, error } = useQuery<GetDataWithSearchTextQuery, GetDataWithSearchTextQueryVariables>(
+  const value = {
+    variables: { text: searchText, offset: 0, limit: searchLimit } as GetDataWithSearchTextQueryVariables,
+  };
+  const { data, loading, error, fetchMore } = useQuery<GetDataWithSearchTextQuery, GetDataWithSearchTextQueryVariables>(
     GetDataWithSearchTextDocument,
-    {
-      variables: { text: searchText },
-    }
+    value
   );
 
   if (loading) {
@@ -43,7 +46,18 @@ const SearchedResult = React.memo(({ searchText }: Props) => {
   const items = data && !!data.search && filterItems<Item | null>(data.search);
 
   if (!items) return <p>表示する項目がありません</p>;
-  return <ItemListsView items={items} />;
+  return (
+    <>
+      <ItemListsView items={items} />
+      {data && (
+        <IntersectionObserverView<(Item | null | undefined)[]>
+          data={data.search ?? []}
+          searchLimit={searchLimit}
+          fetchMore={fetchMore}
+        />
+      )}
+    </>
+  );
 });
 
 if (process.env.NODE_ENV !== 'production') SearchedResult.displayName = 'SearchedResult';

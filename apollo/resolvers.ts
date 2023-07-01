@@ -12,18 +12,20 @@ import db from '../data/db.json';
 export const resolvers = {
   Query: {
     items: () => db.resource,
-    search: (_: any, { text }: { text: string }) => {
+    search: async (_: any, { text, limit, offset }: { text: string; limit: number; offset: number }) => {
       const splitedString = splitStringFromSpace(text);
       /**
        * 検索する範囲を広げて検索
        * 検索するキーワードがコンテンツの名前・説明・キーワードのどれかに当てはまるものを返す
        */
-      return db.resource.filter(
-        (source) =>
-          isSearchKeywordIncludedToName(splitedString, source.name) ||
-          isSearchKeywordIncludedToDescription(splitedString, source.description) ||
-          isSearchKeywordIncludedToTags(splitedString, source.tag)
-      );
+      return db.resource
+        .filter(
+          (source) =>
+            isSearchKeywordIncludedToName(splitedString, source.name) ||
+            isSearchKeywordIncludedToDescription(splitedString, source.description) ||
+            isSearchKeywordIncludedToTags(splitedString, source.tag)
+        )
+        .slice(offset, limit);
     },
     searchWithOffsetAndLimit: async (
       _parent: any,

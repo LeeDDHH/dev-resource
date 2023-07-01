@@ -11,7 +11,7 @@ export const typeDefs = gql`
 
   type Query {
     items: [Item]
-    search(text: String): [Item]
+    search(text: String, offset: Int, limit: Int): [Item]
     searchWithOffsetAndLimit(offset: Int, limit: Int): [Item]
   }
 
