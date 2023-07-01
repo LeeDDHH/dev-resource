@@ -15,8 +15,8 @@ export const GET_ALL_DATA = gql`
 `;
 
 export const GET_DATA_WITH_SEARCH_TEXT = gql`
-  query GetDataWithSearchText($text: String!) {
-    search(text: $text) {
+  query GetDataWithSearchText($text: String!, $offset: Int, $limit: Int) {
+    search(text: $text, offset: $offset, limit: $limit) {
       id
       name
       url
