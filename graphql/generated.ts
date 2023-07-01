@@ -4,22 +4,24 @@ export type InputMaybe<T> = Maybe<T>;
 export type Exact<T extends { [key: string]: unknown }> = { [K in keyof T]: T[K] };
 export type MakeOptional<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]?: Maybe<T[SubKey]> };
 export type MakeMaybe<T, K extends keyof T> = Omit<T, K> & { [SubKey in K]: Maybe<T[SubKey]> };
+export type MakeEmpty<T extends { [key: string]: unknown }, K extends keyof T> = { [_ in K]?: never };
+export type Incremental<T> = T | { [P in keyof T]?: P extends ' $fragmentName' | '__typename' ? T[P] : never };
 /** All built-in and custom scalars, mapped to their actual values */
 export type Scalars = {
-  ID: string;
-  String: string;
-  Boolean: boolean;
-  Int: number;
-  Float: number;
+  ID: { input: string; output: string; }
+  String: { input: string; output: string; }
+  Boolean: { input: boolean; output: boolean; }
+  Int: { input: number; output: number; }
+  Float: { input: number; output: number; }
 };
 
 export type Item = {
   __typename?: 'Item';
-  description?: Maybe<Scalars['String']>;
-  id?: Maybe<Scalars['Int']>;
-  name?: Maybe<Scalars['String']>;
-  tag?: Maybe<Array<Maybe<Scalars['String']>>>;
-  url?: Maybe<Scalars['String']>;
+  description?: Maybe<Scalars['String']['output']>;
+  id?: Maybe<Scalars['Int']['output']>;
+  name?: Maybe<Scalars['String']['output']>;
+  tag?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+  url?: Maybe<Scalars['String']['output']>;
 };
 
 export type Query = {
@@ -30,7 +32,7 @@ export type Query = {
 
 
 export type QuerySearchArgs = {
-  text?: InputMaybe<Scalars['String']>;
+  text?: InputMaybe<Scalars['String']['input']>;
 };
 
 export type GetAllDataQueryVariables = Exact<{ [key: string]: never; }>;
@@ -39,7 +41,7 @@ export type GetAllDataQueryVariables = Exact<{ [key: string]: never; }>;
 export type GetAllDataQuery = { __typename?: 'Query', items?: Array<{ __typename?: 'Item', id?: number | null, name?: string | null, url?: string | null, description?: string | null, tag?: Array<string | null> | null } | null> | null };
 
 export type GetDataWithSearchTextQueryVariables = Exact<{
-  text: Scalars['String'];
+  text: Scalars['String']['input'];
 }>;
 
 
