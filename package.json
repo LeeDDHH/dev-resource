@@ -7,10 +7,10 @@
     "node": "18.x"
   },
   "dependencies": {
-    "@apollo/client": "^3.7.10",
-    "@apollo/server": "^4.5.0",
-    "@as-integrations/next": "^1.2.0",
-    "graphql": "^16.6.0",
+    "@apollo/client": "^3.7.16",
+    "@apollo/server": "^4.7.5",
+    "@as-integrations/next": "^2.0.1",
+    "graphql": "^16.7.1",
     "next": "^13.4.7",
     "next-seo": "^6.1.0",
     "react": "^18.2.0",
@@ -36,18 +36,18 @@
     "mv-screenshots": "mv screenshots/*.png public/images"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "3.2.2",
-    "@graphql-codegen/client-preset": "2.1.1",
-    "@graphql-codegen/introspection": "3.0.1",
-    "@graphql-codegen/typed-document-node": "^3.0.2",
-    "@graphql-codegen/typescript": "^3.0.2",
-    "@graphql-codegen/typescript-operations": "^3.0.2",
+    "@graphql-codegen/cli": "4.0.1",
+    "@graphql-codegen/client-preset": "4.0.1",
+    "@graphql-codegen/introspection": "4.0.0",
+    "@graphql-codegen/typed-document-node": "^5.0.1",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
     "@types/gtag.js": "^0.0.12",
-    "@types/node": "^20.3.1",
+    "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
-    "@typescript-eslint/eslint-plugin": "^5.60.0",
-    "@typescript-eslint/parser": "^5.60.0",
-    "eslint": "^8.43.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "eslint": "^8.44.0",
     "eslint-config-next": "^13.4.7",
     "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-typescript": "^3.5.5",
@@ -56,6 +56,6 @@
     "free-translate": "^0.6.1",
     "playwright": "^1.35.1",
     "prettier": "^2.8.8",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.6"
   }
 }
