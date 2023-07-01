@@ -20,7 +20,8 @@ export const isSearchKeywordIncludedToName = (keywords: string[], name: string) 
  * @returns {boolean}
  */
 export const isSearchKeywordIncludedToDescription = (keywords: string[], description: string): boolean => {
-  return keywords.some((keyword) => description.includes(keyword));
+  const searchDescription = description.toLowerCase();
+  return keywords.some((keyword) => searchDescription.includes(keyword));
 };
 
 /**
@@ -30,5 +31,9 @@ export const isSearchKeywordIncludedToDescription = (keywords: string[], descrip
  * @returns {boolean}
  */
 export const isSearchKeywordIncludedToTags = (keywords: string[], tags: string[]) => {
-  return [...keywords, ...tags].filter((item) => keywords.includes(item) && tags.includes(item)).length > 0;
+  const lowerCasedTags = tags.map((tag) => tag.toLocaleLowerCase());
+  return (
+    [...keywords, ...lowerCasedTags].filter((item) => keywords.includes(item) && lowerCasedTags.includes(item)).length >
+    0
+  );
 };
