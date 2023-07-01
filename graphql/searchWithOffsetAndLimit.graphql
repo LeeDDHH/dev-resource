@@ -1,0 +1,9 @@
+query SearchWithOffsetAndLimit($offset: Int, $limit: Int) {
+  searchWithOffsetAndLimit(offset: $offset, limit: $limit) {
+    id
+    name
+    url
+    description
+    tag
+  }
+}

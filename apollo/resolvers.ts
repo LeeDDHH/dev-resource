@@ -25,6 +25,20 @@ export const resolvers = {
           isSearchKeywordIncludedToTags(splitedString, source.tag)
       );
     },
+    searchWithOffsetAndLimit: async (
+      _parent: any,
+      args: { limit: number; offset: number },
+      _context: any,
+      _info: any
+    ) => {
+      if (args.limit) {
+        const start = args.offset;
+        const end = args.limit;
+        return [...db.resource].slice(start, end);
+      } else {
+        return [...db.resource];
+      }
+    },
     // NOTE: 検索する範囲を絞って検索パターンも作る
   },
 };
