@@ -3851,7 +3851,7 @@
       "name": "stop-nesting-so-much-do-this-youtube",
       "url": "https://www.youtube.com/shorts/IqHqmCG54eA",
       "description": "Stop Nesting So Much. Do This!",
-      "tag": [],
+      "tag": ["VSCode", "JavaScript"],
       "id": 548
     },
     {
@@ -3865,7 +3865,7 @@
       "name": "this-made-me-a-more-productive-programmer-coding-programmer-coding-software-technology-youtube",
       "url": "https://www.youtube.com/shorts/dVZoZdhmAyg",
       "description": "This made me a more PRODUCTIVE programmer",
-      "tag": [],
+      "tag": ["ドキュメント"],
       "id": 550
     },
     {
@@ -3935,7 +3935,7 @@
       "name": "lets-make-a-shell-debut-with-sakura-cloud-shell-that-can-be-used-for-free-sakuras-knowledge",
       "url": "https://knowledge.sakura.ad.jp/35375/",
       "description": "無料で使えるさくらのクラウドシェルでシェルデビューしよう",
-      "tag": [],
+      "tag": ["無料", "サーバー"],
       "id": 560
     },
     {
@@ -3977,7 +3977,7 @@
       "name": "vscode-profiles-save-me-so-much-time-youtube",
       "url": "https://www.youtube.com/shorts/Txxab4zVV-4",
       "description": "vscodeプロファイルは私に時間を節約します-YouTube",
-      "tag": [],
+      "tag": ["VSCode"],
       "id": 566
     },
     {
@@ -4057,12 +4057,18 @@
       "tag": ["JavaScript", "MDN"],
       "id": 577
     },
-    { "name": "jchet", "url": "https://jjirasi.vercel.app/", "description": "jchet", "tag": [], "id": 578 },
+    {
+      "name": "jchet",
+      "url": "https://jjirasi.vercel.app/",
+      "description": "jchet",
+      "tag": ["ポートフォリオ"],
+      "id": 578
+    },
     {
       "name": "reacttoastify-reacttoastify",
       "url": "https://fkhadra.github.io/react-toastify/introduction/",
-      "description": "反応するtoastify | 反応する",
-      "tag": [],
+      "description": "React-toastify | react",
+      "tag": ["ライブラリ"],
       "id": 579
     },
     {
@@ -4237,7 +4243,7 @@
       "name": "highschool-student-makes-react-a-million-times-faster-youtube",
       "url": "https://www.youtube.com/watch?v=VkezQMb1DHw",
       "description": "高校生は反応を100万倍速くします-YouTube",
-      "tag": [],
+      "tag": ["ライブラリ", "Youtube"],
       "id": 604
     },
     {
@@ -4268,180 +4274,186 @@
       "tag": ["サービス", "AWS"],
       "id": 608
     },
-    { "name": "hygen-hygen", "url": "https://www.hygen.io/", "description": "hygen | ハイゲン", "tag": [], "id": 609 },
+    {
+      "name": "hygen-hygen",
+      "url": "https://www.hygen.io/",
+      "description": "Componentの雛形を生成するライブラリ",
+      "tag": ["ライブラリ"],
+      "id": 609
+    },
     {
       "name": "oxidise-your-life-youtube",
       "url": "https://www.youtube.com/watch?v=dFkGNe4oaKk",
       "description": "あなたの人生を酸化する-YouTube",
-      "tag": [],
+      "tag": ["Rust", "Youtube"],
       "id": 610
     },
     {
       "name": "react-typescript-basics-youtube",
       "url": "https://www.youtube.com/shorts/47U3dpbcQxo",
       "description": "React + TypeScript Basics💙 -YouTube",
-      "tag": ["React", "TypeScript"],
+      "tag": ["React", "TypeScript", "Youtube"],
       "id": 611
     },
     {
       "name": "learn-rust-programming-complete-course-youtube",
       "url": "https://www.youtube.com/watch?v=BpPEoZW5IiY",
       "description": "Rustプログラミングを学ぶ-Completeコース🦀 -YouTube",
-      "tag": ["プログラミング", "Rust", "ログ"],
+      "tag": ["プログラミング", "Rust", "ログ", "Youtube"],
       "id": 612
     },
     {
       "name": "1-introduction-to-the-human-brain-youtube",
       "url": "https://www.youtube.com/watch?v=ba-HMvDn_vU",
       "description": "1.人間の脳の紹介-YouTube",
-      "tag": [],
+      "tag": ["教養", "科学", "脳", "Youtube"],
       "id": 613
     },
     {
       "name": "how-to-upload-images-to-a-server-in-nextjs-nextjs-13-youtube",
       "url": "https://www.youtube.com/watch?v=OyxDGWgNJMc",
       "description": "next.jsのサーバーに画像をアップロードする方法| NextJS 13 -YouTube",
-      "tag": ["画像"],
+      "tag": ["画像", "Youtube"],
       "id": 614
     },
     {
       "name": "this-is-perhaps-my-favorite-password-manager-for-the-terminal-youtube",
       "url": "https://www.youtube.com/watch?v=FhwsfH2TpFA",
       "description": "これはおそらくターミナルの私のお気に入りのパスワードマネージャーです-YouTube",
-      "tag": ["ターミナル"],
+      "tag": ["ターミナル", "Youtube"],
       "id": 615
     },
     {
       "name": "every-programmer-should-use-this-terminal-ad-programming-technology-software-tech-code-youtube",
       "url": "https://www.youtube.com/shorts/leOuOQWPGug",
       "description": "すべてのプログラマーはこの端末を使用する必要があります👩‍💻＃ad＃programming #technology #software #tech #code -youtube",
-      "tag": ["ログ"],
+      "tag": ["Youtube"],
       "id": 616
     },
     {
       "name": "stop-typing-terminal-commands-manually-youtube",
       "url": "https://www.youtube.com/shorts/Ef_a-StjxS0",
       "description": "ターミナルコマンドを手動で入力するのを停止-YouTube",
-      "tag": ["ターミナル", "コマンド"],
+      "tag": ["ターミナル", "コマンド", "Youtube"],
       "id": 617
     },
     {
       "name": "copilot-chat-is-the-droid-youve-been-looking-for-youtube",
       "url": "https://www.youtube.com/shorts/cByutNrBOFc",
       "description": "Copilot Chatはあなたが探していたドロイドです！ -YouTube",
-      "tag": ["Copilot"],
+      "tag": ["Copilot", "Youtube"],
       "id": 618
     },
     {
       "name": "subtle-yet-beautiful-scroll-animations-youtube",
       "url": "https://www.youtube.com/watch?v=T33NN_pPeNI",
       "description": "微妙でありながら美しいスクロールアニメーション-YouTube",
-      "tag": ["アニメーション", "スクロール"],
+      "tag": ["アニメーション", "スクロール", "Youtube"],
       "id": 619
     },
     {
       "name": "21-awesome-web-features-youre-not-using-yet-youtube",
       "url": "https://www.youtube.com/watch?v=q1fsBWLpYW4",
       "description": "まだ使用していない21の素晴らしいWeb機能-YouTube",
-      "tag": ["Web"],
+      "tag": ["Web", "Youtube"],
       "id": 620
     },
     {
       "name": "beginner-freelancer-mistake-revealed-what-you-must-do-before-starting-work-youtube",
       "url": "https://www.youtube.com/shorts/npDE9qoXi_A",
       "description": "初心者のフリーランサーの間違いが明らかになりました：仕事を始める前にあなたがしなければならないこと！ -YouTube",
-      "tag": [],
+      "tag": ["フリーランス", "Youtube"],
       "id": 621
     },
     {
       "name": "4-mustread-computer-science-books-coding-programming-youtube",
       "url": "https://www.youtube.com/shorts/_zwrG0k8Eq4",
       "description": "4つの必見のコンピュータサイエンスブック📚＃コード＃プログラミング-YouTube",
-      "tag": ["プログラミング", "コード", "ログ"],
+      "tag": ["プログラミング", "コード", "ログ", "Youtube"],
       "id": 622
     },
     {
       "name": "unravelling-the-magic-behind-polyrhythms-youtube",
       "url": "https://www.youtube.com/watch?v=Kt3DavtVGVE",
       "description": "Polylhythms -YouTubeの背後にある魔法の解明",
-      "tag": [],
+      "tag": ["Youtube", "JavaScript", "Youtube"],
       "id": 623
     },
     {
       "name": "youre-probably-using-prettier-wrong-youtube",
       "url": "https://www.youtube.com/watch?v=Cd-gBxzcsdA",
-      "description": "あなたは（おそらく）きれいな間違っている-YouTubeを使用しています",
-      "tag": [],
+      "description": "あなたは（おそらく）きれいな間違っている",
+      "tag": ["ライブラリ", "Youtube"],
       "id": 624
     },
     {
       "name": "apple-makes-risky-bet-on-vrar-future-youtube",
       "url": "https://www.youtube.com/watch?v=Uc6lM1Aig9c",
       "description": "AppleはVR/AR Futureに危険な賭けをします-YouTube",
-      "tag": ["Apple"],
+      "tag": ["Apple", "Youtube"],
       "id": 625
     },
     {
       "name": "my-first-programming-project-code-programmer-softwaredeveloper-coding-softwaredev-coder-youtube",
       "url": "https://www.youtube.com/shorts/ig2LQhKaz0o",
       "description": "私の最初のプログラミングプロジェクト",
-      "tag": ["プログラミング", "ログ"],
+      "tag": ["プログラミング", "ログ", "Youtube"],
       "id": 626
     },
     {
       "name": "10-c-10-features-in-under-60-seconds-shorts-youtube",
       "url": "https://www.youtube.com/shorts/vupGjrhKG9Q",
       "description": "10 c＃10機能60秒未満の機能#shorts -youtube",
-      "tag": [],
+      "tag": ["C#", "Youtube"],
       "id": 627
     },
     {
       "name": "why-you-should-do-system-design-youtube",
       "url": "https://www.youtube.com/shorts/RmuWihm82AY",
       "description": "システム設計を行う必要がある理由。 -YouTube",
-      "tag": ["設計", "システム"],
+      "tag": ["設計", "システム", "Youtube"],
       "id": 628
     },
     {
       "name": "debug-any-server-application-locally-with-dev-tunnels-youtube",
       "url": "https://www.youtube.com/shorts/nS5iPp2ve7k",
       "description": "開発者のトンネルを使用して、任意のサーバーアプリケーションをローカルにデバッグしてください！ -YouTube",
-      "tag": ["開発", "アプリ", "開発者"],
+      "tag": ["開発", "アプリ", "開発者", "Youtube"],
       "id": 629
     },
     {
       "name": "amazing-easy-customizable-css-patterns-youtube",
       "url": "https://www.youtube.com/shorts/fvf5_Zas57M",
       "description": "驚くべき、簡単でカスタマイズ可能なCSSパターン-YouTube",
-      "tag": ["CSS", "パターン"],
+      "tag": ["CSS", "パターン", "Youtube"],
       "id": 630
     },
     {
       "name": "what-is-the-difference-between-apple-and-google-shorts-youtube",
       "url": "https://www.youtube.com/shorts/_mSo76fjYRc",
       "description": "AppleとGoogleの違いって何？ #shorts - YouTube",
-      "tag": ["Google", "Apple", "Go"],
+      "tag": ["Google", "Apple", "Go", "Youtube"],
       "id": 631
     },
     {
       "name": "typescript-satisfies-operator-can-be-very-useful-youtube",
       "url": "https://www.youtube.com/shorts/MC1Jx2kTKCM",
-      "description": "タイプスクリプトを満たすオペレーターは非常に便利です-YouTube",
-      "tag": [],
+      "description": "TypeScriptのSatisfiesオペレーターは非常に便利です-YouTube",
+      "tag": ["TypeScript", "Youtube"],
       "id": 632
     },
     {
       "name": "message-queues-explained-for-beginners-code-programmer-technology-coding-softwaredev-youtube",
       "url": "https://www.youtube.com/shorts/IbRsQq3ITYM",
-      "description": "初心者向けに説明されたメッセージキュー",
-      "tag": ["説明"],
+      "description": "初心者向けに説明されたMessage Queues",
+      "tag": ["説明", "Youtube"],
       "id": 633
     },
     {
       "name": "attribute-selectors-are-op-youtube",
       "url": "https://www.youtube.com/shorts/PdTPpjMiQFg",
       "description": "属性セレクターはOP -YouTubeです",
-      "tag": [],
+      "tag": ["CSS", "Youtube"],
       "id": 634
     },
     {
@@ -4455,14 +4467,14 @@
       "name": "how-nasa-writes-spaceproof-code-youtube",
       "url": "https://www.youtube.com/watch?v=GWYhtksrmhE",
       "description": "NASAがスペースプルーフコードをどのように書くか-YouTube",
-      "tag": ["コード"],
+      "tag": ["コード", "Youtube"],
       "id": 636
     },
     {
       "name": "deep-learning-for-computer-vision-with-python-and-tensorflow-complete-course-youtube",
       "url": "https://www.youtube.com/watch?v=IA3WxTTPXqQ",
       "description": "PythonとTensorflowを使用したコンピュータービジョンの深い学習 - 完全なコース-YouTube",
-      "tag": ["学習", "Python"],
+      "tag": ["学習", "Python:"],
       "id": 637
     },
     {
@@ -4518,7 +4530,7 @@
       "name": "java-is-mounting-a-huge-comeback-youtube",
       "url": "https://www.youtube.com/watch?v=Ibjm2KHfymo",
       "description": "Javaは巨大なカムバックを取り付けています -  YouTube",
-      "tag": [],
+      "tag": ["Java", "Youtube"],
       "id": 645
     },
     {
@@ -4552,8 +4564,8 @@
     {
       "name": "safe-ffmpeg-server-implementation-using-functional-paradigm-present",
       "url": "https://present.do/documents/647bdffa5680594095f2aef8",
-      "description": "機能パラダイムを使用した安全なFFMPEGサーバーの実装",
-      "tag": [],
+      "description": "関数型パラダイムを使用した安全なFFMPEGサーバーの実装",
+      "tag": ["FFMPEG", "サーバー"],
       "id": 650
     },
     {
@@ -4644,14 +4656,14 @@
       "name": "bigo-notation-for-coding-interviews-youtube",
       "url": "https://www.youtube.com/watch?v=BgLTDT03QtU",
       "description": "BIG -O NOTATION -CODINGインタビュー -  YouTube",
-      "tag": [],
+      "tag": ["BigO記法", "Youtube"],
       "id": 663
     },
     {
       "name": "this-is-the-best-way-to-protect-your-apis-youtube",
       "url": "https://www.youtube.com/watch?v=9xqlkAPnoTY",
       "description": "これはあなたのAPIを保護するための最良の方法です-YouTube",
-      "tag": ["API"],
+      "tag": ["API", "Youtube"],
       "id": 664
     },
     {
@@ -4679,14 +4691,14 @@
       "name": "server-actions-in-nextjs-nextjs-13-server-mutations-youtube",
       "url": "https://www.youtube.com/watch?v=BmUsDuLO598",
       "description": "next.jsのサーバーアクション| NextJS 13サーバー変異-YouTube",
-      "tag": [],
+      "tag": ["Next.js", "Youtube"],
       "id": 668
     },
     {
       "name": "why-typescript-migrations-fail-youtube",
       "url": "https://www.youtube.com/shorts/15PKLbfWmbQ",
-      "description": "タイプスクリプトの移行が失敗する理由-YouTube",
-      "tag": [],
+      "description": "TypeScriptの移行が失敗する理由-YouTube",
+      "tag": ["TypeScript", "Youtube"],
       "id": 669
     },
     {
@@ -4707,7 +4719,7 @@
       "name": "create-a-fun-web-international-with-threejs-shoz-threejs-youtube",
       "url": "https://www.youtube.com/shorts/vJ80yBDYFQY",
       "description": "Three.jsで楽しいWeb Internationalを作成します。 #shoz #threejs -youtube",
-      "tag": ["Web"],
+      "tag": ["Web", "3D"],
       "id": 672
     },
     {
@@ -4762,8 +4774,8 @@
     {
       "name": "in-may-twenty-seven-refusal-my-best-disquiety",
       "url": "https://disquiet.io/@disdaun/makerlog/9622",
-      "description": "5月、27の拒否、私のベスト。 | 不和*",
-      "tag": [],
+      "description": "プロダクトに投資してもらうことの難しさについて書き記されたブログ",
+      "tag": ["ブログ", "韓国語"],
       "id": 680
     },
     {
@@ -4811,8 +4823,8 @@
     {
       "name": "how-much-am-i",
       "url": "https://brunch.co.kr/@buildingking/62",
-      "description": "私はいくらですか？",
-      "tag": [],
+      "description": "自分の単価と会社のネームバリューについて",
+      "tag": ["ブログ"],
       "id": 687
     },
     {
@@ -4875,7 +4887,7 @@
       "name": "why-i-work-from-my-couch-youtube",
       "url": "https://www.youtube.com/watch?v=bIDL6buGNBY",
       "description": "なぜ私がソファで働いているのか -  YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 696
     },
     {
@@ -4923,8 +4935,8 @@
     {
       "name": "how-to-google-like-a-pro-code-programming-technology-software-tech-developer-coding-youtube",
       "url": "https://www.youtube.com/shorts/ddlsJcY0BpI",
-      "description": "プロのようにグーグルグーグルする方法",
-      "tag": [],
+      "description": "プロのようにGoogle検索をする方法",
+      "tag": ["検索", "Youtube"],
       "id": 703
     },
     {
@@ -4973,7 +4985,7 @@
       "name": "worldcoin-the-shtcoin-for-humanity-youtube",
       "url": "https://www.youtube.com/watch?v=V4qrvoFodmo",
       "description": "Worldcoin…人類のためのsh*tcoin？ -YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 710
     },
     {
@@ -5078,14 +5090,14 @@
       "name": "so-your-team-is-satisfied-with-the-introduction-of-the-scrum-and-the-productivity-will-not-increase-forever",
       "url": "https://zenn.dev/shin_semiya/articles/d735f42f4e61ee",
       "description": "だからお前のチームはスクラム導入で満足して、いつまでたっても生産性が上がらないんだよ",
-      "tag": [],
+      "tag": ["スクラム", "開発", "記事"],
       "id": 725
     },
     {
       "name": "the-retrospective-is-over-a-demise-of-a-retrospective-speaker-deck",
       "url": "https://speakerdeck.com/navitimejapan/a-demise-of-a-retrospective",
       "description": "こうしてふりかえりは終わってしまった / A Demise of a retrospective - Speaker Deck",
-      "tag": [],
+      "tag": ["ふりかえり"],
       "id": 726
     },
     {
@@ -5112,8 +5124,8 @@
     {
       "name": "i-waited-15-years-for-these-new-array-methods-youtube",
       "url": "https://www.youtube.com/watch?v=3CBD5JZJJKw",
-      "description": "これらの新しい配列メソッドを15年待ちました-YouTube",
-      "tag": [],
+      "description": "JavaScriptの新しい配列メソッド",
+      "tag": ["JavaScript", "配列", "Youtube"],
       "id": 730
     },
     {
@@ -5281,14 +5293,14 @@
       "name": "what-is-a-monorepo-youtube",
       "url": "https://www.youtube.com/shorts/FpANooFlzm8",
       "description": "モノレポとは何ですか？ ⚡ -YouTube",
-      "tag": [],
+      "tag": ["モノレポ", "Youtube"],
       "id": 754
     },
     {
       "name": "imnotgoodenoughjs-youtube",
       "url": "https://www.youtube.com/watch?v=6TYkDy54q4E",
       "description": "imnotgoodenough.js -YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 755
     },
     {
@@ -5336,8 +5348,8 @@
     {
       "name": "fetch-better-type-runtime-safety-with-zodfetch-youtube",
       "url": "https://www.youtube.com/shorts/tLO0XRKcwUc",
-      "description": "wetterよりよくフェッチ！ Zod -Fetch -YouTubeを使用したタイプとランタイムの安全",
-      "tag": [],
+      "description": "Zod-Fetchを使用したTypeとランタイムの安全なFetch",
+      "tag": ["Zod", "fetch", "Youtube"],
       "id": 762
     },
     {
@@ -5364,15 +5376,15 @@
     {
       "name": "how-to-create-ghiblistyle-trees-with-threejs-youtube",
       "url": "https://www.youtube.com/watch?v=IGK6eceWyU4",
-      "description": "Three.js -YouTubeでジブリスタイルの木を作成する方法",
-      "tag": [],
+      "description": "Three.jsを使ってジブリスタイルの木を作成する方法",
+      "tag": ["3D", "Youtube"],
       "id": 766
     },
     {
       "name": "async-too-fast-sync-too-slow-use-this-youtube",
       "url": "https://www.youtube.com/watch?v=zZSAQxdJFcQ",
-      "description": "速すぎますか？ 同期が遅すぎますか？ これを使用 -  YouTube",
-      "tag": [],
+      "description": "Asyncでは速すぎで、Syncでは遅すぎると感じる場合",
+      "tag": ["Python", "Youtube"],
       "id": 767
     },
     {
@@ -5441,8 +5453,8 @@
     {
       "name": "stop-using-nodemon-nodejs-shorts-youtube",
       "url": "https://www.youtube.com/shorts/PCkZmfNOJOE",
-      "description": "Nodemon // nodejs #shorts -youtubeの使用を停止します",
-      "tag": [],
+      "description": "Nodemonを使用せず、バックエンド開発をする方法",
+      "tag": ["nodemon", "node.js", "Youtube"],
       "id": 777
     },
     {
@@ -5539,8 +5551,8 @@
     {
       "name": "what-is-css-clamp-youtube",
       "url": "https://www.youtube.com/shorts/98KSvd1nDgQ",
-      "description": "css clamp（）とは何ですか？ -YouTube",
-      "tag": [],
+      "description": "cssのclamp()とは何ですか？",
+      "tag": ["CSS", "clamp", "関数", "Youtube"],
       "id": 791
     },
     {
@@ -5588,8 +5600,8 @@
     {
       "name": "i-got-banned-from-linkedin-for-writing-js-youtube",
       "url": "https://www.youtube.com/shorts/zU-QcfOrvCk",
-      "description": "私はJSを書いているためにLinkedInから禁止されました-YouTube",
-      "tag": [],
+      "description": "私はJSを書いているためにLinkedInから禁止されました",
+      "tag": ["JavaScript", "自動化", "Youtube"],
       "id": 798
     },
     {
@@ -5616,15 +5628,15 @@
     {
       "name": "learn-nextjs-13-with-this-one-project-youtube",
       "url": "https://www.youtube.com/watch?v=NgayZAuTgwM",
-      "description": "この1つのプロジェクト-YouTubeでnext.js 13を学びます",
-      "tag": [],
+      "description": "1つのプロジェクトでnext.js 13を学ぶ",
+      "tag": ["Next.js", "Youtube", "チュートリアル"],
       "id": 802
     },
     {
       "name": "neovim-in-100-seconds-youtube",
       "url": "https://www.youtube.com/watch?v=c4OyfL5o7DU",
-      "description": "Neovimは100秒で-YouTube",
-      "tag": [],
+      "description": "100秒でNeovimを紹介する",
+      "tag": ["Vim", "Neovim", "Youtube"],
       "id": 803
     },
     {
@@ -5672,8 +5684,8 @@
     {
       "name": "i-installed-a-virus-generator-youtube",
       "url": "https://www.youtube.com/shorts/lCnz0x7NbBY",
-      "description": "ウイルス発電機-YouTubeをインストールしました",
-      "tag": [],
+      "description": "ウイルスメーカーをインストールしました",
+      "tag": ["Youtube", "ウイルス"],
       "id": 810
     },
     {
@@ -5701,7 +5713,7 @@
       "name": "measures-against-impulse-peculiar-to-adhd-youtube",
       "url": "https://www.youtube.com/shorts/UzAakvs-2a8",
       "description": "ADHD特有の衝動への対策 - YouTube",
-      "tag": [],
+      "tag": ["ADHD", "Youtube"],
       "id": 814
     },
     {
@@ -5714,15 +5726,15 @@
     {
       "name": "the-story-of-nextjs-youtube",
       "url": "https://www.youtube.com/watch?v=BILxV_vrZO0",
-      "description": "next.jsのストーリー-YouTube",
-      "tag": [],
+      "description": "next.jsのストーリー",
+      "tag": ["Next.js", "Youtube"],
       "id": 816
     },
     {
       "name": "how-nextjs-really-works-youtube",
       "url": "https://www.youtube.com/watch?v=d2yNsZd5PMs",
       "description": "NextJSが実際にどのように機能するか-YouTube",
-      "tag": [],
+      "tag": ["Next.js", "Youtube"],
       "id": 817
     },
     {
@@ -5770,8 +5782,8 @@
     {
       "name": "optimistic-nihilism-youtube",
       "url": "https://www.youtube.com/watch?v=oBIo2AyjNMo",
-      "description": "楽観的なニヒリズム-youtube",
-      "tag": [],
+      "description": "楽観的なニヒリズム",
+      "tag": ["哲学", "説明", "Youtube"],
       "id": 824
     },
     {
@@ -5805,8 +5817,8 @@
     {
       "name": "impressive-piano-contrary-motion-arpeggios-youtube",
       "url": "https://www.youtube.com/shorts/1xD4Hz6jNA4",
-      "description": "印象的なピアノ - 反対の動きのアルペジオス-YouTube",
-      "tag": [],
+      "description": "ピアノ演奏 - 反対の動きのアルペジオス",
+      "tag": ["Youtube"],
       "id": 829
     },
     {
@@ -5820,7 +5832,7 @@
       "name": "a-youtuber-stole-my-project-and-im-hyped-youtube",
       "url": "https://www.youtube.com/watch?v=CtIZiEzdZZc",
       "description": "YouTuberが私のプロジェクトを盗んだ（そして私は誇大宣伝）-YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 831
     },
     {
@@ -5875,8 +5887,8 @@
     {
       "name": "vscode-to-lunarvim-youtube",
       "url": "https://www.youtube.com/watch?v=l-P6COY7GeQ&t=4s",
-      "description": "lunarvimへのvscode -youtube",
-      "tag": [],
+      "description": "vscodeからlunarvimへ",
+      "tag": ["lunarvim", "Youtube"],
       "id": 839
     },
     {
@@ -5889,8 +5901,8 @@
     {
       "name": "i-tried-8-different-postgres-orms-youtube",
       "url": "https://www.youtube.com/watch?v=4QN1BzxF8wM",
-      "description": "私は8つの異なるPostgres orms -youtubeを試しました",
-      "tag": [],
+      "description": "私は8つの異なるPostgres ormsを試しました",
+      "tag": ["DB", "database", "Postgres", "ORM", "Youtube"],
       "id": 841
     },
     {
@@ -5903,15 +5915,15 @@
     {
       "name": "artist-you-have-to-try-this-youtube",
       "url": "https://www.youtube.com/shorts/svdQHfYdDvg",
-      "description": "アーティスト？ これを試してみる必要があります…-YouTube",
-      "tag": [],
+      "description": "絵を書くために決まった色や条件を出してくれるツール",
+      "tag": ["AI", "Youtube"],
       "id": 843
     },
     {
       "name": "never-install-locally-youtube",
       "url": "https://www.youtube.com/watch?v=J0NuOlA2xDc",
-      "description": "ローカルにインストールしないでください-YouTube",
-      "tag": [],
+      "description": "ローカルに直接インストールせず、コンテナで試すことを推奨する動画",
+      "tag": ["コンテナ", "Youtube"],
       "id": 844
     },
     {
@@ -6015,8 +6027,8 @@
     {
       "name": "musiclm",
       "url": "https://google-research.github.io/seanet/musiclm/examples/",
-      "description": "Musiclm",
-      "tag": [],
+      "description": "MusicLM - テキストから音楽を生成するGoogleAI",
+      "tag": ["AI", "生成"],
       "id": 859
     },
     {
@@ -6057,15 +6069,15 @@
     {
       "name": "why-does-it-happen-when-it-is-garbled-youtube",
       "url": "https://www.youtube.com/shorts/YG0qf8fhBSE",
-      "description": "文字化けってなんで起きるの？📰 - YouTube",
-      "tag": [],
+      "description": "文字化けってなんで起きるの？📰",
+      "tag": ["Youtube"],
       "id": 865
     },
     {
       "name": "the-better-way-to-write-regex-youtube",
       "url": "https://www.youtube.com/watch?v=X_k198mrGL8",
-      "description": "Regex -YouTubeを書くより良い方法",
-      "tag": [],
+      "description": "VueでRegexを書くより良い方法",
+      "tag": ["Vue", "正規表現", "Youtube"],
       "id": 866
     },
     {
@@ -6093,7 +6105,7 @@
       "name": "what-is-the-use-of-static-class-youtube",
       "url": "https://www.youtube.com/shorts/LfcS1ZjNq6s",
       "description": "静的クラスの使用は何ですか？ -YouTube",
-      "tag": [],
+      "tag": ["クラス", "プログラミング", "Youtube"],
       "id": 870
     },
     {
@@ -6113,8 +6125,8 @@
     {
       "name": "any-vs-unknown-in-typescript-youtube",
       "url": "https://www.youtube.com/shorts/5SjoMNVwd4s",
-      "description": "typeScript -YouTubeで不明なVS",
-      "tag": [],
+      "description": "typeScript - anyとunknownタイプ",
+      "tag": ["TypeScript", "Youtube"],
       "id": 873
     },
     {
@@ -6135,7 +6147,7 @@
       "name": "i-drew-pikachu-in-a-mathematical-formula-drawing-pokmon-in-math-equation",
       "url": "https://www.youtube.com/shorts/T7bGEvLF_Cs",
       "description": "ピカチュウを数式で描いてみた！Drawing “Pokémon” in Math Equation!#数式の美術館 - YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 876
     },
     {
@@ -6156,7 +6168,7 @@
       "name": "sql-or-nosql-code-programming-technology-tech-software-developer-programmer-coding-youtube",
       "url": "https://www.youtube.com/shorts/2qRpfN6iBOU",
       "description": "sqlまたはnosql！？ 👩‍💻 #code＃programming #technology＃tech＃software＃developer＃programmer＃coding -youtube",
-      "tag": [],
+      "tag": ["SQL", "NoSQL", "Youtube"],
       "id": 879
     },
     {
@@ -6169,22 +6181,22 @@
     {
       "name": "why-you-should-selfhost-your-software-code-programming-technology-tech-software-develop-youtube",
       "url": "https://www.youtube.com/shorts/du7ix1oGHtA",
-      "description": "ソフトウェアを自己ホストする必要がある理由",
-      "tag": [],
+      "description": "ソフトウェアをセルフホストする必要がある理由",
+      "tag": ["Youtube"],
       "id": 881
     },
     {
       "name": "there-seems-to-be-many-new-recruits-who-do-not-know-how-to-ask-questions-than-i-thought-humor-board-ruliweb",
       "url": "https://m.ruliweb.com/best/board/300143/read/61534059?m=all&t=now&page=7",
-      "description": "私が思っていたよりも質問する方法を知らない多くの新しい新兵がいるようです。 ユーモアボード| ROLIWEB",
-      "tag": [],
+      "description": "職場で質問をする方法がわからない新入社員が多い件",
+      "tag": ["韓国語"],
       "id": 882
     },
     {
       "name": "labor-about-8-hours-a-dayjpg-humor-board-ruliweb",
       "url": "https://m.ruliweb.com/best/board/300143/read/61533790?m=all&t=now&page=8",
-      "description": "1日あたり約8時間の労働jpg | ユーモアボード| ROLIWEB",
-      "tag": [],
+      "description": "1日あたり8時間の労働になった理由",
+      "tag": ["韓国語"],
       "id": 883
     },
     {
@@ -6225,8 +6237,8 @@
     {
       "name": "i-built-a-smarter-smart-home-youtube",
       "url": "https://www.youtube.com/watch?v=0rIvB3LZiKA",
-      "description": "よりスマートなスマートホームを作りました -  YouTube",
-      "tag": [],
+      "description": "スマートホームアプリを開発した話",
+      "tag": ["Youtube"],
       "id": 889
     },
     {
@@ -6239,43 +6251,43 @@
     {
       "name": "prettify-for-classes-youtube",
       "url": "https://www.youtube.com/shorts/2lCCKiWGlC0",
-      "description": "クラスのpretify -youtube",
-      "tag": [],
+      "description": "クラスのpretify",
+      "tag": ["TypeScript", "クラス", "Youtube"],
       "id": 891
     },
     {
       "name": "ai-development-will-change-forever-with-this-code-programming-technology-tech-software-youtube",
       "url": "https://www.youtube.com/shorts/RlBIkdLPVi8",
       "description": "AI開発はこれにより永遠に変わります＃code #programming #technology #tech #software -youtube",
-      "tag": ["開発", "AI"],
+      "tag": ["開発", "AI", "Youtube"],
       "id": 892
     },
     {
       "name": "react-without-javascript-youtube",
       "url": "https://www.youtube.com/shorts/6kLh_XQLNa8",
       "description": "JavaScriptなしで反応します！ -YouTube",
-      "tag": ["JavaScript"],
+      "tag": ["JavaScript", "Youtube"],
       "id": 893
     },
     {
       "name": "this-prettier-plugin-makes-tailwind-so-much-better-youtube",
       "url": "https://www.youtube.com/shorts/MD_-XzdX0oo",
-      "description": "このきれいなプラグインはTailwindをはるかに良くします-YouTube",
-      "tag": [],
+      "description": "このきれいなプラグインはTailwindをはるかに良くします",
+      "tag": ["Tailwind", "プラグイン", "Youtube"],
       "id": 894
     },
     {
       "name": "ten-knowledge-required-to-understand-the-basics-of-back-end-development-2022",
       "url": "https://zenn.dev/nameless_sn/articles/backend-masternote",
       "description": "バックエンド開発の基本を理解するために必要な10の知識 2022年版",
-      "tag": ["開発", "バックエンド", "本", "基本"],
+      "tag": ["開発", "バックエンド", "本", "基本", "記事"],
       "id": 895
     },
     {
       "name": "nextjs-and-openai-text-complete-simple-ai-based-q-a-daily",
       "url": "https://oneoneone.kr/content/77b03b62",
-      "description": "next.jsおよびopenaiテキスト完全なシンプルなaiベースのQ＆A 毎日",
-      "tag": [],
+      "description": "next.jsとOpenAIのテキスト完成機能を使ったAI基盤のQ&A構築",
+      "tag": ["記事", "韓国語"],
       "id": 896
     },
     {
@@ -6309,15 +6321,15 @@
     {
       "name": "things-that-can-be-bought-with-money-and-things-that-cannot-be-bought-comense-nocomo-youtube",
       "url": "https://www.youtube.com/shorts/SzHYOJ3GolY",
-      "description": "【お金で買える物と買えない物】コメンス・ンコモ - YouTube",
-      "tag": [],
+      "description": "お金で買える物と買えない物について力説するコメンス・ンコモの動画",
+      "tag": ["Youtube"],
       "id": 901
     },
     {
       "name": "tips-for-continuing-to-succeed-youtube",
       "url": "https://www.youtube.com/shorts/cHuBSZPq7pQ",
-      "description": "絶対成功する習慣を続けるコツ - YouTube",
-      "tag": [],
+      "description": "絶対成功する習慣を続けるコツ",
+      "tag": ["Youtube"],
       "id": 902
     },
     {
@@ -6358,15 +6370,15 @@
     {
       "name": "get-a-grip-on-grep-youtube",
       "url": "https://www.youtube.com/shorts/5_t_I_4OuwQ",
-      "description": "Grep -YouTubeでグリップを取得します",
-      "tag": [],
+      "description": "Grep -YouTube",
+      "tag": ["Youtube"],
       "id": 908
     },
     {
       "name": "the-path-var-of-righteousness-youtube",
       "url": "https://www.youtube.com/shorts/-J7EWBYipqI",
-      "description": "正義のパスvar -YouTube",
-      "tag": [],
+      "description": "正しいPATHの値 - YouTube",
+      "tag": ["Youtube"],
       "id": 909
     },
     {
@@ -6400,15 +6412,15 @@
     {
       "name": "how-big-is-a-yottabyte-youtube",
       "url": "https://www.youtube.com/shorts/6V-eRPPLSy0",
-      "description": "ヨタバイトの大きさはどれくらいですか？ -YouTube",
-      "tag": [],
+      "description": "ヨタバイトの大きさはどれくらい？ -YouTube",
+      "tag": ["Youtube"],
       "id": 914
     },
     {
       "name": "i-fixed-file-uploading-youtube",
       "url": "https://www.youtube.com/watch?v=mxT3j-5s1Zc",
       "description": "ファイルのアップロードを修正しました。 -YouTube",
-      "tag": [],
+      "tag": ["Next.js", "Youtube"],
       "id": 915
     },
     {
@@ -6484,8 +6496,8 @@
     {
       "name": "the-open-source-software-im-using-in-2023-part-1-youtube",
       "url": "https://www.youtube.com/watch?v=oLrwk07zZ0Y",
-      "description": "2023年に使用しているオープンソースソフトウェア - パート1！ -YouTube",
-      "tag": [],
+      "description": "2023年に使用しているオープンソースソフトウェア - パート1 YouTube",
+      "tag": ["Youtube"],
       "id": 926
     },
     {
@@ -6534,7 +6546,7 @@
       "name": "motivation-mechanism-youtube",
       "url": "https://www.youtube.com/shorts/kEha0-9O-sw",
       "description": "やる気のメカニズム - YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 933
     },
     {
@@ -6548,7 +6560,7 @@
       "name": "if-you-dont-have-a-future-ahead-you-dont-have-to-do-your-best-youtube",
       "url": "https://www.youtube.com/shorts/y55Q4F7-Aok",
       "description": "その先に未来が無いなら頑張る必要が無い。 - YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 935
     },
     {
@@ -6562,7 +6574,7 @@
       "name": "the-act-of-i-dont-think-about-anything-told-me-youtube",
       "url": "https://www.youtube.com/shorts/p5CQthaQ5PI",
       "description": "“何も考えない”という行為が教えてくれたこと - YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 937
     },
     {
@@ -6597,21 +6609,21 @@
       "name": "when-you-are-full-of-anxiety-do-thishard-axons-youtube",
       "url": "https://www.youtube.com/shorts/Oyb4KhJD3hk",
       "description": "「不安な気持ちでいっぱいになったとき」これをして#つらい　#不安症 - YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 942
     },
     {
       "name": "how-to-format-dates-in-javascript-2023-youtube",
       "url": "https://www.youtube.com/shorts/NTuCphbIk2g",
-      "description": "javaScript2023で日付をフォーマットする方法-YouTube",
-      "tag": [],
+      "description": "javaScriptで日付をフォーマットする方法-YouTube",
+      "tag": ["Youtube"],
       "id": 943
     },
     {
       "name": "how-to-make-your-subordinates-alone-youtube",
       "url": "https://www.youtube.com/shorts/wWqfZs-sG7A",
       "description": "部下を一人前にする方法 - YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 944
     },
     {
@@ -6632,7 +6644,7 @@
       "name": "wiis-x-sanse-tricks-that-can-be-used-when-eliminating-the-sensor-bar-youtube",
       "url": "https://www.youtube.com/shorts/fClhwlrU3pQ",
       "description": "Wiiの(×サンセ)センサーバーを無くしたときに使える裏技 - YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 947
     },
     {
@@ -6659,8 +6671,8 @@
     {
       "name": "how-to-name-your-types-youtube",
       "url": "https://www.youtube.com/watch?v=qA65QjWCl60",
-      "description": "タイプの名前を付ける方法-YouTube",
-      "tag": [],
+      "description": "Typeの名前を付ける方法-YouTube",
+      "tag": ["TypesScript", "Youtube"],
       "id": 951
     },
     {
@@ -6687,8 +6699,8 @@
     {
       "name": "easy-home-cooking-recipe-chef-rice-that-learns-from-professionals",
       "url": "https://chefgohan.gnavi.co.jp/",
-      "description": "プロから学ぶ簡単家庭料理レシピ　シェフごはん",
-      "tag": [],
+      "description": "プロから学ぶ簡単家庭料理レシピ シェフごはん",
+      "tag": ["サイト"],
       "id": 955
     },
     {
@@ -6708,8 +6720,8 @@
     {
       "name": "objects-in-js-youtube",
       "url": "https://www.youtube.com/shorts/ho3g_HsRqDs",
-      "description": "JSのオブジェクト -  YouTube",
-      "tag": [],
+      "description": "JSのオブジェクト - YouTube",
+      "tag": ["JavaScript", "Youtube"],
       "id": 958
     },
     {
@@ -6730,7 +6742,7 @@
       "name": "this-law-could-change-the-internet-forever-code-technology-tech-software-developer-coding-youtube",
       "url": "https://www.youtube.com/shorts/Gq1YXXBIj-M",
       "description": "この法律はインターネットを永遠に変更する可能性があります＃code #technology #tech #software #developer #coding -youtube",
-      "tag": [],
+      "tag": ["法律", "アーカイブ", "Youtube"],
       "id": 961
     },
     {
@@ -6814,14 +6826,14 @@
       "name": "dont-fear-the-spread-operator-or-abuse-it-youtube",
       "url": "https://www.youtube.com/shorts/Q-jnCu85PEc",
       "description": "スプレッドオペレーターを恐れない（またはそれを悪用する）-YouTube",
-      "tag": [],
+      "tag": ["JavaScript", "文法", "Youtube"],
       "id": 973
     },
     {
       "name": "why-email-only-auth-is-more-secure-youtube",
       "url": "https://www.youtube.com/shorts/xXvImYER1G8",
       "description": "Authのみがより安全である理由-YouTube",
-      "tag": [],
+      "tag": ["認証", "Youtube"],
       "id": 974
     },
     {
@@ -6904,8 +6916,8 @@
     {
       "name": "react-and-typescript-stopped-fighting-youtube",
       "url": "https://www.youtube.com/watch?v=sr8bwLXDm3U",
-      "description": "反応とタイプスクリプトは戦いをやめましたか？ -YouTube",
-      "tag": [],
+      "description": "ReactとTypeScriptは戦いをやめましたか？ -YouTube",
+      "tag": ["React", "TypeScript", "Youtube"],
       "id": 986
     },
     {
@@ -6947,7 +6959,7 @@
       "name": "they-finally-fixed-prisma-by-deleting-graphql-youtube",
       "url": "https://www.youtube.com/watch?v=jIpdkbOw6Cc",
       "description": "彼らは最終的に（graphqlを削除することにより）prismaを修正しました-youtube",
-      "tag": [],
+      "tag": ["Prisma", "Youtube"],
       "id": 992
     },
     {
@@ -6982,7 +6994,7 @@
       "name": "ytmp3-youtube-to-mp3-converter",
       "url": "https://ytmp3.nu/XIf/",
       "description": "YTMP3 -YouTube to Mp3コンバーター",
-      "tag": [],
+      "tag": ["変換", "MP3", "Youtube"],
       "id": 997
     },
     {
@@ -7030,8 +7042,8 @@
     {
       "name": "the-ts-playground-has-plugins-youtube",
       "url": "https://www.youtube.com/watch?v=PHcm4Hwot2c",
-      "description": "TSプレイグラウンドにはプラグイン-YouTubeがあります",
-      "tag": [],
+      "description": "TS PlayGroundにはプラグインがある - YouTube",
+      "tag": ["TypeScript", "Youtube"],
       "id": 1004
     },
     {
@@ -7072,15 +7084,15 @@
     {
       "name": "youre-typing-processenv-wrong-youtube",
       "url": "https://www.youtube.com/watch?v=q1im-hMlKhM",
-      "description": "Process.ENV間違っていると入力しています-YouTube",
-      "tag": [],
+      "description": "Process.ENVのタイプを間違っている - YouTube",
+      "tag": ["env", "Youtube"],
       "id": 1010
     },
     {
       "name": "this-node-debugger-trick-will-save-you-hours-youtube",
       "url": "https://www.youtube.com/shorts/8WN5LogHiUE",
-      "description": "このノードデバッガートリックは時間を節約します-YouTube",
-      "tag": [],
+      "description": "Node.jsのデバッガートリックは時間を節約する - YouTube",
+      "tag": ["Node.js", "デバッグ", "Youtube"],
       "id": 1011
     },
     {
@@ -7122,7 +7134,7 @@
       "name": "try-to-practice-with-reading-leading-law-developersio",
       "url": "https://dev.classmethod.jp/articles/gambara-nothing-reading/",
       "description": "｢がんばらない読書法｣で実践してみる新卒研修 | DevelopersIO",
-      "tag": [],
+      "tag": ["ブログ", "学習", "頑張らない"],
       "id": 1017
     },
     {
@@ -7136,7 +7148,7 @@
       "name": "getting-skills-helping-the-company-and-society-raising-the-evaluation-and-raising-the-salary",
       "url": "https://www.orangeitems.com/entry/2023/04/15/000000",
       "description": "「スキルを付けて、会社や社会の役に立ち、評価を上げて給料を上げる！」はもう古い理由 - orangeitems’s diary",
-      "tag": [],
+      "tag": ["ブログ"],
       "id": 1019
     },
     {
@@ -7199,7 +7211,7 @@
       "name": "matrix-multiplication-youtube",
       "url": "https://www.youtube.com/shorts/y8xRw76i1qY",
       "description": "マトリックス乗算-YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 1028
     },
     {
@@ -7213,7 +7225,7 @@
       "name": "matrix-notation-youtube",
       "url": "https://www.youtube.com/shorts/LS6VX7noVWY",
       "description": "マトリックス表記-YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 1030
     },
     {
@@ -7226,8 +7238,8 @@
     {
       "name": "there-is-nothing-more-important-than-gold-what-do-you-ask-for-a-question-yahoo-chiebukuro",
       "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1287538072",
-      "description": "金より大切なものなんて存在しねーよ誰か反論してみろよって質問に何... - Yahoo!知恵袋",
-      "tag": [],
+      "description": "金より大切なものなんて存在しなことに対する反論 - Yahoo!知恵袋",
+      "tag": ["etc", "価値観"],
       "id": 1032
     },
     {
@@ -7240,8 +7252,8 @@
     {
       "name": "volume-control",
       "url": "https://control-volume.freeonlineapps.net/",
-      "description": "音量調節",
-      "tag": [],
+      "description": "Volume Control for Google Chrome拡張機能の使い方",
+      "tag": ["拡張機能"],
       "id": 1034
     },
     {
@@ -7325,15 +7337,15 @@
     {
       "name": "aws-codewhisperer-the-copilot-killer-youtube",
       "url": "https://www.youtube.com/watch?v=FJACTC9wFhU",
-      "description": "aws codewhisperer…副操縦士の殺人者？ -YouTube",
-      "tag": [],
+      "description": "AWS CodeW hispererについて -YouTube",
+      "tag": ["Youtube", "AI"],
       "id": 1047
     },
     {
       "name": "contributing-to-open-source-can-change-your-life-heres-how-to-do-it-youtube",
       "url": "https://www.youtube.com/watch?v=CML6vfKjQss&t=5s",
-      "description": "オープンソースに貢献することはあなたの人生を変えることができます - ここにそれを行う方法があります-YouTube",
-      "tag": [],
+      "description": "OSSに貢献することはあなたの人生を変えることができます - YouTube",
+      "tag": ["OSS", "Youtube"],
       "id": 1048
     },
     {
@@ -7353,8 +7365,8 @@
     {
       "name": "everyones-talking-about-hotscript-youtube",
       "url": "https://www.youtube.com/watch?v=QDANnOSMCOw",
-      "description": "誰もがHotScriptについて話している-YouTube",
-      "tag": [],
+      "description": "誰もがHOTScriptについて話している - YouTube",
+      "tag": ["ライブラリ", "Youtube"],
       "id": 1051
     },
     {
@@ -7409,8 +7421,8 @@
     {
       "name": "onclick-lazy-load-youtube-video-iframe-in-react-rob-marshall",
       "url": "https://robertmarshall.dev/blog/on-click-lazy-load-video-iframe-in-react/",
-      "description": "lazy load youtubeビデオiframe in react | ロブ・マーシャル",
-      "tag": [],
+      "description": "Reactでyoutubeのiframeをlazyloadする方法",
+      "tag": ["ライブラリ", "Youtube"],
       "id": 1059
     },
     {
@@ -7431,7 +7443,7 @@
       "name": "what-is-quarter-life-crisis-explain-the-meaning-5-phases-and-how-to-take-countermeasures-marketrunk",
       "url": "https://www.profuture.co.jp/mk/recruit/management/39512",
       "description": "クォーターライフクライシスとは？意味や5つのフェーズ、対策方法を解説 | MarkeTRUNK",
-      "tag": [],
+      "tag": ["クォーターライフクライシス", "ブログ"],
       "id": 1062
     },
     {
@@ -7514,8 +7526,8 @@
     {
       "name": "meilaisearch",
       "url": "https://www.meilisearch.com/",
-      "description": "Meilaisearch",
-      "tag": [],
+      "description": "Meilaisearch、サイト・アプリ内の検索エンジンとして使えるOSS",
+      "tag": ["サイト", "検索", "OSS"],
       "id": 1074
     },
     {
@@ -7571,7 +7583,7 @@
       "name": "how-to-make-a-slimy-song-in-1-minute-shorts-youtube",
       "url": "https://www.youtube.com/shorts/0GTmHb6YrS4",
       "description": "1分でわかるノリノリな曲の作り方 #Shorts - YouTube",
-      "tag": [],
+      "tag": ["音楽", "Youtube"],
       "id": 1082
     },
     {
@@ -7620,7 +7632,7 @@
       "name": "useeffect-complete-guide-overreacted",
       "url": "https://overreacted.io/ja/a-complete-guide-to-useeffect/",
       "description": "useEffect完全ガイド — Overreacted",
-      "tag": [],
+      "tag": ["React", "ブログ"],
       "id": 1089
     },
     {
@@ -7669,7 +7681,7 @@
       "name": "run-away-if-its-painful-youtube",
       "url": "https://www.youtube.com/shorts/UxFFA-quGxU",
       "description": "辛かったら逃げろ - YouTube",
-      "tag": [],
+      "tag": ["価値観", "Youtube"],
       "id": 1096
     },
     {
@@ -7689,8 +7701,8 @@
     {
       "name": "dont-make-this-state-mistake-youtube",
       "url": "https://www.youtube.com/shorts/9nGDVWm_Xg0",
-      "description": "この状態を間違えないでください！ 👀 -YouTube",
-      "tag": [],
+      "description": "オブジェクトコピー時に使えるstructuredConeについて -YouTube",
+      "tag": ["JavaScript", "Youtube"],
       "id": 1099
     },
     {
@@ -7717,8 +7729,8 @@
     {
       "name": "did-he-really-fix-typescript-youtube",
       "url": "https://www.youtube.com/watch?v=C_v0fcGEGbA",
-      "description": "彼は本当にタイプスクリプトを修正しましたか？ -YouTube",
-      "tag": ["本"],
+      "description": "彼は本当にTypeScriptを修正しましたか？ -YouTube",
+      "tag": ["TypeScript"],
       "id": 1103
     },
     {
@@ -7732,21 +7744,21 @@
       "name": "use-automapperprojections-more-often-youtube",
       "url": "https://www.youtube.com/shorts/yvhOwh-aSHY",
       "description": "より頻繁にAutomApperProjectionを使用してください！ -YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 1105
     },
     {
       "name": "are-you-doing-c-properties-wrong-watch-out-for-this-youtube",
       "url": "https://www.youtube.com/shorts/oUp8Kojj3z8",
       "description": "あなたはC＃プロパティを間違えていますか？！ これに注意してください！ -YouTube",
-      "tag": [],
+      "tag": ["C#", "Youtube"],
       "id": 1106
     },
     {
       "name": "stack-vs-heap-memory-in-java-youtube",
       "url": "https://www.youtube.com/shorts/BLvsdNLI5ls",
       "description": "Javaのスタックvsヒープメモリ-YouTube",
-      "tag": [],
+      "tag": ["Java", "メモリ"],
       "id": 1107
     },
     {
@@ -7767,7 +7779,7 @@
       "name": "why-i-write-my-js-numbers-like-this-1000000-youtube",
       "url": "https://www.youtube.com/shorts/bFNxVXXlDEQ",
       "description": "このようなJS番号を書く理由-1_000_000 -YouTube",
-      "tag": [],
+      "tag": ["JavaScript", "Youtube"],
       "id": 1110
     },
     {
@@ -7795,7 +7807,7 @@
       "name": "arrayfilter-on-the-type-level-youtube",
       "url": "https://www.youtube.com/shorts/tKLg_sDxlF8",
       "description": "タイプレベルのarray.filter -youtube",
-      "tag": [],
+      "tag": ["TypeScript", "Youtube"],
       "id": 1114
     },
     {
@@ -7830,7 +7842,7 @@
       "name": "check-contents-of-eslint-recommended-settings-eslint-recommeded-tips-note-by-tam",
       "url": "https://www.tam-tam.co.jp/tipsnote/javascript/post11934.html",
       "description": "ESLintの推奨設定（eslint:recommended）のチェック内容 ｜ Tips Note by TAM",
-      "tag": [],
+      "tag": ["lint", "ブログ"],
       "id": 1119
     },
     {
@@ -7844,7 +7856,7 @@
       "name": "to-beyond-validation-with-reacthookfold-and-zod",
       "url": "https://zenn.dev/uzimaru0000/articles/react-hook-form-with-zod",
       "description": "react-hook-form と zod でバリデーションのその先へ",
-      "tag": [],
+      "tag": ["ブログ", "react-hook-form", "zod"],
       "id": 1121
     },
     {
@@ -7872,7 +7884,7 @@
       "name": "how-to-fix-dirname-is-not-defined-in-es-module-scope",
       "url": "https://flaviocopes.com/fix-dirname-not-defined-es-module-scope/",
       "description": "「__dirnameはESモジュールスコープで定義されていません」を修正する方法",
-      "tag": [],
+      "tag": ["Node.js", "ESmodule"],
       "id": 1125
     },
     {
@@ -7914,7 +7926,7 @@
       "name": "how-to-use-playwright-new-things-welcome",
       "url": "https://www.kwbtblog.com/entry/2023/02/10/091552",
       "description": "Playwrightの使い方メモ - 新しいことにはウェルカム",
-      "tag": [],
+      "tag": ["Playwright", "ブログ"],
       "id": 1131
     },
     {
@@ -7927,8 +7939,8 @@
     {
       "name": "typescript-errors-and-how-to-fix-them-typescript-tv",
       "url": "https://typescript.tv/errors/",
-      "description": "タイプスクリプトエラーとそれらの修正方法 - タイプスクリプトテレビ",
-      "tag": [],
+      "description": "TypeScriptエラーとそれらの修正方法 - タイプスクリプトテレビ",
+      "tag": ["TypeScript", "エラー", "ブログ"],
       "id": 1133
     },
     {
@@ -7941,8 +7953,8 @@
     {
       "name": "summarizing-youtube-videos-with-gpt-traw",
       "url": "https://traw.ai/home",
-      "description": "YouTubeビデオをGPT -Trawで要約します",
-      "tag": [],
+      "description": "YouTubeビデオをGPTで要約するサービス - Traw",
+      "tag": ["AI", "要約"],
       "id": 1135
     },
     {
@@ -7998,7 +8010,7 @@
       "name": "difference-between-plugin-and-extend-of-eslint-blogojisanio",
       "url": "https://blog.ojisan.io/eslint-plugin-and-extend/",
       "description": "ESLint の Plugin と Extend の違い | blog.ojisan.io",
-      "tag": [],
+      "tag": ["lint", "ブログ"],
       "id": 1143
     },
     {
@@ -8012,7 +8024,7 @@
       "name": "understand-the-differences-between-plugins-and-extends-in-eslint-sure-dev",
       "url": "https://www.sunapro.com/eslint-settings/",
       "description": "eslintのpluginsとextendsの違いを理解する - すな.dev",
-      "tag": [],
+      "tag": ["lint", "ブログ"],
       "id": 1145
     },
     {
@@ -8047,7 +8059,7 @@
       "name": "in-node16-18-arrat-1-is-slower-than-arr-arrlength1",
       "url": "https://zenn.dev/sosukesuzuki/articles/2c9530c9c96680",
       "description": "Node16, 18 では arr.at(-1) は arr[arr.length-1] より遅い",
-      "tag": [],
+      "tag": ["Node.js", "ブログ"],
       "id": 1150
     },
     {
@@ -8068,7 +8080,7 @@
       "name": "is-redux-still-relevant-in-2023-youtube",
       "url": "https://www.youtube.com/watch?v=czptRA4IeCc",
       "description": "Reduxは2023年にまだ関連していますか？ -YouTube",
-      "tag": [],
+      "tag": ["React", "Youtube"],
       "id": 1153
     },
     {
@@ -8124,287 +8136,287 @@
       "name": "will-reacts-new-cache-fix-its-use-hook-youtube",
       "url": "https://www.youtube.com/watch?v=T3m-MZkuadU",
       "description": "Reactの新しいキャッシュは「使用」フックを修正しますか？ -YouTube",
-      "tag": ["React"],
+      "tag": ["React", "Youtube"],
       "id": 1161
     },
     {
       "name": "you-may-be-using-fetch-with-asyncawait-wrong-youtube",
       "url": "https://www.youtube.com/shorts/xRDhSWPt6nY",
-      "description": "あなたはasync/async/awaiting間違ったものを使用しているかもしれません...- YouTube",
-      "tag": [],
+      "description": "async/awaitの使い方が間違っているかもしれません...- YouTube",
+      "tag": ["Youtube", "JavaScript"],
       "id": 1162
     },
     {
       "name": "programmers-stop-burning-out-youtube",
       "url": "https://www.youtube.com/shorts/qqz04rpEW2k",
       "description": "プログラマー、燃焼を停止",
-      "tag": ["ログ"],
+      "tag": ["Youtube"],
       "id": 1163
     },
     {
       "name": "why-programmers-should-avoid-99-programming-programmer-code-developer-technology-youtube",
       "url": "https://www.youtube.com/shorts/ckQ_ZQgVp28",
       "description": "プログラマーが99％を避けるべき理由",
-      "tag": ["ログ"],
+      "tag": ["Youtube"],
       "id": 1164
     },
     {
       "name": "compound-components-are-super-intuitive-youtube",
       "url": "https://www.youtube.com/shorts/-F4k8A5S530",
       "description": "複合コンポーネントは非常に直感的です-YouTube",
-      "tag": ["コンポーネント"],
+      "tag": ["React", "TypeScript", "コンポーネント", "Youtube"],
       "id": 1165
     },
     {
       "name": "chatgpt-gets-another-insane-new-buff-youtube",
       "url": "https://www.youtube.com/watch?v=mpnh1YTT66w",
       "description": "ChatGptは、別の非常識な新しいバフ-YouTubeを取得します",
-      "tag": ["ChatGpt"],
+      "tag": ["ChatGpt", "Youtube"],
       "id": 1166
     },
     {
       "name": "be-careful-with-the-as-keyword-in-typescript-youtube",
       "url": "https://www.youtube.com/shorts/bGhUyJE2bCk",
       "description": "TypeScriptの「AS」キーワードに注意してください-YouTube",
-      "tag": ["TypeScript", "キーワード"],
+      "tag": ["TypeScript", "キーワード", "Youtube"],
       "id": 1167
     },
     {
       "name": "game-over-github-copilot-x-announced-youtube",
       "url": "https://www.youtube.com/watch?v=q1HZj40ZQrM",
       "description": "ゲームオーバー…Github Copilot Xが発表-YouTube",
-      "tag": ["Copilot", "Git"],
+      "tag": ["Copilot", "Git", "Youtube"],
       "id": 1168
     },
     {
       "name": "frontend-developer-roadmap",
       "url": "https://roadmap.sh/frontend",
       "description": "フロントエンド開発者のロードマップ",
-      "tag": ["開発", "フロントエンド", "開発者"],
+      "tag": ["開発", "フロントエンド", "開発者", "ロードマップ"],
       "id": 1169
     },
     {
       "name": "typescript-roadmap-learn-to-become-a-typescript-developer",
       "url": "https://roadmap.sh/typescript",
       "description": "タイプスクリプトロードマップ：TypeScript開発者になることを学びます",
-      "tag": ["開発", "TypeScript", "開発者"],
+      "tag": ["開発", "TypeScript", "開発者", "ロードマップ"],
       "id": 1170
     },
     {
       "name": "nodejs-developer-roadmap-learn-to-become-a-modern-nodejs-developer",
       "url": "https://roadmap.sh/nodejs",
       "description": "node.js開発者ロードマップ：最新のnode.js開発者になることを学ぶ",
-      "tag": ["開発", "node.js", "開発者"],
+      "tag": ["開発", "node.js", "開発者", "ロードマップ"],
       "id": 1171
     },
     {
       "name": "how-to-use-the-ai-search-engine-for-developers-it-these-days",
       "url": "https://yozm.wishket.com/magazine/detail/1944/",
       "description": "開発者のAI検索エンジンの使用方法| 最近",
-      "tag": ["検索", "開発", "AI", "検索エンジン", "開発者"],
+      "tag": ["検索", "開発", "AI", "検索エンジン", "開発者", "ブログ"],
       "id": 1172
     },
     {
       "name": "just-a-moment",
       "url": "https://www.phind.com/",
-      "description": "ちょっとまってください...",
-      "tag": [],
+      "description": "開発者のためのAI検索エンジン",
+      "tag": ["検索", "開発"],
       "id": 1173
     },
     {
       "name": "chatgpt-prompt-pattern-summary-qiita",
       "url": "https://qiita.com/sonesuke/items/981925cfcc610a602e94",
       "description": "【ChatGPT】プロンプトパターンまとめ - Qiita",
-      "tag": ["パターン", "プロンプト", "まとめ", "ChatGPT", "Qiita"],
+      "tag": ["パターン", "プロンプト", "まとめ", "ChatGPT", "Qiita", "ブログ"],
       "id": 1174
     },
     {
       "name": "measure-the-time-required-for-any-processing-with-javascript",
       "url": "https://sbfl.net/blog/2017/12/01/javascript-measure-time/",
       "description": "JavaScriptで任意の処理にかかる時間を計測する",
-      "tag": ["JavaScript"],
+      "tag": ["JavaScript", "ブログ"],
       "id": 1175
     },
     {
       "name": "the-satisfies-operator-in-typescript-is-a-game-changer-youtube",
       "url": "https://www.youtube.com/shorts/d9dgzEA5Zw4",
       "description": "TypeScriptの「満足」オペレーターはゲームチェンジャーです-YouTube",
-      "tag": ["TypeScript"],
+      "tag": ["TypeScript", "Youtube"],
       "id": 1176
     },
     {
       "name": "google-bard-the-chatgpt-killer-youtube",
       "url": "https://www.youtube.com/watch?v=xW9DJTvB3NI",
       "description": "Google Bard…ChatGpt Killer？ -YouTube",
-      "tag": ["Google", "ChatGpt"],
+      "tag": ["Google", "ChatGpt", "Youtube"],
       "id": 1177
     },
     {
       "name": "build-a-mern-finance-dashboard-app-machine-learning-typescript-react-node-mui-deployment-youtube",
       "url": "https://www.youtube.com/watch?v=uoJ0Tv-BFcQ",
       "description": "Mern Finance Dashboardアプリを構築します| 機械学習、タイプスクリプト、反応、ノード、MUI、展開-YouTube",
-      "tag": ["学習", "UI", "アプリ", "構築", "機械学習"],
+      "tag": ["学習", "UI", "アプリ", "構築", "機械学習", "Youtube"],
       "id": 1178
     },
     {
       "name": "why-are-people-so-obsessed-with-usesignal-right-now-youtube",
       "url": "https://www.youtube.com/shorts/D9zjr2fBloY",
-      "description": "なぜ今、人々はaesignal（）に夢中になっているのですか？ -YouTube",
-      "tag": [],
+      "description": "usesignal()に夢中になっているのですか？ -YouTube",
+      "tag": ["qwik", "Youtube"],
       "id": 1179
     },
     {
       "name": "biggest-lie-in-coding-tutorials-youtube",
       "url": "https://www.youtube.com/shorts/aDKo5JBnN6U",
       "description": "コーディングチュートリアルの最大の嘘-YouTube",
-      "tag": ["コーディング", "チュートリアル"],
+      "tag": ["コーディング", "チュートリアル", "Youtube"],
       "id": 1180
     },
     {
       "name": "why-you-should-stop-using-javascript-programming-programmer-coding-code-technology-youtube",
       "url": "https://www.youtube.com/shorts/U5JcHcjrX5s",
       "description": "javascript👩‍💻 #programming #programmer #coding＃code #technology -youtubeを使用するのをやめる理由",
-      "tag": ["javascript"],
+      "tag": ["javascript", "Youtube"],
       "id": 1181
     },
     {
       "name": "formatting-is-so-easy-with-the-intl-javascript-api-youtube",
       "url": "https://www.youtube.com/watch?v=4oGWpTAY_hc",
       "description": "Intl JavaScriptAPI -YouTubeでフォーマットはとても簡単です",
-      "tag": ["JavaScript", "API"],
+      "tag": ["JavaScript", "API", "Youtube"],
       "id": 1182
     },
     {
       "name": "t3-stack-tutorial-from-0-to-prod-for-0-nextjs-trpc-typescript-tailwind-prisma-more-youtube",
       "url": "https://www.youtube.com/watch?v=YkOSUVzOAA4",
       "description": "T3スタックチュートリアル-0から0から0ドル（next.js、trpc、typescript、tailwind、prismaなど） -  youtube",
-      "tag": ["チュートリアル"],
+      "tag": ["TypeScript", "チュートリアル", "Youtube"],
       "id": 1183
     },
     {
       "name": "will-it-rerender-react-game-show-youtube",
       "url": "https://www.youtube.com/shorts/sQKTv4ulj_0",
       "description": "再レンダリングしますか？ Reactゲームショー-YouTube",
-      "tag": ["React"],
+      "tag": ["React", "Youtube"],
       "id": 1184
     },
     {
       "name": "debugging-useeffect-issues-made-simple-youtube",
       "url": "https://www.youtube.com/shorts/NkUf0ULcWAE",
-      "description": "Debugging useefectの問題は簡単になりました-YouTube",
-      "tag": [],
+      "description": "useEfectのデバッグ問題は簡単になりました-YouTube",
+      "tag": ["React", "デバッグ", "Youtube"],
       "id": 1185
     },
     {
       "name": "pca-eigenvalues-youtube",
       "url": "https://www.youtube.com/shorts/ccjrsxXmfnw",
       "description": "PCA固有値-YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 1186
     },
     {
       "name": "how-to-blow-up-negative-thoughts-in-2-minutes-213-apart-from-emotions-1-tony-robinson-youtube",
       "url": "https://www.youtube.com/shorts/duSdta76UcU",
       "description": "2分で否定的な考えを爆破する方法（2-1/3）| 感情とは別に1 | トニー・ロビンソン-youtube",
-      "tag": [],
+      "tag": ["価値観", "Youtube"],
       "id": 1187
     },
     {
       "name": "react-state-made-easy-with-proxies-youtube",
       "url": "https://www.youtube.com/shorts/3dLCvAvkjNA",
       "description": "React状態はプロキシ-YouTubeで簡単になりました",
-      "tag": ["React"],
+      "tag": ["React", "Youtube"],
       "id": 1188
     },
     {
       "name": "10-awesome-python-packages-programming-tech-code-software-technology-developer-python-youtube",
       "url": "https://www.youtube.com/shorts/uYEupmylv1Y",
       "description": "10の素晴らしいPythonパッケージ＃プログラミング#Tech＃CODE #SOFTWARE #TECHNOLOGY＃DEVELOPER #PYTHON -YOUTUBE",
-      "tag": ["プログラミング", "パッケージ", "Python", "ログ"],
+      "tag": ["プログラミング", "パッケージ", "Python", "Youtube"],
       "id": 1189
     },
     {
       "name": "these-ai-websites-will-make-you-a-superhuman-ishan-sharma-shorts-youtube",
       "url": "https://www.youtube.com/shorts/KzFQF4Rq8QQ",
       "description": "これらのAI Webサイトはあなたを超人的にします| Ishan Sharma #Shorts -YouTube",
-      "tag": ["Web", "サイト", "AI"],
+      "tag": ["Web", "サイト", "AI", "Youtube"],
       "id": 1190
     },
     {
       "name": "would-you-use-this-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/cEaGo_fFdx4",
       "description": "これを使用しますか？ #python #programming #coding -youtube",
-      "tag": ["python"],
+      "tag": ["python", "Youtube"],
       "id": 1191
     },
     {
       "name": "3-ways-to-master-programming-logic-codexplainer-shorts-coding-programming-youtube",
       "url": "https://www.youtube.com/shorts/U5HgprWHuj0",
       "description": "プログラミングロジックをマスターする3つの方法| codexplainer #shorts #coding #programming -youtube",
-      "tag": ["プログラミング", "ログ"],
+      "tag": ["プログラミング", "Youtube"],
       "id": 1192
     },
     {
       "name": "all-programmer-should-use-gpt4-programming-tech-code-software-technology-developer-youtube",
       "url": "https://www.youtube.com/shorts/Ej3f0o1kEu4",
       "description": "すべてのプログラマーはGPT -4👩‍💻 #Programming #Tech #Code #SoftWare #Technology #Develoly -YouTubeを使用する必要があります",
-      "tag": ["ログ"],
+      "tag": ["AI", "Youtube"],
       "id": 1193
     },
     {
       "name": "civet-is-a-new-alternative-syntax-for-typescript-youtube",
       "url": "https://www.youtube.com/shorts/x957vrX_N8Q",
       "description": "Carvetは、TypeScriptの新しい代替構文です-YouTube",
-      "tag": ["TypeScript", "代替"],
+      "tag": ["TypeScript", "ライブラリ", "Youtube"],
       "id": 1194
     },
     {
       "name": "when-a-programmer-joins-a-meeting-tech-programming-technology-code-software-career-youtube",
       "url": "https://www.youtube.com/shorts/qGAsm51Qfsg",
       "description": "プログラマが会議に参加したとき",
-      "tag": ["ログ", "会議"],
+      "tag": ["会議", "Youtube"],
       "id": 1195
     },
     {
       "name": "typescript-utility-types-you-need-to-know-youtube",
       "url": "https://www.youtube.com/shorts/MtNAdeEV1Gk",
-      "description": "あなたが知る必要があるタイプスクリプトユーティリティタイプ-YouTube",
-      "tag": ["ユーティリティ"],
+      "description": "あなたが知る必要があるTypeScriptユーティリティタイプ-YouTube",
+      "tag": ["TypeScript", "ユーティリティ", "Youtube"],
       "id": 1196
     },
     {
       "name": "and-are-amazing-in-js-youtube",
       "url": "https://www.youtube.com/shorts/7xLC2R6cJ08",
-      "description": "|| =、&& =、および?? = js -youtubeで素晴らしいです",
-      "tag": [],
+      "description": "|| =、&& =、?? = 文法について - youtube",
+      "tag": ["JavaScript", "Youtube"],
       "id": 1197
     },
     {
       "name": "useeffectevent-is-an-amazing-new-react-hook-youtube",
       "url": "https://www.youtube.com/shorts/HdnBwZDlJYI",
       "description": "Useefecteventは、驚くべき新しいReactフック-YouTubeです",
-      "tag": ["React"],
+      "tag": ["React", "Youtube"],
       "id": 1198
     },
     {
       "name": "why-are-people-so-obsessed-with-usesignal-part-2-youtube",
       "url": "https://www.youtube.com/shorts/9ZJ0mkugsqU",
-      "description": "なぜ人々はaesignal（）に夢中になっているのですか？ パート2- YouTube",
-      "tag": [],
+      "description": "usesignal()に夢中になっているのですか？ パート2- YouTube",
+      "tag": ["qwik", "Youtube"],
       "id": 1199
     },
     {
       "name": "4-reasons-good-programmers-fail-coding-interviews-youtube",
       "url": "https://www.youtube.com/shorts/8dQkhb2_WF0",
       "description": "4つの理由良いプログラマーがコーディングインタビューに失敗する-YouTube",
-      "tag": ["コーディング", "ログ"],
+      "tag": ["コーディング", "面接", "Youtube"],
       "id": 1200
     },
     {
       "name": "programmers-waste-their-time-doing-this-ad-programming-tech-technology-software-developer-youtube",
       "url": "https://www.youtube.com/shorts/AhsbY3yVW7U",
-      "description": "プログラマーはこれを行う時間を無駄にします＃ad #programming #tech #technology #software #developer -youtube",
-      "tag": ["ログ"],
+      "description": "プログラマーは手順書を時間を無駄にします＃ad #programming #tech #technology #software #developer -youtube",
+      "tag": ["手順書", "Youtube"],
       "id": 1201
     },
     {
@@ -8418,14 +8430,14 @@
       "name": "i-verbalized-the-ideal-leader-image-qiita",
       "url": "https://qiita.com/aki_number16/items/def6a41502201c8769a8",
       "description": "理想のリーダー像を言語化してみました。 - Qiita",
-      "tag": ["Qiita"],
+      "tag": ["Qiita", "リーダー", "Youtube"],
       "id": 1203
     },
     {
       "name": "pytorch-in-100-seconds-youtube",
       "url": "https://www.youtube.com/watch?v=ORMx45xqWkA",
       "description": "100秒でPytorch -YouTube",
-      "tag": [],
+      "tag": ["Youtube"],
       "id": 1204
     },
     {
@@ -8439,80 +8451,86 @@
       "name": "how-would-you-solve-this-code-problem-youtube",
       "url": "https://www.youtube.com/shorts/4JRnHGiVw5g",
       "description": "このコードの問題をどのように解決しますか？ -YouTube",
-      "tag": ["コード"],
+      "tag": ["コード", "Youtube"],
       "id": 1206
     },
     {
       "name": "data-structures-in-python-coding-youtube",
       "url": "https://www.youtube.com/shorts/KzIINNLIpM0",
       "description": "#python #codingのデータ構造-YouTube",
-      "tag": ["データ", "python"],
+      "tag": ["データ", "python", "Youtube"],
       "id": 1207
     },
     {
       "name": "the-new-use-hook-is-a-react-game-changer-youtube",
       "url": "https://www.youtube.com/shorts/0HJPmvJWVBg",
       "description": "新しい使用フックはReactゲームチェンジャーです-YouTube",
-      "tag": ["React"],
+      "tag": ["React", "Youtube"],
       "id": 1208
     },
     {
       "name": "learn-react-18-with-redux-toolkit-full-tutorial-for-beginners-youtube",
       "url": "https://www.youtube.com/watch?v=2-crBg6wpp0",
       "description": "Redux Toolkitを使用してReact 18を学ぶ - 初心者向けの完全なチュートリアル-YouTube",
-      "tag": ["React", "チュートリアル"],
+      "tag": ["React", "チュートリアル", "Youtube"],
       "id": 1209
     },
     {
       "name": "the-truth-about-open-source-programming-tech-code-technology-software-developer-coding-youtube",
       "url": "https://www.youtube.com/shorts/8SplHCWDBbg",
       "description": "オープンソースについての真実",
-      "tag": [],
+      "tag": ["OSS", "Youtube"],
       "id": 1210
     },
     {
       "name": "write-readable-code-by-merging-if-statement-conditions-shorts-youtube",
       "url": "https://www.youtube.com/shorts/IdiRuUJn_Bc",
       "description": "ステートメント条件#shorts -YouTubeをマージして読み取り可能なコードを書き込む",
-      "tag": ["コード"],
+      "tag": ["コード", "Youtube"],
       "id": 1211
     },
     {
       "name": "this-roadmap-will-help-you-become-a-data-scientist-in-2022-datascience-developer-programming-youtube",
       "url": "https://www.youtube.com/shorts/zLkBvhlU4cQ",
       "description": "このロードマップは、2022年にデータサイエンティストになるのに役立ちます#datascience #developer #programming -youtube",
-      "tag": ["データ"],
+      "tag": ["データ", "Youtube"],
       "id": 1212
     },
     {
       "name": "spaghettify",
       "url": "https://www.spaghettify.dev/",
       "description": "spaghettify🍝",
-      "tag": [],
+      "tag": ["学習", "コード"],
       "id": 1213
     },
     {
       "name": "is-javascript-on-its-way-outoutside-the-web-programming-tech-code-software-technology-youtube",
       "url": "https://www.youtube.com/shorts/anJO9rp6WNc",
       "description": "JavaScriptはそれを外します！？（ウェブ外）",
-      "tag": ["JavaScript"],
+      "tag": ["JavaScript", "Youtube"],
       "id": 1214
     },
     {
       "name": "all-programmers-should-follow-this-tipcode-programming-tech-software-technology-developer-youtube",
       "url": "https://www.youtube.com/shorts/_IwJS63XBxo",
       "description": "すべてのプログラマーはこのTipt👩‍💻＃code #programming #tech #software #technology #developer -youtubeに従う必要があります",
-      "tag": ["ログ"],
+      "tag": ["Youtube"],
       "id": 1215
     },
     {
       "name": "every-programmer-needs-this-tool-programming-tech-code-technology-software-developer-youtube",
       "url": "https://www.youtube.com/shorts/J2nOV2Uxl4o",
       "description": "すべてのプログラマがこのツールを必要としている＃programming #tech＃code #technology＃software #developer -youtube",
-      "tag": ["ログ", "ツール"],
+      "tag": ["ツール", "Youtube"],
       "id": 1216
     },
-    { "name": "rspack", "url": "https://www.rspack.dev/", "description": "rspack", "tag": [], "id": 1217 },
+    {
+      "name": "rspack",
+      "url": "https://www.rspack.dev/",
+      "description": "rspack",
+      "tag": ["バンドラー", "Rust"],
+      "id": 1217
+    },
     {
       "name": "chatgpt-api-starting-with-typescript-from-introduction-to-one-step-technique-uzabase-for-engineers",
       "url": "https://tech.uzabase.com/entry/2023/03/15/120000",
@@ -8566,463 +8584,456 @@
       "name": "interesting-trivia-shorts-youtube",
       "url": "https://www.youtube.com/shorts/wY-8LDIYlVY",
       "description": "不安に関する面白い雑学 #shorts - YouTube",
-      "tag": [],
+      "tag": ["価値観", "Youtube"],
       "id": 1225
-    },
-    {
-      "name": "what-is-quarter-life-crisis-explain-the-meaning-5-phases-and-how-to-take-countermeasures-marketrunk",
-      "url": "https://www.profuture.co.jp/mk/recruit/management/39512",
-      "description": "クォーターライフクライシスとは？意味や5つのフェーズ、対策方法を解説 | MarkeTRUNK",
-      "tag": [],
-      "id": 1226
     },
     {
       "name": "about-let-and-const-loop-and-repetition-processing-issue-567-asciidwangojsprimer-github",
       "url": "https://github.com/asciidwango/js-primer/issues/567",
       "description": "let と const について >> ループと反復処理 · Issue #567 · asciidwango/js-primer · GitHub",
       "tag": ["Git", "GitHub"],
-      "id": 1227
+      "id": 1226
     },
     {
       "name": "top-10-advanced-css-responsive-design-concepts-you-should-know-youtube",
       "url": "https://www.youtube.com/watch?v=TUD1AWZVgQ8&t=124s",
       "description": "トップ10高度なCSSレスポンシブデザインの概念が知っておくべき-YouTube",
       "tag": ["CSS", "デザイン", "レスポンシブ", "概念"],
-      "id": 1228
+      "id": 1227
     },
     {
       "name": "ffmpeg-in-100-seconds-youtube",
       "url": "https://www.youtube.com/watch?v=26Mayv5JPz0",
       "description": "FFMPEG 100秒で-YouTube",
-      "tag": [],
-      "id": 1229
+      "tag": ["FMPEG", "Youtube"],
+      "id": 1228
     },
     {
       "name": "are-you-making-these-css-height-mistakes-youtube",
       "url": "https://www.youtube.com/watch?v=-sF5KsEo6gM",
       "description": "これらのCSS高さの間違いを犯していますか？ -YouTube",
       "tag": ["CSS"],
-      "id": 1230
+      "id": 1229
     },
     {
       "name": "nextjs-13-ssg-ssr-isr-nextjs-13-tutorial-youtube",
       "url": "https://www.youtube.com/watch?v=E1HzFvXgrCs",
       "description": "next.js 13 SSG、SSR＆ISR | NextJS 13チュートリアル-YouTube",
       "tag": ["チュートリアル"],
-      "id": 1231
+      "id": 1230
     },
     {
       "name": "learn-react-error-boundaries-in-7-minutes-youtube",
       "url": "https://www.youtube.com/watch?v=_FuDMEgIy7I",
       "description": "7分でReactエラー境界を学びます-YouTube",
       "tag": ["React"],
-      "id": 1232
+      "id": 1231
     },
     {
       "name": "sadservers-troubleshooting-linux-servers",
       "url": "https://sadservers.com/",
       "description": "Sadservers- Linuxサーバーのトラブルシューティング",
       "tag": ["Linux"],
-      "id": 1233
+      "id": 1232
     },
     {
       "name": "sadservers-explanation",
       "url": "https://zenn.dev/kenma/articles/373d382bf4f1db",
       "description": "SadServers 解説",
-      "tag": [],
-      "id": 1234
+      "tag": ["サーバー", "Linux", "ブログ"],
+      "id": 1233
     },
     {
       "name": "github-fduransadservers-sadserverscom-public",
       "url": "https://github.com/fduran/sadservers",
       "description": "Github -Fduran/Sadservers：Sadservers.com Public",
       "tag": ["Git"],
-      "id": 1235
+      "id": 1234
     },
     {
       "name": "sadservers-solution-memo-qiita",
       "url": "https://qiita.com/hara0219/items/8df561a598327256fd74",
       "description": "SadServers解法メモ - Qiita",
       "tag": ["Qiita"],
-      "id": 1236
+      "id": 1235
     },
     {
       "name": "total-typescript-tour-and-ama-youtube",
       "url": "https://www.youtube.com/watch?v=WuHSnvsO6Mg",
       "description": "Total TypeScriptツアーとAMA！ -YouTube",
       "tag": ["TypeScript"],
-      "id": 1237
+      "id": 1236
     },
     {
       "name": "javascript-nearly-got-types-in-1999-youtube",
       "url": "https://www.youtube.com/watch?v=hPholNWkc7s",
       "description": "JavaScriptはほぼタイプを手に入れました... 1999年 -  YouTube",
       "tag": ["JavaScript"],
-      "id": 1238
+      "id": 1237
     },
     {
       "name": "learn-trpc-in-5-minutes-youtube",
       "url": "https://www.youtube.com/watch?v=S6rcrkbsDI0",
       "description": "5分でTRPCを学びます-YouTube",
       "tag": ["RPC"],
-      "id": 1239
+      "id": 1238
     },
     {
       "name": "codegen-the-good-the-bad-and-the-ugly-youtube",
       "url": "https://www.youtube.com/watch?v=5weFyMoBGN4",
       "description": "CodeGen：良い、悪い、醜い-YouTube",
-      "tag": [],
-      "id": 1240
+      "tag": ["Youtube"],
+      "id": 1239
     },
     {
       "name": "harvard-cs50s-web-programming-with-python-and-javascript-full-university-course-youtube",
       "url": "https://www.youtube.com/watch?v=vzGllw18DkA",
       "description": "PythonとJavaScriptを使用したHarvard CS50のWebプログラミング - フル大学コース-YouTube",
       "tag": ["プログラミング", "Web", "JavaScript", "CS", "Python", "ログ"],
-      "id": 1241
+      "id": 1240
     },
     {
       "name": "animated-login-form-using-html-css-youtube",
       "url": "https://www.youtube.com/watch?v=1H-vSHVOxoU",
       "description": "HTML＆CSSを使用したアニメーションログインフォーム-YouTube",
       "tag": ["CSS", "アニメーション", "HTML", "ログ", "ログイン"],
-      "id": 1242
+      "id": 1241
     },
     {
       "name": "web-development-in-2023-a-practical-guide-youtube",
       "url": "https://www.youtube.com/watch?v=u72H_zZzkcw",
       "description": "2023年のWeb開発 - 実用的なガイド-YouTube",
       "tag": ["Web", "開発"],
-      "id": 1243
+      "id": 1242
     },
     {
       "name": "react-is-a-backend-framework-now-youtube",
       "url": "https://www.youtube.com/watch?v=EhI6wb5nEEs",
       "description": "Reactは現在、バックエンドフレームワークです-YouTube",
       "tag": ["React", "フレームワーク", "バックエンド"],
-      "id": 1244
+      "id": 1243
     },
     {
       "name": "this-company-stole-open-source-code-programming-tech-code-software-technology-coding-youtube",
       "url": "https://www.youtube.com/shorts/iL13OqZp72k",
       "description": "この会社はオープンソースコードを盗んだ＃プログラミング#Tech #Code #SoftWare #Technology＃CODING -YOUTUBE",
       "tag": ["ソースコード", "プログラミング", "コード", "ログ"],
-      "id": 1245
+      "id": 1244
     },
     {
       "name": "debugging-in-nodejs-is-so-much-better-if-you-know-this-one-trick-youtube",
       "url": "https://www.youtube.com/shorts/bYydFXrTJ98",
       "description": "node.jsでのデバッグは、この1つのトリックを知っていればはるかに優れています-YouTube",
       "tag": ["node.js"],
-      "id": 1246
+      "id": 1245
     },
     {
       "name": "programming-tier-list-programming-tech-code-software-technology-developer-coding-youtube",
       "url": "https://www.youtube.com/shorts/9OLNzSW3UWM",
       "description": "プログラミングティアリスト＃プログラミング#Tech＃CODE＃SOFTWARE #TECHNOLOGY＃DEVELOPER＃CODING -YOUTUBE",
       "tag": ["プログラミング", "リスト", "ログ"],
-      "id": 1247
+      "id": 1246
     },
     {
       "name": "python-data-types-for-beginners-python-tutorial-youtube",
       "url": "https://www.youtube.com/watch?v=INGJh9DEaBM",
       "description": "初心者向けのPythonデータ型| Pythonチュートリアル-YouTube",
       "tag": ["データ", "チュートリアル", "Python", "型"],
-      "id": 1248
+      "id": 1247
     },
     {
       "name": "build-a-chat-app-with-new-chatgpt-api-full-stack-react-redux-toolkit-node-openai-youtube",
       "url": "https://www.youtube.com/watch?v=ffEDkqfIzxM",
       "description": "新しいChatGPT APIを使用してチャットアプリを作成します フルスタック、React、Redux Toolkit、Node、Openai -YouTube",
       "tag": ["React", "アプリ", "API", "チャット", "フルスタック", "ChatGPT"],
-      "id": 1249
+      "id": 1248
     },
     {
       "name": "a-function-that-seems-to-be-useful-for-coding-tests-and-competition-programming",
       "url": "https://zenn.dev/hyperbola/articles/42c258253c003805caef",
       "description": "コーディングテストとか競技プログラミングとかで役立ちそうな関数",
       "tag": ["コーディング", "プログラミング", "ログ", "テスト"],
-      "id": 1250
+      "id": 1249
     },
     {
       "name": "15-powerful-javascript-techniques-that-you-will-not-know",
       "url": "https://zenn.dev/s_yasunaga/articles/e87b16cb0be378",
       "description": "あなたが知らないであろう15個の強力なJavaScriptのテクニック🗡🔈🔥",
       "tag": ["JavaScript"],
-      "id": 1251
+      "id": 1250
     },
     {
       "name": "creating-a-combination-of-array-qiita",
       "url": "https://qiita.com/yama-t/items/d533f3385a53f887a3b0",
       "description": "配列の組み合わせの作成 - Qiita",
       "tag": ["Qiita"],
-      "id": 1252
+      "id": 1251
     },
     {
       "name": "how-to-arrange-arrangement-elements-in-javascript-engineer-blog",
       "url": "https://programming-engineer.com/javascript-permutation/",
       "description": "JavaScriptで配列の要素の並べ方を全通り取り出す方法｜エンジニアブログ",
       "tag": ["ブログ", "エンジニア", "JavaScript", "ログ"],
-      "id": 1253
+      "id": 1252
     },
     {
       "name": "ensemble-combination-javascript-es2015-qiita",
       "url": "https://qiita.com/kanpou0108/items/b6c7a38a755dd60fd77f",
       "description": "順列組み合わせ JavaScript(ES2015) - Qiita",
       "tag": ["JavaScript", "Qiita"],
-      "id": 1254
+      "id": 1253
     },
     {
       "name": "generation-of-a-column-combination-by-javascript-qiita",
       "url": "https://qiita.com/higuma/items/5af4e62bdf4df42ce673",
       "description": "JavaScriptによる順列組み合わせの生成 - Qiita",
       "tag": ["JavaScript", "生成", "Qiita"],
-      "id": 1255
+      "id": 1254
     },
     {
       "name": "check-if-there-are-duplicate-values-between-arrays",
       "url": "https://www.dkrk-blog.net/javascript/duplicate_an_array",
       "description": "配列同士で重複する値があるか確認する | きるこの日記帳",
-      "tag": [],
-      "id": 1256
+      "tag": ["ブログ", "配列"],
+      "id": 1255
     },
     {
       "name": "you-can-read-read-it-was-easy-to-understand-with-the-esoteric-aws-official-service-description-and-chatgpts-explanation-itmedia-news",
       "url": "https://www.itmedia.co.jp/news/articles/2303/01/news098.html",
       "description": "読める、読めるぞ！　難解な「AWS公式のサービス説明」、ChatGPTの説明なら分かりやすかった - ITmedia NEWS",
       "tag": ["説明", "サービス", "AWS", "ChatGPT"],
-      "id": 1257
+      "id": 1256
     },
     {
       "name": "the-higher-the-productivity-the-more-and",
       "url": "https://kakakakakku.hatenablog.com/entry/2023/02/22/084137",
       "description": "生産性を高めれば高めるほどますます忙しくなる /「限りある時間の使い方」を読んだ - kakakakakku blog",
-      "tag": [],
-      "id": 1258
+      "tag": ["ブログ", "生産性"],
+      "id": 1257
     },
     {
       "name": "langchainjs-quick-start-guide-typescript-version-npaka",
       "url": "https://note.com/npaka/n/n44a5bf788a94",
       "description": "LangChain.js クイックスタートガイド - TypeScript版｜npaka",
       "tag": ["TypeScript"],
-      "id": 1259
+      "id": 1258
     },
     {
       "name": "react-ssr-reasons-for-dogging-in-styling",
       "url": "https://velog.io/@composite/React-SSR-%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A7%81%EC%97%90-%EA%B0%9C%EA%B3%A0%EC%83%9D%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0",
       "description": "スタイリングの犬の理由を反応させます",
-      "tag": [],
-      "id": 1260
+      "tag": ["React", "SSR", "スタイリング", "ブログ", "韓国語"],
+      "id": 1259
     },
     {
       "name": "how-to-make-tab-type-ui-compatible-with-wai-aria-react-edition-ics-media",
       "url": "https://ics.media/entry/17109/",
       "description": "WAI-ARIA対応のタブ型UIの作り方（React編） - ICS MEDIA",
       "tag": ["UI", "React", "型"],
-      "id": 1261
+      "id": 1260
     },
     {
       "name": "instead-of-applying-pressure-create-a-mechanism-to-match-employees-expectations-through-dialogue-that-expects-correct-to-the-other-party-log-me-biz",
       "url": "https://logmi.jp/business/articles/328197",
       "description": "プレッシャーをかけるのではなく、相手を「正しく期待」する　 対話を通じて、社員の「期待役割」を合わせるための仕組み作り - ログミーBiz",
       "tag": ["ログ"],
-      "id": 1262
+      "id": 1261
     },
     {
       "name": "a-simple-oss-that-ai-answers-to-questions-teach-anything-built-in-openai-vercel-nextjs-chibi-net",
       "url": "http://kachibito.net/useful-resource/teach-anything",
       "description": "OpenAI + Vercel + Next.jsで構築された、質問に対しAIが回答するシンプルなOSS・「Teach Anything」 | かちびと.net",
       "tag": ["OS", "Next.js", "Vercel", "構築", "OSS", "AI"],
-      "id": 1263
+      "id": 1262
     },
     {
       "name": "how-should-the-responsibilities-be-separated-know-the-good-design-guidelines-solid-principle-nikkei-crostech-xtech",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02319/010500002/",
       "description": "責務はどう分離すればいい？良い設計の指針「SOLID原則」を知る | 日経クロステック（xTECH）",
       "tag": ["設計"],
-      "id": 1264
+      "id": 1263
     },
     {
       "name": "technology-for-writing-good-code-nikkei-crostech-xtech",
       "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02319/",
       "description": "良いコードを書くための技術 | 日経クロステック（xTECH）",
       "tag": ["コード", "技術"],
-      "id": 1265
+      "id": 1264
     },
     {
       "name": "i-read-the-goal-in-gw-icare-to-create-the-health-of-workers-and-organizations",
       "url": "https://dev.icare.jpn.com/dev_cat/readed_the_goal",
       "description": "GWで「The Goal」を読んでみた | 働くひとと組織の健康を創る iCARE",
       "tag": ["組織", "健康"],
-      "id": 1266
+      "id": 1265
     },
     {
       "name": "synthetic-users-user-research-without-the-headaches",
       "url": "https://www.syntheticusers.com/",
       "description": "合成ユーザー：頭痛のないユーザー調査",
       "tag": ["ユーザー", "調査"],
-      "id": 1267
+      "id": 1266
     },
     {
       "name": "lets-write-a-resume-with-ai-zunzuns-zunzen",
       "url": "https://note.com/zunzun428/n/n7abe7be118ee",
       "description": "AIを使って職務経歴書を書いてみよう！｜ずんずんのずんずんいこう（╹◡╹）",
       "tag": ["AI"],
-      "id": 1268
+      "id": 1267
     },
     {
       "name": "difference-in-web-technology-that-realizes-real-time-communication-polling-long-polling-sse-websocket",
       "url": "https://penpen-dev.com/blog/realtime-commu/",
       "description": "リアルタイム通信を実現するWEB技術の違い【ポーリング、ロングポーリング、SSE、WebSocket】",
       "tag": ["Web", "技術", "リアルタイム", "通信"],
-      "id": 1269
+      "id": 1268
     },
     {
       "name": "check-the-size-of-the-library-to-import-with-vscode-import-cost-extension-valid-invalid",
       "url": "https://ohbarye.hatenablog.jp/entry/2020/12/31/vscode-import-cost",
       "description": "VSCodeのimport-cost extensionでimportするライブラリのサイズをチェックする - valid,invalid",
       "tag": ["ライブラリ"],
-      "id": 1270
+      "id": 1269
     },
     {
       "name": "tech-blog-i-definitely-want-to-enter-in-2021-vscode-extension-md-landnet-co-ltd",
       "url": "https://en-jp.wantedly.com/companies/landnet/post_articles/322143",
       "description": "【Tech Blog】2021年に絶対入れたい！VSCodeの拡張機能.md | 株式会社ランドネット",
       "tag": ["拡張機能", "VSCode"],
-      "id": 1271
+      "id": 1270
     },
     {
       "name": "no-production-is-required-for-the-website-new-css-that-can-respond-to-user-settings-ics-media",
       "url": "https://ics.media/entry/210604/",
       "description": "ウェブサイトに演出は不要!? ユーザー設定にレスポンシブ対応できる新しいCSS - ICS MEDIA",
       "tag": ["CSS", "レスポンシブ", "サイト", "ユーザー"],
-      "id": 1272
+      "id": 1271
     },
     {
       "name": "how-to-createuse-functions-javascript-essentials-youtube",
       "url": "https://www.youtube.com/watch?v=FOD408a0EzU",
       "description": "関数の作成/使用方法-JavaScript Essentials -YouTube",
       "tag": ["JavaScript"],
-      "id": 1273
+      "id": 1272
     },
     {
       "name": "nextjs-data-fetching-dynamic-routes-metadata-nextjs-13-youtube",
       "url": "https://www.youtube.com/watch?v=1n7slbDB1bQ",
       "description": "next.jsデータフェッチ、動的ルート、メタデータ| NextJS 13 -YouTube",
       "tag": ["データ", "メタデータ"],
-      "id": 1274
+      "id": 1273
     },
     {
       "name": "orangehrm-human-resource-management-for-building-a-business-on-open-source-self-hosted-software-youtube",
       "url": "https://www.youtube.com/watch?v=FfJpmFxfw2s",
       "description": "OrangeHRM-オープンソースでビジネスを構築するための人事管理、自己ホストソフトウェア。 -YouTube",
       "tag": ["HR", "構築", "管理", "ビジネス"],
-      "id": 1275
+      "id": 1274
     },
     {
       "name": "i-ship-this-tech-every-day-my-2023-stack-youtube",
       "url": "https://www.youtube.com/watch?v=ODJkKJUnKtM",
       "description": "私は毎日この技術を出荷します-My2023 Stack -YouTube",
       "tag": ["技術"],
-      "id": 1276
+      "id": 1275
     },
     {
       "name": "how-to-easily-detect-mobile-devices-with-javascript-youtube",
       "url": "https://www.youtube.com/watch?v=VKZvBf0VLXE",
       "description": "JavaScriptでモバイルデバイスを簡単に検出する方法-YouTube",
       "tag": ["モバイル", "JavaScript", "イス"],
-      "id": 1277
+      "id": 1276
     },
     {
       "name": "dont-keep-requesting-api-data-do-this-youtube",
       "url": "https://www.youtube.com/watch?v=GAGM7HddbEk",
       "description": "APIデータをリクエストし続けないでください、これをしてください！ -YouTube",
       "tag": ["データ", "API", "リクエスト"],
-      "id": 1278
+      "id": 1277
     },
     {
       "name": "testing-in-typescript-sucks-lets-make-it-better-youtube",
       "url": "https://www.youtube.com/watch?v=HyqHhjKMnyE",
       "description": "タイプスクリプトのテストは吸う - それをより良くしましょう-YouTube",
       "tag": ["テスト"],
-      "id": 1279
+      "id": 1278
     },
     {
       "name": "clean-code-horrible-performance-youtube",
       "url": "https://www.youtube.com/watch?v=tD5NrevFtbU",
       "description": "「クリーン」コード、恐ろしいパフォーマンス-YouTube",
       "tag": ["コード", "パフォーマンス"],
-      "id": 1280
+      "id": 1279
     },
     {
       "name": "ending-every-typescript-debate-in-90-minutes-youtube",
       "url": "https://www.youtube.com/watch?v=ttUbH_JAHFI",
       "description": "90分ですべてのタイプスクリプトの討論を終了します-YouTube",
-      "tag": [],
-      "id": 1281
+      "tag": ["TypeScript", "チュートリアル", "Youtube"],
+      "id": 1280
     },
     {
       "name": "this-new-react-hook-breaks-all-the-rules-and-i-love-it-youtube",
       "url": "https://www.youtube.com/watch?v=zdNF9FJWJ8o",
       "description": "この新しいReactフックはすべてのルールを破り、私はそれが大好きです-Youtube",
       "tag": ["React", "Youtube"],
-      "id": 1282
+      "id": 1281
     },
     {
       "name": "nextjs-pages-layout-links-routes-loading-nextjs-13-tutorial-youtube",
       "url": "https://www.youtube.com/watch?v=vuznUqirz5I",
       "description": "next.jsページ、レイアウト、リンク、ルート、ロード| next.js 13チュートリアル-YouTube",
       "tag": ["リンク", "チュートリアル", "レイアウト"],
-      "id": 1283
+      "id": 1282
     },
     {
       "name": "waterfalls-vs-parallel-requests-in-javascript-with-promiseall-youtube",
       "url": "https://www.youtube.com/shorts/4TPR3AeFkf8",
       "description": "Promise.all -YouTubeを備えたJavaScriptの滝と並行要求",
       "tag": ["JavaScript"],
-      "id": 1284
+      "id": 1283
     },
     {
       "name": "interesting-trivia-about-genius-shorts-youtube",
       "url": "https://www.youtube.com/shorts/SrWbJkPkIvs",
       "description": "天才に関する面白い雑学 #shorts - YouTube",
-      "tag": [],
-      "id": 1285
+      "tag": ["価値観", "Youtube"],
+      "id": 1284
     },
     {
       "name": "know-this-before-learning-react-references-vs-values-referential-equality-youtube",
       "url": "https://www.youtube.com/shorts/gP7pUZNCPb4",
       "description": "学習する前にこれを知ってください！ | 参照対値、参照平等-YouTube",
       "tag": ["学習"],
-      "id": 1286
+      "id": 1285
     },
     {
       "name": "rebuild-react-hooks-yourself-for-node-youtube",
       "url": "https://www.youtube.com/shorts/Om33AjwtQ_Y",
       "description": "Rebuild ReactはNode -YouTube用に自分自身をフックします",
       "tag": ["React"],
-      "id": 1287
+      "id": 1286
     },
     {
       "name": "learn-switch-statements-in-1-minute-youtube",
       "url": "https://www.youtube.com/shorts/Fx7m3ahwgWc",
       "description": "1分でスイッチステートメントを学びます-YouTube",
-      "tag": [],
-      "id": 1288
+      "tag": ["JavaScript", "文法", "Youtube"],
+      "id": 1287
     },
     {
       "name": "react-destroys-your-css-layout-full-screen-react-components-youtube",
       "url": "https://www.youtube.com/shorts/97rnXn7Ks3Y",
       "description": "React ReactはCSSレイアウトを破壊します| フルスクリーンReactコンポーネント-YouTube",
       "tag": ["CSS", "React", "レイアウト", "コンポーネント"],
-      "id": 1289
+      "id": 1288
     },
     {
       "name": "javascript-closures-in-react-hooks-youtube",
       "url": "https://www.youtube.com/shorts/B1j3yeHRKbY",
       "description": "React HooksのJavaScriptクロージャー-YouTube",
       "tag": ["React", "JavaScript"],
-      "id": 1290
+      "id": 1289
     }
   ]
 }
