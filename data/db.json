@@ -9125,6 +9125,34 @@
       "description": "TheEO：AI搭載ソリューションを使用したAPIドキュメントに革命をもたらします",
       "tag": ["AI", "API", "ドキュメント"],
       "id": 1302
+    },
+    {
+      "name": "easily-summarize-swr-functions-qiita",
+      "url": "https://qiita.com/irico/items/d8f0ed7887f3c490ffa1",
+      "description": "SWRの機能を簡単にまとめる - Qiita",
+      "tag": ["Qiita", "まとめ"],
+      "id": 1303
+    },
+    {
+      "name": "use-swrs-useseswrimmutable-tech-blog-web-developer-hosono-kotaro",
+      "url": "https://techblog.hosonokotaro.jp/FynE3JpxYWPSqboszEA2",
+      "description": "SWR の useSWRImmutable を使う | Tech Blog | WEB DEVELOPER HOSONO KOTARO",
+      "tag": ["SWR"],
+      "id": 1304
+    },
+    {
+      "name": "precautions-when-using-devisetokenauth-and-swr-accesstoken-is-old-and-not-authenticated",
+      "url": "https://zenn.dev/haze_it_ac/articles/06a8110234451e",
+      "description": "devise_token_authとSWRを使う場合の注意点: access-tokenが古くなり認証が通らなくなる",
+      "tag": ["SWR", "認証"],
+      "id": 1305
+    },
+    {
+      "name": "i-tried-the-bound-mutate-of-the-react-hooks-library-swr-with-nextjs-developersio",
+      "url": "https://dev.classmethod.jp/articles/tried-swr-bound-mutate-with-nextjs/",
+      "description": "React Hooks ライブラリ「SWR」の Bound Mutate を Next.js で試してみた | DevelopersIO",
+      "tag": ["Next.js", "React", "ライブラリ", "SWR"],
+      "id": 1306
     }
   ]
 }
