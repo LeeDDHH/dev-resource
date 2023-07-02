@@ -55,3 +55,21 @@ yarn mv-screenshots
 // db_origin.jsonをもとに、ユニークなタグの配列ををdb_tags.jsonに保存する
 yarn add-new-data
 ```
+
+## graphql 関連ファイルの相関関係
+
+### フロント関連ファイル
+
+- `graphql` 配下
+  - 型参照時に使うファイルを生成しておく
+- `lib/apollo-client.ts`
+  - フロント側で扱う GraphQL の Apollo クライアント
+
+### バック関連ファイル
+
+- `apollo` 配下
+  - バック側で扱う GraphQL の Schema ファイルとリゾルバ
+- `lib/resolverUtils.ts`
+  - リゾルバで解決しようとするロジック
+- `pages/api/graphql.ts`
+  - バック側で扱う GraphQL の Apollo サーバー
