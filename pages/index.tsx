@@ -21,13 +21,14 @@ const App = React.memo(({ itemsAmount }: AppProps) => {
   // 初期化ときのみ、URLクエリのkeywordをstate管理する用に更新をする
   useEffect(() => {
     if (router.isReady) {
+      if (inputText === keywords || searchText === keywords) return;
       setInputText(keywords);
       setSearchText(keywords);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [router.isReady]);
+  }, [keywords, router.isReady]);
 
-  const handleOnclick = () => {
+  const handleSearchText = () => {
     if (inputText === keywords) return;
     setSearchText(inputText);
     if (inputText.length) return updateQuery({ url: '/', query: { keyword: inputText } });
@@ -44,7 +45,7 @@ const App = React.memo(({ itemsAmount }: AppProps) => {
   return (
     <Layout itemsAmount={itemsAmount}>
       <div className='m-auto mb-32 mt-5 max-w-6xl'>
-        <SearchBox value={inputText} changeSearchText={setInputText} searchTextHandler={handleOnclick} />
+        <SearchBox value={inputText} changeSearchText={setInputText} searchTextHandler={handleSearchText} />
         {renderView}
       </div>
     </Layout>
