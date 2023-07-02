@@ -1,11 +1,17 @@
 import { BrowserContext } from 'playwright';
 
-import { ResourceData } from '../types/data';
+import { originDataJsonPath, addedOriginDataJsonPath } from '@/lib/Const';
+import { generateUniqueURLList } from '@/lib/generateUniqueURLList';
+import { createChromiumBrowserAndContext } from '@/lib/playwright';
+import { translateToEn, translateToJa } from '@/lib/translateApi';
+import {
+  connectLowercaseAlphabetDigitsHyphenatedString,
+  jsonFileExchange,
+  readFileSync,
+  splitUrlData,
+} from '@/lib/utils';
 
-import { originDataJsonPath, addedOriginDataJsonPath } from './Const';
-import { createChromiumBrowserAndContext } from './playwright';
-import { translateToEn, translateToJa } from './translateApi';
-import { connectLowercaseAlphabetDigitsHyphenatedString, jsonFileExchange, readFileSync, splitUrlData } from './utils';
+import { ResourceData, JsonData } from '@/types/data';
 
 const generateTitle = async (title: string) => {
   const enTitle = await translateToEn(title);
@@ -18,6 +24,7 @@ const generateDescription = async (metaDescription: string) => {
   return enDescription;
 };
 
+// playwrightを使って、必要なデータを取得する
 const getData = async (context: BrowserContext, url: string) => {
   // urlをもとに取得するpageの初期化
   const page = await context.newPage();
@@ -41,10 +48,16 @@ const getData = async (context: BrowserContext, url: string) => {
   return dbObject;
 };
 
+// 非同期通信で反復処理をする
 const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((line) => getData(context, line));
 
 (async () => {
   const urls = splitUrlData();
+  if (!urls.length) return;
+
+  const originData = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
+  const uniqueUrlList = generateUniqueURLList(originData.resource, urls);
+  if (!uniqueUrlList.length) return;
 
   const { browser, context } = await createChromiumBrowserAndContext();
 
@@ -52,7 +65,6 @@ const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((l
 
   await browser.close();
 
-  const originData = JSON.parse(readFileSync(originDataJsonPath));
   originData.resource = [...originData.resource, ...newResourceData];
 
   const newJsonData = JSON.stringify(originData);

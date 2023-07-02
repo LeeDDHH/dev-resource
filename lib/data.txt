@@ -1,4 +1,0 @@
-https://daipresents.com/2023/06/02/sprint-done/
-https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors
-http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor
-https://www.ipentec.com/document/javascript-control-flow-exit-nested-loop

@@ -7,7 +7,7 @@ import { useRouter } from 'next/router';
 import { FaThList } from 'react-icons/fa';
 import { HiHome } from 'react-icons/hi';
 
-import HeadComponent from '../HeadComponent';
+import HeadComponent from '@/components/HeadComponent';
 
 import styles from '@/styles/Layout.module.css';
 

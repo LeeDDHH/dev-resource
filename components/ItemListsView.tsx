@@ -2,11 +2,11 @@
 
 import React from 'react';
 
+import SingleItemView from '@/components/SingleItemView';
+
 import { Item } from '@/graphql/generated';
 
 import styles from '@/styles/ItemListsView.module.css';
-
-import SingleItemView from './SingleItemView';
 
 type Props = { items: Item[] };
 

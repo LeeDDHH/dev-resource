@@ -1,10 +1,11 @@
 import { BrowserContext } from 'playwright';
 
-import { ResourceData, JsonData } from '../types/data';
+import { originDataJsonPath } from '@/lib/Const';
+import { generateUniqueURLList } from '@/lib/generateUniqueURLList';
+import { createChromiumBrowserAndContext, takeScreenshot } from '@/lib/playwright';
+import { readFileSync, splitUrlData } from '@/lib/utils';
 
-import { originDataJsonPath } from './Const';
-import { createChromiumBrowserAndContext, takeScreenshot } from './playwright';
-import { readFileSync, splitUrlData } from './utils';
+import { ResourceData, JsonData } from '@/types/data';
 
 const getData = async (context: BrowserContext, data: ResourceData) => {
   // urlをもとに取得するpageの初期化
@@ -26,6 +27,9 @@ const getDataPromises = (context: BrowserContext, newData: ResourceData[]) =>
   if (!urls.length) return;
 
   const data = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
+  const uniqueUrlList = generateUniqueURLList(data.resource, urls);
+  if (!uniqueUrlList.length) return;
+
   const newData = data.resource.reverse().slice(0, urls.length).reverse();
 
   const { browser, context } = await createChromiumBrowserAndContext(false);

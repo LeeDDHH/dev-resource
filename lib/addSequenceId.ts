@@ -1,7 +1,7 @@
-import { ResourceData, SequenceResourceData } from '../types/data';
+import { dbJsonPath, originDataJsonPath, dbTmpJsonPath } from '@/lib/Const';
+import { jsonFileExchange, readFileSync } from '@/lib/utils';
 
-import { dbJsonPath, originDataJsonPath, dbTmpJsonPath } from './Const';
-import { jsonFileExchange, readFileSync } from './utils';
+import { ResourceData, SequenceResourceData } from '@/types/data';
 
 let newDBObj: { resource: SequenceResourceData[] } = { resource: [] };
 

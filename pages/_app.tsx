@@ -6,7 +6,7 @@ import { ApolloProvider } from '@apollo/client';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 
-import client from '@/lib/apollo-client';
+import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';
 
 import '@/styles/app.css';

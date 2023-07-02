@@ -4,10 +4,10 @@ import {
   isSearchKeywordIncludedToName,
   isSearchKeywordIncludedToDescription,
   isSearchKeywordIncludedToTags,
-} from '@/lib/resolverUtils';
+} from '@/lib/apollo/resolverUtils';
 import { splitStringFromSpace } from '@/lib/utils';
 
-import db from '../data/db.json';
+import db from '@/data/db.json';
 
 export const resolvers = {
   Query: {
