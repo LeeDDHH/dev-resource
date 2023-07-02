@@ -62,14 +62,14 @@ yarn add-new-data
 
 - `graphql` 配下
   - 型参照時に使うファイルを生成しておく
-- `lib/apollo-client.ts`
+- `lib/apollo/apollo-client.ts`
   - フロント側で扱う GraphQL の Apollo クライアント
 
 ### バック関連ファイル
 
 - `apollo` 配下
   - バック側で扱う GraphQL の Schema ファイルとリゾルバ
-- `lib/resolverUtils.ts`
+- `lib/apollo/resolverUtils.ts`
   - リゾルバで解決しようとするロジック
 - `pages/api/graphql.ts`
   - バック側で扱う GraphQL の Apollo サーバー
