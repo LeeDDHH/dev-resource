@@ -9,17 +9,21 @@ import TagView from '@/components/TagView';
 
 import { Item } from '@/graphql/generated';
 
-import styles from '@/styles/SingleItemView.module.css';
-
 type Props = { item: Item };
 
 const SingleItemView = React.memo(({ item }: Props) => {
   return (
     <li>
-      <div className={styles.item}>
-        <Link href={item.url ?? ''} target='_blank' rel='noopener norefferer'>
-          <span>{(item.name ?? '').replace(/-/g, ' ')}</span>
-          <div className={styles.centerImage}>
+      <div className='rounded-xl bg-rod-ivory px-5 pb-5 pt-1 text-rod-stone-800'>
+        <Link href={item.url ?? ''} target='_blank' rel='noopener norefferer' className='block no-underline'>
+          <span
+            className='my-4 inline-block
+          w-full truncate text-center
+          text-2xl font-bold'
+          >
+            {(item.name ?? '').replace(/-/g, ' ')}
+          </span>
+          <div className='flex justify-center'>
             <Image
               src={`/images/${item.name}.png`}
               alt={item.name ?? ''}
@@ -34,7 +38,7 @@ const SingleItemView = React.memo(({ item }: Props) => {
               }}
             />
           </div>
-          <p>{item.description}</p>
+          <p className='my-3'>{item.description}</p>
         </Link>
         <TagView tag={item.tag ?? Array()} itemId={item.id ?? -1} />
       </div>

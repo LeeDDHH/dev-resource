@@ -1,12 +1,12 @@
 {
-  "extends": ["next/core-web-vitals", "prettier"],
+  "extends": ["next/core-web-vitals", "prettier", "plugin:tailwindcss/recommended"],
   "settings": {
     "import/resolver": {
       "typescript": {}
     }
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "unused-imports"],
+  "plugins": ["react", "react-hooks", "@typescript-eslint", "unused-imports", "simple-import-sort", "import"],
   "rules": {
     "no-unexpected-multiline": "error",
     "no-unreachable": "error",

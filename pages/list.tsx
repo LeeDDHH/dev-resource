@@ -5,14 +5,12 @@ import React, { useMemo } from 'react';
 import DefaultResult from '@/components/DefaultResult';
 import Layout from '@/components/layout/Layout';
 
-import styles from '@/styles/App.module.css';
-
 const List = React.memo(({ itemsAmount }: AppProps) => {
   const renderView = useMemo(() => <DefaultResult />, []);
 
   return (
     <Layout itemsAmount={itemsAmount}>
-      <div className={styles.container}>{renderView}</div>
+      <div className='m-auto mb-32 mt-5 max-w-6xl'>{renderView}</div>
     </Layout>
   );
 });
