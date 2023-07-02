@@ -18,22 +18,22 @@ const App = React.memo(({ itemsAmount }: AppProps) => {
   const [inputText, setInputText] = useState('');
   const [searchText, setSearchText] = useState('');
 
+  const keywords = useMemo(() => (Array.isArray(keyword) ? keyword.join(' ') : keyword || ''), [keyword]);
+
+  // 初期化ときのみ、URLクエリのkeywordをstate管理する用に更新をする
   useEffect(() => {
     if (router.isReady) {
-      const keywords = Array.isArray(keyword) ? keyword.join(' ') : keyword || '';
       setInputText(keywords);
       setSearchText(keywords);
     }
-  }, [router.isReady, keyword]);
-
-  useEffect(() => {
-    if (searchText.length) {
-      updateQuery({ url: '/', query: { keyword: searchText } });
-    }
-  }, [searchText]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [router.isReady]);
 
   const handleOnclick = () => {
+    if (inputText === keywords) return;
     setSearchText(inputText);
+    if (inputText.length) return updateQuery({ url: '/', query: { keyword: inputText } });
+    return router.push('/');
   };
 
   const renderView = useMemo(() => {
