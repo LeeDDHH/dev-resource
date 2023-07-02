@@ -9,7 +9,7 @@ import { useRouter } from 'next/router';
 import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';
 
-import '@/styles/app.css';
+import '@/styles/global.css';
 
 const Provider = React.memo(({ Component, pageProps }: AppProps) => {
   const router = useRouter();

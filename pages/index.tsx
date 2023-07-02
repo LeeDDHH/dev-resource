@@ -10,8 +10,6 @@ import SearchedResult from '@/components/SearchedResult';
 
 import { updateQuery } from '@/lib/updateQuery';
 
-import styles from '@/styles/App.module.css';
-
 const App = React.memo(({ itemsAmount }: AppProps) => {
   const router = useRouter();
   const { keyword } = router.query;
@@ -45,7 +43,7 @@ const App = React.memo(({ itemsAmount }: AppProps) => {
 
   return (
     <Layout itemsAmount={itemsAmount}>
-      <div className={styles.container}>
+      <div className='m-auto mb-32 mt-5 max-w-6xl'>
         <SearchBox value={inputText} changeSearchText={setInputText} searchTextHandler={handleOnclick} />
         {renderView}
       </div>

@@ -6,13 +6,11 @@ import SingleItemView from '@/components/SingleItemView';
 
 import { Item } from '@/graphql/generated';
 
-import styles from '@/styles/ItemListsView.module.css';
-
 type Props = { items: Item[] };
 
 const ItemListsView = React.memo(({ items }: Props) => {
   const generateItems = (items: Item[]) => items.map((item) => <SingleItemView key={item.id} item={item} />);
-  return <ul className={styles.gridContainer}>{generateItems(items)}</ul>;
+  return <ul className='mt-5 grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-5'>{generateItems(items)}</ul>;
 });
 
 if (process.env.NODE_ENV !== 'production') ItemListsView.displayName = 'ItemListsView';
