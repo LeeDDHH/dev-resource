@@ -60,6 +60,7 @@ export const readFileSync = (path: string) => {
   return fs.readFileSync(path, 'utf8');
 };
 
+// data.txtを一行ずつ区切る
 export const splitUrlData = () => {
   const data = readFileSync(dataTxtPath);
   return data.toString().split('\n');

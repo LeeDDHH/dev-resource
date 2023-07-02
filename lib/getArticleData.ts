@@ -19,6 +19,7 @@ const generateDescription = async (metaDescription: string) => {
   return enDescription;
 };
 
+// playwrightを使って、必要なデータを取得する
 const getData = async (context: BrowserContext, url: string) => {
   // urlをもとに取得するpageの初期化
   const page = await context.newPage();
@@ -42,6 +43,7 @@ const getData = async (context: BrowserContext, url: string) => {
   return dbObject;
 };
 
+// 非同期通信で反復処理をする
 const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((line) => getData(context, line));
 
 (async () => {

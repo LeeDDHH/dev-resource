@@ -2,6 +2,7 @@ import { Browser, BrowserContext, Page, chromium } from 'playwright';
 
 import { ResourceData } from '../types/data';
 
+// playwrightでchromiumブラウザとブラウザのコンテキストを返す
 export const createChromiumBrowserAndContext = async (
   isHeadless: boolean = true
 ): Promise<{
@@ -14,6 +15,7 @@ export const createChromiumBrowserAndContext = async (
   return { browser, context };
 };
 
+// metaタグのdescriptionを取得する
 export const getMetaDescription = async (page: Page) => {
   let metaDescription = '';
   try {
