@@ -7298,12 +7298,7 @@
       "description": "すべてのプログラマがこのツールを必要としている＃programming #tech＃code #technology＃software #developer -youtube",
       "tag": ["ツール", "Youtube"]
     },
-    {
-      "name": "rspack",
-      "url": "https://www.rspack.dev/",
-      "description": "rspack",
-      "tag": ["バンドラー", "Rust"]
-    },
+    { "name": "rspack", "url": "https://www.rspack.dev/", "description": "rspack", "tag": ["バンドラー", "Rust"] },
     {
       "name": "chatgpt-api-starting-with-typescript-from-introduction-to-one-step-technique-uzabase-for-engineers",
       "url": "https://tech.uzabase.com/entry/2023/03/15/120000",
@@ -7735,6 +7730,12 @@
       "url": "https://www.youtube.com/shorts/B1j3yeHRKbY",
       "description": "React HooksのJavaScriptクロージャー-YouTube",
       "tag": ["React", "JavaScript"]
+    },
+    {
+      "name": "react-graphql-apollo-infin-scrolling-offset-based-qiita",
+      "url": "https://qiita.com/sinno999/items/9fdee6ccae40435999bf",
+      "description": "React + GraphQL + Apolloで無限スクロール(Offset-based) - Qiita",
+      "tag": ["Qiita", "ブログ"]
     }
   ]
 }
