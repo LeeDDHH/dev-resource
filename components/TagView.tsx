@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+import { updateQuery } from '@/lib/updateQuery';
+
 import styles from '@/styles/TagView.module.css';
 
 type Props = {
@@ -10,11 +12,15 @@ type Props = {
 };
 
 const TagView = React.memo(({ tag, itemId }: Props) => {
+  const addKeywordToUrlQuery = (item: string) => {
+    updateQuery({ url: '/', query: { keyword: item } });
+  };
+
   return (
     <div>
       {tag &&
         tag.map((item) => (
-          <div key={`${itemId}-${item}`} className={styles.tagBox}>
+          <div key={`${itemId}-${item}`} className={styles.tagBox} onClick={() => addKeywordToUrlQuery(item)}>
             {item}
           </div>
         ))}
