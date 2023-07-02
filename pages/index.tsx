@@ -8,6 +8,8 @@ import Layout from '@/components/layout/Layout';
 import SearchBox from '@/components/SearchBox';
 import SearchedResult from '@/components/SearchedResult';
 
+import { updateQuery } from '@/lib/updateQuery';
+
 import styles from '@/styles/App.module.css';
 
 const App = React.memo(({ itemsAmount }: AppProps) => {
@@ -23,6 +25,12 @@ const App = React.memo(({ itemsAmount }: AppProps) => {
       setSearchText(keywords);
     }
   }, [router.isReady, keyword]);
+
+  useEffect(() => {
+    if (searchText.length) {
+      updateQuery({ url: '/', query: { keyword: searchText } });
+    }
+  }, [searchText]);
 
   const handleOnclick = () => {
     setSearchText(inputText);
