@@ -4,9 +4,13 @@ import React from 'react';
 
 import { useQuery } from '@apollo/client';
 
-import { SearchWithOffsetAndLimitQuery, SearchWithOffsetAndLimitQueryVariables, Item } from '@/graphql/generated';
+import {
+  SearchWithOffsetAndLimitQuery,
+  SearchWithOffsetAndLimitQueryVariables,
+  SearchWithOffsetAndLimitDocument,
+  Item,
+} from '@/graphql/generated';
 
-import { SEARCH_WITH_OFFSET_AND_LIMIT } from '@/lib/clientQuery';
 import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
 
@@ -14,8 +18,11 @@ import { IntersectionObserverView } from './IntersectionObserver';
 import ItemListsView from './ItemListsView';
 
 const DefaultResult = React.memo(() => {
-  const { data, loading, error, fetchMore } = useQuery<SearchWithOffsetAndLimitQuery>(SEARCH_WITH_OFFSET_AND_LIMIT, {
-    variables: { offset: 0, limit: searchLimit } as SearchWithOffsetAndLimitQueryVariables,
+  const { data, loading, error, fetchMore } = useQuery<
+    SearchWithOffsetAndLimitQuery,
+    SearchWithOffsetAndLimitQueryVariables
+  >(SearchWithOffsetAndLimitDocument, {
+    variables: { offset: 0, limit: searchLimit },
   });
 
   if (loading) {
