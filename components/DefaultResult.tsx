@@ -4,6 +4,9 @@ import React from 'react';
 
 import { useQuery } from '@apollo/client';
 
+import { IntersectionObserverView } from '@/components/IntersectionObserver';
+import ItemListsView from '@/components/ItemListsView';
+
 import {
   SearchWithOffsetAndLimitQuery,
   SearchWithOffsetAndLimitQueryVariables,
@@ -13,9 +16,6 @@ import {
 
 import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
-
-import { IntersectionObserverView } from './IntersectionObserver';
-import ItemListsView from './ItemListsView';
 
 const DefaultResult = React.memo(() => {
   const { data, loading, error, fetchMore } = useQuery<

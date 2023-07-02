@@ -1,7 +1,7 @@
-import { ResourceData } from '../types/data';
+import { originDataJsonPath, dbTagsJsonPath } from '@/lib/Const';
+import { writeFileSync, readFileSync } from '@/lib/utils';
 
-import { originDataJsonPath, dbTagsJsonPath } from './Const';
-import { writeFileSync, readFileSync } from './utils';
+import { ResourceData } from '@/types/data';
 
 // 完全一致にひっかかるとタグのノイズになりそうな単語
 const removeWardList = ['C', 'フィルター'];

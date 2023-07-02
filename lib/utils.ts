@@ -2,7 +2,7 @@
 
 import fs from 'fs';
 
-import { dataTxtPath } from './Const';
+import { dataTxtPath } from '@/lib/Const';
 
 // 検索する文字を英語は小文字にしてスペース（半角、全角）ごとに区切る
 export const splitStringFromSpace = (text: string): string[] => text.toLowerCase().replaceAll('　', ' ').split(' ');

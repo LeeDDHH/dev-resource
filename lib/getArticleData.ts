@@ -1,12 +1,17 @@
 import { BrowserContext } from 'playwright';
 
-import { ResourceData, JsonData } from '../types/data';
+import { originDataJsonPath, addedOriginDataJsonPath } from '@/lib/Const';
+import { generateUniqueURLList } from '@/lib/generateUniqueURLList';
+import { createChromiumBrowserAndContext } from '@/lib/playwright';
+import { translateToEn, translateToJa } from '@/lib/translateApi';
+import {
+  connectLowercaseAlphabetDigitsHyphenatedString,
+  jsonFileExchange,
+  readFileSync,
+  splitUrlData,
+} from '@/lib/utils';
 
-import { originDataJsonPath, addedOriginDataJsonPath } from './Const';
-import { generateUniqueURLList } from './generateUniqueURLList';
-import { createChromiumBrowserAndContext } from './playwright';
-import { translateToEn, translateToJa } from './translateApi';
-import { connectLowercaseAlphabetDigitsHyphenatedString, jsonFileExchange, readFileSync, splitUrlData } from './utils';
+import { ResourceData, JsonData } from '@/types/data';
 
 const generateTitle = async (title: string) => {
   const enTitle = await translateToEn(title);

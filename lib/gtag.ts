@@ -1,6 +1,6 @@
 'use strict';
 
-import { GA_TRACKING_ID } from './Const';
+import { GA_TRACKING_ID } from '@/lib/Const';
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = (url: string) => {

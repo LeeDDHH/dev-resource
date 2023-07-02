@@ -5,11 +5,11 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+import TagView from '@/components/TagView';
+
 import { Item } from '@/graphql/generated';
 
 import styles from '@/styles/SingleItemView.module.css';
-
-import TagView from './TagView';
 
 type Props = { item: Item };
 

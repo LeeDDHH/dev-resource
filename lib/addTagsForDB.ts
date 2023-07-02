@@ -1,7 +1,7 @@
-import { ResourceData, JsonData } from '../types/data';
+import { originDataJsonPath, dbTmpJsonPath, dbTagsJsonPath } from '@/lib/Const';
+import { jsonFileExchange, readFileSync } from '@/lib/utils';
 
-import { originDataJsonPath, dbTmpJsonPath, dbTagsJsonPath } from './Const';
-import { jsonFileExchange, readFileSync } from './utils';
+import { ResourceData, JsonData } from '@/types/data';
 
 let newDBObj: { resource: ResourceData[] } = { resource: [] };
 

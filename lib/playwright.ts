@@ -1,6 +1,6 @@
 import { Browser, BrowserContext, Page, chromium } from 'playwright';
 
-import { ResourceData } from '../types/data';
+import { ResourceData } from '@/types/data';
 
 // playwrightでchromiumブラウザとブラウザのコンテキストを返す
 export const createChromiumBrowserAndContext = async (

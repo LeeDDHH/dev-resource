@@ -1,11 +1,11 @@
 import { BrowserContext } from 'playwright';
 
-import { ResourceData, JsonData } from '../types/data';
+import { originDataJsonPath } from '@/lib/Const';
+import { generateUniqueURLList } from '@/lib/generateUniqueURLList';
+import { createChromiumBrowserAndContext, takeScreenshot } from '@/lib/playwright';
+import { readFileSync, splitUrlData } from '@/lib/utils';
 
-import { originDataJsonPath } from './Const';
-import { generateUniqueURLList } from './generateUniqueURLList';
-import { createChromiumBrowserAndContext, takeScreenshot } from './playwright';
-import { readFileSync, splitUrlData } from './utils';
+import { ResourceData, JsonData } from '@/types/data';
 
 const getData = async (context: BrowserContext, data: ResourceData) => {
   // urlをもとに取得するpageの初期化
