@@ -9041,6 +9041,90 @@
       "description": "React + GraphQL + Apolloで無限スクロール(Offset-based) - Qiita",
       "tag": ["Qiita", "ブログ", "React", "GraphQL", "Apollo"],
       "id": 1290
+    },
+    {
+      "name": "introduction-to-design-systems-by-figma",
+      "url": "https://zenn.dev/ignorant_kenji/books/introduction-to-design-systems",
+      "description": "Figma によるデザインシステム入門",
+      "tag": ["システム", "デザイン", "デザインシステム"],
+      "id": 1291
+    },
+    {
+      "name": "motivation-for-engineer-studying-qiita",
+      "url": "https://qiita.com/n4rvs3_squld/items/35ab5ef3dbb61fdcad38",
+      "description": "エンジニアの勉強に対するモチベーション - Qiita",
+      "tag": ["Qiita", "エンジニア", "モチベーション", "勉強"],
+      "id": 1292
+    },
+    {
+      "name": "a-collection-where-you-can-study-programming-while-playing",
+      "url": "https://zenn.dev/e99h2121/articles/c605746a858d6b",
+      "description": "遊びながらプログラミングの勉強ができるコレクション",
+      "tag": ["プログラミング", "ログ", "勉強"],
+      "id": 1293
+    },
+    {
+      "name": "100-times-faster-set-map-improvements-nulab-co-ltd-nulab-inc",
+      "url": "https://nulab.com/ja/blog/nulab/100times-faster-performance-improvement-set-map/",
+      "description": "100倍速い!? Set, Mapでパフォーマンス改善 | 株式会社ヌーラボ(Nulab inc.)",
+      "tag": ["パフォーマンス", "改善"],
+      "id": 1294
+    },
+    {
+      "name": "typescript-string-how-to-mold-the-processing-to-remove-undefined-from-undefined-arrays-qiita",
+      "url": "https://qiita.com/suin/items/cda9af4f4f1c53c05c6f",
+      "description": "TypeScript: string | undefinedな配列からundefinedを取り除く処理の型付けをしっかりする方法 - Qiita",
+      "tag": ["Qiita", "TypeScript", "型", "配列"],
+      "id": 1295
+    },
+    {
+      "name": "how-to-write-a-compassionate-sentence-that-helps-remote-development-route06-tech-blog",
+      "url": "https://tech.route06.co.jp/entry/2023/06/27/172131",
+      "description": "リモート開発を助ける「思いやりのある文章」の書き方 - ROUTE06 Tech Blog",
+      "tag": ["文章", "書き方", "開発"],
+      "id": 1296
+    },
+    {
+      "name": "you-can-understand-by-reading-is-a-special-talent-books-apps",
+      "url": "https://blog.tinect.jp/?p=82374",
+      "description": "「読んだらわかる」のは、特殊な才能。 | Books&Apps",
+      "tag": ["ブログ"],
+      "id": 1297
+    },
+    {
+      "name": "i-want-to-do-it-doesnt-come-up-but-i-dont-want-to-do-it-comes-out-a-lot-i-noticed-a-career-consultation-the-highness-of-the-human-disliked-sensor-log-me-biz",
+      "url": "https://logmi.jp/business/articles/328906",
+      "description": "「やりたい」は浮かばないのに「やりたくない」はたくさん出る…　キャリア相談で気づいた、人間の“嫌いセンサー”の確度の高さ - ログミーBiz",
+      "tag": ["キャリア", "ログ"],
+      "id": 1298
+    },
+    {
+      "name": "why-is-the-learning-results-worse-if-the-motivation-is-too-high-yakis-dotsons-law-books-apps",
+      "url": "https://blog.tinect.jp/?p=82352",
+      "description": "意欲が高すぎると学習成果が悪化するのはなぜか？〜ヤーキス・ドットソンの法則〜 | Books&Apps",
+      "tag": ["ドット", "学習", "ブログ"],
+      "id": 1299
+    },
+    {
+      "name": "400-free-illustrations-digi-agency-distributed-for-commercial-use-ok-for-local-governments-and-companies-for-web-application-development-itmedia-news",
+      "url": "https://www.itmedia.co.jp/news/articles/2306/27/news179.html",
+      "description": "400点超の無料イラスト素材、デジ庁が配布　商用利用OK　自治体や企業のWeb・アプリ開発向け - ITmedia NEWS",
+      "tag": ["Web", "アプリ", "イラスト", "企業", "無料", "素材", "開発"],
+      "id": 1300
+    },
+    {
+      "name": "kaleidoscope",
+      "url": "https://kaleidoscope.app/",
+      "description": "万華鏡",
+      "tag": ["ツール", "差分"],
+      "id": 1301
+    },
+    {
+      "name": "theneo-revolutionizing-api-documentation-with-aipowered-solutions",
+      "url": "https://www.theneo.io/",
+      "description": "TheEO：AI搭載ソリューションを使用したAPIドキュメントに革命をもたらします",
+      "tag": ["AI", "API", "ドキュメント"],
+      "id": 1302
     }
   ]
 }

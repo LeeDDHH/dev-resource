@@ -1,7 +1,6 @@
 import { BrowserContext } from 'playwright';
 
 import { originDataJsonPath } from '@/lib/Const';
-import { generateUniqueURLList } from '@/lib/generateUniqueURLList';
 import { createChromiumBrowserAndContext, takeScreenshot } from '@/lib/playwright';
 import { readFileSync, splitUrlData } from '@/lib/utils';
 
@@ -27,8 +26,6 @@ const getDataPromises = (context: BrowserContext, newData: ResourceData[]) =>
   if (!urls.length) return;
 
   const data = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
-  const uniqueUrlList = generateUniqueURLList(data.resource, urls);
-  if (!uniqueUrlList.length) return;
 
   const newData = data.resource.reverse().slice(0, urls.length).reverse();
 
