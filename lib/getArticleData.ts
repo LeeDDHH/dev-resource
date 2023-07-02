@@ -1,8 +1,9 @@
 import { BrowserContext } from 'playwright';
 
-import { ResourceData } from '../types/data';
+import { ResourceData, JsonData } from '../types/data';
 
 import { originDataJsonPath, addedOriginDataJsonPath } from './Const';
+import { generateUniqueURLList } from './generateUniqueURLList';
 import { createChromiumBrowserAndContext } from './playwright';
 import { translateToEn, translateToJa } from './translateApi';
 import { connectLowercaseAlphabetDigitsHyphenatedString, jsonFileExchange, readFileSync, splitUrlData } from './utils';
@@ -45,6 +46,11 @@ const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((l
 
 (async () => {
   const urls = splitUrlData();
+  if (!urls.length) return;
+
+  const originData = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
+  const uniqueUrlList = generateUniqueURLList(originData.resource, urls);
+  if (!uniqueUrlList.length) return;
 
   const { browser, context } = await createChromiumBrowserAndContext();
 
@@ -52,7 +58,6 @@ const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((l
 
   await browser.close();
 
-  const originData = JSON.parse(readFileSync(originDataJsonPath));
   originData.resource = [...originData.resource, ...newResourceData];
 
   const newJsonData = JSON.stringify(originData);
