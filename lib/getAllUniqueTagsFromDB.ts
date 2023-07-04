@@ -4,7 +4,7 @@ import { writeFileSync, readFileSync } from '@/lib/utils';
 import { ResourceData } from '@/types/data';
 
 // 完全一致にひっかかるとタグのノイズになりそうな単語
-const removeWardList = ['C', 'フィルター'];
+const removeWardList = ['C', 'CS', 'フィルター', '本'];
 
 const data = JSON.parse(readFileSync(originDataJsonPath));
 
