@@ -14,9 +14,8 @@ const tagAddedResourceData: ResourceData[] = data.resource.map((v: ResourceData)
   if (v.tag.length > 0) return v;
   // タグ一覧
   const tags = exsitingUniqueTags.map((tag: string) => {
-    const reg = new RegExp(`${tag}`);
-    reg.test(v.description);
-    return reg.test(v.description) ? tag : undefined;
+    const reg = new RegExp(`${tag.toLowerCase()}`);
+    return reg.test(v.description.toLowerCase()) ? tag : undefined;
   });
   const uniqueTags = tags.filter((item): item is string => typeof item == 'string');
   v.tag = uniqueTags;

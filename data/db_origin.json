@@ -28,7 +28,7 @@
       "name": "regular-expressions-101",
       "url": "https://regex101.com/",
       "description": "各種プログラミング言語の正規表現テスター",
-      "tag": ["正規表現", "javascript", "php"]
+      "tag": ["正規表現", "JavaScript", "PHP"]
     },
     {
       "name": "dehash",
@@ -190,7 +190,7 @@
       "name": "Data-Transfer-Project",
       "url": "https://datatransferproject.dev/",
       "description": "GAFM発足のサービス間データ転送プラットフォーム",
-      "tag": ["Google", "Appple", "Facebook", "Microsoft", "英語", "データ", "転送"]
+      "tag": ["Google", "Apple", "Facebook", "Microsoft", "英語", "データ", "転送"]
     },
     {
       "name": "flowchart.fun",
@@ -310,7 +310,7 @@
       "name": "How-to-GraphQL",
       "url": "https://www.howtographql.com/",
       "description": "GraphQLと他の技術と組み合わせたチュートリアル",
-      "tag": ["GraphQL", "React", "node.js", "elixir", "golang", "python", "チュートリアル"]
+      "tag": ["GraphQL", "React", "node.js", "elixir", "Golang", "Python", "チュートリアル"]
     },
     {
       "name": "vis.js",
@@ -934,13 +934,13 @@
       "name": "one-man-saas-architecture",
       "url": "https://anthonynsimon.com/blog/one-man-saas-architecture/",
       "description": "一人スタートアップのアーキテクチャースタックについて解説したブログ記事",
-      "tag": ["開発", "アーキテクチャー", "ブログ"]
+      "tag": ["開発", "アーキテクチャ", "ブログ"]
     },
     {
       "name": "one-woman-hardware-company",
       "url": "https://blog.thea.codes/winterblooms-tech-stack/",
       "description": "女性一人でハードウェア会社を立ち上げたときのアーキテクチャースタックについて解説したブログ記事",
-      "tag": ["開発", "アーキテクチャー", "ブログ"]
+      "tag": ["開発", "アーキテクチャ", "ブログ"]
     },
     {
       "name": "atlassian-design",
@@ -1108,7 +1108,7 @@
       "name": "git-ui",
       "url": "https://github.com/extrawurst/gitui",
       "description": "Rust基盤のターミナル用のGit GUI",
-      "tag": ["git", "Rust", "ターミナル", "GUI"]
+      "tag": ["Git", "Rust", "ターミナル", "GUI"]
     },
     {
       "name": "landrop",
@@ -1186,7 +1186,7 @@
       "name": "git-tips",
       "url": "https://github.com/isotai/git-tips",
       "description": "よく使われるgitの小技と裏技についてまとまったリポジトリ",
-      "tag": ["git", "小技"]
+      "tag": ["Git", "小技"]
     },
     {
       "name": "lancerprofile",
@@ -1960,7 +1960,7 @@
       "name": "earthly",
       "url": "https://earthly.dev/",
       "description": "コンテナー基盤のビルド自動化のためのツール",
-      "tag": ["コンテナー", "ビルド", "自動化", "ツール"]
+      "tag": ["コンテナ", "ビルド", "自動化", "ツール"]
     },
     {
       "name": "the-logfile-navigator",
@@ -2247,7 +2247,7 @@
       "name": "aws-ip-ranges",
       "url": "https://github.com/seligman/aws-ip-ranges",
       "description": "AWSが公開するIP-ranges.jsonデータをトラッキングするrepo",
-      "tag": ["AWS", "IP", "github"]
+      "tag": ["AWS", "IP", "GitHub"]
     },
     {
       "name": "php-crud-api",
@@ -2277,7 +2277,7 @@
       "name": "giscus",
       "url": "https://github.com/laymonage/giscus",
       "description": "Github Discussionsを使ったコメントシステムのOSS",
-      "tag": ["OSS", "github", "コメントシステム"]
+      "tag": ["OSS", "GitHub", "コメントシステム"]
     },
     {
       "name": "soundstream-end-to-end-neural-audio",
@@ -2391,7 +2391,7 @@
       "name": "modern-unix",
       "url": "https://github.com/ibraheemdev/modern-unix",
       "description": "モダンなUNIXコマンドを集めたrepo",
-      "tag": ["UNIX", "コマンド", "github"]
+      "tag": ["UNIX", "コマンド", "GitHub"]
     },
     {
       "name": "repo-visualization",
@@ -2601,7 +2601,7 @@
       "name": "gilbut-it-book-github",
       "url": "https://github.com/gilbutITbook",
       "description": "プログラミング専門書のソースコードが読めるリポジトリ",
-      "tag": ["韓国語", "学習", "github"]
+      "tag": ["韓国語", "学習", "GitHub"]
     },
     {
       "name": "advanced-computer-vision-python",
@@ -2757,7 +2757,7 @@
       "name": "probot",
       "url": "https://github.com/probot/probot",
       "description": "GitHubのワークフロー自動化や改善のためのフレームワーク",
-      "tag": ["github", "ワークフロー", "フレームワーク"]
+      "tag": ["GitHub", "ワークフロー", "フレームワーク"]
     },
     {
       "name": "startup-marketsizing",
@@ -3827,7 +3827,7 @@
       "name": "deep-learning-for-computer-vision-with-python-and-tensorflow-complete-course-youtube",
       "url": "https://www.youtube.com/watch?v=IA3WxTTPXqQ",
       "description": "PythonとTensorflowを使用したコンピュータービジョンの深い学習 - 完全なコース-YouTube",
-      "tag": ["学習", "Python:"]
+      "tag": ["学習", "Python"]
     },
     {
       "name": "an-introduction-to-shader-art-coding-youtube",
@@ -3893,7 +3893,7 @@
       "name": "generate-and-download-qr-code-in-html-and-javascript-youtube",
       "url": "https://www.youtube.com/shorts/BLgZXNkvlMg",
       "description": "htmlとjavascriptでQRコードを生成してダウンロードする-YouTube",
-      "tag": ["javascript", "html", "生成", "コード", "QR"]
+      "tag": ["JavaScript", "html", "生成", "コード", "QR"]
     },
     {
       "name": "recommended-notion-utilization-law-i-would-like-to-teach-to-everyone-who-struggles-as-a-single-person-in-startups-nationwide-jim-okada",
@@ -4193,7 +4193,7 @@
       "name": "chatgpt-official-api-first-look-youtube",
       "url": "https://www.youtube.com/watch?v=e2uvhJ7r1UQ",
       "description": "ChatGpt公式API First Look -YouTube",
-      "tag": ["API", "ChatGpt"]
+      "tag": ["API", "ChatGPT"]
     },
     {
       "name": "when-a-programmer-has-to-maintain-legacy-apps-ad-code-programmer-softwaredeveloper-youtube",
@@ -4229,7 +4229,7 @@
       "name": "this-is-so-useful-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/QdMzVy2GiKc",
       "description": "これはとても便利です!! #python #programming #coding -youtube",
-      "tag": ["python"]
+      "tag": ["Python"]
     },
     {
       "name": "how-to-build-a-trie-amazon-coding-interview-challenge-part-1-youtube",
@@ -4259,7 +4259,7 @@
       "name": "dont-make-this-python-mistake-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/WOxf0xumpWU",
       "description": "このPythonを間違えないでください!! #python #programming #coding -youtube",
-      "tag": ["python", "Python"]
+      "tag": ["Python"]
     },
     {
       "name": "worldcoin-the-shtcoin-for-humanity-youtube",
@@ -4283,7 +4283,7 @@
       "name": "3-python-features-you-may-not-know-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/NQsY6YSdnbc",
       "description": "3 Python機能あなたが知らないかもしれません!! #python #programming #coding -youtube",
-      "tag": ["python", "Python"]
+      "tag": ["Python"]
     },
     {
       "name": "how-to-use-mongoose-schemas-with-typescript-youtube",
@@ -4409,7 +4409,7 @@
       "name": "github-loeffeliolslint-an-extremely-fast-directory-and-filename-linter-bring-some-structure-to-your-project-filesystem",
       "url": "https://github.com/loeffel-io/ls-lint",
       "description": "github -loeffel -io/ls -lint：非常に高速なディレクトリとファイル名リンター - プロジェクトファイルシステムに構造をもたらす",
-      "tag": ["git", "github", "システム"]
+      "tag": ["Git", "GitHub", "システム"]
     },
     {
       "name": "css-tip-gradient-text-effect-shorts-youtube",
@@ -4421,7 +4421,7 @@
       "name": "how-to-create-responsive-dropdown-menu-with-sub-menu-in-html-css-javascript-shorts-youtube",
       "url": "https://www.youtube.com/shorts/feH7Kkyfg0g",
       "description": "html css＆javascript #shortsでサブメニューを備えたレスポンシブドロップダウンメニューを作成する方法-YouTube",
-      "tag": ["javascript", "html", "レスポンシブ"]
+      "tag": ["JavaScript", "html", "レスポンシブ"]
     },
     {
       "name": "how-to-make-qr-codes-in-excel-working-excel-youtube",
@@ -4553,7 +4553,7 @@
       "name": "chatgpt-is-a-perfectly-balanced-ai-with-no-exploits-youtube",
       "url": "https://www.youtube.com/watch?v=y3iLOxBTuy4",
       "description": "ChatGptは、エクスプロイトなしの完全にバランスのとれたAIです-YouTube",
-      "tag": ["AI", "ChatGpt"]
+      "tag": ["AI", "ChatGPT"]
     },
     {
       "name": "css-full-course-for-beginners-complete-allinone-tutorial-11-hours-youtube",
@@ -4679,7 +4679,7 @@
       "name": "python-lambda-function-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/ss-I6WAiMFA",
       "description": "Python Lambda機能？！ #python #programming #coding -youtube",
-      "tag": ["python", "Python"]
+      "tag": ["Python"]
     },
     {
       "name": "this-extension-makes-logging-so-much-easier-httpsconsoleninjacomreferrerwebdevcody-shorts-youtube",
@@ -4745,7 +4745,7 @@
       "name": "python-auto-mouse-mover-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/J2c4gHAQalA",
       "description": "Python Auto Mouse Mover !! #python #programming #coding -youtube",
-      "tag": ["python", "Python"]
+      "tag": ["Python"]
     },
     {
       "name": "what-is-css-clamp-youtube",
@@ -4805,7 +4805,7 @@
       "name": "chatgpt-in-your-terminal-youtube",
       "url": "https://www.youtube.com/shorts/6uS1w7lFvdI",
       "description": "ターミナルでChatGpt！ -YouTube",
-      "tag": ["ターミナル", "ChatGpt"]
+      "tag": ["ターミナル", "ChatGPT"]
     },
     {
       "name": "modern-html-scraping-with-pythons-best-tools-youtube",
@@ -5507,7 +5507,7 @@
       "name": "executing-python-strings-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/j9AQZeplMls",
       "description": "Python文字列の実行?? #python #programming #coding -youtube",
-      "tag": ["文字列", "python", "Python"]
+      "tag": ["文字列", "Python"]
     },
     {
       "name": "serverless-was-a-big-mistake-says-amazon-youtube",
@@ -5597,7 +5597,7 @@
       "name": "weird-quirks-with-javascript-code-programming-technology-tech-software-developer-webdev-youtube",
       "url": "https://www.youtube.com/shorts/4t_ukSUQdwo",
       "description": "javascriptを使用した奇妙な癖",
-      "tag": ["javascript"]
+      "tag": ["JavaScript"]
     },
     {
       "name": "motivation-mechanism-youtube",
@@ -5837,7 +5837,7 @@
       "name": "3-easy-python-project-ideas-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/ZqS_lnqSgeY",
       "description": "3つの簡単なPythonプロジェクトのアイデア!! #python #programming #coding -youtube",
-      "tag": ["python", "アイデア", "Python"]
+      "tag": ["アイデア", "Python"]
     },
     {
       "name": "dont-fear-the-spread-operator-or-abuse-it-youtube",
@@ -5975,7 +5975,7 @@
       "name": "boost-your-skills-with-chatgpt-creating-a-transcription-and-translation-tool-using-openai-youtube",
       "url": "https://www.youtube.com/watch?v=UNGi144eVbI",
       "description": "chatgptでスキルを高める：openaiを使用して転写と翻訳ツールを作成する-youtube",
-      "tag": ["翻訳", "ツール", "ChatGpt"]
+      "tag": ["翻訳", "ツール", "ChatGPT"]
     },
     {
       "name": "10-math-concepts-for-programmers-youtube",
@@ -6017,7 +6017,7 @@
       "name": "chatgpt-course-use-the-openai-api-to-code-5-projects-youtube",
       "url": "https://www.youtube.com/watch?v=uRQH2CFvedY",
       "description": "ChatGptコース -  Openai APIを使用して5つのプロジェクトをコードする-YouTube",
-      "tag": ["コード", "API", "ChatGpt"]
+      "tag": ["コード", "API", "ChatGPT"]
     },
     {
       "name": "how-to-create-env-variables-in-react-youtube",
@@ -6131,7 +6131,7 @@
       "name": "awesometotallyopenchatgptchatgpts-open-source-alternative-mo-geeknews",
       "url": "https://news.hada.io/topic?id=8792",
       "description": "Awesome-totally-open-chatgpt-chatgptのオープンソースの代替mo | オタク",
-      "tag": ["代替", "ChatGpt"]
+      "tag": ["代替", "ChatGPT"]
     },
     {
       "name": "scrapehost-web-scraping-library-using-gpt-geeknews",
@@ -6270,7 +6270,7 @@
       "name": "do-this-before-you-submit-a-github-issue-youtube",
       "url": "https://www.youtube.com/shorts/j0D_8qGT8CA",
       "description": "github号を送信する前にこれを行う-YouTube",
-      "tag": ["git", "github"]
+      "tag": ["Git", "GitHub"]
     },
     {
       "name": "uh-oh-aisearch-engine-for-developers-has-emerged-youtube",
@@ -6324,7 +6324,7 @@
       "name": "chatgpt-example-plus-new-video-course-how-to-finish-side-projects-youtube",
       "url": "https://www.youtube.com/watch?v=YifqDIMRhAc",
       "description": "chatgptの例 - プラス：新しいビデオコース（サイドプロジェクトの終了方法）-YouTube",
-      "tag": ["サイドプロジェクト", "ChatGpt"]
+      "tag": ["サイドプロジェクト", "ChatGPT"]
     },
     {
       "name": "nextjs-middleware-cors-nextjs-13-tutorial-youtube",
@@ -6414,13 +6414,13 @@
       "name": "github-gothinksterrealworld-the-mother-of-all-demo-apps-exemplary-fullstack-mediumcom-clone-powered-by-react-angular-node-django-and-many-more",
       "url": "https://github.com/gothinkster/realworld",
       "description": "github -gothinkster/realworld： \"The Mother of All Demoアプリの母\"  - 模範的なFullstack Medium.comクローンは、React、Angular、Node、Djangoなどを搭載しています",
-      "tag": ["React", "アプリ", "git", "github"]
+      "tag": ["React", "アプリ", "Git", "GitHub"]
     },
     {
       "name": "github-ggerganovwhispercpp-port-of-openais-whisper-model-in-cc",
       "url": "https://github.com/ggerganov/whisper.cpp",
       "description": "github -ggerganov/whisper.cpp：c/c ++のOpenaiのささやきモデルのポート",
-      "tag": ["git", "モデル", "github"]
+      "tag": ["Git", "モデル", "GitHub"]
     },
     {
       "name": "dragonfly-the-fastest-inmemory-data-store",
@@ -6516,7 +6516,7 @@
       "name": "gpt4all-install-chatgpt-locally-weights-finetuning-tutorial-youtube",
       "url": "https://www.youtube.com/watch?v=DDfUoQWnrfM",
       "description": "gpt4all：locally（weights＆微調整！） - チュートリアル -  YouTubeをインストールする",
-      "tag": ["チュートリアル", "ChatGpt"]
+      "tag": ["チュートリアル", "ChatGPT"]
     },
     {
       "name": "meet-sam-metas-latest-ai-model-youtube",
@@ -6762,7 +6762,7 @@
       "name": "unicode-character-class-escape-p-p-javascript-mdn",
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape",
       "description": "Unicode文字クラスエスケープ：\\ p {...}、\\ p {...}  -  javascript | MDN",
-      "tag": ["javascript", "MDN"]
+      "tag": ["JavaScript", "MDN"]
     },
     {
       "name": "automatic-translation-of-everyone-textra",
@@ -6780,7 +6780,7 @@
       "name": "github-nodeschool-nodeschoolgithubio-school-nodeschool-internet-web-page",
       "url": "https://github.com/nodeschool/nodeschool.github.io",
       "description": "github -nodeschool / nodeschool.github.io：学校：ノードスクールインターネットWebページ",
-      "tag": ["Web", "git", "github"]
+      "tag": ["Web", "Git", "GitHub"]
     },
     {
       "name": "how-to-use-playwright-new-things-welcome",
@@ -6816,7 +6816,7 @@
       "name": "github-ribeirogabfreetranslate-a-free-and-unlimited-translator-for-nodejs",
       "url": "https://github.com/ribeirogab/free-translate",
       "description": "github -ribeirogab/free -translate：🈂️⠀node.jsの無料で無制限の翻訳者",
-      "tag": ["node.js", "git", "翻訳", "github"]
+      "tag": ["node.js", "Git", "翻訳", "GitHub"]
     },
     {
       "name": "how-to-asyncawait-with-javascript-map",
@@ -6864,7 +6864,7 @@
       "name": "github-toyb0xeslintplugintodocomment-this-is-a-rule-to-encourage-the-entry-of-ticket-urls-in-todo-comments",
       "url": "https://github.com/ToyB0x/eslint-plugin-todo-comment/tree/main",
       "description": "github-toyb0x/eslint-plugin-todo-comment：これは、todoコメントでチケットURLのエントリを奨励するためのルールです。",
-      "tag": ["git", "todo", "github", "コメント", "URL"]
+      "tag": ["Git", "todo", "GitHub", "コメント", "URL"]
     },
     {
       "name": "understand-the-differences-between-plugins-and-extends-in-eslint-sure-dev",
@@ -6876,13 +6876,13 @@
       "name": "github-githubeslintplugingithub-an-opinionated-collection-of-eslint-rules-used-by-github",
       "url": "https://github.com/github/eslint-plugin-github",
       "description": "github-github/eslint-plugin-github：Githubが使用するEslintルールの意見のあるコレクション。",
-      "tag": ["git", "github", "Git"]
+      "tag": ["Git", "GitHub", "Git"]
     },
     {
       "name": "reduce-pdf-file-size-in-linux-digitalocean",
       "url": "https://www.digitalocean.com/community/tutorials/reduce-pdf-file-size-in-linux",
       "description": "LinuxのPDFファイルサイズを削減します| DigitalOcean",
-      "tag": ["Linux", "git"]
+      "tag": ["Linux", "Git"]
     },
     {
       "name": "typescript-version-langchain-so-that-you-can-dialogue-based-on-your-own-information",
@@ -6960,7 +6960,7 @@
       "name": "how-i-use-chatgpt-to-program-my-raspberry-pi-youtube",
       "url": "https://www.youtube.com/shorts/m_aPB2pPzqE",
       "description": "ChatGptを使用してRaspberryPiをプログラムする方法-YouTube",
-      "tag": ["ログ", "ChatGpt"]
+      "tag": ["ログ", "ChatGPT"]
     },
     {
       "name": "will-reacts-new-cache-fix-its-use-hook-youtube",
@@ -6996,7 +6996,7 @@
       "name": "chatgpt-gets-another-insane-new-buff-youtube",
       "url": "https://www.youtube.com/watch?v=mpnh1YTT66w",
       "description": "ChatGptは、別の非常識な新しいバフ-YouTubeを取得します",
-      "tag": ["ChatGpt", "Youtube"]
+      "tag": ["ChatGPT", "Youtube"]
     },
     {
       "name": "be-careful-with-the-as-keyword-in-typescript-youtube",
@@ -7062,7 +7062,7 @@
       "name": "google-bard-the-chatgpt-killer-youtube",
       "url": "https://www.youtube.com/watch?v=xW9DJTvB3NI",
       "description": "Google Bard…ChatGpt Killer？ -YouTube",
-      "tag": ["Google", "ChatGpt", "Youtube"]
+      "tag": ["Google", "ChatGPT", "Youtube"]
     },
     {
       "name": "build-a-mern-finance-dashboard-app-machine-learning-typescript-react-node-mui-deployment-youtube",
@@ -7086,7 +7086,7 @@
       "name": "why-you-should-stop-using-javascript-programming-programmer-coding-code-technology-youtube",
       "url": "https://www.youtube.com/shorts/U5JcHcjrX5s",
       "description": "javascript👩‍💻 #programming #programmer #coding＃code #technology -youtubeを使用するのをやめる理由",
-      "tag": ["javascript", "Youtube"]
+      "tag": ["JavaScript", "Youtube"]
     },
     {
       "name": "formatting-is-so-easy-with-the-intl-javascript-api-youtube",
@@ -7146,7 +7146,7 @@
       "name": "would-you-use-this-python-programming-coding-youtube",
       "url": "https://www.youtube.com/shorts/cEaGo_fFdx4",
       "description": "これを使用しますか？ #python #programming #coding -youtube",
-      "tag": ["python", "Youtube"]
+      "tag": ["Python", "Youtube"]
     },
     {
       "name": "3-ways-to-master-programming-logic-codexplainer-shorts-coding-programming-youtube",
@@ -7242,7 +7242,7 @@
       "name": "data-structures-in-python-coding-youtube",
       "url": "https://www.youtube.com/shorts/KzIINNLIpM0",
       "description": "#python #codingのデータ構造-YouTube",
-      "tag": ["データ", "python", "Youtube"]
+      "tag": ["データ", "Python", "Youtube"]
     },
     {
       "name": "the-new-use-hook-is-a-react-game-changer-youtube",
@@ -7844,7 +7844,7 @@
       "name": "the-consolelog-of-css-youtube",
       "url": "https://www.youtube.com/shorts/ii-lSK2_Nu4",
       "description": "css -youtubeのconsole.log（）",
-      "tag": ["CS", "CSS", "Youtube"]
+      "tag": ["CSS", "Youtube"]
     },
     {
       "name": "you-must-understand-reference-vs-value-in-javascript-youtube",
@@ -7898,7 +7898,7 @@
       "name": "next-generation-font-technology-barrier-bull-font-world-ics-media",
       "url": "https://ics.media/entry/201008/",
       "description": "次世代のフォント技術　バリアブルフォントの世界 - ICS MEDIA",
-      "tag": ["CS", "フォント", "技術", "次世代"]
+      "tag": ["フォント", "技術", "次世代"]
     },
     {
       "name": "learn-to-build-and-deploy-a-chat-app-using-rust-and-react",
@@ -7910,7 +7910,7 @@
       "name": "eslintpluginreactdocsrulesjsxcurlybracepresencemd-at-master-jsxeslinteslintpluginreact-github",
       "url": "https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md",
       "description": "eslint-plugin-react/docs/rules/jsx-curly-brace-presence.md at master・jsx-eslint/eslint-plugin-react・github",
-      "tag": ["git", "github", "lint"]
+      "tag": ["Git", "GitHub", "lint"]
     },
     {
       "name": "how-to-learn-javascript-in-2023-from-zero-to-midlevel-developer-youtube",
@@ -7994,7 +7994,7 @@
       "name": "css-is-difficult-the-selector-a-bc-and-a-is-b-c-look-the-same-but-actually-different-the-browser-reads-the-selector-from-right-to-left-coris",
       "url": "https://coliss.com/articles/build-websites/operation/css/using-is-in-complex-selectors-selects.html",
       "description": "CSSって難しい！ セレクタ「.a .b .c」と「.a :is (.b . c)」は同じに見えるけど実は違う、ブラウザはセレクタを右から左に読む | コリス",
-      "tag": ["CS", "CSS", "ブラウザ"]
+      "tag": ["CSS", "ブラウザ"]
     },
     {
       "name": "be-careful-with-return-types-in-typescript-youtube",
@@ -8006,7 +8006,7 @@
       "name": "getting-a-tech-job-in-2023-youtube",
       "url": "https://www.youtube.com/watch?v=Kte-t1pQQ3I",
       "description": "2023年にハイテクの仕事を得る-YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "apis-for-beginners-2023-how-to-use-an-api-full-course-tutorial-youtube",
@@ -8030,7 +8030,7 @@
       "name": "cool-loading-animation-using-css-youtube",
       "url": "https://www.youtube.com/watch?v=ZKOLvgSKVC8",
       "description": "CSSを使用したクールな読み込みアニメーション-YouTube",
-      "tag": ["CS", "CSS", "アニメーション"]
+      "tag": ["CSS", "アニメーション"]
     },
     {
       "name": "learn-trpc-in-45-minutes-youtube",
@@ -8042,7 +8042,7 @@
       "name": "how-to-write-semantic-css-youtube",
       "url": "https://www.youtube.com/watch?v=lWu5zf_S9R4",
       "description": "セマンティックCSSの書き方-YouTube",
-      "tag": ["CS", "CSS", "書き方"]
+      "tag": ["CSS", "書き方"]
     },
     {
       "name": "reacts-third-era-youtube",
@@ -8090,7 +8090,7 @@
       "name": "js-concept-most-misunderstood-implicit-returns-in-javascript-youtube",
       "url": "https://www.youtube.com/shorts/qH1uGxkIBDo",
       "description": "JSコンセプトで最も誤解されていた🤔javascriptで暗黙のリターン-YouTube",
-      "tag": ["javascript"]
+      "tag": ["JavaScript"]
     },
     {
       "name": "named-slices-in-python-improves-readability-youtube",
@@ -8126,7 +8126,7 @@
       "name": "review-your-own-skill-charts-kenji-nakamura",
       "url": "https://note.com/nakamurakj/n/n358db50041aa",
       "description": "自身のスキルチャートを見直してみる｜Kenji Nakamura",
-      "tag": []
+      "tag": ["スキル", "ふりかえり"]
     },
     {
       "name": "new-react-useeffectevent-hook-crash-course-youtube",
@@ -8138,19 +8138,19 @@
       "name": "typescript-slows-you-down-heres-why-youtube",
       "url": "https://www.youtube.com/watch?v=Xl02L1jy53c",
       "description": "タイプスクリプトはあなたを遅くします - ここに -  YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "how-to-build-an-animated-hamburger-menu-with-only-css-youtube",
       "url": "https://www.youtube.com/watch?v=dAIVbLrAb_U",
       "description": "CSSのみでアニメーションハンバーガーメニューを構築する方法-YouTube",
-      "tag": ["CS", "CSS", "アニメーション", "構築"]
+      "tag": ["CSS", "アニメーション", "構築"]
     },
     {
       "name": "learn-switch-statements-in-7-minutes-youtube",
       "url": "https://www.youtube.com/watch?v=2gE2K8i5tvs",
       "description": "7分でスイッチステートメントを学びます-YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "does-this-library-fix-typescript-youtube",
@@ -8246,7 +8246,7 @@
       "name": "when-implementing-with-css-what-do-the-front-end-developers-think-and-what-kind-of-consideration-do-they-implement",
       "url": "https://coliss.com/articles/build-websites/operation/css/inside-frontend-developer-mind.html",
       "description": "CSSで実装する時、フロントエンドのデベロッパーは何を考え、どういうことに配慮して実装するのか | コリス",
-      "tag": ["CS", "CSS", "フロントエンド"]
+      "tag": ["CSS", "フロントエンド"]
     },
     {
       "name": "homebox-open-source-self-hosted-inventory-and-asset-management-for-your-home-or-small-business-youtube",
@@ -8258,7 +8258,7 @@
       "name": "home-homebox",
       "url": "https://hay-kot.github.io/homebox/",
       "description": "ホーム - ホームボックス",
-      "tag": []
+      "tag": ["ライブラリ"]
     },
     {
       "name": "html-standard-japanese-translation",
@@ -8312,13 +8312,13 @@
       "name": "why-do-computers-suck-at-math-youtube",
       "url": "https://www.youtube.com/shorts/s9F8pu5KfyM",
       "description": "なぜコンピューターは数学を吸うのですか？ -YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "how-to-make-glitch-effect-html-css-youtube",
       "url": "https://www.youtube.com/shorts/r9NUdB3HbHI",
       "description": "グリッチ効果を作る方法は？ | HTML CSS -YouTube",
-      "tag": ["CS", "CSS", "HTML", "グリッチ"]
+      "tag": ["CSS", "HTML", "グリッチ"]
     },
     {
       "name": "top-5-ai-websites-youtube",
@@ -8336,13 +8336,13 @@
       "name": "turbo-console-logging-youtube",
       "url": "https://www.youtube.com/shorts/5pMvbgNmzGk",
       "description": "ターボコンソールロギング-YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "i-made-flappy-bird-in-excel-youtube",
       "url": "https://www.youtube.com/shorts/qH4KQ6P557I",
       "description": "私はエクセルでフラッピーバードを作りましたか？！ -YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "will-this-replace-reddit-coding-technology-programmer-programming-coder-reddit-youtube",
@@ -8384,13 +8384,13 @@
       "name": "oh-snap-codesnap-youtube",
       "url": "https://www.youtube.com/shorts/uz_kD5dnb_A",
       "description": "ああスナップ！ codesnap！ -YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "tech-hirings-dirty-secret-youtube",
       "url": "https://www.youtube.com/shorts/vyJf8ch6-ZY",
       "description": "ハイテク雇用の汚い秘密-YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "this-javascript-project-will-save-you-hours-of-time-technology-programming-software-youtube",
@@ -8450,7 +8450,7 @@
       "name": "when-position-sticky-doesnt-stick-youtube",
       "url": "https://www.youtube.com/shorts/39rbYbVhb0Y",
       "description": "Stickyが固執しない場合-YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "use-c-in-vs-code-youtube",
@@ -8486,7 +8486,7 @@
       "name": "how-many-lines-vscode-python-ai-youtube",
       "url": "https://www.youtube.com/shorts/bzmmsDteFEA",
       "description": "何行がありますか？！？！ #vscode #python #ai -youtube",
-      "tag": ["python"]
+      "tag": ["Python"]
     },
     {
       "name": "dont-touch-your-vscode-coding-programming-youtube",
@@ -8498,7 +8498,7 @@
       "name": "var-const-let-now-using-youtube",
       "url": "https://www.youtube.com/watch?v=VqdVaix3Zvw",
       "description": "var、const、let ...今「使用」？ -YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "marp-next-example-github",
@@ -8534,7 +8534,7 @@
       "name": "create-a-generics-component-with-reacttypescript",
       "url": "https://zenn.dev/gomo/articles/1704280e6d069c",
       "description": "React+typescriptでGenericsなComponentを作る",
-      "tag": ["CS", "IP", "TypeScript"]
+      "tag": ["React", "TypeScript"]
     },
     {
       "name": "how-to-extract-the-type-after-promises-decision-with-typescript-qiita",
@@ -8588,19 +8588,19 @@
       "name": "usememo-when-and-why-you-need-it-youtube",
       "url": "https://www.youtube.com/shorts/InnDVEup61U",
       "description": "usememo、いつ、なぜそれが必要なのか-YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "mastering-useeffect-avoid-using-useeffect-youtube",
       "url": "https://www.youtube.com/shorts/-RoKGk5Lju0",
       "description": "Mastering useefect：useefectを使用しないでください！ -YouTube",
-      "tag": []
+      "tag": ["Youtube"]
     },
     {
       "name": "announcing-qwik-v10-youtube",
       "url": "https://www.youtube.com/shorts/U5IhKmDowQg",
       "description": "QWIK v1.0の発表！ -YouTube",
-      "tag": []
+      "tag": ["Youtube", "qwik"]
     },
     {
       "name": "react-vs-svelte10-examples-youtube",
@@ -8678,7 +8678,7 @@
       "name": "challenging-bloomberg-coding-interview-question-javascript-youtube",
       "url": "https://www.youtube.com/shorts/-Tq0InmOQ8Y",
       "description": "ブルームバーグのコーディングインタビューの質問 -  javascript -youtube",
-      "tag": ["javascript", "コーディング"]
+      "tag": ["JavaScript", "コーディング"]
     },
     {
       "name": "designing-cloud-architecture-diagrams-couldnt-be-easier-httpseraseriocody-shorts-youtube",
