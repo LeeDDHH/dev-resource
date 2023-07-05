@@ -49,7 +49,7 @@ const Layout = React.memo(({ itemsAmount, children }: Props) => {
         <div className='m-auto flex w-full justify-center'>
           <div className='ml-4 flex h-10 items-center'>
             開発や学習に役立つ
-            <strong>{itemsAmount}</strong>
+            <strong> {itemsAmount}</strong>
             個のリソース
           </div>
           {linkList}

@@ -13,5 +13,6 @@ export const addedOriginDataJsonPath = path.resolve(dataPath, 'db_origin_added.j
 export const dbJsonPath = path.resolve(dataPath, 'db.json');
 export const dbTmpJsonPath = path.resolve(dataPath, 'db_tmp.json');
 export const dbTagsJsonPath = path.resolve(dataPath, 'db_tags.json');
+export const tagCountDataJsonPath = path.resolve(dataPath, 'db_tagCount.json');
 
 export const searchLimit = 12;

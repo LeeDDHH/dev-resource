@@ -25,3 +25,7 @@ export const updateQuery = ({ query, url = '/', isPageStack = true }: Props) => 
     void NextRouter.replace({ pathname: url, query: newQuery });
   }
 };
+
+export const addKeywordToUrlQuery = (item: string) => {
+  updateQuery({ url: '/', query: { keyword: item } });
+};

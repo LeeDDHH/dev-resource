@@ -1,33 +1,21 @@
 'use strict';
 
-import React from 'react';
+import React, { ComponentPropsWithoutRef } from 'react';
 
-import { updateQuery } from '@/lib/updateQuery';
+import { addKeywordToUrlQuery } from '@/lib/updateQuery';
+
+import Tag from './common/Tag';
 
 type Props = {
   tag: string[];
   itemId: number;
-};
+} & ComponentPropsWithoutRef<'div'>;
 
 const TagView = React.memo(({ tag, itemId }: Props) => {
-  const addKeywordToUrlQuery = (item: string) => {
-    updateQuery({ url: '/', query: { keyword: item } });
-  };
-
   return (
     <div>
       {tag &&
-        tag.map((item) => (
-          <div
-            key={`${itemId}-${item}`}
-            className='mr-1 mt-1 inline-block cursor-pointer
-          rounded-md border-2 border-solid border-rod-red-500 bg-rod-yellow-400
-          px-3 last:mr-0 hover:border-rod-gray-500 hover:bg-rod-red-500 hover:text-neutral-100'
-            onClick={() => addKeywordToUrlQuery(item)}
-          >
-            {item}
-          </div>
-        ))}
+        tag.map((item) => <Tag key={`${itemId}-${item}`} tag={item} onClick={() => addKeywordToUrlQuery(item)} />)}
     </div>
   );
 });
