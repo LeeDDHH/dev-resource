@@ -1,4 +1,12 @@
-https://one.google.com/about/vpn
-https://www.youtube.com/@TechWithTim/videos
-https://vercel.com/guides/using-express-with-vercel
-https://gist.github.com/LeeDDHH/29c19e4d38ac0ca36c6bdeb733530bf2
+https://revealjs.com/
+https://speakerdeck.com/satoryu/work-hacks-for-people-with-communication-difficulties
+https://speakerdeck.com/osa/introduction-to-the-internet
+https://qiita.com/senju797/items/53d7808db05a8abc8a1d
+https://blog.mitsuruog.info/2019/03/typescript-limited-set-of-index-signature
+https://qiita.com/shouchida/items/205fed63b886681661bd
+https://qiita.com/sg0hsmt/items/85dc1857b259ce7f2b25
+https://zenn.dev/rabee/articles/javascript-huge-array-for-each-is-very-slow
+https://qiita.com/saka212/items/408bb17dddefc09004c8
+https://qiita.com/netebakari/items/7c1db0b0cea14a3d4419
+https://react-typescript-cheatsheet.netlify.app/docs/advanced/patterns_by_usecase/
+https://biochem-fan.hatenablog.com/entry/2023/01/04/202113
