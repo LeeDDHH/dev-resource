@@ -25,6 +25,10 @@ const addSpecifiedTagFromURL = (tags: (string | undefined)[], resourceData: Reso
       cloneTags.push('Youtube');
       return cloneTags;
 
+    case /github.com/.test(targetUrl):
+      cloneTags.push('GitHub');
+      return cloneTags;
+
     default:
       return cloneTags;
   }
