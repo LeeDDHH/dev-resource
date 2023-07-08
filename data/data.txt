@@ -1,4 +1,10 @@
-https://www.theprojectgroup.com/en/project-management-tools/microsoft-project-server
-https://www.businessinsider.jp/post-170643
-https://logmi.jp/tech/articles/328261
-https://talisman-corporation.com/media/2021/05/19/en_skill_up/
+https://nasaemon.hateblo.jp/entry/cli-tool-banasi
+https://scrapbox.io/miyamonz/Jotai(Recoil)%E3%81%AE%E8%89%AF%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D
+https://github.com/pmndrs/jotai/discussions/849
+https://qiita.com/itachi/items/69784d66dbe624ebaceb
+https://qiita.com/itachi/items/02688096bc5734396e8e
+https://recoiljs.org/ko/docs/introduction/core-concepts/
+https://zenn.dev/jotaifriends/articles/64652c94d84246?redirected=1
+https://jotai.org/
+https://github.com/nikhil-malviya/awesome-recoil
+https://blog.logrocket.com/jotai-vs-recoil-what-are-the-differences/
