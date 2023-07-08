@@ -1,5 +1,9 @@
-https://qiita.com/kawazu255/items/f679fc8aaed79c08a4fd
-https://www.tani-o-henkan-suru.info/sokutei-chi-tani-yo-keisanki.php
-https://dev.to/ebereplenty/printing-in-react-made-easy-with-react-to-print-4b3k
-https://medium.com/@massoud-sharifi/reacttoprint-8f9d35b3e2d7
-https://qiita.com/knjname/items/e4deb974195d354b621b
+https://sleepless-se.net/2018/06/02/dockercomposecommand%E3%82%92%E8%A4%87%E6%95%B0%E8%A1%8C%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/
+https://qiita.com/zembutsu/items/9e9d80e05e36e882caaa
+https://qiita.com/etaroid/items/88ec3a0e2d80d7cdf87a
+https://ceblog.mediba.jp/post/662840014480326656/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%A8%E3%81%97%E3%81%A6distroless%E3%82%92%E4%BD%BF%E3%81%86%E3%81%B9%E3%81%8D%E7%90%86%E7%94%B1%E3%81%A3%E3%81%A6
+https://www.jimpei.net/entry/suki-tokui-chigai
+https://eijionline.com/n/n97a9d07a43d8
+https://www.jimpei.net/entry/suki-tokui
+https://chigai-hikaku.com/?p=12204
+https://dwango-js.github.io/performance-handbook/startup/reduce-size/
