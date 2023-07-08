@@ -1,6 +1,7 @@
-https://tech.playground.style/dev/html-css-margin/
-https://chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj?hl=ja
-https://gist.github.com/peace098beat/28b33346d48e92c23863
-https://tips-web.net/find-sidescrolling/
-https://github.com/nternetinspired/debug-css
-https://gist.github.com/addyosmani/fd3999ea7fce242756b1
+https://blog.beatdjam.com/entry/2017/07/21/225815
+https://gist.github.com/mizuneko/8825cdec3b416a54f5c3b870629b9b71
+https://www.k-cube.co.jp/wakaba/server/ascii_code.html
+https://qiita.com/ponsuke0531/items/64f6a180a4b699336096
+https://zariganitosh.hatenablog.jp/entry/20150209/ascii_code_secrets
+https://www.tohoho-web.com/perl/binary.htm
+https://blog.kimizuka.org/entry/2020/07/17/190949
