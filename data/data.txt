@@ -1,11 +1,2 @@
-https://zenn.dev/kou_pg_0131/articles/tailwindcss-tooltip
-https://zenn.dev/maztak/articles/7ec72edecfacd3
-https://www.gaji.jp/blog/2022/10/19/11693/
-https://hepokon365.hatenablog.com/entry/2022/08/30/193713
-https://zenn.dev/ixkaito/articles/advanced-tailwindcss
-https://nerdcave.com/tailwind-cheat-sheet
-https://obel.hatenablog.jp/entry/20221225/1671908400
-https://zenn.dev/k_neko3/articles/60b37c57385e59
-https://qiita.com/Takazudo/items/78ee15564bfefdea844c
-https://scrapbox.io/tosuke/tailwind%E3%81%AE%E8%89%B2%E6%8C%87%E5%AE%9A%E3%82%92CSS%E5%A4%89%E6%95%B0%E3%81%A7%E3%82%84%E3%82%8B
-https://jp.quora.com/tailwind%E3%82%92%E4%BD%BF%E3%81%86%E5%A0%B4%E5%90%88%E7%8B%AC%E8%87%AAclass%E3%82%92%E4%BD%BF%E3%81%86%E3%81%AE%E3%81%AF%E9%81%BF%E3%81%91%E3%81%9F%E6%96%B9%E3%81%8C%E8%89%AF%E3%81%84%E3%81%A7%E3%81%99%E3%81%8B-tai
+https://blog.devgenius.io/how-to-display-a-pdf-using-an-iframe-and-make-it-responsive-d3c3fcd3a460
+https://betterprogramming.pub/how-to-display-download-and-create-pdf-files-in-react-65d2e7ddead7
