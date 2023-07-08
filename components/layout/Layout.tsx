@@ -1,19 +1,12 @@
 'use strict';
 
-import React, { useMemo } from 'react';
-
-import clsx from 'clsx';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import { FaThList } from 'react-icons/fa';
-import { HiHome } from 'react-icons/hi';
+import React, { useState, useEffect, useCallback } from 'react';
 
 import HeadComponent from '@/components/HeadComponent';
+import LinkList from '@/components/stateless/LinkList';
+import MobileHamburgerMenu from '@/components/stateless/MobileHamburgerMenu';
 
-const paths = [
-  { pathName: '/', title: '検索ページ', component: <HiHome size='2rem' /> },
-  { pathName: '/list', title: '閲覧ページ', component: <FaThList size='1.5rem' /> },
-];
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 type Props = {
   itemsAmount: number;
@@ -21,38 +14,33 @@ type Props = {
 };
 
 const Layout = React.memo(({ itemsAmount, children }: Props) => {
-  const router = useRouter();
+  const [openMenu, setOpenMenu] = useState(false);
+  const isMaxWidthMd = useMediaQuery('(max-width: 767px)');
 
-  const linkList = useMemo(() => {
-    const links = paths.map((path) => {
-      return (
-        <Link
-          key={`link-${path.pathName}`}
-          href={path.pathName}
-          className={clsx(
-            'flex text-gray-500',
-            router.asPath === path.pathName ? 'text-rod-yellow-300' : 'text-gray-500 hover:text-rod-yellow-300'
-          )}
-          title={path.title}
-        >
-          {path.component}
-        </Link>
-      );
-    });
-    return <div className='ml-4 flex h-10 items-center'>{links}</div>;
-  }, [router.asPath]);
+  const menuToggle = useCallback(() => setOpenMenu(!openMenu), [openMenu]);
+
+  useEffect(() => {
+    if (!isMaxWidthMd) setOpenMenu(false);
+  }, [isMaxWidthMd]);
 
   return (
     <div>
       <header>
         <HeadComponent />
-        <div className='m-auto flex w-full justify-center'>
-          <div className='ml-4 flex h-10 items-center'>
+        <div className='flex h-10 w-full justify-center'>
+          <div className='flex items-center'>
             開発や学習に役立つ
             <strong> {itemsAmount}</strong>
             個のリソース
           </div>
-          {linkList}
+          <nav>
+            {/* SP用ハンバーガーメニュー */}
+            <MobileHamburgerMenu menuToggle={menuToggle} openMenu={openMenu} />
+            {/* PC用navメニュー */}
+            <ul className='hidden h-full md:ml-4 md:flex md:items-center md:gap-1'>
+              <LinkList />
+            </ul>
+          </nav>
         </div>
       </header>
       {children}
