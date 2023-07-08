@@ -1,10 +1,6 @@
-https://qiita.com/hrk623/items/334cad95dc4810acbbb3
-https://gist.github.com/uupaa/6684665
-https://saruwakakun.com/html-css/basic/before-after
-https://appmart.co.jp/blog/seo-css/
-https://photoshopvip.net/144266
-https://coliss.com/articles/build-websites/operation/css/css-debugging-is-hard.html
-https://frontend-engineer.net/css/606
-https://csshtml.work/hamidashi/
-https://ics.media/entry/230317/
-https://developers.google.com/codelabs/devtools-debug-css-grid?hl=ja#0
+https://tech.playground.style/dev/html-css-margin/
+https://chrome.google.com/webstore/detail/debug-css/igiofjnckcagmjgdoaakafngegecjnkj?hl=ja
+https://gist.github.com/peace098beat/28b33346d48e92c23863
+https://tips-web.net/find-sidescrolling/
+https://github.com/nternetinspired/debug-css
+https://gist.github.com/addyosmani/fd3999ea7fce242756b1
