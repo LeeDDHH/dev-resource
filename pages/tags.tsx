@@ -6,7 +6,11 @@ import Layout from '@/components/layout/Layout';
 import TagsList from '@/components/TagsList';
 
 const Tags = React.memo(({ itemsAmount, tagCountList }: TagsProps) => {
-  const renderView = useMemo(() => <TagsList tagCountList={tagCountList} />, []);
+  const renderView = useMemo(
+    () => <TagsList tagCountList={tagCountList} />,
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    []
+  );
 
   return (
     <Layout itemsAmount={itemsAmount}>
