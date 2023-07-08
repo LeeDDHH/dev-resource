@@ -63,5 +63,8 @@ export const readFileSync = (path: string) => {
 // data.txtを一行ずつ区切る
 export const splitUrlData = () => {
   const data = readFileSync(dataTxtPath);
-  return data.toString().split('\n');
+  return data
+    .toString()
+    .split('\n')
+    .filter((str: string) => str.length > 0);
 };

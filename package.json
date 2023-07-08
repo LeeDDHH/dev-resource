@@ -39,7 +39,7 @@
     "screenshots": "ts-node ./lib/screenshot.ts",
     "compress-png": "node ./lib/compressPng.mjs",
     "mv-screenshots": "mv screenshots/*.png public/images",
-    "add-contents": "run-s add-new-data add-tag-data add-id-data screenshots compress-png mv-screenshots"
+    "add-contents": "run-s add-new-data add-tag-data count-tag add-id-data screenshots compress-png mv-screenshots"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "4.0.1",

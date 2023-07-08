@@ -1,12 +1,5 @@
-https://www.youtube.com/shorts/5O0T1ele5uc
-https://www.youtube.com/watch?v=59zBPXisTms
-https://zenn.dev/takuyakikuchi/articles/a96b8d97a0450c
-https://www.youtube.com/shorts/-Tq0InmOQ8Y
-https://www.youtube.com/shorts/KBUmf3i0Nv8
-https://qiita.com/taqm/items/c38855d8158cdd9d5a3e
-https://dev.to/franciscomendes10866/image-compression-with-node-js-4d7h
-https://www.youtube.com/shorts/5TN5FTHWRvc
-https://www.youtube.com/shorts/ZeGbB1_TzIE
-https://www.youtube.com/watch?v=YT8s-90oDC0
-https://www.youtube.com/shorts/YJZ12oBtZtc
-https://www.youtube.com/watch?v=5f3NJnvnk7k
+https://qiita.com/kawazu255/items/f679fc8aaed79c08a4fd
+https://www.tani-o-henkan-suru.info/sokutei-chi-tani-yo-keisanki.php
+https://dev.to/ebereplenty/printing-in-react-made-easy-with-react-to-print-4b3k
+https://medium.com/@massoud-sharifi/reacttoprint-8f9d35b3e2d7
+https://qiita.com/knjname/items/e4deb974195d354b621b
