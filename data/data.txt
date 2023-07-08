@@ -1,2 +1,5 @@
-https://blog.devgenius.io/how-to-display-a-pdf-using-an-iframe-and-make-it-responsive-d3c3fcd3a460
-https://betterprogramming.pub/how-to-display-download-and-create-pdf-files-in-react-65d2e7ddead7
+https://qiita.com/kawazu255/items/f679fc8aaed79c08a4fd
+https://www.tani-o-henkan-suru.info/sokutei-chi-tani-yo-keisanki.php
+https://dev.to/ebereplenty/printing-in-react-made-easy-with-react-to-print-4b3k
+https://medium.com/@massoud-sharifi/reacttoprint-8f9d35b3e2d7
+https://qiita.com/knjname/items/e4deb974195d354b621b
