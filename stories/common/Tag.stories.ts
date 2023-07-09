@@ -12,14 +12,17 @@ const meta: Meta<typeof Tag> = {
 export default meta;
 type Story = StoryObj<typeof Tag>;
 
+const defaultMockProps = {
+  args: { tag: 'React', onClick: () => {} },
+};
+
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 /**
  * 基本的なタグ表示
  */
 export const Default: Story = {
   args: {
-    tag: 'React',
-    onClick: () => {},
+    ...defaultMockProps.args,
   },
 };
 

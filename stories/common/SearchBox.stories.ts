@@ -13,9 +13,7 @@ export default meta;
 type Story = StoryObj<typeof SearchBox>;
 
 const defaultMockProps = {
-  value: 'React',
-  changeSearchText: () => {},
-  searchTextHandler: () => {},
+  args: { value: 'React', changeSearchText: () => {}, searchTextHandler: () => {} },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
@@ -24,6 +22,6 @@ const defaultMockProps = {
  */
 export const Default: Story = {
   args: {
-    ...defaultMockProps,
+    ...defaultMockProps.args,
   },
 };

@@ -12,14 +12,17 @@ const meta: Meta<typeof MobileHamburgerMenu> = {
 export default meta;
 type Story = StoryObj<typeof MobileHamburgerMenu>;
 
+const defaultMockProps = {
+  args: { menuToggle: () => {}, openMenu: false },
+};
+
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 /**
  * 基本的に閉じている状態
  */
 export const Default: Story = {
   args: {
-    menuToggle: () => {},
-    openMenu: false,
+    ...defaultMockProps.args,
   },
 };
 
