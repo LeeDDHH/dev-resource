@@ -14303,6 +14303,144 @@
       "url": "https://zenn.dev/nino_cast/books/43c539eb47caab/viewer/13c6bf",
       "description": "Headless UIを導入する｜[WIP]Next.jsとFirebaseによる実用Webアプリ開発",
       "tag": ["Firebase", "IP", "Next.js", "UI", "Web", "web", "アプリ", "開発", "記事"]
+    },
+    {
+      "name": "touch-eslintplugintailwindcss",
+      "url": "https://zenn.dev/hisho/articles/ef1f12f9888064",
+      "description": "eslint-plugin-tailwindcssを触ってみる",
+      "tag": ["AI", "CSS", "Tailwind", "lint", "記事"]
+    },
+    {
+      "name": "i-want-to-run-a-ts-file-for-seeder-with-nextjs",
+      "url": "https://zenn.dev/damono999/articles/bd203095b7b883",
+      "description": "Nextjsでseeder用のtsファイルを実行したい",
+      "tag": ["記事"]
+    },
+    {
+      "name": "the-story-is-broken-when-prettierplugintailwindcss-is-applied",
+      "url": "https://zenn.dev/babel/articles/tailwind-non-ascii-for-babel",
+      "description": "prettier-plugin-tailwindcssを適用したらスタイルが壊れた話",
+      "tag": ["AI", "CSS", "IE", "Tailwind", "記事"]
+    },
+    {
+      "name": "try-to-mess-with-using-which-is-announced-in-typescript-52",
+      "url": "https://zenn.dev/ventus/articles/ts5_2-using-preview",
+      "description": "TypeScript 5.2で予告されているusingをいじってみる",
+      "tag": ["IP", "TypeScript", "記事"]
+    },
+    {
+      "name": "the-story-that-githubactions-makes-it-easier-to-understand-what-did-you-do",
+      "url": "https://zenn.dev/oyasumipants/articles/376e657b977fce",
+      "description": "GitHubActions で「何実行したっけ？」が分かりやすくなった話",
+      "tag": ["Git", "GitHub", "記事"]
+    },
+    {
+      "name": "lets-introduce-typescripts-cool-members-main-technology",
+      "url": "https://zenn.dev/tectectec/articles/48a7c51a8c4c1d",
+      "description": "TypeScriptのイカれたメンバー (主要技術) 達を紹介していくぜ！！",
+      "tag": ["IP", "TypeScript", "技術", "記事"]
+    },
+    {
+      "name": "serverless-to-understand-with-illustrations",
+      "url": "https://zenn.dev/fdnsy/articles/9c590ab512f2be",
+      "description": "イラストで理解するサーバレス",
+      "tag": ["イラスト", "記事"]
+    },
+    {
+      "name": "a-story-that-fought-with-the-db-schema-information-rails",
+      "url": "https://zenn.dev/lincwell_inc/articles/6cefdc2404f053",
+      "description": "DB のスキーマ情報の差分と闘った話し (Rails)",
+      "tag": ["AI", "DB", "差分", "記事"]
+    },
+    {
+      "name": "realize-the-development-experience-of-front-end-like-vs-code-on-the-browser",
+      "url": "https://zenn.dev/steelydylan/articles/vs-code-experience",
+      "description": "ブラウザー上でVS Codeのようなフロントエンドの開発体験を実現する",
+      "tag": ["フロントエンド", "ブラウザ", "開発", "記事"]
+    },
+    {
+      "name": "a-story-about-creating-a-simple-and-minimal-dot-painting-service-that-moves-in-a-browser",
+      "url": "https://zenn.dev/tsukiyama3/articles/548e8b7b023649",
+      "description": "ブラウザで動くシンプルでミニマムなドット絵作成サービスを作った話",
+      "tag": ["サービス", "ドット", "ブラウザ", "記事"]
+    },
+    {
+      "name": "for-reacts-ui-componentshadcnui-is-just-right",
+      "url": "https://zenn.dev/mottox2/articles/react-shadcn-ui",
+      "description": "ReactのUIコンポーネントなら@shadcn/uiがちょうどいい",
+      "tag": ["React", "UI", "コンポーネント", "記事"]
+    },
+    {
+      "name": "why-div-is-useless-for-onclick",
+      "url": "https://zenn.dev/tm35/articles/64eac4c0570c4d",
+      "description": "なぜ <div> に onClick がダメなのか？",
+      "tag": ["CLI", "記事"]
+    },
+    {
+      "name": "use-a-comment-tag-in-code-review-to-ensure-psychological-safety",
+      "url": "https://zenn.dev/lincwell_inc/articles/comment_tags_to_ensure_psychological_safety",
+      "description": "コードレビューでコメントタグを使い、心理的安全性を担保しよう",
+      "tag": ["コメント", "コード", "コードレビュー", "記事"]
+    },
+    {
+      "name": "nodemodules-problems-and-its-history-npm-yarn-and-pnpm",
+      "url": "https://zenn.dev/saggggo/articles/dbd739508ac212",
+      "description": "node_modulesの問題点とその歴史 npm, yarnとpnpm",
+      "tag": ["PM", "記事"]
+    },
+    {
+      "name": "ntt-retirement-entry-of-the-100th-decoction",
+      "url": "https://zenn.dev/hidetoshi/articles/20230624_ntt_retirement",
+      "description": "百番煎じのNTT退職エントリ",
+      "tag": ["記事"]
+    },
+    {
+      "name": "i-implemented-it-while-reading-clean-architecture-typescript-go",
+      "url": "https://zenn.dev/nenonaoki/articles/f384d7cad650f8",
+      "description": "Clean Architectureを読んだまま実装してみた（TypeScript, Go）",
+      "tag": ["IP", "TypeScript", "記事"]
+    },
+    {
+      "name": "im-not-motivated",
+      "url": "https://zenn.dev/mochimochimo/articles/b09a62c175eb73",
+      "description": "やる気出ないんだが",
+      "tag": ["記事"]
+    },
+    {
+      "name": "communication-and-efficiency-of-design-and-development-that-changes-with-figma-for-vs-code",
+      "url": "https://zenn.dev/sakito/articles/388ca64d3c7a36",
+      "description": "Figma for VS Codeで変わるデザインと開発のコミュニケーションと効率",
+      "tag": ["コミュニケーション", "デザイン", "開発", "記事"]
+    },
+    {
+      "name": "classic-apps-when-you-are-worried-about-what-you-make-in-personal-development",
+      "url": "https://zenn.dev/pike/articles/9ccb288a47de39",
+      "description": "個人開発で作るものに悩んだときの定番アプリ",
+      "tag": ["アプリ", "開発", "記事"]
+    },
+    {
+      "name": "article-to-read-the-er-diagram-from-the-monster-data-of-dragon-quest",
+      "url": "https://zenn.dev/nameless_sn/articles/er-map_by_dragon_quest",
+      "description": "ER図を『ドラゴンクエスト』のモンスターのデータから読み解く記事",
+      "tag": ["データ", "記事"]
+    },
+    {
+      "name": "a-story-about-trying-to-share-a-single-picture-without-using-ai",
+      "url": "https://zenn.dev/aics/articles/833e6601130780",
+      "description": "AIを使わずに一枚絵をレイヤー分けできないか試みた話",
+      "tag": ["AI", "記事"]
+    },
+    {
+      "name": "use-vscodes-useful-shortcut-keys-and-tricks-as-a-habit-to-increase-productivity",
+      "url": "https://zenn.dev/uniformnext/articles/a611721ba0c551",
+      "description": "VSCodeの便利なショートカットキーや小技を手癖にして生産性をあげよう",
+      "tag": ["VSCode", "ショートカット", "小技", "生産性", "記事"]
+    },
+    {
+      "name": "iam-roll-to-understand-with-illustrations",
+      "url": "https://zenn.dev/fdnsy/articles/31105a37126d66",
+      "description": "イラストで理解するIAMロール",
+      "tag": ["イラスト", "記事"]
     }
   ]
 }
