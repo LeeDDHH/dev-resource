@@ -3,7 +3,7 @@
 import React, { useMemo } from 'react';
 
 import Layout from '@/components/layout/Layout';
-import TagsList from '@/components/TagsList';
+import { TagsList } from '@/components/screen/TagsList';
 
 const Tags = React.memo(({ itemsAmount, tagCountList }: TagsProps) => {
   const renderView = useMemo(
