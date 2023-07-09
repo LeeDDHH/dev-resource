@@ -6,7 +6,7 @@ import { useRouter } from 'next/router';
 
 import Layout from '@/components/layout/Layout';
 import { SearchBox } from '@/components/common/SearchBox';
-import SearchedResult from '@/components/SearchedResult';
+import { SearchedResult } from '@/components/parts/SearchedResult';
 
 import { updateQuery } from '@/lib/updateQuery';
 

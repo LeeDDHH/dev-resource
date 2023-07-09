@@ -21,7 +21,7 @@ type Props = {
   searchText: string;
 };
 
-const SearchedResult = React.memo(({ searchText }: Props) => {
+export const SearchedResult = React.memo(({ searchText }: Props) => {
   const value = {
     variables: { text: searchText, offset: 0, limit: searchLimit } as GetDataWithSearchTextQueryVariables,
   };
@@ -61,4 +61,3 @@ const SearchedResult = React.memo(({ searchText }: Props) => {
 });
 
 if (process.env.NODE_ENV !== 'production') SearchedResult.displayName = 'SearchedResult';
-export default SearchedResult;
