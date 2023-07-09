@@ -2,6 +2,8 @@
 import '../styles/global.css';
 
 import type { Preview } from '@storybook/react';
+import { Title, Subtitle, Description, Primary, Controls, Stories } from '@storybook/blocks';
+import React from 'react';
 
 const preview: Preview = {
   parameters: {
@@ -11,6 +13,18 @@ const preview: Preview = {
         color: /(background|color)$/i,
         date: /Date$/,
       },
+    },
+    docs: {
+      page: () => (
+        <>
+          <Title />
+          <Subtitle />
+          <Description />
+          <Primary />
+          <Controls />
+          <Stories />
+        </>
+      ),
     },
   },
 };
