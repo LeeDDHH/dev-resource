@@ -1,10 +1,4 @@
-https://dev.classmethod.jp/articles/tsnote-ec2-ssm-automation/
-https://www.bold.ne.jp/engineer-club/aws-ec2
-https://docs.aws.amazon.com/ja_jp/inspector/latest/user/what-is-inspector.html
-https://qiita.com/s_Pure/items/76011e67e9a10c7c195c
-https://aws-samples.github.io/jp-contents-hub/
-https://aws.amazon.com/jp/try-cloud/
-https://aws.amazon.com/jp/blogs/news/aws-beginner-home-learning/
-https://aws.amazon.com/jp/blogs/news/2022-aws-beginner-learning/
-https://dev.classmethod.jp/articles/how-to-find-aws-hands-on/
-https://logmi.jp/tech/articles/328077
+https://tympanus.net/codrops/2023/01/25/crafting-a-dice-roller-with-three-js-and-cannon-es/
+https://hintstock.com/
+https://webtan.impress.co.jp/e/2023/01/20/44031
+https://coliss.com/articles/book-review/isbn-9784802613958.html
