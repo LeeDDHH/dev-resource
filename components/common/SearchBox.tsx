@@ -12,7 +12,10 @@ type Props = {
   searchTextHandler: () => void;
 };
 
-const SearchBox = React.memo(({ value, changeSearchText, searchTextHandler }: Props) => {
+/**
+ * 検索用のinputボックス
+ */
+export const SearchBox = React.memo(({ value, changeSearchText, searchTextHandler }: Props) => {
   return (
     <div className='m-auto flex h-14 w-11/12 gap-2 text-gray-900' role='tablist'>
       <input
@@ -40,4 +43,3 @@ const SearchBox = React.memo(({ value, changeSearchText, searchTextHandler }: Pr
 });
 
 if (process.env.NODE_ENV !== 'production') SearchBox.displayName = 'SearchBox';
-export default SearchBox;
