@@ -1,5 +1,10 @@
-https://dev.classmethod.jp/articles/rds-availability-multiaz/
-https://www.stylez.co.jp/columns/aurora_or_non-aurora_rds/
-https://www.rworks.jp/cloud/aws/aws-column/aws-entry/22067/
-https://dev.classmethod.jp/articles/rdb-on-ec2/
-https://logmi.jp/tech/articles/328081
+https://dev.classmethod.jp/articles/tsnote-ec2-ssm-automation/
+https://www.bold.ne.jp/engineer-club/aws-ec2
+https://docs.aws.amazon.com/ja_jp/inspector/latest/user/what-is-inspector.html
+https://qiita.com/s_Pure/items/76011e67e9a10c7c195c
+https://aws-samples.github.io/jp-contents-hub/
+https://aws.amazon.com/jp/try-cloud/
+https://aws.amazon.com/jp/blogs/news/aws-beginner-home-learning/
+https://aws.amazon.com/jp/blogs/news/2022-aws-beginner-learning/
+https://dev.classmethod.jp/articles/how-to-find-aws-hands-on/
+https://logmi.jp/tech/articles/328077
