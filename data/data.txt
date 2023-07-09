@@ -1,8 +1,5 @@
-https://zenn.dev/fukurose/articles/e15df7129cc421
-https://omkz.net/next-seo/
-https://www.wantedly.com/companies/wantedly/post_articles/359076
-https://qiita.com/r548/items/cc3600287f635ecdf9f8
-https://qiita.com/baby-degu/items/06a5851d310a047a48d3
-https://tkzo.jp/blog/seo-in-spa/
-https://www.ey-office.com/blog_archive/2019/10/15/react-seo-current-status/
-https://techblog.zozo.com/entry/wear-web-frontend-replace-with-next-js
+https://ebisu.com/note/next-image-ssg/
+https://zenn.dev/yuji/scraps/13c9845bcc13f9
+https://github.com/vercel/next.js/discussions/11120
+https://github.com/vercel/next.js/discussions/34577
+https://github.com/vercel/next.js/issues/3351
