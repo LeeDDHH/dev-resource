@@ -4,7 +4,7 @@ import { MobileHamburgerMenu } from '@/components/stateless/MobileHamburgerMenu'
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta: Meta<typeof MobileHamburgerMenu> = {
-  title: 'Stateless/MobileHamburgerMenu',
+  title: 'Components/Stateless/MobileHamburgerMenu',
   component: MobileHamburgerMenu,
   tags: ['autodocs'],
 };

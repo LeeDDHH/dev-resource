@@ -4,7 +4,7 @@ import { LinkList } from '@/components/stateless/LinkList';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta: Meta<typeof LinkList> = {
-  title: 'Stateless/LinkList',
+  title: 'Components/Stateless/LinkList',
   component: LinkList,
   tags: ['autodocs'],
 };
