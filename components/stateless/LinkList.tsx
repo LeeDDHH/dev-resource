@@ -22,7 +22,10 @@ const paths = [
   { pathName: '/tags', title: 'タグページ', name: 'タグ', component: <AiFillTags size='1.8rem' /> },
 ];
 
-const LinkList = React.memo(() => {
+/**
+ * navbar内で表示するためのリンク一覧
+ */
+export const LinkList = React.memo(() => {
   const router = useRouter();
   const linkItem = (path: Path) => {
     return (
@@ -53,4 +56,3 @@ const LinkList = React.memo(() => {
 });
 
 if (process.env.NODE_ENV !== 'production') LinkList.displayName = 'LinkList';
-export default LinkList;

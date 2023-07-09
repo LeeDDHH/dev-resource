@@ -2,14 +2,25 @@
 
 import React from 'react';
 
-import HamburgerMenuList from '@/components/stateless/HamburgerMenuList';
+import { HamburgerMenuList } from '@/components/stateless/HamburgerMenuList';
 
 type Props = {
+  /**
+   * ハンバーガーメニューのOn/Offをする関数
+   */
   menuToggle: () => void;
+  /**
+   * ハンバーガーメニューの開閉状態
+   */
   openMenu: boolean;
 };
 
-const MobileHamburgerMenu = React.memo(({ menuToggle, openMenu }: Props) => {
+/**
+ * タブレットより小さい画面で表示するハンバーガーメニュー
+ *
+ * ※ ボタン確認は画面を小さくする必要あり
+ */
+export const MobileHamburgerMenu = React.memo(({ menuToggle, openMenu }: Props) => {
   const HamburgerMenuButton = (
     <button
       className='absolute right-0 top-0 flex-initial text-rod-yellow-300 hover:text-gray-500 focus:outline-none md:hidden'
@@ -34,4 +45,3 @@ const MobileHamburgerMenu = React.memo(({ menuToggle, openMenu }: Props) => {
 });
 
 if (process.env.NODE_ENV !== 'production') MobileHamburgerMenu.displayName = 'MobileHamburgerMenu';
-export default MobileHamburgerMenu;
