@@ -7,15 +7,20 @@ import { readFileSync, splitUrlData } from '@/lib/utils';
 import { ResourceData, JsonData } from '@/types/data';
 
 const getData = async (context: BrowserContext, data: ResourceData) => {
-  // urlをもとに取得するpageの初期化
-  const page = await context.newPage();
-  await page.setViewportSize({ width: 1124, height: 600 });
-  await page.goto(data.url);
-  await page.waitForLoadState();
+  try {
+    // urlをもとに取得するpageの初期化
+    const page = await context.newPage();
+    await page.setViewportSize({ width: 1124, height: 600 });
+    await page.goto(data.url);
+    await page.waitForLoadState();
 
-  await takeScreenshot(page, data);
+    await takeScreenshot(page, data);
 
-  await page.close();
+    await page.close();
+  } catch (error) {
+    console.log(data.url);
+    console.error(error);
+  }
 };
 
 const getDataPromises = (context: BrowserContext, newData: ResourceData[]) =>
