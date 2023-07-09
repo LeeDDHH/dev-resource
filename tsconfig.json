@@ -24,5 +24,5 @@
   },
   "ts-node": { "compilerOptions": { "module": "CommonJS" }, "require": ["tsconfig-paths/register"] },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/gtag.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", ".storybook/**/*.{ts|tsx}", "stories/**/*.ts"]
 }

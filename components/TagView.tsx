@@ -4,7 +4,7 @@ import React, { ComponentPropsWithoutRef } from 'react';
 
 import { addKeywordToUrlQuery } from '@/lib/updateQuery';
 
-import Tag from './common/Tag';
+import { Tag } from './common/Tag';
 
 type Props = {
   tag: string[];

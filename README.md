@@ -18,6 +18,7 @@
 |        eslint        |   8.36.0   |
 |       pretter        |   2.8.7    |
 |      typescript      |   5.0.2    |
+|      storybook       |   7.0.26   |
 
 ## コマンド
 
@@ -25,6 +26,8 @@
 yarn dev
 yarn build
 yarn start
+yarn sb
+yarn build:sb
 ```
 
 ## コンテンツ収集時
