@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { HamburgerMenuList } from '@/components/stateless/HamburgerMenuList';
+import { HamburgerMenuList } from '@/components/parts/stateless/HamburgerMenuList';
 
 type Props = {
   /**

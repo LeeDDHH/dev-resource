@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import SingleItemView from '@/components/SingleItemView';
+import SingleItemView from '@/components/parts/stateless/SingleItemView';
 
 import { Item } from '@/graphql/generated';
 

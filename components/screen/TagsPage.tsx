@@ -4,7 +4,7 @@ import React from 'react';
 
 import { addKeywordToUrlQuery } from '@/lib/updateQuery';
 
-import { Tag } from '../common/Tag';
+import { Tag } from '../common/stateless/Tag';
 
 type Props = {
   tagCountList: TagCountList;
@@ -42,7 +42,7 @@ const countDistinctions: CountDistinction[] = [
   },
 ];
 
-export const TagsList = React.memo(({ tagCountList }: Props) => {
+export const TagsPage = React.memo(({ tagCountList }: Props) => {
   const sortTagsByCountedElements = countDistinctions.map((countObj: CountDistinction) => {
     return tagCountList
       .map(countObj.countRange)
@@ -68,4 +68,4 @@ export const TagsList = React.memo(({ tagCountList }: Props) => {
   return <div className='mx-3'>{TagCategoriesBySorted}</div>;
 });
 
-if (process.env.NODE_ENV !== 'production') TagsList.displayName = 'TagsList';
+if (process.env.NODE_ENV !== 'production') TagsPage.displayName = 'TagsPage';

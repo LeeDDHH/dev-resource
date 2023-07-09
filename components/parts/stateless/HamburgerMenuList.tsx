@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import { LinkList } from '@/components/stateless/LinkList';
+import { LinkList } from '@/components/common/stateless/LinkList';
 
 /**
  * ハンバーガーメニューをOnにした際に表示するメニュー一覧

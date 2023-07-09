@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Tag } from '@/components/common/Tag';
+import { Tag } from '@/components/common/stateless/Tag';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta: Meta<typeof Tag> = {
-  title: 'Components/Common/Tag',
+  title: 'Components/Common/Stateless/Tag',
   component: Tag,
   tags: ['autodocs'],
 };

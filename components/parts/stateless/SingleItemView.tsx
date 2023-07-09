@@ -5,7 +5,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import TagView from '@/components/TagView';
+import TagView from '@/components/parts/stateless/TagView';
 
 import { Item } from '@/graphql/generated';
 

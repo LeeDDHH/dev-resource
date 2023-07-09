@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { SearchBox } from '@/components/common/SearchBox';
+import { SearchBox } from '@/components/common/stateless/SearchBox';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta: Meta<typeof SearchBox> = {
-  title: 'Components/Common/SearchBox',
+  title: 'Components/Common/Stateless/SearchBox',
   component: SearchBox,
   tags: ['autodocs'],
 };

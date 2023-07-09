@@ -1,18 +1,19 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { HamburgerMenuList } from '@/components/stateless/HamburgerMenuList';
+import { LinkList } from '@/components/common/stateless/LinkList';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
-const meta: Meta<typeof HamburgerMenuList> = {
-  title: 'Components/Stateless/HamburgerMenuList',
-  component: HamburgerMenuList,
+const meta: Meta<typeof LinkList> = {
+  title: 'Components/Common/Stateless/LinkList',
+  component: LinkList,
   tags: ['autodocs'],
 };
 
 export default meta;
-type Story = StoryObj<typeof HamburgerMenuList>;
+type Story = StoryObj<typeof LinkList>;
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
+// https://storybook.js.org/blog/integrate-nextjs-and-storybook-automatically/
 /**
  * デフォルト表示兼検索ページ選択時
  */

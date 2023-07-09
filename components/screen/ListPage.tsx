@@ -4,8 +4,8 @@ import React from 'react';
 
 import { useQuery } from '@apollo/client';
 
-import { IntersectionObserverView } from '@/components/IntersectionObserver';
-import ItemListsView from '@/components/ItemListsView';
+import { IntersectionObserverView } from '@/components/common/stateless/IntersectionObserver';
+import ItemListsView from '@/components/parts/stateless/ItemListsView';
 
 import {
   SearchWithOffsetAndLimitQuery,
@@ -17,7 +17,7 @@ import {
 import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
 
-const DefaultResult = React.memo(() => {
+export const ListPage = React.memo(() => {
   const { data, loading, error, fetchMore } = useQuery<
     SearchWithOffsetAndLimitQuery,
     SearchWithOffsetAndLimitQueryVariables
@@ -42,7 +42,7 @@ const DefaultResult = React.memo(() => {
 
   if (!items) return <p>表示する項目がありません</p>;
   return (
-    <>
+    <div className='m-auto mb-32 mt-5 max-w-6xl'>
       <ItemListsView items={items} />
       {data && (
         <IntersectionObserverView<(Item | null | undefined)[]>
@@ -51,9 +51,8 @@ const DefaultResult = React.memo(() => {
           fetchMore={fetchMore}
         />
       )}
-    </>
+    </div>
   );
 });
 
-if (process.env.NODE_ENV !== 'production') DefaultResult.displayName = 'DefaultResult';
-export default DefaultResult;
+if (process.env.NODE_ENV !== 'production') ListPage.displayName = 'ListPage';
