@@ -1,18 +1,24 @@
 'use strict';
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 
 import { ApolloProvider } from '@apollo/client';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 
+import Layout from '@/components/layout/Layout';
+
 import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';
+
+import resource from '@/data/db.json';
 
 import '@/styles/global.css';
 
 const Provider = React.memo(({ Component, pageProps }: AppProps) => {
   const router = useRouter();
+  const itemsAmount = useMemo(() => resource.resource.length, []);
+  console.log(itemsAmount);
   useEffect(() => {
     const handleRouteChange = (url: string, { shallow }: { shallow: boolean }) => {
       pageview(url);
@@ -28,7 +34,9 @@ const Provider = React.memo(({ Component, pageProps }: AppProps) => {
 
   return (
     <ApolloProvider client={client}>
-      <Component {...pageProps} />
+      <Layout itemsAmount={itemsAmount}>
+        <Component {...pageProps} />
+      </Layout>
     </ApolloProvider>
   );
 });
