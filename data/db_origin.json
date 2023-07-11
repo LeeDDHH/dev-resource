@@ -17902,6 +17902,163 @@
       "url": "https://pouhon.net/app-switching/7754/",
       "description": "僕がObsidianでやらないこと – アプリの使い分けを考える",
       "tag": ["アプリ"]
+    },
+    {
+      "name": "get-unix-time-in-javascript-date-javascript-date-and-time-javascript-basic-introduction-to-javascript",
+      "url": "https://javascript.keicode.com/lang/date-time-unix-time.php",
+      "description": "JavaScript の Date で UNIX 時間を取得 - JavaScript の日付と時刻 - JavaScript の基本 - JavaScript 入門",
+      "tag": ["IP", "Java", "JavaScript", "UNIX", "基本"]
+    },
+    {
+      "name": "javascript-displays-the-date-after-the-current-date-mebee",
+      "url": "https://mebee.info/2020/08/11/post-16467/",
+      "description": "javascript 現在日付からX日後の日付を表示する | mebee",
+      "tag": ["IP", "Java", "JavaScript"]
+    },
+    {
+      "name": "multiple-approaches-for-formatting-the-date-with-react-delft-stack",
+      "url": "https://www.delftstack.com/ja/howto/react/react-date-format/",
+      "description": "React で日付をフォーマットするための複数のアプローチ | Delft スタック",
+      "tag": ["React"]
+    },
+    {
+      "name": "how-to-output-the-current-time-with-yyyyyyymddhhmss-in-javascript-linux-magazine",
+      "url": "https://mekou.com/linux-magazine/javascript%E3%81%A7%E7%8F%BE%E5%9C%A8%E6%99%82%E5%88%BB%E3%82%92yyyymmddhhmmss%E3%81%A7%E5%87%BA%E5%8A%9B%E3%81%99%E6%96%B9%E6%B3%95/",
+      "description": "JavaScriptで現在時刻をyyyymmddhhmmssで出力す方法 | Linux Magazine",
+      "tag": ["IP", "Java", "JavaScript", "Linux", "UX"]
+    },
+    {
+      "name": "create-a-certification-mechanism-with-nodejs-express-passport-galife",
+      "url": "https://garafu.blogspot.com/2017/02/express-passport-authn-authz.html",
+      "description": "Node.js + Express + passport で 認証認可 の 仕組み を 作る - galife",
+      "tag": ["Express", "Node.js", "express", "node.js", "認証"]
+    },
+    {
+      "name": "how-to-use-github-copilot-npaka",
+      "url": "https://note.com/npaka/n/ne208e3482bab",
+      "description": "GitHub Copilot の使い方｜npaka",
+      "tag": ["Copilot", "Git", "GitHub"]
+    },
+    { "name": "posts-mrskirodev", "url": "https://www.mrskiro.dev/", "description": "投稿| Mrskiro.dev", "tag": [] },
+    {
+      "name": "mitsuhiro-yamashita-koyo-yamashita",
+      "url": "https://www.yamamanx.com/profile/",
+      "description": "Mitsuhiro Yamashita(山下 光洋) | ヤマムギ",
+      "tag": []
+    },
+    {
+      "name": "chatgpt-if-you-get-lost-in-the-naming-of-the-class-or-file-lets-have-chatgpt-suggest-aliminating-the-battera-over-low-heat",
+      "url": "https://www.m2game.net/entry/2023/02/08/062154",
+      "description": "【ChatGPT】クラスやファイルの命名に迷ったらChatGPTさんに提案してもらおう！！ - バッテラの弱火でじっくり",
+      "tag": ["ChatGPT", "クラス", "提案"]
+    },
+    {
+      "name": "rules-or-guidelines-the-idea-of-making-and-use",
+      "url": "https://ryota-saeki-lifelog.hatenablog.com/entry/2015/07/09/233814",
+      "description": "「ルール」か「ガイドライン」か。 - 「つくる」と「つかう」の考え方",
+      "tag": ["ガイドライン", "考え方"]
+    },
+    {
+      "name": "pipe-explanation-and-xargs-can-understand-the-difference-dae-homepage",
+      "url": "https://daeudaeu.com/pipe-xargs/",
+      "description": "パイプ | について解説（ | と | xargs の違いも理解できる！） | だえうホームページ",
+      "tag": []
+    },
+    {
+      "name": "macbook-power-management-or-pmset-command-github",
+      "url": "https://gist.github.com/pn11/7225ed6c39aeb3a31b354b38d3e49348",
+      "description": "Macbook の電源管理、または pmset コマンドの使い方 · GitHub",
+      "tag": ["Git", "GitHub", "Mac", "PM", "コマンド", "管理"]
+    },
+    {
+      "name": "difference-between-plugin-and-extend-of-eslint-blogojisanio",
+      "url": "https://blog.ojisan.io/eslint-plugin-and-extend/",
+      "description": "ESLint の Plugin と Extend の違い | blog.ojisan.io",
+      "tag": ["ISA", "lint"]
+    },
+    {
+      "name": "in-the-head-when-reading-the-source-code-written-many-years-ago-mitsuyukishiiba",
+      "url": "https://bufferings.hatenablog.com/entry/2023/06/25/133652",
+      "description": "何年も前に書かれたソースコードを読むときの頭の中 - Mitsuyuki.Shiiba",
+      "tag": ["コード", "ソースコード"]
+    },
+    {
+      "name": "what-i-was-conscious-of-when-i-worked-in-a-high-priced-freelance-project-katsuma-narisawa",
+      "url": "https://note.com/katsumanarisawa/n/n52910f74377a",
+      "description": "高単価のフリーランス案件で仕事するときに意識していたこと｜Katsuma Narisawa",
+      "tag": ["ISA", "フリーランス"]
+    },
+    {
+      "name": "transferred-the-domain-from-google-domains-to-cloudflare-plus-blog",
+      "url": "https://blog.p1ass.com/posts/transfer-domain-to-cloudflare/",
+      "description": "Google DomainsからCloudflareにドメインを移管した - ぷらすのブログ",
+      "tag": ["AI", "CloudFlare", "DOM", "Google", "ブログ", "ログ"]
+    },
+    {
+      "name": "c-how-is-asyncawait-in-c-actually-working-neono-garden",
+      "url": "https://blog.neno.dev/entry/2023/05/27/152855",
+      "description": "【C#】C# の async/await は実際にどうやって動いているか。 - ねののお庭。",
+      "tag": ["AI", "C#"]
+    },
+    {
+      "name": "i-seriously-made-a-web-page-that-never-downloads-and-scraps-the-image-blogpotprojectnet",
+      "url": "https://blog.potproject.net/2023/05/26/never-scrape-image",
+      "description": "絶対に画像をダウンロード&スクレイピングさせないWebページを本気で作ってみた | blog.potproject.net",
+      "tag": ["Web", "web", "スクレイピング", "画像"]
+    },
+    {
+      "name": "a-story-that-can-be-painful-if-you-adopt-technology-only-with-prices-and-functions-orangeitemss-diary",
+      "url": "https://www.orangeitems.com/entry/2023/05/28/120000",
+      "description": "価格と機能だけで技術を採用すると痛い目に遭う話 - orangeitems’s diary",
+      "tag": ["技術", "採用"]
+    },
+    {
+      "name": "what-was-an-engineer-bubble-tsuyoshi-hisamatsu-it-hundred-story",
+      "url": "https://note.com/makaibito/n/n3be186b76ced",
+      "description": "エンジニアバブルとは何だったのか｜久松剛／IT百物語の蒐集家",
+      "tag": ["エンジニア"]
+    },
+    {
+      "name": "use-python-package-management-tool-rye-keyboard-with-paws",
+      "url": "https://nsakki55.hatenablog.com/entry/2023/05/29/013658",
+      "description": "pythonパッケージ管理ツールryeを使う - 肉球でキーボード",
+      "tag": ["Python", "キーボード", "ツール", "パッケージ", "管理"]
+    },
+    {
+      "name": "with-the-advent-of-chatgpt-interest-in-web3-is-rapidly-shrinking-kishidas-hatena",
+      "url": "https://nowokay.hatenablog.com/entry/2023/05/28/170004",
+      "description": "ChatGPTの登場でWeb3への興味が急速にしぼんでいる - きしだのHatena",
+      "tag": ["ChatGPT", "Web", "web"]
+    },
+    {
+      "name": "if-you-work-for-your-subordinates-you-will-be-loved-orangeitemss-diary",
+      "url": "https://www.orangeitems.com/entry/2023/05/29/120000",
+      "description": "「部下のためを思って仕事をしたら、慕われる」の罠 - orangeitems’s diary",
+      "tag": []
+    },
+    {
+      "name": "color-muzu-maltail",
+      "url": "https://blog.amagi.dev/entry/kyotojs19-color",
+      "description": "色、ムズ〜〜〜〜 - マルシテイア",
+      "tag": ["色"]
+    },
+    {
+      "name": "code-interpriter-and-function-call-yoichi-ochiai",
+      "url": "https://note.com/ochyai/n/n823db33ae4a7",
+      "description": "コードインタープリターとファンクションコール｜落合陽一",
+      "tag": ["コード"]
+    },
+    {
+      "name": "ruts-to-be-aware-of-by-the-it-industry-and-the-it-industry-young-generation",
+      "url": "https://note.com/makaibito/n/ne9b0635907c5",
+      "description": "就職氷河期世代とIT業界／若手世代が注意するべき轍｜久松剛／IT百物語の蒐集家",
+      "tag": []
+    },
+    {
+      "name": "memories-when-i-was-a-support-engineer-orangeitemss-diary",
+      "url": "https://www.orangeitems.com/entry/2023/07/08/000000",
+      "description": "サポートエンジニアだったときの思い出 - orangeitems’s diary",
+      "tag": ["エンジニア"]
     }
   ]
 }
