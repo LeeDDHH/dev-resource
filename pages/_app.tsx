@@ -11,14 +11,10 @@ import Layout from '@/components/layout/Layout';
 import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';
 
-import resource from '@/data/db.json';
-
 import '@/styles/global.css';
 
 const Provider = React.memo(({ Component, pageProps }: AppProps) => {
   const router = useRouter();
-  const itemsAmount = useMemo(() => resource.resource.length, []);
-  console.log(itemsAmount);
   useEffect(() => {
     const handleRouteChange = (url: string, { shallow }: { shallow: boolean }) => {
       pageview(url);
@@ -34,7 +30,7 @@ const Provider = React.memo(({ Component, pageProps }: AppProps) => {
 
   return (
     <ApolloProvider client={client}>
-      <Layout itemsAmount={itemsAmount}>
+      <Layout>
         <Component {...pageProps} />
       </Layout>
     </ApolloProvider>
