@@ -8,12 +8,13 @@ import { MobileHamburgerMenu } from '@/components/parts/stateless/MobileHamburge
 
 import useMediaQuery from '@/hooks/useMediaQuery';
 
+import { itemsAmount } from '@/lib/Const';
+
 type Props = {
-  itemsAmount: number;
   children: React.ReactNode;
 };
 
-const Layout = React.memo(({ itemsAmount, children }: Props) => {
+const Layout = React.memo(({ children }: Props) => {
   const [openMenu, setOpenMenu] = useState(false);
   const isMaxWidthMd = useMediaQuery('(max-width: 767px)');
 
