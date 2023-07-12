@@ -3,10 +3,13 @@
 import React from 'react';
 
 import { IndexPage } from '@/components/screen/IndexPage';
+import type { NextPageWithLayout } from '@/pages/_app';
 
-const App = React.memo(() => {
-  return <IndexPage />;
-});
+import { getLayout } from '@/lib/pages/defaultLayout';
 
-if (process.env.NODE_ENV !== 'production') App.displayName = 'App';
-export default App;
+const Index: NextPageWithLayout = React.memo(() => <IndexPage />);
+
+Index.getLayout = getLayout;
+
+if (process.env.NODE_ENV !== 'production') Index.displayName = 'Index';
+export default Index;
