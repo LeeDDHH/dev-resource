@@ -1,20 +1,30 @@
 'use strict';
 
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect, ReactElement, ReactNode } from 'react';
 
 import { ApolloProvider } from '@apollo/client';
+import type { NextPage } from 'next';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
-
-import Layout from '@/components/layout/Layout';
 
 import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';
 
 import '@/styles/global.css';
 
-const Provider = React.memo(({ Component, pageProps }: AppProps) => {
+export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
+  getLayout?: (page: ReactElement) => ReactNode;
+};
+
+type AppPropsWithLayout = AppProps & {
+  Component: NextPageWithLayout;
+};
+
+const Provider = React.memo(({ Component, pageProps }: AppPropsWithLayout) => {
   const router = useRouter();
+  // Use the layout defined at the page level, if available
+  const getLayout = Component.getLayout ?? ((page) => page);
+
   useEffect(() => {
     const handleRouteChange = (url: string, { shallow }: { shallow: boolean }) => {
       pageview(url);
@@ -28,13 +38,7 @@ const Provider = React.memo(({ Component, pageProps }: AppProps) => {
     };
   }, [router.events]);
 
-  return (
-    <ApolloProvider client={client}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </ApolloProvider>
-  );
+  return <ApolloProvider client={client}>{getLayout(<Component {...pageProps} />)}</ApolloProvider>;
 });
 if (process.env.NODE_ENV !== 'production') Provider.displayName = 'Provider';
 export default Provider;
