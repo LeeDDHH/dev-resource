@@ -1,7 +1,1 @@
-https://github.com/faker-js/faker
-https://github.com/dividab/tsconfig-paths-webpack-plugin
-https://github.com/hwchase17/langchainjs
-https://github.com/leonardomso/33-js-concepts
-https://github.com/reactjs/react-docgen
-https://github.com/ribeirogab/free-translate#readme
-https://github.com/segmentio/nightmare
+https://speakerdeck.com/yuichi110/1ri-deji-ben-gashen-nituku-pythonchao-ru-men

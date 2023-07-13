@@ -15,10 +15,11 @@ const getData = async (context: BrowserContext, data: ResourceData) => {
     await page.waitForLoadState();
 
     await takeScreenshot(page, data);
+    console.log(`スクショを取得しました:${data.url}`);
 
     await page.close();
   } catch (error) {
-    console.log(data.url);
+    console.log(`スクショを取得できませんでした:${data.url}`);
     console.error(error);
   }
 };
