@@ -18,5 +18,3 @@ export const dbTagsJsonPath = path.resolve(dataPath, 'db_tags.json');
 export const tagCountDataJsonPath = path.resolve(dataPath, 'db_tagCount.json');
 
 export const searchLimit = 12;
-
-export const itemsAmount = db.resource.length;

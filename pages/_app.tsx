@@ -13,7 +13,7 @@ import { pageview } from '@/lib/gtag';
 import '@/styles/global.css';
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
-  getLayout?: (page: ReactElement) => ReactNode;
+  getLayout?: (page: ReactElement, props?: any) => ReactNode;
 };
 
 type AppPropsWithLayout = AppProps & {
@@ -38,7 +38,7 @@ const Provider = React.memo(({ Component, pageProps }: AppPropsWithLayout) => {
     };
   }, [router.events]);
 
-  return <ApolloProvider client={client}>{getLayout(<Component {...pageProps} />)}</ApolloProvider>;
+  return <ApolloProvider client={client}>{getLayout(<Component {...pageProps} />, pageProps)}</ApolloProvider>;
 });
 if (process.env.NODE_ENV !== 'production') Provider.displayName = 'Provider';
 export default Provider;
