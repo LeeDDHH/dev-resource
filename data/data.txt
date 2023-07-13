@@ -1,7 +1,3 @@
-https://github.com/faker-js/faker
-https://github.com/dividab/tsconfig-paths-webpack-plugin
-https://github.com/hwchase17/langchainjs
-https://github.com/leonardomso/33-js-concepts
-https://github.com/reactjs/react-docgen
-https://github.com/ribeirogab/free-translate#readme
-https://github.com/segmentio/nightmare
+https://pr.forkwell.com/articles/it-engineers-annual-income-and-happiness-score/
+https://github.com/vercel/next.js/discussions/16684
+https://gizanbeak.com/post/bundle-analyzer

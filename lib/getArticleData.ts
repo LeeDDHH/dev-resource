@@ -86,12 +86,12 @@ const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((l
 
   const originData = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
   const uniqueUrlList = generateUniqueURLList(originData.resource, urls);
-  if (!uniqueUrlList.length) return;
+  if (!uniqueUrlList.length) return console.log('重複したURLのみ含まれています!');
 
   const { browser, context } = await createChromiumBrowserAndContext();
 
   try {
-    const newResourceData: (ResourceData | undefined)[] = await Promise.all(getDataPromises(context, urls));
+    const newResourceData: (ResourceData | undefined)[] = await Promise.all(getDataPromises(context, uniqueUrlList));
     await browser.close();
 
     const resourceData = newResourceData.filter((tag): tag is ResourceData => typeof tag == 'object');
