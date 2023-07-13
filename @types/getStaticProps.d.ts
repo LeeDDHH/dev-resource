@@ -3,5 +3,6 @@ declare type AppProps = {
 };
 
 declare type TagsProps = {
+  itemsAmount: number;
   tagCountList: TagCountList;
 };
