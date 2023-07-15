@@ -16,7 +16,7 @@ https://bookmark.hatenastaff.com/entry/2023/06/05/120438?utm_source=android_app&
 https://css-tricks.com/5-mistakes-starting-react/
 https://findy-code.io/engineer-lab/influential-books-2
 https://weseek.co.jp/tech/733/
-https://web.archive.org/web/20230125021047/https://komugi.jp/?p=400
+https://web.archive.org/web/20230125021047/komugi.jp/?p=400
 https://logmi.jp/tech/articles/328769
 https://www.webcyou.com/?p=10100
 https://coliss.com/articles/build-websites/operation/css/multiple-values-of-the-display-property.html
