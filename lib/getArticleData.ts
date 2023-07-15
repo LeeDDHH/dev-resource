@@ -18,7 +18,11 @@ const generateTwitterTitle = (url: string) => {
   const urlString = new URL(url);
   urlString.hash = '';
   urlString.search = '';
-  const newUrlParts = String(urlString).replace('https://twitter.com/', '').toLowerCase().split('/');
+  const newUrlParts = String(urlString)
+    .replace('https://mobile.twitter.com/', '')
+    .replace('https://twitter.com/', '')
+    .toLowerCase()
+    .split('/');
   console.log(`twitter-${newUrlParts[0]}-${newUrlParts[newUrlParts.length - 1]}`);
   return `twitter-${newUrlParts[0]}-${newUrlParts[newUrlParts.length - 1]}`;
 };
