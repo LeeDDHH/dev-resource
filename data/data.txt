@@ -1,3 +1,9 @@
-https://lab.hendigi.com/mac-podcast-kizai/
-https://news.mapcamera.com/maptimes/%E3%80%8Crode-%E3%83%AD%E3%83%BC%E3%83%89-video-mic-go-ii-vmgoii%E3%80%8D%E3%81%A8%E3%80%8Crode-%E3%83%AD%E3%83%BC%E3%83%89-ws12%E3%80%8D%E3%81%A7%E9%9B%BB%E8%BB%8A%E3%82%92%E6%92%AE%E3%82%8B/
-https://lab.hendigi.com/rode-videomic-go-2-review/
+https://www.taniarascia.com/writing-an-emulator-in-javascript-chip8/
+https://www.phoenixframework.org/
+https://snyk.io/platform/ide-plugins/
+https://looking-glass.io/
+https://github.com/xguru/awesome-awesome-awesome
+https://github.com/godrm/mobile-developer-roadmap/blob/master/README.md
+https://github.com/meshkorea/front-end-engineering
+https://ahnheejong.name/articles/safe-data-modeling-using-disjoint-union-type/
+https://gorisanson.github.io/pikachu-volleyball-p2p-online/ko/
