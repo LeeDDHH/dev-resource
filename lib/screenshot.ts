@@ -35,38 +35,41 @@ const getData = async (context: BrowserContext, data: ResourceData) => {
 const getDataPromises = (context: BrowserContext, newData: ResourceData[]) =>
   newData.map((targetData) => getData(context, targetData));
 
+/**
+ * 指定されたUrlとリソースデータをもとにスクショを撮る
+ * @param chromiumContext PlaywrightのChromiumコンテキスト
+ * @param urls Urlリスト
+ * @param resourceData リソースデータ
+ * @returns { retryScreenshotUrlList, uniqueUrlObjList }
+ * retryScreenshotUrlList: スクショ撮りに失敗したURLリスト
+ * uniqueUrlObjList: スクショ撮り時のリソースデータ
+ */
 const getScreenshotFromSpecifiedUrlsAndResourceData = async ({
   chromiumContext,
   urls,
   resourceData,
 }: ScreenshotLoopData) => {
-  const resourceOnlymatchedUrls = urls.map((url) => {
-    return resourceData.find((data) => data.url === url);
-  });
-
+  const resourceOnlymatchedUrls = urls.map((url) => resourceData.find((data) => data.url === url));
   const uniqueUrlObjList = resourceOnlymatchedUrls.filter((res): res is ResourceData => typeof res == 'object');
+
   if (!uniqueUrlObjList.length) {
     console.log('スクショ撮る必要がない');
-    return [];
+    return { retryScreenshotUrlList: [], uniqueUrlObjList: [] };
   }
 
   const failedScreenshotUrlList = await Promise.all(getDataPromises(chromiumContext, uniqueUrlObjList));
-
   const retryScreenshotUrlList = failedScreenshotUrlList.filter((item): item is string => typeof item == 'string');
+
   if (!retryScreenshotUrlList.length) {
     console.log('スクショ撮り終えた');
-    return [];
+    return { retryScreenshotUrlList: [], uniqueUrlObjList: [] };
   }
-  urls = retryScreenshotUrlList;
-  return urls;
+
+  return { retryScreenshotUrlList, uniqueUrlObjList };
 };
 
 (async () => {
-  let resourceOnlymatchedUrls: (ResourceData | undefined)[];
   let uniqueUrlObjList: ResourceData[];
-  let failedScreenshotUrlList: (string | undefined)[];
-  let retryScreenshotUrlList: string[];
-
   let urls = splitUrlData();
   if (!urls.length) return;
 
@@ -74,55 +77,27 @@ const getScreenshotFromSpecifiedUrlsAndResourceData = async ({
 
   const resourceData = data.resource.reverse();
 
-  resourceOnlymatchedUrls = urls.map((url) => {
-    return resourceData.find((data) => data.url === url);
-  });
-
-  uniqueUrlObjList = resourceOnlymatchedUrls.filter((res): res is ResourceData => typeof res == 'object');
-  if (!uniqueUrlObjList.length) return console.log('スクショ撮る必要がない');
-
   const { browser, context } = await createChromiumBrowserAndContext(false);
 
-  // failedScreenshotUrlList = await Promise.all(getDataPromises(context, uniqueUrlObjList));
-
-  // retryScreenshotUrlList = failedScreenshotUrlList.filter((item): item is string => typeof item == 'string');
-  // if (!retryScreenshotUrlList.length) return console.log('スクショ撮り終えた');
-  // urls = retryScreenshotUrlList;
-
-  retryScreenshotUrlList = await getScreenshotFromSpecifiedUrlsAndResourceData({
+  const result = await getScreenshotFromSpecifiedUrlsAndResourceData({
     chromiumContext: context,
     urls,
-    resourceData: uniqueUrlObjList,
+    resourceData,
   });
+  urls = result.retryScreenshotUrlList;
+  uniqueUrlObjList = result.uniqueUrlObjList;
 
   /**
    * スクショ取得に失敗したURLがあれば、撮りなおす
    */
   while (urls.length > 0) {
-    retryScreenshotUrlList = await getScreenshotFromSpecifiedUrlsAndResourceData({
+    const result = await getScreenshotFromSpecifiedUrlsAndResourceData({
       chromiumContext: context,
       urls,
       resourceData: uniqueUrlObjList,
     });
-    urls = retryScreenshotUrlList;
-    // resourceOnlymatchedUrls = urls.map((url) => {
-    //   return uniqueUrlObjList.find((data) => data.url === url);
-    // });
-    // uniqueUrlObjList = resourceOnlymatchedUrls.filter((res): res is ResourceData => typeof res == 'object');
-    // if (uniqueUrlObjList.length > 0) {
-    //   const failedScreenshotUrlList = await Promise.all(getDataPromises(context, uniqueUrlObjList));
-    //   retryScreenshotUrlList = failedScreenshotUrlList.filter((item): item is string => typeof item == 'string');
-
-    //   if (!retryScreenshotUrlList.length) {
-    //     console.log('スクショ取る必要がない');
-    //     urls = [];
-    //   } else {
-    //     urls = retryScreenshotUrlList;
-    //   }
-    // } else {
-    //   console.log('スクショ取る必要がない');
-    //   urls = [];
-    // }
+    urls = result.retryScreenshotUrlList;
+    uniqueUrlObjList = result.uniqueUrlObjList;
   }
 
   await browser.close();
