@@ -64,6 +64,9 @@ const getScreenshotFromSpecifiedUrlsAndResourceData = async ({
   if (!retryScreenshotUrlList.length) {
     console.log('スクショ撮り終えた');
     return { retryScreenshotUrlList: [], uniqueUrlObjList: [] };
+  } else {
+    console.log('スクショを撮る必要があるUrlリスト');
+    console.log(retryScreenshotUrlList);
   }
 
   return { retryScreenshotUrlList, uniqueUrlObjList };
