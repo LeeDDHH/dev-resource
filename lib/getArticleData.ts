@@ -13,9 +13,17 @@ import {
 } from '@/lib/utils';
 
 import { ResourceData, JsonData } from '@/types/data';
-import { isCompositeType } from 'graphql';
 
-const generateTitle = async (title: string) => {
+const generateTwitterTitle = (url: string) => {
+  const newUrlParts = url.replace('https://twitter.com/', '').toLowerCase().split('/');
+  return `twitter-${newUrlParts[0]}-${newUrlParts[newUrlParts.length - 1]}`;
+};
+
+const generateTitle = async (url: string, title: string) => {
+  const isTwitter = /twitter.com/.test(url);
+
+  if (isTwitter) return generateTwitterTitle(url);
+
   try {
     const enTitle = await translateToEn(title);
     // const enTitle = await translator(title, 'en', 'auto');
@@ -27,7 +35,7 @@ const generateTitle = async (title: string) => {
   }
 };
 
-const generateDescription = async (metaDescription: string) => {
+const generateDescription = async (url: string, metaDescription: string) => {
   try {
     let enDescription: string | undefined = '';
     if (!metaDescription.length) return undefined;
@@ -36,6 +44,14 @@ const generateDescription = async (metaDescription: string) => {
     // enDescription = await translator(metaDescription, 'ja', 'auto');
 
     if (!enDescription) return undefined;
+
+    const isTwitter = /twitter.com/.test(url);
+
+    if (isTwitter) {
+      const clippingPoint = ' on Twitter: ';
+      enDescription = enDescription.replace(' / Twitter', '');
+      enDescription = enDescription.substring(enDescription.indexOf(clippingPoint) + clippingPoint.length);
+    }
 
     return enDescription;
   } catch (error) {
@@ -55,9 +71,11 @@ const getData = async (context: BrowserContext, url: string) => {
     const pageTitle = await page.title();
     // const metaDescription = await getMetaDescription(page);
 
+    console.log('pageTitle', pageTitle);
+
     // データ格納用にtitle、meta descriptionを整形する
-    const title = await generateTitle(pageTitle);
-    const description = await generateDescription(pageTitle);
+    const title = await generateTitle(url, pageTitle);
+    const description = await generateDescription(url, pageTitle);
 
     if (!title || !title.length || !description || !description.length) {
       await page.close();

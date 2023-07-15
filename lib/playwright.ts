@@ -1,4 +1,4 @@
-import { Browser, BrowserContext, Page, chromium } from 'playwright';
+import { Browser, BrowserContext, Page, chromium, devices } from 'playwright';
 
 import { ResourceData } from '@/types/data';
 
@@ -10,7 +10,7 @@ export const createChromiumBrowserAndContext = async (
   context: BrowserContext;
 }> => {
   const browser = await chromium.launch({ headless: isHeadless });
-  const context = await browser.newContext();
+  const context = await browser.newContext({ ...devices['Desktop Chrome'] });
 
   return { browser, context };
 };

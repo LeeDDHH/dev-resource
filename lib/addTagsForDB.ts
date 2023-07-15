@@ -29,6 +29,10 @@ const addSpecifiedTagFromURL = (tags: (string | undefined)[], resourceData: Reso
       cloneTags.push('GitHub');
       return cloneTags;
 
+    case /twitter.com/.test(targetUrl):
+      cloneTags.push('twitter');
+      return cloneTags;
+
     default:
       return cloneTags;
   }
