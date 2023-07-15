@@ -13,6 +13,7 @@ import {
 } from '@/lib/utils';
 
 import { ResourceData, JsonData } from '@/types/data';
+import { isCompositeType } from 'graphql';
 
 const generateTitle = async (title: string) => {
   try {
@@ -84,32 +85,33 @@ const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((l
   const urls = splitUrlData();
   if (!urls.length) return;
 
-  const originData = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
-  const uniqueUrlList = generateUniqueURLList(originData.resource, urls);
+  let originData = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
+  let uniqueUrlList = generateUniqueURLList(originData.resource, urls);
+  console.log('取得するUrlリスト');
+  console.log(uniqueUrlList);
   if (!uniqueUrlList.length) return console.log('重複したURLのみ含まれています!');
 
   const { browser, context } = await createChromiumBrowserAndContext();
 
-  try {
+  while (uniqueUrlList.length > 0) {
     const newResourceData: (ResourceData | undefined)[] = await Promise.all(getDataPromises(context, uniqueUrlList));
-    await browser.close();
 
     const resourceData = newResourceData.filter((tag): tag is ResourceData => typeof tag == 'object');
 
-    if (!resourceData.length) return;
+    if (resourceData.length) {
+      originData.resource = [...originData.resource, ...resourceData];
+    }
 
-    originData.resource = [...originData.resource, ...resourceData];
-
-    const newJsonData = JSON.stringify(originData);
-
-    jsonFileExchange({
-      exportDataJsonPath: addedOriginDataJsonPath,
-      originDataJsonPath,
-      jsonData: newJsonData,
-    });
-  } catch (error) {
-    console.log('failed to get resource');
-    console.error(error);
-    return;
+    uniqueUrlList = generateUniqueURLList(originData.resource, urls);
+    console.log('再度取得を試みるUrlリスト');
+    console.log(uniqueUrlList);
   }
+  const newJsonData = JSON.stringify(originData);
+
+  jsonFileExchange({
+    exportDataJsonPath: addedOriginDataJsonPath,
+    originDataJsonPath,
+    jsonData: newJsonData,
+  });
+  await browser.close();
 })();

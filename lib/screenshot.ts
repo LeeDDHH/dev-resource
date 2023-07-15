@@ -6,6 +6,12 @@ import { readFileSync, splitUrlData } from '@/lib/utils';
 
 import { ResourceData, JsonData } from '@/types/data';
 
+type ScreenshotLoopData = {
+  chromiumContext: BrowserContext;
+  urls: string[];
+  resourceData: ResourceData[];
+};
+
 const getData = async (context: BrowserContext, data: ResourceData) => {
   try {
     // urlをもとに取得するpageの初期化
@@ -18,26 +24,81 @@ const getData = async (context: BrowserContext, data: ResourceData) => {
     console.log(`スクショを取得しました:${data.url}`);
 
     await page.close();
+    return undefined;
   } catch (error) {
     console.log(`スクショを取得できませんでした:${data.url}`);
     console.error(error);
+    return data.url;
   }
 };
 
 const getDataPromises = (context: BrowserContext, newData: ResourceData[]) =>
   newData.map((targetData) => getData(context, targetData));
 
+/**
+ * 指定されたUrlとリソースデータをもとにスクショを撮る
+ * @param chromiumContext PlaywrightのChromiumコンテキスト
+ * @param urls Urlリスト
+ * @param resourceData リソースデータ
+ * @returns { retryScreenshotUrlList, uniqueUrlObjList }
+ * retryScreenshotUrlList: スクショ撮りに失敗したURLリスト
+ * uniqueUrlObjList: スクショ撮り時のリソースデータ
+ */
+const getScreenshotFromSpecifiedUrlsAndResourceData = async ({
+  chromiumContext,
+  urls,
+  resourceData,
+}: ScreenshotLoopData) => {
+  const resourceOnlymatchedUrls = urls.map((url) => resourceData.find((data) => data.url === url));
+  const uniqueUrlObjList = resourceOnlymatchedUrls.filter((res): res is ResourceData => typeof res == 'object');
+
+  if (!uniqueUrlObjList.length) {
+    console.log('スクショ撮る必要がない');
+    return { retryScreenshotUrlList: [], uniqueUrlObjList: [] };
+  }
+
+  const failedScreenshotUrlList = await Promise.all(getDataPromises(chromiumContext, uniqueUrlObjList));
+  const retryScreenshotUrlList = failedScreenshotUrlList.filter((item): item is string => typeof item == 'string');
+
+  if (!retryScreenshotUrlList.length) {
+    console.log('スクショ撮り終えた');
+    return { retryScreenshotUrlList: [], uniqueUrlObjList: [] };
+  }
+
+  return { retryScreenshotUrlList, uniqueUrlObjList };
+};
+
 (async () => {
-  const urls = splitUrlData();
+  let uniqueUrlObjList: ResourceData[];
+  let urls = splitUrlData();
   if (!urls.length) return;
 
   const data = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
 
-  const newData = data.resource.reverse().slice(0, urls.length).reverse();
+  const resourceData = data.resource.reverse();
 
   const { browser, context } = await createChromiumBrowserAndContext(false);
 
-  await Promise.all(getDataPromises(context, newData));
+  const result = await getScreenshotFromSpecifiedUrlsAndResourceData({
+    chromiumContext: context,
+    urls,
+    resourceData,
+  });
+  urls = result.retryScreenshotUrlList;
+  uniqueUrlObjList = result.uniqueUrlObjList;
+
+  /**
+   * スクショ取得に失敗したURLがあれば、撮りなおす
+   */
+  while (urls.length > 0) {
+    const result = await getScreenshotFromSpecifiedUrlsAndResourceData({
+      chromiumContext: context,
+      urls,
+      resourceData: uniqueUrlObjList,
+    });
+    urls = result.retryScreenshotUrlList;
+    uniqueUrlObjList = result.uniqueUrlObjList;
+  }
 
   await browser.close();
 })();
