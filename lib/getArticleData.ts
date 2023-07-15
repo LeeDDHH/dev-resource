@@ -15,7 +15,11 @@ import {
 import { ResourceData, JsonData } from '@/types/data';
 
 const generateTwitterTitle = (url: string) => {
-  const newUrlParts = url.replace('https://twitter.com/', '').toLowerCase().split('/');
+  const urlString = new URL(url);
+  urlString.hash = '';
+  urlString.search = '';
+  const newUrlParts = String(urlString).replace('https://twitter.com/', '').toLowerCase().split('/');
+  console.log(`twitter-${newUrlParts[0]}-${newUrlParts[newUrlParts.length - 1]}`);
   return `twitter-${newUrlParts[0]}-${newUrlParts[newUrlParts.length - 1]}`;
 };
 
