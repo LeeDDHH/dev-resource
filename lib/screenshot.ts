@@ -13,9 +13,9 @@ type ScreenshotLoopData = {
 };
 
 const getData = async (context: BrowserContext, data: ResourceData) => {
+  // urlをもとに取得するpageの初期化
+  const page = await context.newPage();
   try {
-    // urlをもとに取得するpageの初期化
-    const page = await context.newPage();
     await page.setViewportSize({ width: 1124, height: 600 });
     await page.goto(data.url);
     await page.waitForLoadState();
@@ -23,12 +23,13 @@ const getData = async (context: BrowserContext, data: ResourceData) => {
     await takeScreenshot(page, data);
     console.log(`スクショを取得しました:${data.url}`);
 
-    await page.close();
     return undefined;
   } catch (error) {
     console.log(`スクショを取得できませんでした:${data.url}`);
     console.error(error);
     return data.url;
+  } finally {
+    await page.close();
   }
 };
 
@@ -63,6 +64,9 @@ const getScreenshotFromSpecifiedUrlsAndResourceData = async ({
   if (!retryScreenshotUrlList.length) {
     console.log('スクショ撮り終えた');
     return { retryScreenshotUrlList: [], uniqueUrlObjList: [] };
+  } else {
+    console.log('スクショを撮る必要があるUrlリスト');
+    console.log(retryScreenshotUrlList);
   }
 
   return { retryScreenshotUrlList, uniqueUrlObjList };
