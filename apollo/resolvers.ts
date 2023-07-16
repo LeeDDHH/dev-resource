@@ -48,7 +48,8 @@ export const resolvers = {
       _info: any
     ) => {
       const newResource = [...db.resource];
-      const bookmarks = args.bookmarkList.map((boookmarkIndex: number) => newResource[boookmarkIndex]);
+      const dataMaxIndex = newResource.length - 1;
+      const bookmarks = args.bookmarkList.map((boookmarkIndex: number) => newResource[dataMaxIndex - boookmarkIndex]);
       if (args.limit && args.bookmarkList.length > 0) {
         const start = args.offset;
         const end = args.limit;
