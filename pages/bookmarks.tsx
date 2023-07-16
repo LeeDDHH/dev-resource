@@ -4,10 +4,12 @@ import React, { ReactElement } from 'react';
 
 import Layout from '@/components/layout/Layout';
 import { BookmarksPage } from '@/components/screen/BookmarksPage';
+
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
 
+// eslint-disable-next-line unused-imports/no-unused-vars
 const Bookmark: NextPageWithLayout<AppProps> = React.memo(({ itemsAmount }) => {
   return <BookmarksPage />;
 });

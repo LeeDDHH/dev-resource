@@ -2413,6 +2413,13 @@
   dependencies:
     glob "7.1.7"
 
+"@next/eslint-plugin-next@^13.4.10":
+  version "13.4.10"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-13.4.10.tgz#ff19867396a7709ff75986645f2223787fbb2d9b"
+  integrity sha512-YJqyq6vk39JQfvaNtN83t/p5Jy45+bazRL+V4QI8FPd3FBqFYMEsULiwRLgSJMgFqkk4t4JbeZurz+gILEAFpA==
+  dependencies:
+    glob "7.1.7"
+
 "@next/swc-darwin-arm64@13.4.9":
   version "13.4.9"
   resolved "https://registry.yarnpkg.com/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.4.9.tgz#0ed408d444bbc6b0a20f3506a9b4222684585677"

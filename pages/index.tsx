@@ -4,10 +4,12 @@ import React, { ReactElement } from 'react';
 
 import Layout from '@/components/layout/Layout';
 import { IndexPage } from '@/components/screen/IndexPage';
+
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
 
+// eslint-disable-next-line unused-imports/no-unused-vars
 const Index: NextPageWithLayout<AppProps> = React.memo(({ itemsAmount }) => {
   return <IndexPage />;
 });

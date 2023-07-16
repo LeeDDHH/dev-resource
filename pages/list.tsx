@@ -4,10 +4,12 @@ import React, { useMemo, ReactElement } from 'react';
 
 import Layout from '@/components/layout/Layout';
 import { ListPage } from '@/components/screen/ListPage';
+
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
 
+// eslint-disable-next-line unused-imports/no-unused-vars
 const List: NextPageWithLayout<AppProps> = React.memo(({ itemsAmount }) => {
   return useMemo(() => <ListPage />, []);
 });
