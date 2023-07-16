@@ -10,13 +10,14 @@ import { IndexPage } from '@/components/screen/IndexPage';
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { ResourceDataFromDB } from '@/types/data';
+import { DefaultPageProps } from '@/types/getStaticProps';
 
 // eslint-disable-next-line unused-imports/no-unused-vars
-const Index: NextPageWithLayout<AppProps> = React.memo(() => {
+const Index: NextPageWithLayout<DefaultPageProps> = React.memo(() => {
   return <IndexPage />;
 });
 
-const getLayout = (page: ReactElement, { itemsAmount }: AppProps) => (
+const getLayout = (page: ReactElement, { itemsAmount }: DefaultPageProps) => (
   <Layout itemsAmount={itemsAmount}>
     <LocalBookmarksProvider>{page}</LocalBookmarksProvider>
   </Layout>

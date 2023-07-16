@@ -1,10 +1,9 @@
 'use strict';
 
-import React, { useEffect, ReactElement, ReactNode } from 'react';
-
 import { ApolloProvider } from '@apollo/client';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
+import React, { useEffect, ReactElement, ReactNode } from 'react';
 
 import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';

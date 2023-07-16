@@ -10,13 +10,14 @@ import { BookmarksPage } from '@/components/screen/BookmarksPage';
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { ResourceDataFromDB } from '@/types/data';
+import { DefaultPageProps } from '@/types/getStaticProps';
 
 // eslint-disable-next-line unused-imports/no-unused-vars
-const Bookmark: NextPageWithLayout = React.memo(() => {
+const Bookmark: NextPageWithLayout<DefaultPageProps> = React.memo(() => {
   return <BookmarksPage />;
 });
 
-const getLayout = (page: ReactElement, { itemsAmount }: AppProps) => (
+const getLayout = (page: ReactElement, { itemsAmount }: DefaultPageProps) => (
   <Layout itemsAmount={itemsAmount}>
     <LocalBookmarksProvider>{page}</LocalBookmarksProvider>
   </Layout>

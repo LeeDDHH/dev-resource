@@ -10,13 +10,14 @@ import { ListPage } from '@/components/screen/ListPage';
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { ResourceDataFromDB } from '@/types/data';
+import { DefaultPageProps } from '@/types/getStaticProps';
 
 // eslint-disable-next-line unused-imports/no-unused-vars
-const List: NextPageWithLayout<AppProps> = React.memo(() => {
+const List: NextPageWithLayout<DefaultPageProps> = React.memo(() => {
   return useMemo(() => <ListPage />, []);
 });
 
-const getLayout = (page: ReactElement, { itemsAmount }: AppProps) => (
+const getLayout = (page: ReactElement, { itemsAmount }: DefaultPageProps) => (
   <Layout itemsAmount={itemsAmount}>
     <LocalBookmarksProvider>{page}</LocalBookmarksProvider>
   </Layout>

@@ -8,6 +8,7 @@ import { TagsPage } from '@/components/screen/TagsPage';
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { ResourceDataFromDB } from '@/types/data';
+import { DefaultPageProps, TagsProps } from '@/types/getStaticProps';
 
 // eslint-disable-next-line unused-imports/no-unused-vars
 const Tags: NextPageWithLayout<TagsProps> = React.memo(({ tagCountList }: TagsProps) => {
@@ -20,7 +21,9 @@ const Tags: NextPageWithLayout<TagsProps> = React.memo(({ tagCountList }: TagsPr
   return <div className='m-auto mb-32 mt-5 max-w-6xl'>{renderView}</div>;
 });
 
-const getLayout = (page: ReactElement, { itemsAmount }: AppProps) => <Layout itemsAmount={itemsAmount}>{page}</Layout>;
+const getLayout = (page: ReactElement, { itemsAmount }: DefaultPageProps) => (
+  <Layout itemsAmount={itemsAmount}>{page}</Layout>
+);
 
 Tags.getLayout = getLayout;
 

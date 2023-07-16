@@ -1,9 +1,8 @@
 /* eslint-disable @typescript-eslint/no-misused-promises */
 'use strict';
 
-import React, { useState, useMemo, useEffect } from 'react';
-
 import { useRouter } from 'next/router';
+import React, { useState, useMemo, useEffect } from 'react';
 
 import { SearchBox } from '@/components/common/stateless/SearchBox';
 import { SearchedResult } from '@/components/parts/stateless/SearchedResult';

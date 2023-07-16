@@ -1,8 +1,8 @@
-declare type AppProps = {
+export type DefaultPageProps = {
   itemsAmount: number;
 };
 
-declare type TagsProps = {
+export type TagsProps = {
   itemsAmount: number;
   tagCountList: TagCountList;
 };

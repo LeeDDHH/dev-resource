@@ -1,10 +1,11 @@
 'use strict';
 
 import React from 'react';
-
 import { BiSearchAlt2 } from 'react-icons/bi';
 
 import { handleEnterInputEvent } from '@/lib/keyboardEvents';
+
+import { SetStateActionDispatcher } from '@/types/react';
 
 type Props = {
   value: string;

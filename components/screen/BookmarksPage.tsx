@@ -1,8 +1,7 @@
 'use strict';
 
-import React from 'react';
-
 import { useQuery } from '@apollo/client';
+import React from 'react';
 
 import { useBookmarks } from '@/hooks/useLocalBookmarks';
 
@@ -18,7 +17,6 @@ import {
 
 import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
-
 
 export const BookmarksPage = React.memo(() => {
   const { bookmarks } = useBookmarks();

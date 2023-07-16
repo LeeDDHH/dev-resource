@@ -1,7 +1,6 @@
 'use strict';
 
 import React from 'react';
-
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 import { HamburgerMenuList } from '@/components/parts/stateless/HamburgerMenuList';
