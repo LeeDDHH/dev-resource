@@ -3,9 +3,9 @@ import { jsonFileExchange, readFileSync } from '@/lib/utils';
 
 import { ResourceData, SequenceResourceData } from '@/types/data';
 
-let newDBObj: { resource: SequenceResourceData[] } = { resource: [] };
+const newDBObj: { resource: SequenceResourceData[] } = { resource: [] };
 
-const data = JSON.parse(readFileSync(originDataJsonPath));
+const data = JSON.parse(readFileSync(originDataJsonPath)) as ResourceDataFroDB;
 
 const sequenceIdData: SequenceResourceData[] = data.resource.map((v: ResourceData, i: number) => ({ ...v, id: i }));
 

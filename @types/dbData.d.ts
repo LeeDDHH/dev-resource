@@ -7,3 +7,5 @@ declare type SingleData = {
 };
 
 declare type Resource = SingleData[];
+
+declare type ResourceDataFroDB = { resource: Resource }

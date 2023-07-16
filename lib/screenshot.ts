@@ -72,7 +72,7 @@ const getScreenshotFromSpecifiedUrlsAndResourceData = async ({
   return { retryScreenshotUrlList, uniqueUrlObjList };
 };
 
-(async () => {
+void (async () => {
   let uniqueUrlObjList: ResourceData[];
   let urls = splitUrlData();
   if (!urls.length) return;

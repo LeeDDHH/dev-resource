@@ -2,15 +2,16 @@
 
 import React, { ReactElement } from 'react';
 
+import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
+
 import Layout from '@/components/layout/Layout';
 import { BookmarksPage } from '@/components/screen/BookmarksPage';
 
 import type { NextPageWithLayout } from '@/pages/_app';
 
-import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
 
 // eslint-disable-next-line unused-imports/no-unused-vars
-const Bookmark: NextPageWithLayout<AppProps> = React.memo(({ itemsAmount }) => {
+const Bookmark: NextPageWithLayout = React.memo(() => {
   return <BookmarksPage />;
 });
 
@@ -25,8 +26,10 @@ Bookmark.getLayout = getLayout;
 if (process.env.NODE_ENV !== 'production') Bookmark.displayName = 'Bookmark';
 export default Bookmark;
 
+// eslint-disable-next-line @typescript-eslint/require-await
 export const getStaticProps = async () => {
-  const itemsAmount = (require('@/data/db.json').resource as Resource).length;
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const itemsAmount = (require('@/data/db.json') as ResourceDataFroDB).resource.length;
 
   return {
     props: {

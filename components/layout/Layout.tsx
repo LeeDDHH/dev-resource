@@ -2,11 +2,12 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 
+import useMediaQuery from '@/hooks/useMediaQuery';
+
 import { LinkList } from '@/components/common/stateless/LinkList';
 import HeadComponent from '@/components/layout/HeadComponent';
 import { MobileHamburgerMenu } from '@/components/parts/stateless/MobileHamburgerMenu';
 
-import useMediaQuery from '@/hooks/useMediaQuery';
 
 type Props = {
   itemsAmount: number;

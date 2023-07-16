@@ -1,6 +1,12 @@
 {
+  "root": true,
   "extends": [
+    "eslint:recommended",
     "plugin:@next/next/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
     "plugin:tailwindcss/recommended",
     "plugin:storybook/recommended"
@@ -8,11 +14,23 @@
   "settings": {
     "import/resolver": {
       "typescript": {}
+    },
+    "react": {
+      "version": "detect"
     }
   },
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "unused-imports", "simple-import-sort", "import"],
   "rules": {
+    "react/react-in-jsx-scope": "off",
     "no-unexpected-multiline": "error",
     "no-unreachable": "error",
     "@next/next/no-img-element": "off",
@@ -30,7 +48,7 @@
     "import/order": [
       "error",
       {
-        "groups": ["builtin", "external", "parent", "sibling", "index", "object", "type"],
+        "groups": ["builtin", "external", "internal", "parent", "sibling", "index", "object", "type"],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc",

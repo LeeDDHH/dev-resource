@@ -2,15 +2,16 @@
 
 import React, { useMemo, ReactElement } from 'react';
 
+import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
+
 import Layout from '@/components/layout/Layout';
 import { ListPage } from '@/components/screen/ListPage';
 
 import type { NextPageWithLayout } from '@/pages/_app';
 
-import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
 
 // eslint-disable-next-line unused-imports/no-unused-vars
-const List: NextPageWithLayout<AppProps> = React.memo(({ itemsAmount }) => {
+const List: NextPageWithLayout<AppProps> = React.memo(() => {
   return useMemo(() => <ListPage />, []);
 });
 
@@ -25,8 +26,10 @@ List.getLayout = getLayout;
 if (process.env.NODE_ENV !== 'production') List.displayName = 'List';
 export default List;
 
+// eslint-disable-next-line @typescript-eslint/require-await
 export const getStaticProps = async () => {
-  const itemsAmount = (require('@/data/db.json').resource as Resource).length;
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const itemsAmount = (require('@/data/db.json') as ResourceDataFroDB).resource.length;
 
   return {
     props: {

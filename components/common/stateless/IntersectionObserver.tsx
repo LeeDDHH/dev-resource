@@ -30,5 +30,5 @@ export const IntersectionObserverView = <T,>({ data, searchLimit, fetchMore }: P
     if (inView) await fetchMore(offsetAndLimit);
   };
 
-  return <InView onChange={async (inView) => await moreFetch(inView)} />;
+  return <InView onChange={(inView) => void moreFetch(inView)} />;
 };
