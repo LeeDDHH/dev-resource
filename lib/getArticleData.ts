@@ -107,11 +107,11 @@ const getData = async (context: BrowserContext, url: string) => {
 // 非同期通信で反復処理をする
 const getDataPromises = (context: BrowserContext, urls: string[]) => urls.map((line) => getData(context, line));
 
-(async () => {
+void (async () => {
   const urls = splitUrlData();
   if (!urls.length) return;
 
-  let originData = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
+  const originData = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
   let uniqueUrlList = generateUniqueURLList(originData.resource, urls);
   console.log('取得するUrlリスト');
   console.log(uniqueUrlList);

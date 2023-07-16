@@ -4,6 +4,8 @@ import React from 'react';
 
 import { useQuery } from '@apollo/client';
 
+import { useBookmarks } from '@/hooks/useLocalBookmarks';
+
 import { IntersectionObserverView } from '@/components/common/stateless/IntersectionObserver';
 import ItemListsView from '@/components/parts/stateless/ItemListsView';
 
@@ -17,7 +19,6 @@ import {
 import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
 
-import { useBookmarks } from '@/hooks/useLocalBookmarks';
 
 export const BookmarksPage = React.memo(() => {
   const { bookmarks } = useBookmarks();

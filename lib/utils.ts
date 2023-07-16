@@ -10,7 +10,7 @@ export const splitStringFromSpace = (text: string): string[] => text.toLowerCase
 // 英語（小文字）・数字をハイフン（-）でつなげる
 export const connectLowercaseAlphabetDigitsHyphenatedString = (text: string) =>
   text
-    .replace(/[^0-9a-z\ ]/gi, '')
+    .replace(/[^0-9a-z\\ ]/gi, '')
     .split(' ')
     .filter((stringValue: string) => stringValue.length)
     .join('-')

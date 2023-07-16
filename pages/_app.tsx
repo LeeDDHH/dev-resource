@@ -13,7 +13,8 @@ import type { NextPage } from 'next';
 
 import '@/styles/global.css';
 
-export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
+export type NextPageWithLayout<P = Record<string, never>, IP = P> = NextPage<P, IP> & {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   getLayout?: (page: ReactElement, props?: any) => ReactNode;
 };
 

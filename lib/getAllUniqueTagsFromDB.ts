@@ -6,7 +6,7 @@ import { ResourceData } from '@/types/data';
 // 完全一致にひっかかるとタグのノイズになりそうな単語
 const removeWardList = ['C', 'CS', 'Go', 'フィルター', '本'];
 
-const data = JSON.parse(readFileSync(originDataJsonPath));
+const data = JSON.parse(readFileSync(originDataJsonPath)) as ResourceDataFroDB;
 
 const exsitingAllTags: string[] = data.resource
   .map((v: ResourceData) => {

@@ -3,7 +3,7 @@ import { jsonFileExchange, readFileSync } from '@/lib/utils';
 
 import { ResourceData, JsonData } from '@/types/data';
 
-let newDBObj: { resource: ResourceData[] } = { resource: [] };
+const newDBObj: { resource: ResourceData[] } = { resource: [] };
 
 const data = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
 
