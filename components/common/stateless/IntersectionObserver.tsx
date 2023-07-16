@@ -1,8 +1,7 @@
 'use strict';
 
-import React from 'react';
-
 import { ApolloQueryResult } from '@apollo/client';
+import React from 'react';
 import { InView } from 'react-intersection-observer';
 
 type OffsetAndLimitType = {

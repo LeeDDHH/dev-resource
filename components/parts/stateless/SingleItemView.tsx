@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-array-constructor */
 'use strict';
 
-
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -12,7 +11,6 @@ import { useBookmarks } from '@/hooks/useLocalBookmarks';
 import TagView from '@/components/parts/stateless/TagView';
 
 import { Item } from '@/graphql/generated';
-
 
 type Props = { item: Item };
 

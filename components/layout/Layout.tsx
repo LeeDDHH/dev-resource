@@ -8,7 +8,6 @@ import { LinkList } from '@/components/common/stateless/LinkList';
 import HeadComponent from '@/components/layout/HeadComponent';
 import { MobileHamburgerMenu } from '@/components/parts/stateless/MobileHamburgerMenu';
 
-
 type Props = {
   itemsAmount: number;
   children: React.ReactNode;

@@ -1,6 +1,5 @@
 'use strict';
 
-
 import { ApolloProvider } from '@apollo/client';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
