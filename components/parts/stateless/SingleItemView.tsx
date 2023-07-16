@@ -6,7 +6,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
 
-
 import TagView from '@/components/parts/stateless/TagView';
 
 import { Item } from '@/graphql/generated';

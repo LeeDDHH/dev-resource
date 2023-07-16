@@ -17,7 +17,7 @@ export default function useMediaQuery(query: string) {
       return () => mediaQuery.removeEventListener('change', handler);
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [] // Empty array ensures effect is only run on mount and unmount
+    [], // Empty array ensures effect is only run on mount and unmount
   );
   return matches;
 }

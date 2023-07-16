@@ -40,7 +40,7 @@ export const LinkList = React.memo(() => {
         href={path.pathName}
         className={clsx(
           'flex text-gray-500',
-          router.asPath === path.pathName ? 'text-rod-yellow-300' : 'text-gray-500 hover:text-rod-yellow-300'
+          router.asPath === path.pathName ? 'text-rod-yellow-300' : 'text-gray-500 hover:text-rod-yellow-300',
         )}
         title={path.title}
       >

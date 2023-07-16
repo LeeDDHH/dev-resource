@@ -6,7 +6,6 @@ import { Tag } from '@/components/common/stateless/Tag';
 
 import { addKeywordToUrlQuery } from '@/lib/updateQuery';
 
-
 type Props = {
   tag: string[];
   itemId: number;

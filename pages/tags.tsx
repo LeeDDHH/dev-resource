@@ -12,7 +12,7 @@ const Tags: NextPageWithLayout<TagsProps> = React.memo(({ itemsAmount, tagCountL
   const renderView = useMemo(
     () => <TagsPage tagCountList={tagCountList} />,
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    []
+    [],
   );
 
   return <div className='m-auto mb-32 mt-5 max-w-6xl'>{renderView}</div>;

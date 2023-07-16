@@ -19,7 +19,7 @@ export const ItemAmountProvider = ({ children }: Props) => {
     () => ({
       itemsAmount: resource.resource.length,
     }),
-    []
+    [],
   );
 
   return <context.Provider value={value}>{children}</context.Provider>;

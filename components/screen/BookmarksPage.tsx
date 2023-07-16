@@ -4,7 +4,6 @@ import React from 'react';
 
 import { useQuery } from '@apollo/client';
 
-
 import { IntersectionObserverView } from '@/components/common/stateless/IntersectionObserver';
 import ItemListsView from '@/components/parts/stateless/ItemListsView';
 
