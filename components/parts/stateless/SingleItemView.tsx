@@ -21,12 +21,12 @@ const SingleItemView = React.memo(({ item }: Props) => {
       <div className='rounded-xl bg-rod-ivory px-5 pb-5 pt-1 text-rod-stone-800'>
         <div className='mt-2 flex items-center justify-end'>
           {bookmarks.includes(item.id as number) ? (
-            <BsBookmarkFill className='text-gray-500' onClick={() => handleBookmarks(item.id as number)} size={30} />
+            <BsBookmarkFill className='text-rod-red-500' onClick={() => handleBookmarks(item.id as number)} size={25} />
           ) : (
             <BsBookmark
-              className='text-gray-400 hover:text-gray-500'
+              className='text-gray-400 hover:text-rod-red-500'
               onClick={() => handleBookmarks(item.id as number)}
-              size={30}
+              size={25}
             />
           )}
         </div>
