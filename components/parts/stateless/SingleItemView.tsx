@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-array-constructor */
 'use strict';
 
-import React from 'react';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
 import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
 
 import { useBookmarks } from '@/hooks/useLocalBookmarks';

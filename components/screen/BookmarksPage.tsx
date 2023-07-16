@@ -1,8 +1,8 @@
 'use strict';
 
+import { useQuery } from '@apollo/client';
 import React from 'react';
 
-import { useQuery } from '@apollo/client';
 
 import { useBookmarks } from '@/hooks/useLocalBookmarks';
 
