@@ -37,3 +37,15 @@ export const SEARCH_WITH_OFFSET_AND_LIMIT = gql`
     }
   }
 `;
+
+export const BOOKMARK_WITH_OFFSET_AND_LIMIT = gql`
+  query BookmarkWithOffsetAndLimit($bookmarkList: [Int], $offset: Int, $limit: Int) {
+    bookmarkWithOffsetAndLimit(bookmarkList: $bookmarkList, offset: $offset, limit: $limit) {
+      id
+      name
+      url
+      description
+      tag
+    }
+  }
+`;

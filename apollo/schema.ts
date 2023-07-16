@@ -13,6 +13,7 @@ export const typeDefs = gql`
     items: [Item]
     search(text: String, offset: Int, limit: Int): [Item]
     searchWithOffsetAndLimit(offset: Int, limit: Int): [Item]
+    bookmarkWithOffsetAndLimit(bookmarkList: [Int], offset: Int, limit: Int): [Item]
   }
 
   input SortOrderByInput {

@@ -41,6 +41,22 @@ export const resolvers = {
         return [...db.resource];
       }
     },
+    bookmarkWithOffsetAndLimit: async (
+      _parent: any,
+      args: { bookmarkList: number[]; limit: number; offset: number },
+      _context: any,
+      _info: any
+    ) => {
+      const newResource = [...db.resource];
+      const bookmarks = args.bookmarkList.map((boookmarkIndex: number) => newResource[boookmarkIndex]);
+      if (args.limit && args.bookmarkList.length > 0) {
+        const start = args.offset;
+        const end = args.limit;
+        return bookmarks.slice(start, end);
+      } else {
+        return bookmarks;
+      }
+    },
     // NOTE: 検索する範囲を絞って検索パターンも作る
   },
 };

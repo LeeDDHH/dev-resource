@@ -13,6 +13,7 @@ const client = new ApolloClient({
           // https://www.apollographql.com/docs/react/pagination/offset-based/#setting-keyargs-with-offsetlimitpagination
           search: offsetLimitPagination(['text']),
           searchWithOffsetAndLimit: offsetLimitPagination(),
+          bookmarkWithOffsetAndLimit: offsetLimitPagination(),
         },
       },
     },
