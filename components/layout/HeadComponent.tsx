@@ -1,8 +1,7 @@
 'use strict';
 
-import React from 'react';
-
 import { NextSeo } from 'next-seo';
+import React from 'react';
 
 const HeadComponent = React.memo(() => {
   return (
