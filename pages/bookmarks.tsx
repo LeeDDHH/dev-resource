@@ -9,6 +9,7 @@ import { BookmarksPage } from '@/components/screen/BookmarksPage';
 
 import type { NextPageWithLayout } from '@/pages/_app';
 
+import { ResourceDataFromDB } from '@/types/data';
 
 // eslint-disable-next-line unused-imports/no-unused-vars
 const Bookmark: NextPageWithLayout = React.memo(() => {
@@ -29,7 +30,7 @@ export default Bookmark;
 // eslint-disable-next-line @typescript-eslint/require-await
 export const getStaticProps = async () => {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const itemsAmount = (require('@/data/db.json') as ResourceDataFroDB).resource.length;
+  const itemsAmount = (require('@/data/db.json') as ResourceDataFromDB).resource.length;
 
   return {
     props: {
