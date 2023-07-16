@@ -2,6 +2,8 @@
 
 import React from 'react';
 
+import { GiHamburgerMenu } from 'react-icons/gi';
+
 import { HamburgerMenuList } from '@/components/parts/stateless/HamburgerMenuList';
 
 type Props = {
@@ -27,12 +29,7 @@ export const MobileHamburgerMenu = React.memo(({ menuToggle, openMenu }: Props) 
       aria-label='sp hamburger menu'
       onClick={menuToggle}
     >
-      <svg viewBox='0 0 24 24' className='h-10 w-10 fill-current'>
-        <path
-          fillRule='evenodd'
-          d='M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z'
-        ></path>
-      </svg>
+      <GiHamburgerMenu className='h-10 w-10 fill-current' />
     </button>
   );
 

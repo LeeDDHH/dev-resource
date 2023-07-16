@@ -8,4 +8,4 @@ declare type SingleData = {
 
 declare type Resource = SingleData[];
 
-declare type ResourceDataFroDB = { resource: Resource }
+declare type ResourceDataFromDB = { resource: Resource };
