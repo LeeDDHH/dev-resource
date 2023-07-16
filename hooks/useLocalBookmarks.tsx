@@ -22,6 +22,9 @@ const LocalBookmarksProvider = ({ children }: { children: React.ReactNode }) => 
    * - 値が存在しない場合は defaultValue を使用する
    */
   const [bookmarks, setBookmarks] = useState<number[]>(() => {
+    if (typeof window === 'undefined') {
+      return localStorageHooksInfo.bookmarks.defaultValue;
+    }
     try {
       const storedValue = localStorage.getItem(localStorageHooksInfo.bookmarks.key);
       return storedValue ? JSON.parse(storedValue) : localStorageHooksInfo.bookmarks.defaultValue;
@@ -33,11 +36,17 @@ const LocalBookmarksProvider = ({ children }: { children: React.ReactNode }) => 
 
   // localStorage 値が変更されるたびに更新する
   useEffect(() => {
-    try {
-      localStorage.setItem(localStorageHooksInfo.bookmarks.key, JSON.stringify(bookmarks));
-    } catch (error) {
-      console.error('Error storing value in localStorage:', error);
-    }
+    const listener = (e: StorageEvent) => {
+      try {
+        localStorage.setItem(localStorageHooksInfo.bookmarks.key, JSON.stringify(bookmarks));
+      } catch (error) {
+        console.error('Error storing value in localStorage:', error);
+      }
+    };
+    window.addEventListener('storage', listener);
+    return () => {
+      window.removeEventListener('storage', listener);
+    };
   }, [bookmarks]);
 
   // お気に入りのアイテムのIDをトグルする
@@ -49,7 +58,7 @@ const LocalBookmarksProvider = ({ children }: { children: React.ReactNode }) => 
         setBookmarks(() => [...bookmarks, bookmarkId]);
       }
     },
-    [bookmarks]
+    [bookmarks],
   );
 
   const value: ContextValue = useMemo(
@@ -57,7 +66,7 @@ const LocalBookmarksProvider = ({ children }: { children: React.ReactNode }) => 
       bookmarks,
       handleBookmarks,
     }),
-    [bookmarks, handleBookmarks]
+    [bookmarks, handleBookmarks],
   );
   return <_LocalBookmarksContext.Provider value={value}>{children}</_LocalBookmarksContext.Provider>;
 };

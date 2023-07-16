@@ -4,7 +4,7 @@ import { ResourceData } from '@/types/data';
 
 // playwrightでchromiumブラウザとブラウザのコンテキストを返す
 export const createChromiumBrowserAndContext = async (
-  isHeadless: boolean = true
+  isHeadless: boolean = true,
 ): Promise<{
   browser: Browser;
   context: BrowserContext;

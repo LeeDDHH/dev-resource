@@ -23,7 +23,7 @@ export const resolvers = {
           (source) =>
             isSearchKeywordIncludedToName(splitedString, source.name) ||
             isSearchKeywordIncludedToDescription(splitedString, source.description) ||
-            isSearchKeywordIncludedToTags(splitedString, source.tag)
+            isSearchKeywordIncludedToTags(splitedString, source.tag),
         )
         .slice(offset, limit);
     },
@@ -31,7 +31,7 @@ export const resolvers = {
       _parent: any,
       args: { limit: number; offset: number },
       _context: any,
-      _info: any
+      _info: any,
     ) => {
       if (args.limit) {
         const start = args.offset;
@@ -45,7 +45,7 @@ export const resolvers = {
       _parent: any,
       args: { bookmarkList: number[]; limit: number; offset: number },
       _context: any,
-      _info: any
+      _info: any,
     ) => {
       const newResource = [...db.resource];
       const dataMaxIndex = newResource.length - 1;

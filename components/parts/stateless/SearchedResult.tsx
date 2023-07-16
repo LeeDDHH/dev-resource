@@ -27,7 +27,7 @@ export const SearchedResult = React.memo(({ searchText }: Props) => {
   };
   const { data, loading, error, fetchMore } = useQuery<GetDataWithSearchTextQuery, GetDataWithSearchTextQueryVariables>(
     GetDataWithSearchTextDocument,
-    value
+    value,
   );
 
   if (loading) {

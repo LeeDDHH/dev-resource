@@ -1,6 +1,6 @@
 {
   "extends": [
-    "next/core-web-vitals",
+    "plugin:@next/next/recommended",
     "prettier",
     "plugin:tailwindcss/recommended",
     "plugin:storybook/recommended"
@@ -11,14 +11,7 @@
     }
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "react",
-    "react-hooks",
-    "@typescript-eslint",
-    "unused-imports",
-    "simple-import-sort",
-    "import"
-  ],
+  "plugins": ["react", "react-hooks", "@typescript-eslint", "unused-imports", "simple-import-sort", "import"],
   "rules": {
     "no-unexpected-multiline": "error",
     "no-unreachable": "error",
@@ -37,15 +30,7 @@
     "import/order": [
       "error",
       {
-        "groups": [
-          "builtin",
-          "external",
-          "parent",
-          "sibling",
-          "index",
-          "object",
-          "type"
-        ],
+        "groups": ["builtin", "external", "parent", "sibling", "index", "object", "type"],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc",

@@ -6,9 +6,9 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { AiFillTags } from 'react-icons/ai';
+import { BsBookmarkFill } from 'react-icons/bs';
 import { FaThList } from 'react-icons/fa';
 import { HiHome } from 'react-icons/hi';
-import { BsBookmarkFill } from 'react-icons/bs';
 
 type Path = {
   pathName: string;
@@ -40,7 +40,7 @@ export const LinkList = React.memo(() => {
         href={path.pathName}
         className={clsx(
           'flex text-gray-500',
-          router.asPath === path.pathName ? 'text-rod-yellow-300' : 'text-gray-500 hover:text-rod-yellow-300'
+          router.asPath === path.pathName ? 'text-rod-yellow-300' : 'text-gray-500 hover:text-rod-yellow-300',
         )}
         title={path.title}
       >
