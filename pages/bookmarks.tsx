@@ -3,13 +3,13 @@
 import React, { ReactElement } from 'react';
 
 import Layout from '@/components/layout/Layout';
-import { IndexPage } from '@/components/screen/IndexPage';
+import { BookmarksPage } from '@/components/screen/BookmarksPage';
 import type { NextPageWithLayout } from '@/pages/_app';
 
 import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
 
-const Index: NextPageWithLayout<AppProps> = React.memo(({ itemsAmount }) => {
-  return <IndexPage />;
+const Bookmark: NextPageWithLayout<AppProps> = React.memo(({ itemsAmount }) => {
+  return <BookmarksPage />;
 });
 
 const getLayout = (page: ReactElement, { itemsAmount }: AppProps) => (
@@ -18,10 +18,10 @@ const getLayout = (page: ReactElement, { itemsAmount }: AppProps) => (
   </Layout>
 );
 
-Index.getLayout = getLayout;
+Bookmark.getLayout = getLayout;
 
-if (process.env.NODE_ENV !== 'production') Index.displayName = 'Index';
-export default Index;
+if (process.env.NODE_ENV !== 'production') Bookmark.displayName = 'Bookmark';
+export default Bookmark;
 
 export const getStaticProps = async () => {
   const itemsAmount = (require('@/data/db.json').resource as Resource).length;

@@ -1,0 +1,9 @@
+query BookmarkWithOffsetAndLimit($bookmarkList: [Int], $offset: Int, $limit: Int) {
+  bookmarkWithOffsetAndLimit(bookmarkList: $bookmarkList, offset: $offset, limit: $limit) {
+    id
+    name
+    url
+    description
+    tag
+  }
+}

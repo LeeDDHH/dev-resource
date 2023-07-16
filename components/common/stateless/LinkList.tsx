@@ -8,6 +8,7 @@ import { useRouter } from 'next/router';
 import { AiFillTags } from 'react-icons/ai';
 import { FaThList } from 'react-icons/fa';
 import { HiHome } from 'react-icons/hi';
+import { BsBookmarkFill } from 'react-icons/bs';
 
 type Path = {
   pathName: string;
@@ -17,9 +18,15 @@ type Path = {
 };
 
 const paths = [
-  { pathName: '/', title: '検索ページ', name: '検索', component: <HiHome size='2rem' /> },
-  { pathName: '/list', title: '閲覧ページ', name: '閲覧', component: <FaThList size='1.5rem' /> },
-  { pathName: '/tags', title: 'タグページ', name: 'タグ', component: <AiFillTags size='1.8rem' /> },
+  { pathName: '/', title: '検索ページ', name: '検索', component: <HiHome size={30} /> },
+  { pathName: '/list', title: '閲覧ページ', name: '閲覧', component: <FaThList size={25} /> },
+  { pathName: '/tags', title: 'タグページ', name: 'タグ', component: <AiFillTags size={30} /> },
+  {
+    pathName: '/bookmarks',
+    title: 'ブックマークページ',
+    name: 'ブックマーク',
+    component: <BsBookmarkFill size={25} />,
+  },
 ];
 
 /**

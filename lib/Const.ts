@@ -2,8 +2,6 @@
 
 import path from 'path';
 
-import db from '@/data/db.json';
-
 export const GA_TRACKING_ID = process.env.GA_TRACKING_ID;
 export const NODE_ENV = process.env.NODE_ENV;
 
@@ -18,3 +16,7 @@ export const dbTagsJsonPath = path.resolve(dataPath, 'db_tags.json');
 export const tagCountDataJsonPath = path.resolve(dataPath, 'db_tagCount.json');
 
 export const searchLimit = 12;
+
+export const localStorageHooksInfo = {
+  bookmarks: { key: 'v1:bookmarks', defaultValue: [] },
+};
