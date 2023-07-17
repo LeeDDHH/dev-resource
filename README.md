@@ -54,7 +54,7 @@ yarn mv-screenshots
 
 ## タグ一覧の更新
 
-```
+```shell
 // db_origin.jsonをもとに、ユニークなタグの配列ををdb_tags.jsonに保存する
 yarn add-new-data
 ```
@@ -76,3 +76,20 @@ yarn add-new-data
   - リゾルバで解決しようとするロジック
 - `pages/api/graphql.ts`
   - バック側で扱う GraphQL の Apollo サーバー
+
+## 分析・解析
+
+### ビルドにかかった時間を解析
+
+- [Next.js 製アプリケーションのコンパイルを約 100 倍高速化した話](https://zenn.dev/mkt/articles/543669021d9a1e)
+  - `.next/trace`
+    - Next.js はプロセスの終了時に吐き出す機構
+    - コンパイルの種類とコンパイルにかかった時間（duration）が記載されている
+    - [NextJs compiling extremely slow · Issue #29559 · vercel/next.js](https://github.com/vercel/next.js/issues/29559#issuecomment-938431883)
+- [next.js/scripts/trace-to-tree.mjs at canary · vercel/next.js](https://github.com/vercel/next.js/blob/canary/scripts/trace-to-tree.mjs)
+  - trace ファイルのパスをパラメタとして渡すことで各処理時間をツリー構造で表示してくれる
+- `event-stream` パッケージが必要だったため、追加でインストール済み
+
+```shell
+yarn trace-tree
+```

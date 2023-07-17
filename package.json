@@ -41,7 +41,8 @@
     "mv-screenshots": "mv screenshots/*.png public/images",
     "add-contents": "run-s add-new-data add-tag-data count-tag add-id-data screenshots compress-png mv-screenshots",
     "sb": "storybook dev -p 6006",
-    "build:sb": "storybook build"
+    "build:sb": "storybook build",
+    "trace-tree": "ts-node lib/nextjs/trace-to-tree.mjs .next/trace"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "4.0.1",
@@ -79,6 +80,7 @@
     "eslint-plugin-storybook": "^0.6.12",
     "eslint-plugin-tailwindcss": "^3.13.0",
     "eslint-plugin-unused-imports": "^3.0.0",
+    "event-stream": "^4.0.1",
     "free-translate": "^0.6.1",
     "imagemin": "^8.0.1",
     "imagemin-pngquant": "^9.0.2",
