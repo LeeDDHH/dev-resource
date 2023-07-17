@@ -93,3 +93,22 @@ yarn add-new-data
 ```shell
 yarn trace-tree
 ```
+
+### バンドル時のファイルサイズを解析
+
+- `@next/bundle-analyzer` でバンドルサイズを解析する
+- `.next\analyze\client.html`
+  - ブラウザ側で使用される Js、Css のサイズを表示する
+- サイズの種類
+  - Stat size
+    - アプリを実行するためにブラウザがダウンロードして実行する必要がある JavaScript のサイズ
+  - Parsed size
+    - JavaScript 実行後に Web ブラウザーで占有されるメモリの量
+  - Gzipped size
+    - アプリを実行するためにブラウザがダウンロードして実行する必要がある JavaScript(Gzip アルゴリズムを使用して圧縮済み)
+- [Next.js のアプリケーションでバンドルサイズを改善した話 | masayanblog](https://maasaablog.com/development/frontend/nextjs/6361/)
+- [@next/bundle-analyzer が本番環境で読み込まれないようにする](https://zenn.dev/catnose99/scraps/661d77118aa2af)
+
+```shell
+yarn analyze-bundle
+```

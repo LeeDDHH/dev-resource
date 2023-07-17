@@ -42,7 +42,8 @@
     "add-contents": "run-s add-new-data add-tag-data count-tag add-id-data screenshots compress-png mv-screenshots",
     "sb": "storybook dev -p 6006",
     "build:sb": "storybook build",
-    "trace-tree": "ts-node lib/nextjs/trace-to-tree.mjs .next/trace"
+    "trace-tree": "ts-node lib/nextjs/trace-to-tree.mjs .next/trace",
+    "analyze-bundle": "ANALYZE=true next build"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "4.0.1",
@@ -51,6 +52,7 @@
     "@graphql-codegen/typed-document-node": "^5.0.1",
     "@graphql-codegen/typescript": "^4.0.1",
     "@graphql-codegen/typescript-operations": "^4.0.1",
+    "@next/bundle-analyzer": "^13.4.10",
     "@next/eslint-plugin-next": "^13.4.10",
     "@storybook/addon-essentials": "^7.0.27",
     "@storybook/addon-interactions": "^7.0.27",
