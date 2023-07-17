@@ -7,18 +7,21 @@
 |         名前         | バージョン |
 | :------------------: | :--------: |
 |       Node.js        |  18.12.0   |
-|         npm          |   8.19.2   |
-|       next.js        |   13.2.4   |
+|         npm          |   9.6.6    |
+|    @apollo/client    |   3.7.17   |
+|    @apollo/server    |   4.7.5    |
+|       graphql        |   16.7.1   |
+|       next.js        |  13.4.10   |
 |        react         |   18.2.0   |
 |      react-dom       |   18.2.0   |
-|       graphql        |   16.6.0   |
-|    @apollo/client    |   3.7.3    |
-|    @apollo/server    |   4.3.0    |
-| @graphql-codegen/cli |   2.16.2   |
-|        eslint        |   8.36.0   |
-|       pretter        |   2.8.7    |
-|      typescript      |   5.0.2    |
-|      storybook       |   7.0.26   |
+| @graphql-codegen/cli |   4.0.1    |
+|        eslint        |   8.45.0   |
+|       kuromoji       |   0.1.2    |
+|      playwright      |   1.36.1   |
+|       pretter        |   2.8.8    |
+|      storybook       |   7.0.27   |
+|     tailwindcss      |   3.3.3    |
+|      typescript      |   5.1.6    |
 
 ## コマンド
 
