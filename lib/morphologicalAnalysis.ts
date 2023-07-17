@@ -3,7 +3,7 @@ import { builder, IpadicFeatures, Tokenizer, TokenizerBuilder } from 'kuromoji';
 /**
  * @description 辞書データを読み込んだ日本語形態素解析モジュールを返す
  */
-const defaultBuilder: TokenizerBuilder<IpadicFeatures> = builder({ dicPath: 'node_modules/kuromoji/dict' });
+const defaultBuilder: TokenizerBuilder<IpadicFeatures> = builder({ dicPath: 'lib/mecab-dict' });
 
 /**
  * @description 文章を単語（＝トークン）に分解する非同期関数を返す
