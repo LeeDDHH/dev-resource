@@ -29734,6 +29734,319 @@
       "url": "https://www.youtube.com/shorts/wpfxq0LzHB4",
       "description": "下町ロケット植松努氏感動スピーチ【生きるのが辛いあなたに聞いてほしい】マインド・名言・格言・夢を叶える・努力 - YouTube",
       "tag": ["Youtube"]
+    },
+    {
+      "name": "spoqa-technology-blog-until-spoka-achieved-its-goal-with-okr",
+      "url": "https://spoqa.github.io/2020/05/08/okr-to-goal.html",
+      "description": "SPOQAテクノロジーブログ| SpokaがOKRで目標を達成するまで。",
+      "tag": ["OKR", "ブログ", "ログ", "目標"]
+    },
+    {
+      "name": "chromium-blog-protecting-against-resourceheavy-ads-in-chrome",
+      "url": "https://blog.chromium.org/2020/05/resource-heavy-ads-in-chrome.html",
+      "description": "Chromiumブログ：Chromeのリソースが多い広告から保護します",
+      "tag": ["Chrome", "Chromium", "HR", "ブログ", "ログ", "広告"]
+    },
+    {
+      "name": "unexpected-http-headers-geeknews",
+      "url": "https://news.hada.io/topic?id=2088",
+      "description": "予期しないHTTPヘッダー| オタク",
+      "tag": ["HTTP"]
+    },
+    {
+      "name": "xpcss-a-design-system-for-building-faithful-recreations-of-old-uis",
+      "url": "https://botoxparty.github.io/XP.css/",
+      "description": "XP.CSS-古いUIの忠実なレクリエーションを構築するための設計システム",
+      "tag": ["CSS", "UI", "システム", "構築", "設計"]
+    },
+    { "name": "tacit", "url": "https://yegor256.github.io/tacit/", "description": "暗黙", "tag": [] },
+    {
+      "name": "mvpcss-minimalist-stylesheet-for-html-elements",
+      "url": "https://andybrewer.github.io/mvp/",
+      "description": "MVP.CSS -HTML要素のミニマリストスタイルシート",
+      "tag": ["CSS", "HTML", "html", "リスト"]
+    },
+    {
+      "name": "getting-started-with-rust-by-building-a-tiny-markdown-compiler",
+      "url": "http://web.archive.org/web/20230325071450/https://jesselawson.org/rust/getting-started-with-rust-by-building-a-tiny-markdown-compiler/",
+      "description": "小さなマークダウンコンパイラを構築することでさびを始めましょう",
+      "tag": ["マークダウン", "構築"]
+    },
+    {
+      "name": "github-jesselawsongettingstartedwithrust-getting-started-with-rust-is-a-free-online-opensource-book-where-you-learn-rust-by-building-a-zerodependency-markdown-compiler",
+      "url": "https://github.com/jesselawson/getting-started-with-rust",
+      "description": "Github-Jesselawson/Getting-started-with-rust：Getting of Rustは無料のオンラインのオープンソースの本で、ゼロ依存のマークダウンコンパイラを構築することでRustを学ぶことができます。",
+      "tag": ["AWS", "Git", "GitHub", "Rust", "マークダウン", "構築", "無料"]
+    },
+    {
+      "name": "getting-started-with-rust-by-building-a-tiny-markdown-compiler-hacker-news",
+      "url": "https://news.ycombinator.com/item?id=23206660",
+      "description": "小さなマークダウンコンパイラを構築することでさびを始めましょう| ハッカーニュース",
+      "tag": ["ハッカー", "マークダウン", "構築"]
+    },
+    {
+      "name": "getting-started-with-programming-in-rust",
+      "url": "https://jesselawson.github.io/getting-started-with-rust/",
+      "description": "錆のプログラミングを始めましょう",
+      "tag": ["プログラミング", "ログ"]
+    },
+    {
+      "name": "starting-with-firefox-77-it-is-not-cut-off-even-if-you-paste-a-string-over-maxlength-in-the-input-window-geeknews",
+      "url": "https://news.hada.io/topic?id=2101",
+      "description": "Firefox 77から始めて、入力ウィンドウのMaxLengthに文字列を貼り付けても遮断されません| オタク",
+      "tag": ["文字列"]
+    },
+    {
+      "name": "google-cloud-reference-architecture-summary-13daysofgcp-geeknews",
+      "url": "https://news.hada.io/topic?id=2099",
+      "description": "Googleクラウドリファレンスアーキテクチャの概要＃13daysofgcp | オタク",
+      "tag": ["3D", "Google", "アーキテクチャ", "概要"]
+    },
+    {
+      "name": "from-node-to-deno-geeknews",
+      "url": "https://news.hada.io/topic?id=2103",
+      "description": "ノードからデノへ| オタク",
+      "tag": []
+    },
+    {
+      "name": "markdown-tutorial",
+      "url": "https://www.markdowntutorial.com/kr/",
+      "description": "マークダウンチュートリアル",
+      "tag": ["チュートリアル", "マークダウン"]
+    },
+    {
+      "name": "blush-unslpash-for-illustrations-geeknews",
+      "url": "https://news.hada.io/topic?id=2106",
+      "description": "赤面 - イラストのためのunslpash | オタク",
+      "tag": ["イラスト"]
+    },
+    {
+      "name": "open-peeps-hand-drawn-illustration-library-geeknews",
+      "url": "https://news.hada.io/topic?id=1715",
+      "description": "PEEPS -HAND -DRAWN ILLUSTRATIONライブラリ| オタク",
+      "tag": ["ライブラリ"]
+    },
+    {
+      "name": "open-doodles-free-sketch-illustration-collection-geeknews",
+      "url": "https://news.hada.io/topic?id=753",
+      "description": "Open Doodles -Free Sketch Illustration Collection | オタク",
+      "tag": ["etc"]
+    },
+    {
+      "name": "dropin-minimal-css",
+      "url": "https://dohliam.github.io/dropin-minimal-css/",
+      "description": "ドロップインミニマルCSS",
+      "tag": ["CSS"]
+    },
+    {
+      "name": "13-security-tips-for-frontend-app-better-programming",
+      "url": "https://betterprogramming.pub/frontend-app-security-439797f57892",
+      "description": "フロントエンドアプリのセキュリティのヒント| より良いプログラミング",
+      "tag": ["アプリ", "セキュリティ", "フロントエンド", "プログラミング", "ログ"]
+    },
+    {
+      "name": "security-tips-for-front-end-developers-geeknews",
+      "url": "https://news.hada.io/topic?id=2082",
+      "description": "フロントエンド開発者向けのセキュリティのヒント| オタク",
+      "tag": ["セキュリティ", "フロントエンド", "開発", "開発者"]
+    },
+    {
+      "name": "lets-apply-my-daliy-coding-time-to-the-github-profile-fernando-technology-blog",
+      "url": "https://fernando.kr/develop/2020-05-02-github-gist-posting/",
+      "description": "GitHubプロファイルに私のDALIYコーディング時間を適用しましょう！ | フェルナンドテクノロジーブログ",
+      "tag": ["Git", "GitHub", "コーディング", "ブログ", "ログ"]
+    },
+    {
+      "name": "why-netflix-changed-image-processing-to-aws-lambda-geeknews",
+      "url": "https://news.hada.io/topic?id=2089",
+      "description": "Netflixが画像処理をAWS Lambdaに変更した理由| オタク",
+      "tag": ["AWS", "画像"]
+    },
+    {
+      "name": "gsap-greensock-animation-platform-geeknews",
+      "url": "https://news.hada.io/topic?id=2086",
+      "description": "GSAP -Greensockアニメーションプラットフォーム| オタク",
+      "tag": ["アニメーション", "プラットフォーム"]
+    },
+    {
+      "name": "twitter-sm_park-1261195017118347265",
+      "url": "https://twitter.com/sm_park/status/1261195017118347265",
+      "description": " Sang-Min/Sang-Min Park：「FacebookとGoogleでのエンジニアリングの比較。https：//t.co/eykvoofdxmは本当に良いです。要約。」 / ツイッター",
+      "tag": ["Facebook", "Google", "HTTP", "エンジニア", "エンジニアリング", "比較", "要約", "twitter"]
+    },
+    {
+      "name": "facebook-vs-google-10-contrasts-for-engineering-careers",
+      "url": "https://www.linkedin.com/pulse/facebook-vs-google-10-contrasts-engineering-careers-michael-mcnally/?trackingId=TgYhosU9R7aL5dZAPrPlIQ%3D%3D",
+      "description": "Facebook vs. Google：エンジニアリングキャリアの10のコントラスト",
+      "tag": ["Facebook", "Google", "エンジニア", "エンジニアリング", "キャリア"]
+    },
+    {
+      "name": "i-distributed-my-books-for-free-so-the-sales-have-increased-four-times-geeknews",
+      "url": "https://news.hada.io/topic?id=2090",
+      "description": "私は自分の本を無料で配布したので、売上は4回増加しました| オタク",
+      "tag": ["無料"]
+    },
+    {
+      "name": "leanpub-publish-early-publish-often",
+      "url": "https://leanpub.com/",
+      "description": "LEANPUB：早めに公開し、頻繁に公開します",
+      "tag": ["公開"]
+    },
+    {
+      "name": "gumroad-sell-what-you-know-and-see-what-sticks",
+      "url": "https://gumroad.com/",
+      "description": "ガムロード - あなたが知っていることを売って、何が貼り付いているかを見る",
+      "tag": []
+    },
+    {
+      "name": "i-gave-away-my-books-for-free-and-sales-increased-4x-jeff-geerling",
+      "url": "https://www.jeffgeerling.com/blog/2020/i-gave-away-my-books-free-and-sales-increased-4x",
+      "description": "私は無料で本を渡しました、そして、売り上げは4x | ジェフ・ギアリング",
+      "tag": ["無料"]
+    },
+    {
+      "name": "attricss-a-classless-css-framework-for-beautiful-websites",
+      "url": "https://raj457036.github.io/attriCSS/",
+      "description": "Attricss-美しいウェブサイトのクラスレスCSSフレームワーク",
+      "tag": ["CSS", "クラス", "サイト", "フレームワーク"]
+    },
+    {
+      "name": "eight-years-of-developer-life-retrospective-1",
+      "url": "https://jaeyo.github.io/look-back-on-8-years-1/",
+      "description": "開発者生活の8年間のレトロスペクティブ（1）",
+      "tag": ["生活", "開発", "開発者"]
+    },
+    {
+      "name": "from-node-to-deno-dev-community",
+      "url": "https://dev.to/aralroca/from-node-to-deno-5gpn",
+      "description": "ノードからデノへ - 開発コミュニティ",
+      "tag": ["コミュニティ", "開発"]
+    },
+    {
+      "name": "10-most-common-mistakes-using-kubernetespipetail-blog",
+      "url": "https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/",
+      "description": "Kubernetesを使用した10の最も一般的な間違い -  Pipetailブログ",
+      "tag": ["AI", "IP", "ブログ", "ログ"]
+    },
+    {
+      "name": "blush-illustrations-for-everyone",
+      "url": "https://blush.design/",
+      "description": "赤面：みんなのイラスト",
+      "tag": ["イラスト"]
+    },
+    {
+      "name": "open-peeps-handdrawn-illustration-library",
+      "url": "https://www.openpeeps.com/",
+      "description": "覗き見、手描きのイラストライブラリ",
+      "tag": ["イラスト", "ライブラリ"]
+    },
+    {
+      "name": "experience-story-that-failed-to-make-a-company-1-article-geeknews",
+      "url": "https://news.hada.io/topic?id=2",
+      "description": "会社を作ることに失敗した物語を体験してください1記事| オタク",
+      "tag": ["記事"]
+    },
+    {
+      "name": "reflecting-on-my-failure-to-build-a-billiondollar-company-by-sahil-lavingia-marker",
+      "url": "https://marker.medium.com/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7",
+      "description": "10億ドルの会社の構築に失敗したことを振り返る| Sahil Lavingiaによる| マーカー",
+      "tag": ["構築"]
+    },
+    {
+      "name": "open-source-illustrations-100-geeknews",
+      "url": "https://news.hada.io/topic?id=945",
+      "description": "オープンソースイラスト100 | オタク",
+      "tag": ["イラスト"]
+    },
+    {
+      "name": "undraw-vector-illustration-collection-for-free-available-geeknews",
+      "url": "https://news.hada.io/topic?id=271",
+      "description": "UNDRAW、無料で利用可能なベクトルイラストコレクション| オタク",
+      "tag": ["イラスト", "無料"]
+    },
+    {
+      "name": "doordash-and-pizza-arbitrage-geeknews",
+      "url": "https://news.hada.io/topic?id=2110",
+      "description": "DoordashとPizza Arbitrage | オタク",
+      "tag": []
+    },
+    {
+      "name": "minimal-css-framework-collection-geeknews",
+      "url": "https://news.hada.io/topic?id=2107",
+      "description": "最小限のCSSフレームワークコレクション| オタク",
+      "tag": ["CSS", "フレームワーク"]
+    },
+    {
+      "name": "php-the-right-way",
+      "url": "https://modernpug.github.io/php-the-right-way/",
+      "description": "PHP：正しい方法",
+      "tag": ["PHP"]
+    },
+    {
+      "name": "why-is-the-website-scanning-my-port-geeknews",
+      "url": "https://news.hada.io/topic?id=2126",
+      "description": "なぜウェブサイトが私のポートをスキャンしているのですか？ | オタク",
+      "tag": ["サイト"]
+    },
+    {
+      "name": "chaskiq-marketingcustomer-supportopen-source-messing-platform-for-sales-geeknews",
+      "url": "https://news.hada.io/topic?id=2125",
+      "description": "Chaskiq -Marketing/Customer Support/Open Source Messing Platform for Sales | オタク",
+      "tag": ["ORM"]
+    },
+    {
+      "name": "make-your-google-web-font-load-as-fast-as-possible-geeknews",
+      "url": "https://news.hada.io/topic?id=2129",
+      "description": "Google Webフォントをできるだけ早くロードする| オタク",
+      "tag": ["Google", "Web", "Webフォント", "web", "フォント"]
+    },
+    {
+      "name": "steal-information-with-websocket-geeknews",
+      "url": "https://news.hada.io/topic?id=2127",
+      "description": "WebSocketで情報を盗みます| オタク",
+      "tag": ["Web", "web"]
+    },
+    {
+      "name": "thoughtworks-radar-no-22-32p-pdf-geeknews",
+      "url": "https://news.hada.io/topic?id=2133",
+      "description": "思考ワークスレーダーNo. 22 [32p PDF] | オタク",
+      "tag": []
+    },
+    {
+      "name": "no-one-is-interested-in-your-blog-geeknews",
+      "url": "https://news.hada.io/topic?id=9833",
+      "description": "誰もあなたのブログに興味がありません。 | オタク",
+      "tag": ["ブログ", "ログ"]
+    },
+    {
+      "name": "noderedlowcode-programming-tool-geeknews",
+      "url": "https://news.hada.io/topic?id=2142",
+      "description": "ノードレッドローコードプログラミングツール| オタク",
+      "tag": ["コード", "ツール", "プログラミング", "ログ"]
+    },
+    {
+      "name": "lets-do-nodered-wikidocs",
+      "url": "https://wikidocs.net/book/1815",
+      "description": "ノードレッドをしましょう！ -wikidocs",
+      "tag": []
+    },
+    {
+      "name": "multi-tie-multiple-web-pages-to-make-an-app-for-mac-geeknews",
+      "url": "https://news.hada.io/topic?id=2143",
+      "description": "Mac用のアプリを作成するための複数のWebページをマルチティ| オタク",
+      "tag": ["Mac", "Web", "web", "アプリ"]
+    },
+    {
+      "name": "github-kofigumbsmulti-create-a-custom-lightweight-macos-app-from-a-group-of-websites",
+      "url": "https://github.com/kofigumbs/multi",
+      "description": "github -kofigumbs/multi：ウェブサイトのグループからカスタム、軽量のmacosアプリを作成する",
+      "tag": ["Git", "GitHub", "Mac", "OS", "アプリ", "サイト"]
+    },
+    {
+      "name": "chartsscss-create-htmlcss-based-chart-with-markdown-geeknews",
+      "url": "https://news.hada.io/topic?id=2144",
+      "description": "Chartss.css -Create HTML/CSSベースのチャートを作成したチャート| オタク",
+      "tag": ["CSS", "HTML", "html"]
     }
   ]
 }
