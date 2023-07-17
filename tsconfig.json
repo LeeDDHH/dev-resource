@@ -23,6 +23,13 @@
     "noFallthroughCasesInSwitch": true
   },
   "ts-node": { "compilerOptions": { "module": "CommonJS" }, "require": ["tsconfig-paths/register"] },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "lib/gtag.ts", "lib/compressPng.mjs"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "lib/gtag.ts",
+    "lib/compressPng.mjs",
+    "lib/nextjs/trace-to-tree.mjs"
+  ],
   "exclude": ["node_modules"]
 }

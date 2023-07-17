@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   webpack: (config) => {
     // this will override the experiments
     config.experiments = { ...config.experiments, topLevelAwait: true };
@@ -7,3 +7,7 @@ module.exports = {
     return config;
   },
 };
+
+const withBundleAnalyzer =
+  process.env.ANALYZE === 'true' ? require('@next/bundle-analyzer')({ enabled: true }) : (config) => config;
+module.exports = withBundleAnalyzer(config);
