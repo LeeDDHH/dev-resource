@@ -1,0 +1,2 @@
+lib/mecab-dict/ filter=lfs diff=lfs merge=lfs -text
+lib/mecab-dict/*.gz filter=lfs diff=lfs merge=lfs -text
