@@ -1,14 +1,13 @@
-import { originDataJsonPath, dbTagsJsonPath, dbTmpJsonPath } from '@/lib/Const';
+import { originDataJsonPath, dbTmpJsonPath } from '@/lib/Const';
 import { jsonFileExchange, readFileSync } from '@/lib/utils';
+
+import { morphologicalAnalysisByNoun } from './morphologicalAnalysis';
 
 import { ResourceData, JsonData } from '@/types/data';
 
 const newDBObj: { resource: ResourceData[] } = { resource: [] };
 
 const data = JSON.parse(readFileSync(originDataJsonPath)) as JsonData;
-
-const uniqueTagData = JSON.parse(readFileSync(dbTagsJsonPath)) as string[];
-const exsitingUniqueTags: string[] = [...new Set(uniqueTagData)];
 
 const addSpecifiedTagFromURL = (tags: (string | undefined)[], resourceData: ResourceData): (string | undefined)[] => {
   const targetUrl = resourceData.url;
@@ -38,24 +37,47 @@ const addSpecifiedTagFromURL = (tags: (string | undefined)[], resourceData: Reso
   }
 };
 
-const tagAddedResourceData: ResourceData[] = data.resource.map((resourceData: ResourceData) => {
+const getData = async (resourceData: ResourceData) => {
   if (resourceData.tag.length > 0) return resourceData;
-  // タグ一覧とresourceData.descriptionを比較して該当するキーワードと比較した結果を格納する
-  const tags = exsitingUniqueTags.map((tag: string) => {
-    const reg = new RegExp(`${tag.toLowerCase()}`);
-    return reg.test(resourceData.description.toLowerCase()) ? tag : undefined;
-  });
+  console.log('description: ', resourceData.description.toLowerCase());
+
+  const lowerCaseString = resourceData.description.toLowerCase();
+  const targetText = lowerCaseString.substring(0, lowerCaseString.indexOf('|'));
+  const tags = await morphologicalAnalysisByNoun(targetText);
+  const stringMorphologicalAnalysisTags = tags.filter((item): item is string => typeof item == 'string');
+
   // データのURLが特定のURLであれば、タグを追加する
   const addedtags = addSpecifiedTagFromURL(tags, resourceData);
-  const concatTags = [...resourceData.tag, ...addedtags];
+  const concatTags = [...resourceData.tag, ...addedtags, ...stringMorphologicalAnalysisTags];
   const stringTags = concatTags.filter((item): item is string => typeof item == 'string');
   const uniqueTags = [...new Set(stringTags)];
   resourceData.tag = uniqueTags;
+  console.log('tag: ', resourceData.tag);
   return resourceData;
-});
+};
 
-newDBObj.resource = tagAddedResourceData;
+// 非同期通信で反復処理をする
+const getMorphologicalAnalysisByNoun = (resource: ResourceData[]) => {
+  console.log('getMorphologicalAnalysisByNoun');
+  return resource.map((resourceData) => {
+    if (resourceData.tag.length > 0) return resourceData;
+    return getData(resourceData);
+  });
+};
 
-const newJsonData = JSON.stringify(newDBObj);
+void (async () => {
+  const newResourceData: (ResourceData | undefined)[] = await Promise.all(
+    getMorphologicalAnalysisByNoun(data.resource)
+  );
+  const tagAddedResourceData = newResourceData.filter((tag): tag is ResourceData => typeof tag == 'object');
 
-jsonFileExchange({ exportDataJsonPath: dbTmpJsonPath, originDataJsonPath: originDataJsonPath, jsonData: newJsonData });
+  newDBObj.resource = tagAddedResourceData;
+
+  const newJsonData = JSON.stringify(newDBObj);
+
+  jsonFileExchange({
+    exportDataJsonPath: dbTmpJsonPath,
+    originDataJsonPath: originDataJsonPath,
+    jsonData: newJsonData,
+  });
+})();

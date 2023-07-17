@@ -34,10 +34,3 @@ export const morphologicalAnalysisByNoun = async (text: string): Promise<string[
   const setNounList = new Set(nounList);
   return setNounList.size > 0 ? [...setNounList] : [];
 };
-
-void (async () => {
-  const text = 'Chartss.css -Create HTML/CSSベースのチャートを作成したチャート| オタク';
-  console.log('形態素解析するテキスト： ', text);
-  const result = await morphologicalAnalysisByNoun(text);
-  console.log('形態素解析した結果： ', result);
-})();
