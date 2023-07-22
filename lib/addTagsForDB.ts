@@ -48,14 +48,24 @@ const generateTags = async (context: BrowserContext, resourceData: ResourceData)
   const stringMorphologicalAnalysisTags = tags.filter((item): item is string => typeof item == 'string');
 
   const isQiita = /qiita.com/.test(resourceData.url);
+  const isZenn = /zenn.dev/.test(resourceData.url);
 
-  if (isQiita) {
+  const hasTagInPage = isQiita || isZenn;
+
+  if (hasTagInPage) {
     // urlをもとに取得するpageの初期化
     const page = await context.newPage();
     await page.goto(resourceData.url);
-    // 230722時点でQiitaのタグを取得するためのクラス名を指定
-    const tags = await page.locator('.style-1ij24kf').allTextContents();
-    optionalTags = [...optionalTags, ...tags];
+    if (isQiita) {
+      // 230722時点でQiitaのタグを取得するためのクラス名を指定
+      const tags = await page.locator('.style-1ij24kf').allTextContents();
+      optionalTags = [...optionalTags, ...tags];
+    }
+    if (isZenn) {
+      // 230722時点でZennのタグを取得するためのクラス名を指定
+      const tags = await page.locator('.View_topicName__rxKth').allTextContents();
+      optionalTags = [...optionalTags, ...tags];
+    }
     await page.close();
   }
 
