@@ -1,4 +1,7 @@
+import { BrowserContext } from 'playwright';
+
 import { originDataJsonPath, dbTmpJsonPath } from '@/lib/Const';
+import { createChromiumBrowserAndContext } from '@/lib/playwright';
 import { jsonFileExchange, readFileSync } from '@/lib/utils';
 
 import { morphologicalAnalysisByNoun } from './morphologicalAnalysis';
@@ -37,37 +40,72 @@ const addSpecifiedTagFromURL = (tags: (string | undefined)[], resourceData: Reso
   }
 };
 
-const getData = async (resourceData: ResourceData) => {
-  if (resourceData.tag.length > 0) return resourceData;
-  console.log('description: ', resourceData.description.toLowerCase());
-
+const generateTags = async (context: BrowserContext, resourceData: ResourceData) => {
+  let optionalTags: string[] = [];
   const lowerCaseString = resourceData.description.toLowerCase();
   const targetText = lowerCaseString.substring(0, lowerCaseString.indexOf('|'));
   const tags = await morphologicalAnalysisByNoun(targetText);
   const stringMorphologicalAnalysisTags = tags.filter((item): item is string => typeof item == 'string');
 
+  const isQiita = /qiita.com/.test(resourceData.url);
+  const isZenn = /zenn.dev/.test(resourceData.url);
+
+  const hasTagInPage = isQiita || isZenn;
+
+  if (hasTagInPage) {
+    // urlをもとに取得するpageの初期化
+    const page = await context.newPage();
+    await page.goto(resourceData.url);
+    if (isQiita) {
+      // 230722時点でQiitaのタグを取得するためのクラス名を指定
+      const tags = await page.locator('.style-1ij24kf').allTextContents();
+      optionalTags = [...optionalTags, ...tags];
+    }
+    if (isZenn) {
+      // 230722時点でZennのタグを取得するためのクラス名を指定
+      const tags = await page.locator('.View_topicName__rxKth').allTextContents();
+      optionalTags = [...optionalTags, ...tags];
+    }
+    await page.close();
+  }
+
   // データのURLが特定のURLであれば、タグを追加する
   const addedtags = addSpecifiedTagFromURL(tags, resourceData);
-  const concatTags = [...resourceData.tag, ...addedtags, ...stringMorphologicalAnalysisTags];
+  const concatTags = [...resourceData.tag, ...addedtags, ...stringMorphologicalAnalysisTags, ...optionalTags];
   const stringTags = concatTags.filter((item): item is string => typeof item == 'string');
   const uniqueTags = [...new Set(stringTags)];
-  resourceData.tag = uniqueTags;
-  console.log('tag: ', resourceData.tag);
-  return resourceData;
+  return uniqueTags;
+};
+
+const getData = async (context: BrowserContext, resourceData: ResourceData) => {
+  if (resourceData.tag.length > 0) return resourceData;
+  console.log('description: ', resourceData.description.toLowerCase());
+
+  try {
+    const tags = await generateTags(context, resourceData);
+    resourceData.tag = tags;
+    console.log('tag: ', resourceData.tag);
+    return resourceData;
+  } catch (error) {
+    console.log(resourceData.url);
+    console.error(error);
+  }
 };
 
 // 非同期通信で反復処理をする
-const getMorphologicalAnalysisByNoun = (resource: ResourceData[]) => {
+const getMorphologicalAnalysisByNoun = (context: BrowserContext, resource: ResourceData[]) => {
   console.log('getMorphologicalAnalysisByNoun');
   return resource.map((resourceData) => {
     if (resourceData.tag.length > 0) return resourceData;
-    return getData(resourceData);
+    return getData(context, resourceData);
   });
 };
 
 void (async () => {
+  const { browser, context } = await createChromiumBrowserAndContext();
+
   const newResourceData: (ResourceData | undefined)[] = await Promise.all(
-    getMorphologicalAnalysisByNoun(data.resource)
+    getMorphologicalAnalysisByNoun(context, data.resource)
   );
   const tagAddedResourceData = newResourceData.filter((tag): tag is ResourceData => typeof tag == 'object');
 
@@ -80,4 +118,6 @@ void (async () => {
     originDataJsonPath: originDataJsonPath,
     jsonData: newJsonData,
   });
+
+  await browser.close();
 })();
