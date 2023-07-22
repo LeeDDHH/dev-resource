@@ -3,7 +3,7 @@ import { BrowserContext } from 'playwright';
 import { originDataJsonPath, addedOriginDataJsonPath } from '@/lib/Const';
 import { generateUniqueURLList } from '@/lib/generateUniqueURLList';
 import { createChromiumBrowserAndContext } from '@/lib/playwright';
-import { translateToEn, translateToJa } from '@/lib/translateApi';
+import { translateToEn } from '@/lib/translateApi';
 // import { translator } from '@/lib/translator';
 import {
   connectLowercaseAlphabetDigitsHyphenatedString,
@@ -43,12 +43,13 @@ const generateTitle = async (url: string, title: string) => {
   }
 };
 
-const generateDescription = async (url: string, metaDescription: string) => {
+const generateDescription = (url: string, metaDescription: string) => {
   try {
     let enDescription: string | undefined = '';
     if (!metaDescription.length) return undefined;
 
-    enDescription = await translateToJa(metaDescription);
+    enDescription = metaDescription;
+    // enDescription = await translateToJa(metaDescription);
     // enDescription = await translator(metaDescription, 'ja', 'auto');
 
     if (!enDescription) return undefined;
@@ -83,7 +84,7 @@ const getData = async (context: BrowserContext, url: string) => {
 
     // データ格納用にtitle、meta descriptionを整形する
     const title = await generateTitle(url, pageTitle);
-    const description = await generateDescription(url, pageTitle);
+    const description = generateDescription(url, pageTitle);
 
     if (!title || !title.length || !description || !description.length) {
       await page.close();
