@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-array-constructor */
 'use strict';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
@@ -35,7 +35,7 @@ const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Prop
           >
             {(item.name ?? '').replace(/-/g, ' ')}
           </span>
-          <div className='flex justify-center'>
+          {/* <div className='flex justify-center'>
             <Image
               src={`/images/${item.name}.png`}
               alt={item.name ?? ''}
@@ -49,7 +49,7 @@ const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Prop
                 height: 'auto',
               }}
             />
-          </div>
+          </div> */}
           <p className='my-3'>{item.description}</p>
         </Link>
         <TagView tag={item.tag ?? Array()} itemId={item.id ?? -1} />
