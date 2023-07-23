@@ -6,21 +6,18 @@ import Link from 'next/link';
 import React from 'react';
 import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
 
-import { useBookmarks } from '@/hooks/useLocalBookmarks';
-
 import TagView from '@/components/parts/stateless/TagView';
 
 import { Item } from '@/graphql/generated';
 
-type Props = { item: Item };
+type Props = { item: Item; isBookmarked: boolean; handleBookmarks: (bookmarkId: number) => void };
 
-const SingleItemView = React.memo(({ item }: Props) => {
-  const { bookmarks, handleBookmarks } = useBookmarks();
+const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Props) => {
   return (
     <li>
       <div className='rounded-xl bg-rod-ivory px-5 pb-5 pt-1 text-rod-stone-800'>
         <div className='mt-2 flex items-center justify-end'>
-          {bookmarks.includes(item.id as number) ? (
+          {isBookmarked ? (
             <BsBookmarkFill className='text-rod-red-500' onClick={() => handleBookmarks(item.id as number)} size={25} />
           ) : (
             <BsBookmark

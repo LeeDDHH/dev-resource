@@ -2,8 +2,6 @@
 
 import React, { ReactElement } from 'react';
 
-import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
-
 import Layout from '@/components/layout/Layout';
 import { BookmarksPage } from '@/components/screen/BookmarksPage';
 
@@ -18,9 +16,7 @@ const Bookmark: NextPageWithLayout<DefaultPageProps> = React.memo(() => {
 });
 
 const getLayout = (page: ReactElement, { itemsAmount }: DefaultPageProps) => (
-  <Layout itemsAmount={itemsAmount}>
-    <LocalBookmarksProvider>{page}</LocalBookmarksProvider>
-  </Layout>
+  <Layout itemsAmount={itemsAmount}>{page}</Layout>
 );
 
 Bookmark.getLayout = getLayout;
