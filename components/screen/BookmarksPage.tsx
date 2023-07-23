@@ -3,7 +3,7 @@
 import { useQuery } from '@apollo/client';
 import React from 'react';
 
-import { useBookmarks } from '@/hooks/useLocalBookmarks';
+import { useLocalBookmarks } from '@/hooks/useLocalBookmarks';
 
 import { IntersectionObserverView } from '@/components/common/stateless/IntersectionObserver';
 import ItemListsView from '@/components/parts/stateless/ItemListsView';
@@ -19,7 +19,7 @@ import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
 
 export const BookmarksPage = React.memo(() => {
-  const { bookmarks } = useBookmarks();
+  const { bookmarks } = useLocalBookmarks();
   const { data, loading, error, fetchMore } = useQuery<
     BookmarkWithOffsetAndLimitQuery,
     BookmarkWithOffsetAndLimitQueryVariables

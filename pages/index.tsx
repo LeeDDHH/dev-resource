@@ -2,8 +2,6 @@
 
 import React, { ReactElement } from 'react';
 
-import { LocalBookmarksProvider } from '@/hooks/useLocalBookmarks';
-
 import Layout from '@/components/layout/Layout';
 import { IndexPage } from '@/components/screen/IndexPage';
 
@@ -18,9 +16,7 @@ const Index: NextPageWithLayout<DefaultPageProps> = React.memo(() => {
 });
 
 const getLayout = (page: ReactElement, { itemsAmount }: DefaultPageProps) => (
-  <Layout itemsAmount={itemsAmount}>
-    <LocalBookmarksProvider>{page}</LocalBookmarksProvider>
-  </Layout>
+  <Layout itemsAmount={itemsAmount}>{page}</Layout>
 );
 
 Index.getLayout = getLayout;
