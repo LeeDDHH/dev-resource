@@ -115,3 +115,13 @@ yarn trace-tree
 ```shell
 yarn analyze-bundle
 ```
+
+## Vercel から Cloudflare に乗り換える際
+
+- [Migrating from Vercel to Pages · Cloudflare Pages docs](https://developers.cloudflare.com/pages/migrations/migrating-from-vercel/)
+  - 基本的に Vercel でデプロイしているプロジェクトの情報を抑えておく
+    - ビルドコマンド
+    - ビルド結果のディレクトリ
+    - 環境変数
+- Cloudflare でビルド失敗になったら、 `vercel build` コマンドで何が問題かを見る
+- API Routes（ `pages/api` 配下）に Cloudflare Edge Computing を使うための設定をする
