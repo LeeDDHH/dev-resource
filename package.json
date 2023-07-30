@@ -9,6 +9,7 @@
   "dependencies": {
     "@apollo/client": "^3.7.17",
     "@apollo/server": "^4.7.5",
+    "@as-integrations/cloudflare-workers": "^0.1.1",
     "@as-integrations/next": "^2.0.1",
     "@cloudflare/next-on-pages": "^1.4.0",
     "clsx": "^2.0.0",
@@ -21,8 +22,7 @@
     "react-intersection-observer": "^9.5.2",
     "sharp": "^0.32.3",
     "tailwind-merge": "^1.13.2",
-    "ts-node": "^10.9.1",
-    "wrangler": "^3.4.0"
+    "ts-node": "^10.9.1"
   },
   "scripts": {
     "dev": "next dev",
@@ -102,6 +102,7 @@
     "tailwindcss": "^3.3.3",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.1.6",
-    "vercel": "^30.0.0"
+    "vercel": "^30.0.0",
+    "wrangler": "^3.4.0"
   }
 }
