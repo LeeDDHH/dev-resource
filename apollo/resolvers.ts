@@ -1,5 +1,7 @@
 'use strict';
 
+import db from '@/data/db.json';
+
 import {
   isSearchKeywordIncludedToName,
   isSearchKeywordIncludedToDescription,
@@ -7,12 +9,11 @@ import {
 } from '@/lib/apollo/resolverUtils';
 import { splitStringFromSpace } from '@/lib/utils';
 
-import db from '@/data/db.json';
-
 export const resolvers = {
   Query: {
     items: () => db.resource,
-    search: async (_: any, { text, limit, offset }: { text: string; limit: number; offset: number }) => {
+    // eslint-disable-next-line @typescript-eslint/require-await
+    search: async (_: object, { text, limit, offset }: { text: string; limit: number; offset: number }) => {
       const splitedString = splitStringFromSpace(text);
       /**
        * 検索する範囲を広げて検索
@@ -23,16 +24,12 @@ export const resolvers = {
           (source) =>
             isSearchKeywordIncludedToName(splitedString, source.name) ||
             isSearchKeywordIncludedToDescription(splitedString, source.description) ||
-            isSearchKeywordIncludedToTags(splitedString, source.tag),
+            isSearchKeywordIncludedToTags(splitedString, source.tag)
         )
         .slice(offset, limit);
     },
-    searchWithOffsetAndLimit: async (
-      _parent: any,
-      args: { limit: number; offset: number },
-      _context: any,
-      _info: any,
-    ) => {
+    // eslint-disable-next-line @typescript-eslint/require-await
+    searchWithOffsetAndLimit: async (_parent: object, args: { limit: number; offset: number }) => {
       if (args.limit) {
         const start = args.offset;
         const end = args.limit;
@@ -42,10 +39,9 @@ export const resolvers = {
       }
     },
     bookmarkWithOffsetAndLimit: async (
-      _parent: any,
-      args: { bookmarkList: number[]; limit: number; offset: number },
-      _context: any,
-      _info: any,
+      _parent: object,
+      args: { bookmarkList: number[]; limit: number; offset: number }
+      // eslint-disable-next-line @typescript-eslint/require-await
     ) => {
       const newResource = [...db.resource];
       const dataMaxIndex = newResource.length - 1;

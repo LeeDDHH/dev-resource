@@ -3,8 +3,11 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 import { offsetLimitPagination } from '@apollo/client/utilities';
 
+import { env } from '@/lib/env/env';
+
 const client = new ApolloClient({
-  uri: 'api/graphql',
+  // uri: 'api/graphql',
+  uri: env.NEXT_PUBLIC_GRAPHQL_SERVER_URL,
   cache: new InMemoryCache({
     typePolicies: {
       Query: {

@@ -1,4 +1,4 @@
-query SearchWithOffsetAndLimit($offset: Int, $limit: Int) {
+query SearchWithOffsetAndLimit($offset: Int!, $limit: Int!) {
   searchWithOffsetAndLimit(offset: $offset, limit: $limit) {
     id
     name
