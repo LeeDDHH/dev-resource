@@ -24,3 +24,5 @@ const client = new ApolloClient({
 });
 
 export default client;
+
+export const runtime = 'edge';
