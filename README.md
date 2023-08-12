@@ -115,3 +115,20 @@ yarn trace-tree
 ```shell
 yarn analyze-bundle
 ```
+
+## Vercel から Cloudflare に乗り換える際
+
+- [Migrating from Vercel to Pages · Cloudflare Pages docs](https://developers.cloudflare.com/pages/migrations/migrating-from-vercel/)
+  - 基本的に Vercel でデプロイしているプロジェクトの情報を抑えておく
+    - ビルドコマンド
+    - ビルド結果のディレクトリ
+    - 環境変数
+- Cloudflare でビルド失敗になったら、 `vercel build` コマンドで何が問題かを見る
+- API Routes（ `pages/api` 配下）においた Cloudflare Edge Computing はCloudflare Workersを使う
+- パッケージの依存関係でインストール時に `--legacy-peer-deps` を追加する必要がある
+  - `@cloudflare/next-on-pages` が `vercel` の `30.0.0` と依存関係にある
+  - しかし、 `vercel` コマンドを `30.0.0` にすると利用する上でクリティカルな脆弱性があるライブラリを使うことになり、最新版にする必要がある
+  - この状態で通常のインストールをすると、ライブラリ同士のバージョンが一致しないという警告が出るため、 `--legacy-peer-deps` を追加する
+    - ただ、 Cloudflare Pages でビルドコマンドは指定できるものの、インストール時のオプションは直接指定ができないため、 `.npmrc` で指定する
+    - [google app engine - How can I deploy an app using legacy peer deps? - Stack Overflow](https://stackoverflow.com/questions/73381958/how-can-i-deploy-an-app-using-legacy-peer-deps)
+    - [[Laravel×React].npmrcに–legacy-peer-depsの設定を書く｜ytmemo](https://ytmemo.com/npmrc-setting/)
