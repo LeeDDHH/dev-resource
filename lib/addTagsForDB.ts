@@ -2,7 +2,7 @@ import { BrowserContext } from 'playwright';
 
 import { originDataJsonPath, dbTmpJsonPath } from '@/lib/Const';
 import { createChromiumBrowserAndContext } from '@/lib/playwright';
-import { jsonFileExchange, readFileSync } from '@/lib/utils';
+import { jsonFileExchange, readFileSync, splitUrlData } from '@/lib/utils';
 
 import { morphologicalAnalysisByNoun } from './morphologicalAnalysis';
 
@@ -95,8 +95,9 @@ const getData = async (context: BrowserContext, resourceData: ResourceData) => {
 // 非同期通信で反復処理をする
 const getMorphologicalAnalysisByNoun = (context: BrowserContext, resource: ResourceData[]) => {
   console.log('getMorphologicalAnalysisByNoun');
+  const urls = splitUrlData();
   return resource.map((resourceData) => {
-    if (resourceData.tag.length > 0) return resourceData;
+    if (resourceData.tag.length > 0 || !urls.includes(resourceData.url)) return resourceData;
     return getData(context, resourceData);
   });
 };
@@ -105,7 +106,7 @@ void (async () => {
   const { browser, context } = await createChromiumBrowserAndContext();
 
   const newResourceData: (ResourceData | undefined)[] = await Promise.all(
-    getMorphologicalAnalysisByNoun(context, data.resource)
+    getMorphologicalAnalysisByNoun(context, data.resource),
   );
   const tagAddedResourceData = newResourceData.filter((tag): tag is ResourceData => typeof tag == 'object');
 
