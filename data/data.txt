@@ -1,5 +1,12 @@
-https://www.youtube.com/@Linux-yg5oj/playlists
-https://www.youtube.com/watch?v=fNzpcB7ODxQ
-https://www.youtube.com/watch?v=O7fZ2ZvEKoA
-https://www.youtube.com/watch?v=nHzyoGKo0g4
-https://www.youtube.com/watch?v=qo_fUjb02ns
+https://github.com/kentcdodds/cross-env
+https://maku.blog/p/r8iry9g/
+https://github.com/dotansimha/graphql-yoga
+https://oneweekgraphql.com/chapters/project-setup/3-install-graphql-yoga-and-configure-api-route
+https://neos21.net/blog/2021/07/17-01.html#workers-%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%97%E3%81%A4%E3%81%A4workers-%E3%81%A8%E9%80%A3%E6%90%BA%E3%81%99%E3%82%8B-react-%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%84%E3%81%8F
+https://qiita.com/yasuoyasuo/items/c43783316a4d141a140f
+https://software.pitang1965.com/2022/09/20/how-to-use-github-graphql-api-in-nextjs/
+https://github.com/jasonkuhrt/graphql-request
+https://github.com/the-guild-org/yoga-cloudflare-workers-template
+https://news.hada.io/topic?id=2212
+https://news.hada.io/topic?id=2213
+https://news.hada.io/topic?id=2211
