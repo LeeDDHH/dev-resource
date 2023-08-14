@@ -71,7 +71,7 @@
     "@types/imagemin": "^8.0.1",
     "@types/kuromoji": "^0.1.1",
     "@types/nightmare": "^2.10.6",
-    "@types/node": "^20.4.8",
+    "@types/node": "^20.5.0",
     "@types/react": "^18.2.18",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
