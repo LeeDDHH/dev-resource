@@ -10,9 +10,27 @@ import {
   jsonFileExchange,
   readFileSync,
   splitUrlData,
+  countGrapheme,
 } from '@/lib/utils';
 
 import { ResourceData, JsonData } from '@/types/data';
+
+const maxTitleLength = 250;
+
+/**
+ * @description タイトルを250文字数以下にして返す
+ * @param title - タイトル（文字数不明）
+ * @returns 250文字以下のタイトル
+ */
+const getSafeTitle = (title: string) => {
+  const titleLnegth = countGrapheme(title);
+  if (titleLnegth < maxTitleLength) return title;
+  // 0番目から数えて250文字になるようにする
+  const newTitle = title.slice(0, maxTitleLength - 1);
+  // 「-」で終わる場合、取り除いて返す
+  if (newTitle.endsWith('-')) return newTitle.slice(0, newTitle.length - 1);
+  return newTitle;
+};
 
 const generateTwitterTitle = (url: string) => {
   const urlString = new URL(url);
@@ -36,7 +54,8 @@ const generateTitle = async (url: string, title: string) => {
     const enTitle = await translateToEn(title);
     // const enTitle = await translator(title, 'en', 'auto');
     if (!enTitle) return undefined;
-    return connectLowercaseAlphabetDigitsHyphenatedString(enTitle);
+    const newTitle = connectLowercaseAlphabetDigitsHyphenatedString(enTitle);
+    return getSafeTitle(newTitle);
   } catch (error) {
     console.log(title);
     console.error(error);
