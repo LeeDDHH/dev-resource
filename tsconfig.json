@@ -29,7 +29,8 @@
     "**/*.tsx",
     "lib/gtag.ts",
     "lib/compressPng.mjs",
-    "lib/nextjs/trace-to-tree.mjs"
+    "lib/nextjs/trace-to-tree.mjs",
+    "lib/exportWebp.mjs"
   ],
   "exclude": ["node_modules"]
 }

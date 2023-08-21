@@ -68,3 +68,9 @@ export const splitUrlData = () => {
     .split('\n')
     .filter((str: string) => str.length > 0);
 };
+
+/** Intl.Segmenterを使って文字数をカウントする */
+export const countGrapheme = (str: string) => {
+  const segmenter = new Intl.Segmenter('ja', { granularity: 'grapheme' });
+  return [...segmenter.segment(str)].length;
+};

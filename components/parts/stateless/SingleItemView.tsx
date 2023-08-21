@@ -37,7 +37,7 @@ const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Prop
           </span>
           <div className='flex justify-center'>
             <Image
-              src={`/images/${item.name}.png`}
+              src={`/images/webp/${item.name}.webp`}
               alt={item.name ?? ''}
               width={1130}
               height={600}
