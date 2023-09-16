@@ -1,3 +1,36 @@
 {
-  "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "bradlc.vscode-tailwindcss"]
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "mosapride.zenkaku",
+    "orta.vscode-twoslash-queries",
+    "shardulm94.trailing-spaces",
+    "gruntfuggly.todo-tree",
+    "rangav.vscode-thunder-client",
+    "equimper.react-native-react-redux",
+    "yoavbls.pretty-ts-errors",
+    "mohsen1.prettify-json",
+    "christian-kohler.path-intellisense",
+    "ionutvmi.path-autocomplete",
+    "christian-kohler.npm-intellisense",
+    "pulkitgangwar.nextjs-snippets",
+    "pkief.material-icon-theme",
+    "odonno.magic-json-vscode",
+    "xabikos.javascriptsnippets",
+    "ms-ceintl.vscode-language-pack-ja",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode",
+    "oderwat.indent-rainbow",
+    "wix.vscode-import-cost",
+    "sidthesloth.html5-boilerplate",
+    "ecmel.vscode-html-css",
+    "eamodio.gitlens",
+    "codezombiech.gitignore",
+    "github.vscode-pull-request-github",
+    "dsznajder.es7-react-js-snippets",
+    "usernamehw.errorlens",
+    "pranaygp.vscode-css-peek",
+    "codeium.codeium",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag"
+  ]
 }
