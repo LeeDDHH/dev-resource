@@ -1,30 +1,23 @@
 'use strict';
 
-import { useQuery } from '@apollo/client';
 import React from 'react';
+
+import { useSearchList } from '@/hooks/useSearchList';
 
 import { IntersectionObserverView } from '@/components/common/stateless/IntersectionObserver';
 import ItemListsView from '@/components/parts/stateless/ItemListsView';
 
-import {
-  SearchWithOffsetAndLimitQuery,
-  SearchWithOffsetAndLimitQueryVariables,
-  SearchWithOffsetAndLimitDocument,
-  Item,
-} from '@/graphql/generated';
-
-import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
 
-export const ListPage = React.memo(() => {
-  const { data, loading, error, fetchMore } = useQuery<
-    SearchWithOffsetAndLimitQuery,
-    SearchWithOffsetAndLimitQueryVariables
-  >(SearchWithOffsetAndLimitDocument, {
-    variables: { offset: 0, limit: searchLimit },
-  });
+import { SingleData } from '@/types/data';
 
-  if (loading) {
+export const ListPage = React.memo(() => {
+  const { isLoading, error, data, fetchNextPage } = useSearchList();
+  const fetchMore = async (inView: boolean) => {
+    if (inView) await fetchNextPage();
+  };
+
+  if (isLoading) {
     return (
       <h2>
         <div>Loading...</div>
@@ -37,19 +30,13 @@ export const ListPage = React.memo(() => {
     return null;
   }
 
-  const items = data && !!data.searchWithOffsetAndLimit && filterItems<Item | null>(data.searchWithOffsetAndLimit);
+  const items = data && data.pages && filterItems<SingleData>(data.pages.flat());
 
   if (!items) return <p>表示する項目がありません</p>;
   return (
     <div className='m-auto mb-32 mt-5 max-w-6xl'>
       <ItemListsView items={items} />
-      {data && (
-        <IntersectionObserverView<(Item | null | undefined)[]>
-          data={data.searchWithOffsetAndLimit ?? []}
-          searchLimit={searchLimit}
-          fetchMore={fetchMore}
-        />
-      )}
+      {data && <IntersectionObserverView fetchMore={fetchMore} />}
     </div>
   );
 });

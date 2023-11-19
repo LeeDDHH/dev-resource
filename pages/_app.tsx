@@ -1,11 +1,12 @@
 'use strict';
 
-import { ApolloProvider } from '@apollo/client';
+// import { ApolloProvider } from '@apollo/client';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import React, { useEffect, ReactElement, ReactNode } from 'react';
 
-import client from '@/lib/apollo/apollo-client';
+// import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';
 
 import type { NextPage } from 'next';
@@ -20,6 +21,8 @@ export type NextPageWithLayout<P = Record<string, never>, IP = P> = NextPage<P, 
 type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
+
+const queryClient = new QueryClient();
 
 const Provider = React.memo(({ Component, pageProps }: AppPropsWithLayout) => {
   const router = useRouter();
@@ -39,7 +42,11 @@ const Provider = React.memo(({ Component, pageProps }: AppPropsWithLayout) => {
     };
   }, [router.events]);
 
-  return <ApolloProvider client={client}>{getLayout(<Component {...pageProps} />, pageProps)}</ApolloProvider>;
+  return (
+    // <ApolloProvider client={client}>
+    <QueryClientProvider client={queryClient}>{getLayout(<Component {...pageProps} />, pageProps)}</QueryClientProvider>
+    // </ApolloProvider>
+  );
 });
 if (process.env.NODE_ENV !== 'production') Provider.displayName = 'Provider';
 export default Provider;
