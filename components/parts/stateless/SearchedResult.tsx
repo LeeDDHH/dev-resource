@@ -1,35 +1,28 @@
 'use strict';
 
-import { useQuery } from '@apollo/client';
 import React from 'react';
+
+import { useSearchKeyword } from '@/hooks/useSearchKeyword';
 
 import { IntersectionObserverView } from '@/components/common/stateless/IntersectionObserver';
 import ItemListsView from '@/components/parts/stateless/ItemListsView';
 
-import {
-  GetDataWithSearchTextQuery,
-  GetDataWithSearchTextDocument,
-  GetDataWithSearchTextQueryVariables,
-  Item,
-} from '@/graphql/generated';
-
-import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
+
+import { SingleData } from '@/types/data';
 
 type Props = {
   searchText: string;
 };
 
 export const SearchedResult = React.memo(({ searchText }: Props) => {
-  const value = {
-    variables: { text: searchText, offset: 0, limit: searchLimit } as GetDataWithSearchTextQueryVariables,
-  };
-  const { data, loading, error, fetchMore } = useQuery<GetDataWithSearchTextQuery, GetDataWithSearchTextQueryVariables>(
-    GetDataWithSearchTextDocument,
-    value,
-  );
+  const { isLoading, error, data, fetchNextPage } = useSearchKeyword(searchText);
 
-  if (loading) {
+  const fetchMore = async (inView: boolean) => {
+    if (inView) await fetchNextPage();
+  };
+
+  if (isLoading) {
     return (
       <h2>
         <div>Loading...</div>
@@ -42,19 +35,13 @@ export const SearchedResult = React.memo(({ searchText }: Props) => {
     return null;
   }
 
-  const items = data && !!data.search && filterItems<Item | null>(data.search);
+  const items = data && !!data.pages && filterItems<SingleData>(data.pages.flat());
 
   if (!items) return <p>表示する項目がありません</p>;
   return (
     <>
       <ItemListsView items={items} />
-      {data && (
-        <IntersectionObserverView<(Item | null | undefined)[]>
-          data={data.search ?? []}
-          searchLimit={searchLimit}
-          fetchMore={fetchMore}
-        />
-      )}
+      {data && <IntersectionObserverView fetchMore={fetchMore} />}
     </>
   );
 });

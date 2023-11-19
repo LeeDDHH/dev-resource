@@ -6,19 +6,19 @@ import { useLocalBookmarks } from '@/hooks/useLocalBookmarks';
 
 import SingleItemView from '@/components/parts/stateless/SingleItemView';
 
-import { Item } from '@/graphql/generated';
+import { SingleData } from '@/types/data';
 
-type Props = { items: Item[] };
+type Props = { items: SingleData[] };
 
 const ItemListsView = React.memo(({ items }: Props) => {
   const { bookmarks, handleBookmarks } = useLocalBookmarks();
 
-  const generateItems = (items: Item[]) =>
+  const generateItems = (items: SingleData[]) =>
     items.map((item) => (
       <SingleItemView
         key={item.id}
         item={item}
-        isBookmarked={bookmarks.includes(item?.id as number)}
+        isBookmarked={bookmarks.includes(item.id)}
         handleBookmarks={handleBookmarks}
       />
     ));
