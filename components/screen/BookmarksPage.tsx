@@ -1,33 +1,27 @@
 'use strict';
 
-import { useQuery } from '@apollo/client';
+// import { useQuery } from '@apollo/client';
 import React from 'react';
 
 import { useLocalBookmarks } from '@/hooks/useLocalBookmarks';
+import { useSearchBookmark } from '@/hooks/useSearchBookmark';
 
 import { IntersectionObserverView } from '@/components/common/stateless/IntersectionObserver';
 import ItemListsView from '@/components/parts/stateless/ItemListsView';
 
-import {
-  BookmarkWithOffsetAndLimitQuery,
-  BookmarkWithOffsetAndLimitQueryVariables,
-  BookmarkWithOffsetAndLimitDocument,
-  Item,
-} from '@/graphql/generated';
-
-import { searchLimit } from '@/lib/Const';
 import { filterItems } from '@/lib/generic';
+
+import { SingleData } from '@/types/data';
 
 export const BookmarksPage = React.memo(() => {
   const { bookmarks } = useLocalBookmarks();
-  const { data, loading, error, fetchMore } = useQuery<
-    BookmarkWithOffsetAndLimitQuery,
-    BookmarkWithOffsetAndLimitQueryVariables
-  >(BookmarkWithOffsetAndLimitDocument, {
-    variables: { bookmarkList: bookmarks, offset: 0, limit: searchLimit },
-  });
+  const { isLoading, error, data, fetchNextPage } = useSearchBookmark(bookmarks);
 
-  if (loading) {
+  const fetchMore = async (inView: boolean) => {
+    if (inView) await fetchNextPage();
+  };
+
+  if (isLoading) {
     return (
       <h2>
         <div>Loading...</div>
@@ -40,20 +34,14 @@ export const BookmarksPage = React.memo(() => {
     return null;
   }
 
-  const items = data && !!data.bookmarkWithOffsetAndLimit && filterItems<Item | null>(data.bookmarkWithOffsetAndLimit);
+  const items = data && data.pages && filterItems<SingleData>(data.pages.flat());
 
   if (!items) return <p>表示する項目がありません</p>;
   if (!items.length) return <p>まだブックマークされたアイテムがありません</p>;
   return (
     <div className='m-auto mb-32 mt-5 max-w-6xl'>
       <ItemListsView items={items} />
-      {data && (
-        <IntersectionObserverView<(Item | null | undefined)[]>
-          data={data.bookmarkWithOffsetAndLimit ?? []}
-          searchLimit={searchLimit}
-          fetchMore={fetchMore}
-        />
-      )}
+      {data && <IntersectionObserverView fetchMore={fetchMore} />}
     </div>
   );
 });
