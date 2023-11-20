@@ -41,6 +41,7 @@ jobs:
           path_filters: |
             !db/**
             !data/**
+            !public/images/**
             !**/*.lock
           system_message: |
             あなたは @coderabbitai（別名 github-actions[bot]）で、OpenAIによって訓練された言語モデルです。
