@@ -14,19 +14,11 @@ const fetchSearchBookmark = async ({
   bookmarkList: number[];
   pageParam: number;
 }) => {
-  try {
-    const res = await api.post(apiList[API_SEARCH_BOOKMARK_LIST], {
-      json: { bookmarkList, limit: nextLimit(pageParam), offset: pageParam },
-    });
-    if (!res.ok) {
-      console.log(`Fetch error: ${res.status}`);
-      return [];
-    }
-    return await res.json<Resource>();
-  } catch (error) {
-    console.log(error);
-    return [];
-  }
+  const res = await api.post(apiList[API_SEARCH_BOOKMARK_LIST], {
+    json: { bookmarkList, limit: nextLimit(pageParam), offset: pageParam },
+  });
+  if (!res.ok) throw new Error(`Fetch error: ${res.status}`);
+  return await res.json<Resource>();
 };
 
 const useSearchBookmark = (bookmarkList: number[]) =>
