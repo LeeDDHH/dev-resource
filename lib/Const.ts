@@ -15,6 +15,7 @@ export const dbTmpJsonPath = path.resolve(dataPath, 'db_tmp.json');
 export const dbTagsJsonPath = path.resolve(dataPath, 'db_tags.json');
 export const tagCountDataJsonPath = path.resolve(dataPath, 'db_tagCount.json');
 
+// 一度に最大で取得するアイテム数
 export const searchLimit = 12;
 
 export const localStorageHooksInfo = {

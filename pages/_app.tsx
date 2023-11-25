@@ -1,12 +1,10 @@
 'use strict';
 
-// import { ApolloProvider } from '@apollo/client';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AppProps } from 'next/app';
 import { useRouter } from 'next/router';
 import React, { useEffect, ReactElement, ReactNode } from 'react';
 
-// import client from '@/lib/apollo/apollo-client';
 import { pageview } from '@/lib/gtag';
 
 import type { NextPage } from 'next';
@@ -22,7 +20,11 @@ type AppPropsWithLayout = AppProps & {
   Component: NextPageWithLayout;
 };
 
-const queryClient = new QueryClient();
+const MINUTE = 60 * 1000;
+
+const queryClient = new QueryClient({
+  defaultOptions: { queries: { staleTime: 15 * MINUTE, gcTime: 20 * MINUTE } },
+});
 
 const Provider = React.memo(({ Component, pageProps }: AppPropsWithLayout) => {
   const router = useRouter();
@@ -43,9 +45,7 @@ const Provider = React.memo(({ Component, pageProps }: AppPropsWithLayout) => {
   }, [router.events]);
 
   return (
-    // <ApolloProvider client={client}>
     <QueryClientProvider client={queryClient}>{getLayout(<Component {...pageProps} />, pageProps)}</QueryClientProvider>
-    // </ApolloProvider>
   );
 });
 if (process.env.NODE_ENV !== 'production') Provider.displayName = 'Provider';
