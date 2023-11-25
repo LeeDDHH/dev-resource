@@ -1,7 +1,7 @@
 import { useInfiniteQuery } from '@tanstack/react-query';
 
 import api, { apiList } from '@/lib/api';
-import { searchLimit } from '@/lib/Const';
+import { hasNextOffset, nextLimit } from '@/lib/hooks';
 
 import { Resource } from '@/types/data';
 
@@ -14,11 +14,19 @@ const fetchSearchBookmark = async ({
   bookmarkList: number[];
   pageParam: number;
 }) => {
-  const limit = pageParam + searchLimit;
-  const res = await api.post(apiList[API_SEARCH_BOOKMARK_LIST], {
-    json: { bookmarkList, limit, offset: pageParam },
-  });
-  return await res.json<Resource>();
+  try {
+    const res = await api.post(apiList[API_SEARCH_BOOKMARK_LIST], {
+      json: { bookmarkList, limit: nextLimit(pageParam), offset: pageParam },
+    });
+    if (!res.ok) {
+      console.log(`Fetch error: ${res.status}`);
+      return [];
+    }
+    return await res.json<Resource>();
+  } catch (error) {
+    console.log(error);
+    return [];
+  }
 };
 
 const useSearchBookmark = (bookmarkList: number[]) =>
@@ -26,7 +34,7 @@ const useSearchBookmark = (bookmarkList: number[]) =>
     queryKey: [API_SEARCH_BOOKMARK_LIST, bookmarkList],
     queryFn: ({ pageParam = 0 }) => fetchSearchBookmark({ bookmarkList, pageParam }),
     initialPageParam: 0,
-    getNextPageParam: (_, pages) => pages.length * searchLimit,
+    getNextPageParam: (_, pages) => hasNextOffset(pages),
   });
 
 export { useSearchBookmark };
