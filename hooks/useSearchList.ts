@@ -1,7 +1,7 @@
 import { useInfiniteQuery } from '@tanstack/react-query';
 
 import api, { apiList } from '@/lib/api';
-import { hasNextOffset, nextLimit } from '@/lib/hooks';
+import { getPageOffset, nextLimit } from '@/lib/hooks';
 
 import { Resource } from '@/types/data';
 
@@ -26,7 +26,7 @@ const useSearchList = () => {
     queryKey: [API_SEARCH_LIST],
     queryFn: fetchSearchList,
     initialPageParam: 0,
-    getNextPageParam: (_, pages) => hasNextOffset(pages),
+    getNextPageParam: (lastPage, pages) => getPageOffset(lastPage.length, pages.length),
   });
 };
 

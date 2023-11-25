@@ -1,7 +1,7 @@
 import { useInfiniteQuery } from '@tanstack/react-query';
 
 import api, { apiList } from '@/lib/api';
-import { hasNextOffset, nextLimit } from '@/lib/hooks';
+import { getPageOffset, nextLimit } from '@/lib/hooks';
 
 import { Resource } from '@/types/data';
 
@@ -34,7 +34,7 @@ const useSearchBookmark = (bookmarkList: number[]) =>
     queryKey: [API_SEARCH_BOOKMARK_LIST, bookmarkList],
     queryFn: ({ pageParam = 0 }) => fetchSearchBookmark({ bookmarkList, pageParam }),
     initialPageParam: 0,
-    getNextPageParam: (_, pages) => hasNextOffset(pages),
+    getNextPageParam: (lastPage, pages) => getPageOffset(lastPage.length, pages.length),
   });
 
 export { useSearchBookmark };
