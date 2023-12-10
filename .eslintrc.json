@@ -9,7 +9,9 @@
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "prettier",
     "plugin:tailwindcss/recommended",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended"
   ],
   "settings": {
     "import/resolver": {
