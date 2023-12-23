@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":disableMajorUpdates",
+    ":timezone(Asia/Tokyo)",
+    ":combinePatchMinorReleases",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimit10",
+    "group:recommended",
+    "group:allNonMajor"
+  ],
+  "schedule": ["after 9am on monday", "before 12am on monday"],
+  "dependencyDashboard": true,
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies", "devDependencies"],
+      "groupName": "dependencies (non-major)",
+      "rangeStrategy": "update-lockfile"
+    }
+  ]
+}
