@@ -135,3 +135,6 @@ sketch
 
 # storybook
 storybook-static
+
+# git-history
+.history
