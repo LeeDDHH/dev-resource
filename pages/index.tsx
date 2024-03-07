@@ -25,7 +25,17 @@ if (process.env.NODE_ENV !== 'production') Index.displayName = 'Index';
 export default Index;
 
 // eslint-disable-next-line @typescript-eslint/require-await
-export const getStaticProps = async () => {
+// export const getStaticProps = async () => {
+//   // eslint-disable-next-line @typescript-eslint/no-var-requires
+//   const itemsAmount = (require('@/data/db.json') as ResourceDataFromDB).resource.length;
+
+//   return {
+//     props: {
+//       itemsAmount,
+//     },
+//   };
+// };
+export const getServerSideProps = () => {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   const itemsAmount = (require('@/data/db.json') as ResourceDataFromDB).resource.length;
 
