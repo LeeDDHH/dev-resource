@@ -6,8 +6,8 @@
 
 |         名前         | バージョン |
 | :------------------: | :--------: |
-|       Node.js        |  18.12.0   |
-|         npm          |   9.6.6    |
+|       Node.js        |  18.17.1   |
+|         npm          |   9.6.7    |
 |    @apollo/client    |   3.7.17   |
 |    @apollo/server    |   4.7.5    |
 |       graphql        |   16.7.1   |
@@ -132,3 +132,28 @@ yarn analyze-bundle
     - ただ、 Cloudflare Pages でビルドコマンドは指定できるものの、インストール時のオプションは直接指定ができないため、 `.npmrc` で指定する
     - [google app engine - How can I deploy an app using legacy peer deps? - Stack Overflow](https://stackoverflow.com/questions/73381958/how-can-i-deploy-an-app-using-legacy-peer-deps)
     - [[Laravel×React].npmrcに–legacy-peer-depsの設定を書く｜ytmemo](https://ytmemo.com/npmrc-setting/)
+
+## `node`、`npm` のバージョンを上げるタイミング
+
+- CloudFlareの[Language support and tools](https://developers.cloudflare.com/pages/configuration/language-support-and-tools/)を見て判断する
+
+## 新しい環境で構築する場合
+
+- `.env.sample` をコピーして `.env` ファイルを作成する
+
+## トラブルシューティング
+
+### Electron関連でエラーが起きる
+
+```
+Error: GET https://github.com/electron/electron/releases/download/v2.0.18/electron-v2.0.18-darwin-arm64.zip returned 404
+︙
+Error: Failed to find Electron v2.0.18 for darwin-arm64
+```
+
+- `free-translate` の依存関係にある `nightmare` で起きたエラー
+- M1系のハードウェアがElectron11から対応する
+  - [reactjs - Electron issue with Mac M1 - Stack Overflow](https://stackoverflow.com/questions/66302881/electron-issue-with-mac-m1)
+  - [Electron 11.0.0 | Electron](https://www.electronjs.org/blog/electron-11-0#highlight-features)
+- 最低限、M系のMacで動けばOKなので、 `package.json` で `"electron": "11.0.0"` とオーバーライドすると解決
+  - [Cannot install macOS m1 cpu · Issue #1636 · segment-boneyard/nightmare](https://github.com/segment-boneyard/nightmare/issues/1636#issuecomment-1627501572)
