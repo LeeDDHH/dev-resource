@@ -1,9 +1,9 @@
 https://www.youtube.com/watch?v=I6DCo5RwHBE
-https://www.youtube.com/shorts/nY0LCJdoCic
-https://www.youtube.com/shorts/RBxhezE-B-I
-https://www.youtube.com/shorts/d9N9reAwlKw
-https://www.youtube.com/shorts/0lhGioZlHgk
-https://www.youtube.com/shorts/KuosytfoZEE
+https://www.youtube.com/watch?v=nY0LCJdoCic
+https://www.youtube.com/watch?v=RBxhezE-B-I
+https://www.youtube.com/watch?v=d9N9reAwlKw
+https://www.youtube.com/watch?v=0lhGioZlHgk
+https://www.youtube.com/watch?v=KuosytfoZEE
 https://www.youtube.com/watch?v=D4Yfqd-qNXI
 https://www.youtube.com/watch?v=iM1iSvloMlo
 https://www.youtube.com/watch?v=8WebOGnnu7g
@@ -21,9 +21,9 @@ https://www.insurtechlab.net/ai-driven-development/
 https://axios-cache-interceptor.js.org/?ref=dailydev
 https://buildui.com/?ref=dailydev
 https://github.com/Andarist/react-textarea-autosize
-https://www.youtube.com/shorts/yo9uM5u7MaQ
-https://www.youtube.com/shorts/1IfgzZ4_bVo
-https://www.youtube.com/shorts/EpWV3qb9pv4
+https://www.youtube.com/watch?v=yo9uM5u7MaQ
+https://www.youtube.com/watch?v=1IfgzZ4_bVo
+https://www.youtube.com/watch?v=EpWV3qb9pv4
 https://collable.org/?utm_source=Google&utm_medium=cpc&utm_campaign=Ad-Grants&gad_source=1&gclid=CjwKCAjw4f6zBhBVEiwATEHFVvH-9TVcP-bpCNT8QkgcTXTDKvznsmUJsGjtNQN1NISix2xA4pw2OBoCy0wQAvD_BwE
 https://twitter.com/chatgptair/status/1807353430043988396
 https://twitter.com/SuguruKun_ai/status/1808122296235876804
