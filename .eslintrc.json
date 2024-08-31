@@ -92,6 +92,18 @@
           }
         ]
       }
+    ],
+    "import/no-restricted-paths": [
+      "error",
+      {
+        "zones": [
+          {
+            "target": "./**/!(env).ts?(x)",
+            "from": ["node_modules/@t3-oss/env-nextjs"],
+            "message": "Importing from '@t3-oss/env-nextjs' is restricted except in lib/env/env.ts."
+          }
+        ]
+      }
     ]
   }
 }
