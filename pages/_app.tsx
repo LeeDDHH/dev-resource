@@ -10,6 +10,7 @@ import { pageview } from '@/lib/gtag';
 import type { NextPage } from 'next';
 
 import '@/styles/global.css';
+import '@/styles/single-Item-view.css';
 
 export type NextPageWithLayout<P = Record<string, never>, IP = P> = NextPage<P, IP> & {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

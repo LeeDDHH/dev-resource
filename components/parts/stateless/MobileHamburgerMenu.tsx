@@ -28,7 +28,7 @@ export const MobileHamburgerMenu = React.memo(({ menuToggle, openMenu }: Props) 
       aria-label='sp hamburger menu'
       onClick={menuToggle}
     >
-      <GiHamburgerMenu className='h-10 w-10 fill-current' />
+      <GiHamburgerMenu className='size-10 fill-current' />
     </button>
   );
 
