@@ -14,7 +14,7 @@ type Props = { item: Item; isBookmarked: boolean; handleBookmarks: (bookmarkId: 
 
 const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Props) => {
   return (
-    <li>
+    <li className='appear-scale-up-once'>
       <div className='rounded-xl bg-rod-ivory px-5 pb-5 pt-1 text-rod-stone-800'>
         <div className='mt-2 flex items-center justify-end'>
           {isBookmarked ? (
