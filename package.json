@@ -43,6 +43,7 @@
     "count-tag": "ts-node ./lib/tagCountPerResourceData.ts",
     "add-id-data": "ts-node ./lib/addSequenceId.ts",
     "screenshots": "ts-node ./lib/screenshot.ts",
+    "json-minify": "ts-node ./lib/jsonMinify.ts",
     "compress-png": "node ./lib/compressPng.mjs",
     "mv-screenshots": "mv screenshots/*.webp public/images/webp",
     "add-contents": "run-s add-new-data add-tag-data count-tag add-id-data screenshots compress-png mv-screenshots",
