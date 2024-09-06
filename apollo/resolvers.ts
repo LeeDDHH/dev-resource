@@ -24,7 +24,7 @@ export const resolvers = {
           (source) =>
             isSearchKeywordIncludedToName(splitedString, source.name) ||
             isSearchKeywordIncludedToDescription(splitedString, source.description) ||
-            isSearchKeywordIncludedToTags(splitedString, source.tag)
+            isSearchKeywordIncludedToTags(splitedString, source.tag),
         )
         .slice(offset, limit);
     },
@@ -40,7 +40,7 @@ export const resolvers = {
     },
     bookmarkWithOffsetAndLimit: async (
       _parent: object,
-      args: { bookmarkList: number[]; limit: number; offset: number }
+      args: { bookmarkList: number[]; limit: number; offset: number },
       // eslint-disable-next-line @typescript-eslint/require-await
     ) => {
       const newResource = [...db.resource];

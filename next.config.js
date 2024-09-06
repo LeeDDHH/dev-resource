@@ -1,4 +1,14 @@
 const config = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+        port: '',
+        pathname: '/vi/**/maxresdefault.jpg',
+      },
+    ],
+  },
   experimental: {
     outputFileTracingExcludes: {
       '*': [

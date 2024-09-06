@@ -5,7 +5,7 @@ import { useLocalStorage } from './useLocalStorage';
 export const useLocalBookmarks = () => {
   const [storedValue, setValue] = useLocalStorage<number[]>(
     localStorageHooksInfo.bookmarks.key,
-    localStorageHooksInfo.bookmarks.defaultValue
+    localStorageHooksInfo.bookmarks.defaultValue,
   );
 
   const handleBookmarks = (bookmarkId: number) => {

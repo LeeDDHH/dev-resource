@@ -1,14 +1,16 @@
 /* eslint-disable @typescript-eslint/no-array-constructor */
 'use strict';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
 
+import { BaseImage } from '@/components/base/BaseImage';
 import TagView from '@/components/parts/stateless/TagView';
 
 import { Item } from '@/graphql/generated';
+
+import { convertImageUrl } from '@/lib/convertImageUrl';
 
 type Props = { item: Item; isBookmarked: boolean; handleBookmarks: (bookmarkId: number) => void };
 
@@ -36,8 +38,8 @@ const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Prop
             {(item.name ?? '').replace(/-/g, ' ')}
           </span>
           <div className='flex justify-center'>
-            <Image
-              src={`/images/webp/${item.name}.webp`}
+            <BaseImage
+              src={convertImageUrl({ imageUrl: item.url ?? '', imageFileName: item.name ?? '' })}
               alt={item.name ?? ''}
               width={1130}
               height={600}
