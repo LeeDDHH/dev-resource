@@ -29,7 +29,7 @@
     "zod": "^3.21.4"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "PORT=3001 next dev",
     "build": "next build",
     "start": "next start",
     "codegen": "graphql-codegen",
