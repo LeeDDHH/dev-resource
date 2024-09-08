@@ -49,6 +49,8 @@ const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Prop
                 width: '100%',
                 maxWidth: '100%',
                 height: 'auto',
+                objectFit: 'contain',
+                maxHeight: '185px',
               }}
             />
           </div>
