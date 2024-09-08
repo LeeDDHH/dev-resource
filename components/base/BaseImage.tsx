@@ -1,8 +1,7 @@
 import NextImage from 'next/image';
+import { useState } from 'react';
 
 import { generateBase64SVG } from '@/lib/generateBase64';
-
-import { useState } from 'react';
 
 type ImageProps = {
   src: string;
