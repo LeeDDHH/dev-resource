@@ -2,6 +2,8 @@ import NextImage from 'next/image';
 
 import { generateBase64SVG } from '@/lib/generateBase64';
 
+import { useState } from 'react';
+
 type ImageProps = {
   src: string;
   alt: string;
@@ -89,6 +91,15 @@ const skeleton2 = () => {
   `;
 };
 
+/**
+ * デフォルト画像のパスをランダムで生成
+ * 0から8のランダムな数値を生成し、それを元にデフォルト画像のパスを生成する
+ */
+const generateRandomDefaultImagePath = () => {
+  const random = Math.floor(Math.random() * 9);
+  return `/images/defaultImages/default-image-${random}.webp`;
+};
+
 export const BaseImage = ({
   src,
   alt,
@@ -98,16 +109,30 @@ export const BaseImage = ({
   quality = 1,
   style = defaultStyle,
 }: ImageProps) => {
+  const [imgSrc, setImgSrc] = useState(src);
+
+  // デフォルトスタイルとpropsで渡されたスタイルをマージ
+  const imageStyle = { ...defaultStyle, ...style };
+
+  // 画像の読み込み中に表示するプレースホルダー画像を生成
+  const placeholderImage = generateBase64SVG(skeleton2());
+
+  // 画像の読み込みに失敗した場合、デフォルト画像を表示する
+  const handleLoadImageError = () => {
+    setImgSrc(generateRandomDefaultImagePath());
+  };
+
   return (
     <NextImage
-      src={src}
+      src={imgSrc}
       alt={alt}
       width={width}
       height={height}
       loading={loading}
       quality={quality}
-      style={style}
-      placeholder={generateBase64SVG(skeleton2())}
+      style={imageStyle}
+      placeholder={placeholderImage}
+      onError={handleLoadImageError}
     />
   );
 };
