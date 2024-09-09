@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 import { BsBookmarkFill, BsBookmark } from 'react-icons/bs';
 
-import { BaseImage } from '@/components/base/BaseImage';
+import { BaseNextImage } from '@/components/base/BaseImage';
 import TagView from '@/components/parts/stateless/TagView';
 
 import { Item } from '@/graphql/generated';
@@ -38,7 +38,7 @@ const SingleItemView = React.memo(({ item, isBookmarked, handleBookmarks }: Prop
             {(item.name ?? '').replace(/-/g, ' ')}
           </span>
           <div className='flex justify-center'>
-            <BaseImage
+            <BaseNextImage
               src={convertImageUrl({ imageUrl: item.url ?? '', imageFileName: item.name ?? '' })}
               alt={item.name ?? ''}
               width={1130}
