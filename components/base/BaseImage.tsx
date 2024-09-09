@@ -1,17 +1,22 @@
-import NextImage from 'next/image';
+import NextImage, { ImageProps } from 'next/image';
 import { useState } from 'react';
 
 import { generateBase64SVG } from '@/lib/generateBase64';
 
-type ImageProps = {
-  src: string;
-  alt: string;
-  width?: number;
-  height?: number;
-  loading: 'eager' | 'lazy';
-  quality: number;
+import { MergeType } from '@/types/util';
+
+type HandleImageProps = 'src' | 'alt' | 'width' | 'height' | 'loading' | 'quality' | 'style';
+
+type CustomBaseNextImageProps = {
   style?: React.CSSProperties;
+  placeholder?: `data:image/${string}`;
+  errorImage?: string;
+  onError?: () => void;
 };
+
+type NextImageProps = Pick<ImageProps, HandleImageProps>;
+
+type BaseNextImageProps = MergeType<NextImageProps & CustomBaseNextImageProps>;
 
 const defaultStyle = {
   width: '100%',
@@ -90,6 +95,9 @@ const skeleton2 = () => {
   `;
 };
 
+// 画像の読み込み中に表示するプレースホルダー画像を生成
+const defaultPlaceholderImage = generateBase64SVG(skeleton2());
+
 /**
  * デフォルト画像のパスをランダムで生成
  * 0から8のランダムな数値を生成し、それを元にデフォルト画像のパスを生成する
@@ -99,7 +107,7 @@ const generateRandomDefaultImagePath = () => {
   return `/images/defaultImages/default-image-${random}.webp`;
 };
 
-export const BaseImage = ({
+export const BaseNextImage = ({
   src,
   alt,
   width = 1130,
@@ -107,18 +115,20 @@ export const BaseImage = ({
   loading = 'lazy',
   quality = 1,
   style = defaultStyle,
-}: ImageProps) => {
+  placeholder = defaultPlaceholderImage,
+  errorImage,
+  onError,
+}: BaseNextImageProps) => {
+  const errorImageSrc = errorImage || generateRandomDefaultImagePath();
   const [imgSrc, setImgSrc] = useState(src);
 
   // デフォルトスタイルとpropsで渡されたスタイルをマージ
   const imageStyle = { ...defaultStyle, ...style };
 
-  // 画像の読み込み中に表示するプレースホルダー画像を生成
-  const placeholderImage = generateBase64SVG(skeleton2());
-
   // 画像の読み込みに失敗した場合、デフォルト画像を表示する
-  const handleLoadImageError = () => {
-    setImgSrc(generateRandomDefaultImagePath());
+  const handleDefaultLoadImageError = () => {
+    setImgSrc(errorImageSrc);
+    onError?.();
   };
 
   return (
@@ -130,8 +140,8 @@ export const BaseImage = ({
       loading={loading}
       quality={quality}
       style={imageStyle}
-      placeholder={placeholderImage}
-      onError={handleLoadImageError}
+      placeholder={placeholder}
+      onError={handleDefaultLoadImageError}
     />
   );
 };
