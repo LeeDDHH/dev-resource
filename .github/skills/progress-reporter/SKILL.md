@@ -36,13 +36,14 @@ description: |
    - 最も活発なファイルタイプを特定
 
 4. **レポート生成**
-   - 統計サマリーセクション（総コミット数、純変更行数、ファイル数）
-   - トレンドセクション（日次/週次グラフ、ピーク日）
-   - ファイル種別分布（上位5種類）
+    - 統計サマリーセクション（総コミット数、純変更行数、ファイル数）
+    - トレンドセクション（日次/週次グラフ、ピーク日）
+    - ファイル種別分布（上位5種類）
+    - `progress-analyzer` の数値項目に `null` がある場合は、`git --no-pager show --numstat <sha>` で補完してからレポート化する
 
 5. **ファイル保存**
-   - `results/YYYY-MM-DD-progress-report.md` に保存
-   - チャットには統計サマリーのみを表示
+    - `results/YYYY-MM-DD-progress-report.md` に保存
+    - チャットには統計サマリーのみを表示
 
 ## Deliverables
 
@@ -50,10 +51,17 @@ description: |
 
 Reuse `assets/progress-report-template.md` when generating the final report structure.
 
+## Output Contract
+
+- `progress-analyzer` から受け取る `追加行数`、`削除行数`、`純増減` は `null` を許容しない
+- 行数系の値が欠けた場合は、対象コミットごとに `git --no-pager show --numstat <sha>` を実行して補完してから次工程へ進む
+- 最終レポートの行数系は常に数値で出力し、`null` や `不明` のまま保存しない
+
 ## Quality Gates
 
 - [ ] `progress-analyzer` エージェントが正常に実行された
 - [ ] 統計データが正確に計算されている（lines added + removed = net change）
+- [ ] 行数系の値（追加/削除/純増減）に `null` が残っていない
 - [ ] コミット頻度グラフが含まれている
 - [ ] ファイル種別の分布が含まれている（上位5種類）
 - [ ] レポートが `results/` ディレクトリに保存されている
@@ -67,19 +75,20 @@ Reuse `assets/progress-report-template.md` when generating the final report stru
 - **トレンドグラフの最小単位**: コミット数が5件未満の場合は日次グラフを生成せず、全体サマリーのみを表示する
 - **ファイル拡張子の正規化**: `.ts` と `.tsx`、`.js` と `.jsx` は別カウント。統合する場合は明示的に「TypeScript files (.ts + .tsx)」と記載
 - **実行時間の最適化**: `git log --numstat` は重い処理。コミット数が100超の場合は `--max-count=50` で制限し、「最新50コミットを分析」と明示
-- **`progress-analyzer` の欠損値**: Custom Agent が `追加行数`・`削除行数`・`純増減` を `null` で返すことがある。`git --no-pager show --numstat <sha>` または `git --no-pager log --numstat --no-merges` でローカル再集計してからレポート化する
+- **行数系の欠損禁止**: `progress-analyzer` の返却値で `追加行数`・`削除行数`・`純増減` が `null` なら不完全結果として扱い、`git --no-pager show --numstat <sha>` で必ず補完してから保存する
 
 ## Validation Loop
 
 1. **実行**: `progress-analyzer` を起動してコミット統計を取得し、レポートを生成
 2. **チェック**:
    - 統計データの整合性（追加行数 + 削除行数 = 純変更行数）
+   - 行数系の値に `null` が残っていないか
    - トレンドグラフが生成されているか
    - ファイル種別分布が含まれているか
    - レポートファイルが保存されているか
 3. **失敗時の対応**:
    - 統計計算エラー → バイナリファイルを除外して再計算
-   - `追加行数` / `削除行数` / `純増減` が `null` → 対象コミットに対して `git --no-pager show --numstat <sha>` を実行して補完
+   - 行数系が `null` → 対象コミットへ `git --no-pager show --numstat <sha>` を実行して再集計
    - グラフ生成失敗 → コミット数が少ない場合はサマリーのみ出力
    - ファイル保存失敗 → `results/` ディレクトリを作成してリトライ
 4. **合格後**: 次のスキル（motivational-feedback）に引き継ぐか、ユーザーに完了を報告
