@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "@apollo/client": "^3.8.0",
     "@apollo/server": "^4.9.1",
@@ -89,6 +86,7 @@
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
     "autoprefixer": "^10.4.14",
+    "copilot-agent-builder": "^0.1.2",
     "electron": "^11.0.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.8",
