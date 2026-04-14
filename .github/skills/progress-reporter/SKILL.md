@@ -67,6 +67,7 @@ Reuse `assets/progress-report-template.md` when generating the final report stru
 - **トレンドグラフの最小単位**: コミット数が5件未満の場合は日次グラフを生成せず、全体サマリーのみを表示する
 - **ファイル拡張子の正規化**: `.ts` と `.tsx`、`.js` と `.jsx` は別カウント。統合する場合は明示的に「TypeScript files (.ts + .tsx)」と記載
 - **実行時間の最適化**: `git log --numstat` は重い処理。コミット数が100超の場合は `--max-count=50` で制限し、「最新50コミットを分析」と明示
+- **`progress-analyzer` の欠損値**: Custom Agent が `追加行数`・`削除行数`・`純増減` を `null` で返すことがある。`git --no-pager show --numstat <sha>` または `git --no-pager log --numstat --no-merges` でローカル再集計してからレポート化する
 
 ## Validation Loop
 
@@ -78,6 +79,7 @@ Reuse `assets/progress-report-template.md` when generating the final report stru
    - レポートファイルが保存されているか
 3. **失敗時の対応**:
    - 統計計算エラー → バイナリファイルを除外して再計算
+   - `追加行数` / `削除行数` / `純増減` が `null` → 対象コミットに対して `git --no-pager show --numstat <sha>` を実行して補完
    - グラフ生成失敗 → コミット数が少ない場合はサマリーのみ出力
    - ファイル保存失敗 → `results/` ディレクトリを作成してリトライ
 4. **合格後**: 次のスキル（motivational-feedback）に引き継ぐか、ユーザーに完了を報告
