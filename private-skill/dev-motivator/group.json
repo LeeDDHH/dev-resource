@@ -1,0 +1,9 @@
+{
+  "name": "dev-motivator",
+  "displayName": "Dev Motivator",
+  "description": "Git コミット履歴ベースの開発振り返り依頼を判定し、コミット要約・進捗レポート・モチベーションフィードバックの最適な workflow に route するスイート。Use when ユーザーが最近の変更の要約、進捗の数値化、または個人開発の励ましを 1 つの入口から求めている場合。",
+  "author": "coreclaw",
+  "version": "1.0.0",
+  "tags": ["git", "motivation", "progress-tracking", "feedback", "個人開発"],
+  "category": "productivity"
+}

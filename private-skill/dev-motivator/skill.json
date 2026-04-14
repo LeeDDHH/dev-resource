@@ -1,0 +1,11 @@
+{
+  "name": "dev-motivator",
+  "version": "1.0.0",
+  "type": "suite",
+  "description": "Git ベースの振り返り依頼をルーティングし、統合スキル `dev-motivator` と個別サブスキル群を提供するスイート。Use when ユーザーがコミット要約、進捗、モチベーションフィードバック、またはそれらをまとめた振り返りを求めている場合。",
+  "entryPoint": "AGENTS.md",
+  "subSkills": ["dev-motivator", "commit-summarizer", "progress-reporter", "motivational-feedback"],
+  "customAgents": ["progress-analyzer"],
+  "dependencies": [],
+  "mcpServers": []
+}
