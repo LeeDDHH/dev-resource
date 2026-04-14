@@ -49,6 +49,7 @@
     "trace-tree": "ts-node lib/nextjs/trace-to-tree.mjs .next/trace",
     "analyze-bundle": "ANALYZE=true next build",
     "cloudflare-build": "npx @cloudflare/next-on-pages",
+    "validate-agent-skills": "node ./scripts/validate-agent-skills.mjs",
     "deploy:dev-motivator": "node ./scripts/deploy-dev-motivator.mjs",
     "prepare": "husky"
   },
