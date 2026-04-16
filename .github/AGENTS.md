@@ -1,98 +1,108 @@
 ---
-name: dev-motivator-router
+name: dev-resource-orchestrator
 description: |
-  Git ベースの振り返り依頼を、統合スキル `dev-motivator` または個別の葉スキルへルーティングする。
-  Use when ユーザーがコミット要約、進捗レポート、モチベーションフィードバック、またはそれらをまとめた振り返りを求めており、最適なスキルに振り分ける必要がある場合。
+  dev-resource リポジトリ全体の依頼を、Next.js アプリ本体、GraphQL / データ更新、Agent Skills 運用の各領域に応じて整理する共通オーケストレーター。
+  Use when このリポジトリ全体に対する実装、調査、保守、または Copilot 設定の更新を行う必要がある場合。
 ---
 
-# Dev Motivator Router
+# dev-resource Orchestrator
 
-このファイルは **ルーター専用** です。最終成果物を自分で生成せず、依頼内容に応じて `dev-motivator` または個別スキルへ委譲します。
+このファイルは **リポジトリ全体向け** です。`dev-motivator` 専用ルーターではなく、アプリ本体・データ更新・Agent Skills を含む全領域の作業方針を定義します。
+
+## Repository Scope
+
+- Next.js 13 + TypeScript による開発リソース一覧アプリ
+- Apollo / GraphQL を使った API・クエリ・生成物
+- `data/` と `lib/` の収集・タグ付け・画像処理スクリプト
+- `private-skill/dev-motivator/` をソースとする Agent Skills 群と、`.github/skills/` の配布先コピー
 
 ## Core Rules
 
-- 最も狭い範囲のサブスキルを優先的に使用する。
-- 複数成果物をまとめてほしい依頼だけを `dev-motivator` に渡す。
-- ルーター自身は Git 分析やファイル保存を実行しない。
+- 依頼対象がアプリ本体なのか、データ更新なのか、Agent Skills なのかを最初に切り分ける。
+- `.github/AGENTS.md` と `.github/copilot-instructions.md` は **このリポジトリ全体の共通指示** として扱う。
+- `dev-motivator` 関連の実装変更は `private-skill/dev-motivator/` をソースとして扱い、必要な配布物だけ `.github/skills/` や `.github/agents/` に反映する。
+- 既存の npm / yarn スクリプトがある処理は、手作業よりもスクリプトを優先する。
 
 ## Routing Rules
 
 ### WHEN/DO Dispatch
 
-**WHEN**: ユーザーがコミット要約・進捗・励ましを **まとめて** 求めている、または「振り返りを全部やって」「一通りレポートして」のように統合出力を求めている
-**DO**: → `dev-motivator`
+**WHEN**: ユーザーが画面、ページ、コンポーネント、レイアウト、スタイル、表示崩れ、UX の修正を求めている  
+**DO**: `pages/`, `components/`, `hooks/`, `styles/`, `public/` を起点に変更する
 
-**WHEN**: ユーザーが「直近のコミット」「最近の変更」「コミット履歴」の要約だけを求めている
-**DO**: → `commit-summarizer`
+**WHEN**: ユーザーが GraphQL スキーマ、クエリ、Apollo クライアント / サーバー、API 挙動の変更を求めている  
+**DO**: `graphql/`, `apollo/`, `lib/apollo/`, `pages/api/graphql.ts` を確認し、必要なら生成物も更新する
 
-**WHEN**: ユーザーが「進捗」「統計」「トレンド」「レポート」だけを求めている
-**DO**: → `progress-reporter`
+**WHEN**: ユーザーがデータ収集、タグ更新、JSON 整形、スクリーンショット生成、画像配置の変更を求めている  
+**DO**: `data/`, `lib/*.ts`, `scripts/`, `public/images/`, `screenshots/` を対象にし、既存パイプラインを崩さない
 
-**WHEN**: ユーザーが「フィードバック」「褒めて」「モチベーション」だけを求めている
-**DO**: → `motivational-feedback`
+**WHEN**: ユーザーが Copilot 設定、Agent Skills、`.github` 配下の運用ルール、`dev-motivator` スイートの保守を求めている  
+**DO**: `.github/`, `private-skill/dev-motivator/`, `scripts/deploy-dev-motivator.mjs` を対象にし、共通指示とスイート固有指示を分けて扱う
 
-### Task Classification
+**WHEN**: ユーザーが最近のコミット要約、進捗レポート、モチベーションフィードバックを求めている  
+**DO**: `dev-motivator`、`commit-summarizer`、`progress-reporter`、`motivational-feedback` を必要に応じて使う
 
-1. ユーザーは「要約 + 進捗 + フィードバック」を一括で欲しがっているか？
+## Task Classification
 
-   - YES → `dev-motivator`
+1. 依頼はアプリの挙動や UI の変更か？
+   - YES → `pages/`, `components/`, `styles/` を優先
    - NO → next
-
-2. ユーザーは統計データやトレンド分析だけを求めているか？
-
-   - YES → `progress-reporter`
+2. 依頼は GraphQL / API / データ取得フローの変更か？
+   - YES → `graphql/`, `apollo/`, `lib/apollo/`, `pages/api/graphql.ts`
    - NO → next
-
-3. ユーザーはコミット内容の要約のみを求めているか？
-
-   - YES → `commit-summarizer`
+3. 依頼は収集データや画像アセットの更新か？
+   - YES → `data/`, `lib/`, `public/images/`, `screenshots/`
    - NO → next
+4. 依頼は Agent Skills / Copilot 設定の変更か？
+   - YES → `.github/` と `private-skill/dev-motivator/`
+   - NO → まず関連ディレクトリを調査してから着手
 
-4. ユーザーはモチベーション維持のためのフィードバックのみを求めているか？
-   - YES → `motivational-feedback`
-   - NO → `dev-motivator`
+## Phase Routing
 
-### Phase Routing
+**Phase 1** → 依頼の対象領域とソースオブトゥルースを特定する (auto)
 
-**Phase 1** → 依頼範囲を判定し、単一スキルまたは `dev-motivator` を選択 (auto)
+**Phase 2** → 対象領域に限定して実装・文書更新を行う (auto)
 
-**Phase 2** → 選択したスキルへ委譲し、必要ならそのスキル内部で追加のサブスキルを起動 (auto)
+**Phase 3** → 大量のデータ再生成や画像再出力を伴う場合は、影響範囲を確認してから進める (⏸️ when scope expands)
 
-**Phase 3** → 委譲先の成果物をそのまま採用し、ルーター側で再生成しない (auto)
+**Phase 4** → 変更対象に応じて lint / build / codegen / validate-agent-skills を実行する (auto)
 
-### Urgency Triage
+## Urgency Triage
 
-| Urgency | Keywords                                | Route                   |
-| ------- | --------------------------------------- | ----------------------- |
-| Full    | (default), "まとめて", "全部", "一通り" | `dev-motivator`         |
-| Quick   | "summary", "要約だけ", "簡潔に"         | `commit-summarizer`     |
-| Stats   | "統計だけ", "数値のみ"                  | `progress-reporter`     |
-| Cheer   | "褒めて", "励まして"                    | `motivational-feedback` |
+| Urgency | Keywords | Route |
+| ------- | -------- | ----- |
+| UI | "画面", "表示", "レイアウト", "スタイル" | App UI / page flow |
+| API | "GraphQL", "query", "schema", "API" | GraphQL / Apollo flow |
+| Data | "data", "タグ", "JSON", "スクショ" | Data pipeline |
+| Skills | "Copilot", "skill", "AGENTS", "instructions" | `.github/` + `private-skill/` |
 
 ## Verification Loop
 
-**CLASSIFY** → **DISPATCH** → **VERIFY** → **HANDOFF**
+**CLASSIFY** → **EDIT** → **REGENERATE IF NEEDED** → **VALIDATE** → **HANDOFF**
 
-1. **CLASSIFY**: 単一依頼か統合依頼かを判定
-2. **DISPATCH**: 最適なスキルへ委譲
-3. **VERIFY**: 委譲先が要求スコープを満たすか確認
-4. **HANDOFF**: 結果は委譲先の出力をそのまま返す
+1. **CLASSIFY**: どの領域の変更かを判定する
+2. **EDIT**: ソースオブトゥルース側を更新する
+3. **REGENERATE IF NEEDED**: GraphQL 生成物や配布用 skill コピーが必要なら更新する
+4. **VALIDATE**: 変更に対応する既存コマンドで確認する
+5. **HANDOFF**: 何を変えたか、どの領域に効くかを簡潔に返す
 
 ## Quality Gates
 
-- [ ] 統合依頼は `dev-motivator` に委譲されている
-- [ ] 単一依頼は最も狭い葉スキルに委譲されている
-- [ ] ルーター自身が成果物を再生成していない
-- [ ] ルーティング先がユーザー要求のスコープを満たしている
+- [ ] 変更対象の領域と無関係なファイルを広く触っていない
+- [ ] `.github/AGENTS.md` / `.github/copilot-instructions.md` をスイート固有の内容で上書きしていない
+- [ ] `private-skill/dev-motivator/` を変更した場合、必要な配布先だけ同期している
+- [ ] GraphQL / データ / スキル生成物が必要なときだけ再生成されている
 
 ## Prohibited Operations
 
-- ルーター内で Git 履歴を直接分析すること
-- `dev-motivator` へ渡すべき統合依頼を個別スキルへ分解しすぎること
-- 単一依頼なのに複数スキルを不要に起動すること
+- リポジトリ全体の共通指示を `dev-motivator` 専用ルールとして扱うこと
+- `private-skill/dev-motivator/` のソース変更なしに、永続化したい変更を `.github/skills/` 側だけへ加えること
+- データ更新パイプラインがある処理を、JSON の手修正だけで済ませること
+- GraphQL の入力定義を変えたのに生成物更新の必要性を無視すること
 
 ## Gotchas
 
-- **広い依頼の見落とし**: 「振り返って」「全体を見て」のような曖昧な依頼は、単一スキルではなく `dev-motivator` を優先する
-- **過剰ルーティング**: 「要約だけ」と明示されている場合は `dev-motivator` を経由しない
-- **再要約の二重化**: `dev-motivator` が統合出力を返すので、ルーター側で再編集しない
+- **`.github` は全体向け**: `.github/AGENTS.md` と `.github/copilot-instructions.md` は repo-wide の指示であり、特定スイートの専用ルーターではない
+- **`private-skill/` がソース**: `dev-motivator` の実装そのものは `private-skill/dev-motivator/` が元で、`.github/skills/` は配布用コピー
+- **GraphQL 生成物の追従**: `graphql/` や schema に関わる変更は `generated.ts` や関連生成物の更新が必要になることがある
+- **データ更新は副作用が広い**: `data/` 変更は JSON、タグ集計、スクリーンショット、`public/images/` まで波及しやすい
