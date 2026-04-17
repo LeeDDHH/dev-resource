@@ -1,0 +1,9 @@
+{
+  "name": "review-criteria-suite",
+  "displayName": "Review Criteria Suite",
+  "description": "Webアプリ開発向けのレビュー基準整理・差分レビュー・指摘整理を一貫した workflow で提供するスイート。Use when プロジェクト固有ルールと一般的な Web 開発ルールを分けて扱いながら、AI code reviewer の差分レビュー品質を揃えたい場合。",
+  "author": "coreclaw",
+  "version": "1.0.0",
+  "tags": ["code-review", "diff-review", "web-app", "review-criteria", "quality"],
+  "category": "quality"
+}
