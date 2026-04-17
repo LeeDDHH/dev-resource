@@ -26,6 +26,9 @@ jobs:
     if: github.event.pull_request.draft == false
     name: ci build
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_GRAPHQL_SERVER_URL: ${{ vars.NEXT_PUBLIC_GRAPHQL_SERVER_URL }}
+
     steps:
       - uses: actions/checkout@v4
       - name: yarn install # プロジェクトに必要なパッケージをダウンロードする
