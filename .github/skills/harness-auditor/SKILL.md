@@ -102,6 +102,14 @@ metadata:
 - Expert: 19–21 / 全軸でスコア2以上かつ半数がスコア3
 ```
 
+## Quality Gates
+
+- [ ] 全7軸に対して 0–3 のスコアが埋まっている
+- [ ] 各スコアに対応する根拠が SKILL.md / AGENTS.md / assets / agents / `.mcp.json` の実例で示されている
+- [ ] 改善提案が優先度付きで、具体的な修正アクションに落ちている
+- [ ] 成熟度判定がスコア基準と矛盾していない
+- [ ] Quality Gates / Memory Persistence / Eval Coverage を混同せずに評価している
+
 ## Gotchas
 
 - スコアリングはスキル単体ではなく Harness 環境全体（AGENTS.md, agents/, copilot-instructions.md, .mcp.json）も考慮すべき
@@ -111,7 +119,7 @@ metadata:
 - スイート構成でルート Orchestrator が SKILL.md になっている場合は AGENTS.md への変更を推奨する
 - assets/ が存在するのに SKILL.md から参照されていない場合はスコア減点（死蔵アセット）
 
-## 検証ループ
+## Validation Loop
 
 1. 監査レポートを生成
 2. 以下を確認:

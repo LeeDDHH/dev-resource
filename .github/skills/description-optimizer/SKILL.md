@@ -74,6 +74,14 @@ metadata:
 - 「Analyze CSV data」 vs 「Analyze security vulnerabilities」
 - 「Generate reports」 vs 「Generate code」
 
+## Quality Gates
+
+- [ ] `description` が「何をするか」+「Use when」の2部構成になっている
+- [ ] 1024文字以内に収まっている
+- [ ] 対象スキルと競合スキルのキーワード重複が整理されている
+- [ ] 動詞だけでなく対象物まで具体化されている
+- [ ] 起動すべきケース / 起動すべきでないケースの区別が明確である
+
 ## Gotchas
 
 - `description` は人間向けではなく LLM のルーティングエンジン向けに書く。自然な日本語よりキーワード密度を優先する
@@ -82,7 +90,7 @@ metadata:
 - description を最適化した後は、実際にエージェントに試し発話して起動確認すること
 - 1024文字の制限を超えると仕様違反。`name` は64文字以内
 
-## 検証ループ
+## Validation Loop
 
 1. 改善版 description を生成
 2. チェック:
