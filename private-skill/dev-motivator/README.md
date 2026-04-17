@@ -36,8 +36,9 @@ Git コミット履歴を分析し、プロジェクト進捗をポジティブ�
 
 ## Copilot CLI で使うとき
 
-- `dev-motivator/` は配布用のソースです
-- Copilot CLI が読む配置先は `.github/AGENTS.md` と `.github/skills/**` です
+- `private-skill/dev-motivator/` は `dev-motivator` スイートのソースです
+- 配布対象は `.github/skills/**` と `.github/agents/progress-analyzer.md` です
+- リポジトリ全体向けの `.github/AGENTS.md` / `.github/copilot-instructions.md` はこのスイートから上書きしません
 - 反映には `npm run deploy:dev-motivator` を実行します
 
 ## 要件

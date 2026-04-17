@@ -11,7 +11,6 @@ if (!existsSync(suiteRoot)) {
 }
 
 const targets = [
-  ['AGENTS.md', '.github/AGENTS.md'],
   ['agents/progress-analyzer.md', '.github/agents/progress-analyzer.md'],
   ['skills/dev-motivator', '.github/skills/dev-motivator'],
   ['skills/commit-summarizer', '.github/skills/commit-summarizer'],
