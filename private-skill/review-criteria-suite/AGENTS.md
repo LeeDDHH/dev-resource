@@ -60,7 +60,7 @@ description: |
 | Triage | 整理, 重要度順, 要約, ノイズ削減 | `review-synthesizer` |
 | Full | 全体レビュー, 一通り, end-to-end | full workflow |
 
-## Verification Loop
+## Validation Loop
 
 **CLASSIFY → DISPATCH → VERIFY → HANDOFF**
 
