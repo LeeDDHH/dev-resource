@@ -20,8 +20,25 @@ description: |
 
 - 依頼対象がアプリ本体なのか、データ更新なのか、Agent Skills なのかを最初に切り分ける。
 - `.github/AGENTS.md` と `.github/copilot-instructions.md` は **このリポジトリ全体の共通指示** として扱う。
+- Agent Skill suite の `AGENTS.md` は repo-wide の `.github/AGENTS.md` に置き換えず、`.github/skills/<suite-name>/SKILL.md` として配布する。
+- Agent Skill の sub-skill は `.github/skills/<skill-name>/SKILL.md`、custom agent は `.github/agents/<agent-name>.md` に配置する。
 - `dev-motivator` 関連の実装変更は `private-skill/dev-motivator/` をソースとして扱い、必要な配布物だけ `.github/skills/` や `.github/agents/` に反映する。
 - 既存の npm / yarn スクリプトがある処理は、手作業よりもスクリプトを優先する。
+
+### Skill Placement Map
+
+```text
+source suite root                      deployed under .github
+------------------------------------   ----------------------------------------------
+<suite>/AGENTS.md                  ->   .github/skills/<suite-name>/SKILL.md
+<suite>/skills/<skill>/SKILL.md    ->   .github/skills/<skill>/SKILL.md
+<suite>/skills/<skill>/assets/*    ->   .github/skills/<skill>/assets/*
+<suite>/agents/<agent>.md          ->   .github/agents/<agent>.md
+
+do not replace:
+.github/AGENTS.md
+.github/copilot-instructions.md
+```
 
 ## Routing Rules
 
