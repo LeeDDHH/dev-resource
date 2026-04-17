@@ -81,6 +81,13 @@ Reuse `assets/dev-motivator-template.md` when generating the final integrated re
 - [ ] 最終チャット出力に保存ファイルパスが含まれている
 - [ ] 個別スキルの内容を冗長に丸写しせず、統合要約になっている
 
+## Prohibited Operations
+
+- `git push`、`git rebase`、`git reset --hard`、`git commit --amend` など、リモート反映や履歴改変を伴う操作を実行しない
+- コミット本文、生成レポート、最終チャット出力に secrets・token・認証情報・個人情報を含めない
+- 生成物は `results/` 配下にのみ保存し、他ディレクトリへレポートや中間成果物を書き出さない
+- 下位スキル実行のためであっても、ユーザー依頼と無関係なファイル変更や永続化を行わない
+
 ## Gotchas
 
 - **単一依頼の誤爆**: 「要約だけ」「統計だけ」の依頼にこのスキルを使うと冗長になる。統合依頼だけで使う

@@ -50,6 +50,7 @@
     "analyze-bundle": "ANALYZE=true next build",
     "cloudflare-build": "npx @cloudflare/next-on-pages",
     "validate-agent-skills": "node ./scripts/validate-agent-skills.mjs",
+    "deploy:private-skills": "node ./scripts/deploy-private-skills.mjs",
     "deploy:dev-motivator": "node ./scripts/deploy-dev-motivator.mjs",
     "prepare": "husky"
   },

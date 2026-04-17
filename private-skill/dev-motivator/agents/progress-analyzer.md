@@ -35,6 +35,7 @@ You are a meticulous data analyst who finds meaningful patterns in Git commit hi
 2. **Statistics Extraction**: Calculate commit count, lines added/removed, file types modified
 3. **Trend Analysis**: Identify patterns (coding frequency, active hours, file focus areas)
 4. **Achievement Extraction**: Parse commit messages to find completed features, bug fixes, refactorings
+5. **Null Recovery**: If line-count fields are missing, recompute them locally before returning the result
 
 ## Git Analysis Patterns
 
@@ -72,6 +73,10 @@ git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null | sed 's@^refs/remotes/ori
 
 Return structured data in JSON or Markdown table format:
 
+- `linesAdded`, `linesRemoved`, `netChange` must always be numeric values
+- If any line-count field would be `null`, rerun local Git aggregation with `git --no-pager show --numstat <sha>` for the target commits and return the recomputed totals instead
+- Do not return partial statistics when the missing values can be recovered from local Git history
+
 ```json
 {
   "period": "2026-04-07 to 2026-04-14",
@@ -97,6 +102,7 @@ Return structured data in JSON or Markdown table format:
 - [ ] Git commands executed successfully (exit code 0).
 - [ ] Commit data parsed correctly (no corrupted entries).
 - [ ] Statistics sum to correct totals (lines added + removed = net change).
+- [ ] `linesAdded`, `linesRemoved`, `netChange` are numeric and never `null`.
 - [ ] File types extracted with valid extensions.
 - [ ] No write operations executed.
 
@@ -108,6 +114,7 @@ Return structured data in JSON or Markdown table format:
 | Empty commit history | Return: `{"commits": 0, "message": "No commits found"}` |
 | Branch not found | Try alternatives: `master`, `develop`, current branch |
 | Git timeout | Reduce range to latest 20 commits |
+| Line-count fields become `null` | Recompute totals with `git --no-pager show --numstat <sha>` for each target commit before returning |
 
 ## Gotchas
 
@@ -116,6 +123,7 @@ Return structured data in JSON or Markdown table format:
 - **空コミット対応**: コミットメッセージのみで変更がない場合も `commits` にカウント。`filesChanged=0` は正常値として扱う
 - **タイムゾーン考慮**: `--date=short` は UTC 基準。ローカルタイムゾーンで分析したい場合は `--date=local` を使用
 - **大規模リポジトリ**: 1万コミット超のリポジトリでは `git log` が遅い。`--max-count=50` で上限を設定し、タイムアウトを防ぐ
+- **`null` のまま返さない**: `linesAdded`・`linesRemoved`・`netChange` が欠けたら、対象 SHA ごとに `git --no-pager show --numstat <sha>` を実行して埋めてから返す
 
 ## Harness Optimization
 
