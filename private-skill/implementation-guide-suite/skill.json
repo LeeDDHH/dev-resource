@@ -1,0 +1,11 @@
+{
+  "name": "implementation-guide-suite",
+  "version": "1.0.0",
+  "type": "suite",
+  "description": "ルール文書を確認し、適用対象と不足情報を整理したうえで実装ガイドを生成するスイート。Use when review-criteria や設計ルールをもとに着手可能なガイドを作りたい場合。",
+  "entryPoint": "AGENTS.md",
+  "subSkills": ["rule-reader", "rule-checker", "implementation-guide-writer"],
+  "customAgents": [],
+  "dependencies": [],
+  "mcpServers": []
+}
