@@ -3,7 +3,7 @@
 ## プロジェクト概要
 
 このリポジトリは Agent Skills のマーケットプレイス配布レイヤーです。
-プロジェクトルート直下に `<agent-skills-name>/` としてスキルグループが配置されます。
+プロジェクトルート直下に `private-skill/<agent-skills-name>/` としてスキルグループが配置されます。
 
 ## ディレクトリ構成
 
@@ -11,7 +11,7 @@
 Agent Skills スイートは以下の構成で配置すること:
 
 ```
-<agent-skills-name>/
+private-skill/<agent-skills-name>/
 ├── AGENTS.md              # Orchestrator（WHEN/DOルーティング）→ .github/AGENTS.md にデプロイ
 ├── copilot-instructions.md # スイート固有の規約
 ├── README.md              # グループ説明
@@ -120,7 +120,7 @@ Agent Skills スイートは以下の構成で配置すること:
 - 同時有効化は 10 サーバー以下（Context Efficiency）
 
 ### CI/CD
-- PR で `<agent-skills-name>/**` が変更されると自動バリデーション
+- PR で `private-skill/<agent-skills-name>/**` が変更されると自動バリデーション
 - Git タグ（`<group>/<skill>/v*`）でリリースワークフロー起動
 - `registry.json` はリリース時に自動更新
 
