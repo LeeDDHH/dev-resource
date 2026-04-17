@@ -1,0 +1,9 @@
+{
+  "name": "implementation-guide-suite",
+  "displayName": "Implementation Guide Suite",
+  "description": "Webアプリ開発のルール文書を読み取り、適用条件を照合したうえで実装ガイドを生成するスイート。Use when 既存ルールに沿った実装手順や確認項目を AI に整理させたい場合。",
+  "author": "coreclaw",
+  "version": "1.0.0",
+  "tags": ["implementation-guide", "review-criteria", "web-app", "rules", "planning"],
+  "category": "productivity"
+}
