@@ -59,7 +59,7 @@ description: |
 | Guide | 実装ガイド, 手順, 進め方, チェックリスト | `implementation-guide-writer` |
 | Full | 一通り, end-to-end, 最初から | full workflow |
 
-## Verification Loop
+## Validation Loop
 
 **CLASSIFY → DISPATCH → VERIFY → HANDOFF**
 
