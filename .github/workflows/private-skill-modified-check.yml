@@ -1,0 +1,41 @@
+name: private-skill modified check
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+      - edited
+    branches-ignore:
+      # その前段の `develop` 向け PR の CI ですでに `private-skill/` 変更確認が済んでいる前提で除外する
+      - main
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  notify-private-skill-update:
+    if: github.event.pull_request.draft == false
+    name: notify private-skill update
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22.16.0
+
+      - name: notify private-skill update
+        run: node ./scripts/private-skill-modified-check.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
