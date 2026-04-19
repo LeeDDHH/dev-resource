@@ -31,9 +31,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-      - name: yarn install # プロジェクトに必要なパッケージをダウンロードする
-        run: yarn install
+      - name: npm install # プロジェクトに必要なパッケージをダウンロードする
+        run: npm install
       - name: lint # lintを回す
-        run: yarn lint
+        run: npm run lint
       - name: next build # ビルド
-        run: yarn build
+        run: npm run build
