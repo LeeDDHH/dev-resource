@@ -44,7 +44,7 @@ jobs:
           cache-name: node_modules
         with:
           path: node_modules
-          key: ${{ runner.os }}-build-${{ hashFiles('package-lock.json') }}
+          key: ${{ runner.os }}-build-${{ hashFiles('.node-version') }}-${{ hashFiles('package-lock.json') }}
           restore-keys: |
             ${{ runner.OS }}-build-${{ env.cache-name }}-
             ${{ runner.OS }}-build-
