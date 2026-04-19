@@ -5,7 +5,23 @@
 
 version: 2
 updates:
-  - package-ecosystem: github-actions # Dependabotで pinact と同様にactionのバージョンをSHAに指定し、インラインコメントでバージョンタグを含める
-    directory: / # Location of package manifests
+  - package-ecosystem: "github-actions" # Dependabotで pinact と同様にactionのバージョンをSHAに指定し、インラインコメントでバージョンタグを含める
+    directory: "/" # Location of package manifests
     schedule:
-      interval: weekly
+      interval: "weekly"
+    cooldown:
+      default-days: 5
+      semver-major-days: 30
+      semver-minor-days: 7
+      semver-patch-days: 3
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "03:00"
+      timezone: "Asia/Tokyo"
+    cooldown:
+      default-days: 5
+      semver-major-days: 30
+      semver-minor-days: 7
+      semver-patch-days: 3
