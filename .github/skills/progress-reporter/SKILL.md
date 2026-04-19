@@ -36,14 +36,14 @@ description: |
    - 最も活発なファイルタイプを特定
 
 4. **レポート生成**
-    - 統計サマリーセクション（総コミット数、純変更行数、ファイル数）
-    - トレンドセクション（日次/週次グラフ、ピーク日）
-    - ファイル種別分布（上位5種類）
-    - `progress-analyzer` の数値項目に `null` がある場合は、`git --no-pager show --numstat <sha>` で補完してからレポート化する
+   - 統計サマリーセクション（総コミット数、純変更行数、ファイル数）
+   - トレンドセクション（日次/週次グラフ、ピーク日）
+   - ファイル種別分布（上位5種類）
+   - `progress-analyzer` の数値項目に `null` がある場合は、`git --no-pager show --numstat <sha>` で補完してからレポート化する
 
 5. **ファイル保存**
-    - `results/YYYY-MM-DD-progress-report.md` に保存
-    - チャットには統計サマリーのみを表示
+   - `results/YYYY-MM-DD-progress-report.md` に保存
+   - チャットには統計サマリーのみを表示
 
 ## Deliverables
 

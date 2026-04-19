@@ -1,0 +1,11 @@
+{
+  "name": "review-criteria-suite",
+  "version": "1.0.0",
+  "type": "suite",
+  "description": "Webアプリ開発のレビュー基準を定義し、差分レビューと指摘整理を段階的に進めるスイート。Use when AI code reviewer に一貫した基準で差分レビューをさせたい場合。",
+  "entryPoint": "AGENTS.md",
+  "subSkills": ["rule-cataloger", "diff-reviewer", "review-synthesizer"],
+  "customAgents": ["review-orchestrator", "code-review-auditor"],
+  "dependencies": [],
+  "mcpServers": []
+}

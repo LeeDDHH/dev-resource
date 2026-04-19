@@ -98,6 +98,14 @@ Reuse templates in this skill's `assets/` directory:
 - `assets/copilot-instructions-template.md` — copilot-instructions.md template
 - Refer to `references/suite-checklist.md` when validating completeness
 
+## Quality Gates
+
+- [ ] 生成物が package type（single skill / suite）に対応した最小構成を満たしている
+- [ ] 各 SKILL.md に `name`、`description`、Quality Gates、Gotchas、Validation Loop がそろっている
+- [ ] `assets/` / `references/` / `scripts/` は必要条件がある場合にだけ作成されている
+- [ ] assets / references への参照が無条件ではなく「いつ使うか」を示している
+- [ ] スイート構成で AGENTS.md、agents/、copilot-instructions.md、必要時 `.mcp.json` が整合している
+
 ## Gotchas
 
 - `description` に「Use when」を含めないと、エージェントがスキルを発見できない死蔵スキルになる

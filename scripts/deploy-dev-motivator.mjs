@@ -1,31 +1,6 @@
-import { cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
-import { dirname, resolve } from 'node:path';
-import { fileURLToPath } from 'node:url';
+#!/usr/bin/env node
 
-const scriptDir = dirname(fileURLToPath(import.meta.url));
-const projectRoot = resolve(scriptDir, '..');
-const suiteRoot = resolve(projectRoot, 'private-skill/dev-motivator');
+import { deploySuites } from './deploy-private-skills.mjs';
 
-if (!existsSync(suiteRoot)) {
-  throw new Error(`Suite source not found: ${suiteRoot}`);
-}
-
-const targets = [
-  ['AGENTS.md', '.github/AGENTS.md'],
-  ['agents/progress-analyzer.md', '.github/agents/progress-analyzer.md'],
-  ['skills/dev-motivator', '.github/skills/dev-motivator'],
-  ['skills/commit-summarizer', '.github/skills/commit-summarizer'],
-  ['skills/progress-reporter', '.github/skills/progress-reporter'],
-  ['skills/motivational-feedback', '.github/skills/motivational-feedback'],
-];
-
-for (const [sourceRelativePath, targetRelativePath] of targets) {
-  const sourcePath = resolve(suiteRoot, sourceRelativePath);
-  const targetPath = resolve(projectRoot, targetRelativePath);
-
-  rmSync(targetPath, { force: true, recursive: true });
-  mkdirSync(dirname(targetPath), { recursive: true });
-  cpSync(sourcePath, targetPath, { recursive: true });
-
-  console.log(`deployed ${targetRelativePath}`);
-}
+// 既存の npm script / ドキュメント互換のため、dev-motivator だけを同期する薄いラッパーとして残す。
+deploySuites(['dev-motivator']);
