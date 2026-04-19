@@ -90,7 +90,7 @@
     "@typescript-eslint/parser": "^6.3.0",
     "autoprefixer": "^10.4.14",
     "copilot-agent-builder": "^0.1.2",
-    "electron": "^11.0.0",
+    "electron": "^41.0.3",
     "eslint": "^8.57.0",
     "eslint-config-next": "^16.2.0",
     "eslint-config-prettier": "^9.1.0",
